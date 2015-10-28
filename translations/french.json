@@ -218,15 +218,15 @@
     "MSG_REQUEST_EMAIL_SUBJECT_1": "Envoyez-moi des bitcoins",
     "MSG_REQUEST_EMAIL_BODY_1": [
         "Bonjour,<br><br>Envoyez-moi des fonds dans mon portefeuille Bitcoin (code QR attaché)",
-        "<p>Adresse : <a href='{{addressURI}}'>{{address}}</a> ",
-        "<p><br>envoyé avec <a href='http://wallet.blocktrail.com'>Portefeuille par Blocktrail</a></p>"
+        "<p>Adresse : <a href='{{addressURI}}'>{{address}}</a> </p>",
+        "<p><br>envoyé avec <a href='https://www.blocktrail.com'>Portefeuille par Blocktrail</a></p>"
     ],
     "MSG_REQUEST_EMAIL_SUBJECT_2": "Envoyez-moi {{btcValue}} bitcoins (environ {{fiatValue}} {{localCurrency}})",
     "MSG_REQUEST_EMAIL_BODY_2": [
         "Bonjour,<br><br>Envoyez-moi des fonds dans mon portefeuille Bitcoin (code QR attaché)",
-        "<p>Adresse : <a href='{{addressURI}}'>{{address}}</a> ",
+        "<p>Adresse : <a href='{{addressURI}}'>{{address}}</a> </p>",
         "<br>Montant : {{btcValue}} BTC (environ {{fiatValue}} {{localCurrency}})</p>",
-        "<p><br>envoyé avec <a href='http://wallet.blocktrail.com'>Wallet by Blocktrail</a></p>"
+        "<p><br>envoyé avec <a href='https://www.blocktrail.com'>Wallet by Blocktrail</a></p>"
     ],
     "MSG_REQUEST_SMS_1": [
         "Bonjour, ",

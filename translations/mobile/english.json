@@ -41,13 +41,13 @@
     "MSG_REQUEST_EMAIL_BODY_1": [
         "Hi,<br><br>Please send funds to my Bitcoin wallet (QR code attached)",
         "<p>Address: <a href='{{addressURI}}'>{{address}}</a> ",
-        "<p><br>Sent with <a href='http://wallet.blocktrail.com'>Wallet by Blocktrail</a></p>"
+        "<p><br>Sent with <a href='https://www.blocktrail.com'>Wallet by Blocktrail</a></p>"
     ],
     "MSG_REQUEST_EMAIL_BODY_2": [
         "Hi,<br><br>Please send funds to my Bitcoin wallet (QR code attached)",
         "<p>Address: <a href='{{addressURI}}'>{{address}}</a> ",
         "<br>Amount: {{btcValue}} BTC (approx {{fiatValue}} {{localCurrency}})</p>",
-        "<p><br>Sent with my <a href='http://wallet.blocktrail.com'>Blocktrail Wallet</a></p>"
+        "<p><br>Sent with my <a href='https://www.blocktrail.com'>Blocktrail Wallet</a></p>"
     ],
     "MSG_REQUEST_SMS_1": [
         "Hi, ",
