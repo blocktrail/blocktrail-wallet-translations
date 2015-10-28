@@ -1,0 +1,14 @@
+{
+  "name": "blocktrail-wallet-translations",
+  "version": "1.0.0",
+  "description": "Translation package for Wallet - by BlockTrail",
+  "dependencies": {
+    "csv": "^0.4.6",
+    "debug": "^2.2.0",
+    "jsesc": "^0.5.0",
+    "lodash": "^3.7.0",
+    "q": "^1.4.1",
+    "strip-json-comments": "^1.0.2"
+  },
+  "devDependencies": {}
+}

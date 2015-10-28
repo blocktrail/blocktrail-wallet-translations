@@ -1,0 +1,36 @@
+{
+    // general
+    "LOGOUT": "uitloggen",
+    "SEND": "verzenden",
+    "RECEIVE": "ontvangen",
+    "BACK": "terug",
+    "GO_BACK": "ga terug",
+    "NEXT": "volgende",
+    "CONTINUE": "verder",
+    "CANCEL": "anuleren",
+    "OK": "OK",
+    "DONE": "klaar",
+    "CONFIRM": "bevestig",
+    "SYNC": "sync",
+    "SYNC_NOW": "nu syncen",
+    "OPTIONAL": "optioneel",
+    "SUCCESS": "successvol",
+    "COMPLETE": "voltooid",
+    "THANKS_1": "bedankt",
+    "THANKS_2": "bedankt",
+    "FAIL": "mislukt",
+    "LOADING": "laden",
+    "SAVING": "opslaan",
+    "WORKING": "bezig",
+    "VERIFYING": "verifieren",
+    "SYNCING": "syncen",
+
+    "SETUP_WALLET_BACKUP_TEXT_APPEND": [
+        "Het is belangrijk om je backup veilig, offline te bewaren.",
+        "In geval van nood kan je met dit backup document altijd bij je bitcoins die in je wallet zitten."
+    ],
+    "MSG_BACKUP_EMAIL_BODY_1": [
+        "bijgevoegd is het backup document van je Blocktrail Wallet.",
+        "Bewaar het op een veilige plek, in geval van nood zal je dit document en je wachtwoord nodig hebben om je Wallet te herstellen. "
+    ]
+}
