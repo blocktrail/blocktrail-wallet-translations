@@ -229,6 +229,7 @@
     "SETTINGS": "settings",
     "SETTINGS_ACCOUNT": "account",
     "SETTINGS_PROFILE": "profile",
+    "SETTING_EMAIL": "email",
     "SETTING_USERNAME": "username",
     "SETTINGS_TAKE_PHOTO": "take a photo",
     "SETTINGS_CHOOSE_PHOTO": "choose a photo",

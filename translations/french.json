@@ -243,6 +243,7 @@
     "SETTINGS_ACCOUNT": "compte",
     "SETTINGS_PROFILE": "profil",
     "SETTING_USERNAME": "nom d'utilisateur",
+    "SETTING_EMAIL": "email",
     "SETTINGS_TAKE_PHOTO": "prendre une photo",
     "SETTINGS_CHOOSE_PHOTO": "choisir une photo",
     "SETTINGS_REMOVE_PHOTO": "supprimer la photo",
