@@ -30,7 +30,7 @@
         "In geval van nood kan je met dit backup document altijd bij je bitcoins die in je wallet zitten."
     ],
     "MSG_BACKUP_EMAIL_BODY_1": [
-        "bijgevoegd is het backup document van je Blocktrail Wallet.",
+        "bijgevoegd is het backup document van je BTC.com Wallet.",
         "Bewaar het op een veilige plek, in geval van nood zal je dit document en je wachtwoord nodig hebben om je Wallet te herstellen. "
     ],
     "APPLY": "toepassen",
@@ -56,10 +56,10 @@
     "WELCOME": "welkom",
     "TWO_FACTOR_TOKEN": "2FA code",
     "MENU_TRANSACTIONS": "transacties",
-    "MENU_SEND": "sturen",
+    "MENU_SEND": "versturen",
     "MENU_RECEIVE": "ontvangen",
     "MENU_SETTINGS": "instellingen",
-    "APP_DOWNLOAD_ON": "haal hem van",
+    "APP_DOWNLOAD_ON": "download app voor",
     "LAUNCH_NEW_ACCOUNT": "nieuw account maken",
     "LAUNCH_EXISTING_ACCOUNT": "heeft u al een account?",
     "SETUP_FORGOT_PASSWORD": "wachtwoord opnieuw instellen",
@@ -119,7 +119,7 @@
     "MSG_WALLET_PASSWORD": "voer aub je oude wachtwoord in",
     "MSG_REPEAT_PASSWORD": "herhaal je wachtwoord",
     "MSG_SAVE_BACKUP": "bewaar de backup om verder te gaan",
-    "MSG_BACKUP_EMAIL_SUBJECT_1": "Blocktrail wallet backup",
+    "MSG_BACKUP_EMAIL_SUBJECT_1": "BTC.com wallet backup",
     "MY_WALLET": "mijn wallet",
     "SEND_FEEDBACK": "feedback versturen",
     "INTERNAL_TRANSACTION_TITLE": "interne transactie",
@@ -173,7 +173,7 @@
     "MSG_CLIPBOARD_ADDRESS": "adres van clipboard gehaald",
     "MSG_SEND_FAIL_UNKNOWN": "er was een probleem bij het versturen van de transactie",
     "CONTACTS_NONE": "geen contact personen",
-    "CONTACTS_NO_WALLETS": "geen contact personen met een Blocktrail wallet",
+    "CONTACTS_NO_WALLETS": "geen contact personen met een BTC.com wallet",
     "CONTACTS_INVITE": "uitnodigen voor wallet",
     "CONTACTS_MORE_NUMBERS": "meer",
     "CONTACTS_FILTER_TITLE": "filter contacten",
@@ -182,7 +182,7 @@
     "CONTACTS_REFRESH": "contacten verversen",
     "CONTACTS_RESYNC": "contacten opnieuw syncen",
     "MSG_INVITE_CONTACT": [
-        "Hey, gebruik ook de Blocktrail Bitcoin Wallet App!",
+        "Hey, gebruik ook de BTC.com Bitcoin Wallet App!",
         "Je kan hem hier downloaden:"
     ],
     "RECEIVE_BITCOIN_TITLE": "bitcoin ontvangen",
@@ -194,14 +194,14 @@
     "MSG_REQUEST_EMAIL_BODY_1": [
         "Hi,<br><br>Stuur mij aub bitcoin (zie QR code). ",
         "<p>Adres: <a href='{{addressURI}}'>{{address}}</a> </p>",
-        " <p><br>Verzonden met <a href=\"https://blocktrail.com\">Wallet by Blocktrail</a></p>"
+        " <p><br>Verzonden met <a href=\"https://btc.com\">Wallet by BTC.com</a></p>"
     ],
     "MSG_REQUEST_EMAIL_SUBJECT_2": "Zou je mij aub {{btcValue}} bitcoins kunnen sturen (ongeveer {{fiatValue}} {{localCurrency}})",
     "MSG_REQUEST_EMAIL_BODY_2": [
         "Hi,<br><br>Zou je mij aub bitcoin kunnen sturen (zie QR code).",
         "<p>Adres: <a href='{{addressURI}}'>{{address}}</a> </p>",
         "<br>Bedrag: {{btcValue}} BTC (ongeveer {{fiatValue}} {{localCurrency}})</p>",
-        "<p><br>Verzonden met <a href='https://www.blocktrail.com'>Blocktrail Wallet</a></p>"
+        "<p><br>Verzonden met <a href='https://btc.com'>BTC.com Wallet</a></p>"
     ],
     "MSG_REQUEST_SMS_1": [
         "Hi,",
@@ -228,7 +228,7 @@
     "SETTINGS_CHANGE_PIN": "PIN veranderen",
     "SETTINGS_CHANGE_PASSWORD": "wachtwoord veranderen",
     "SETTINGS_RECOMMENDED": "aangeraden",
-    "SETTINGS_NEWSLETTER": "houd mij op de hoogte van Blocktrail nieuws",
+    "SETTINGS_NEWSLETTER": "houd mij op de hoogte van BTC.com nieuws",
     "SETTINGS_RESET_ACCOUNT": "wallet resetten",
     "SETTINGS_WALLET_BACKUP": "wallet backup",
     "SETTINGS_INFO": "informatie",
@@ -261,7 +261,7 @@
     "SETTINGS_2FA_STEP2": "Stap 2. account instellen",
     "SETTINGS_2FA_STEP2_BODY": [
         "download <a href=\"https://support.google.com/accounts/answer/1066447?hl=en\">google authentication</a>",
-        " of <a href=\"https://www.authy.com/users\">Authy</a> op je smartphone en scan de QRCode om Blocktrail toe te voegen."
+        " of <a href=\"https://www.authy.com/users\">Authy</a> op je smartphone en scan de QRCode om BTC.com toe te voegen."
     ],
     "SETINGS_2FA_STEP2_CODE": "of voer deze code handmatig in: {{ secret }}.",
     "SETTINGS_2FA_STEP3": "Stap 3. verificatie",

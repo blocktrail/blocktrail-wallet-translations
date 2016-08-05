@@ -92,7 +92,7 @@
     "SETUP_PROFILE_PIC": "définir une photo de profil",
     "SETUP_COMPLETE_TITLE": "C'est terminé !",
     "SETUP_COMPLETE_SUBTITLE": "Bienvenue dans l'univers de Bitcoin",
-    "SETUP_COMPLETE_SUBTITLE_2": "Visitez www.blocktrail.com/faq pour les trucs et astuces.",
+    "SETUP_COMPLETE_SUBTITLE_2": "Visitez BTC.com/faq pour les trucs et astuces.",
     "SETUP_COMPLETE": "aller dans mon portefeuille",
     "CREATING_ACCOUNT": "création du compte",
     "CREATING_WALLET": "création du portefeuille",
@@ -117,7 +117,7 @@
     "MSG_BAD_EMAIL": "email invalide",
     "MSG_EMAIL_TAKEN": "cet email est déjà pris",
     "MSG_TWO_FACTOR_REQUIRED": "un code 2FA est requis",
-    "MSG_UPGRADE_REQUIRED": "Veuillez d'abord vous connecter sur www.blocktrail.com pour mettre à jour automatiquement votre compte et activer le portefeuille mobile",
+    "MSG_UPGRADE_REQUIRED": "Veuillez d'abord vous connecter sur BTC.com pour mettre à jour automatiquement votre compte et activer le portefeuille mobile",
     "MSG_PIN_HELP": "Créer un PIN que vous utiliserez pour déverrouiller votre portefeuille pour faire des transactions",
     "MSG_WALLET_PASSWORD_MISMATCH": "Vous avez un portefeuille existant qui a été créé avec un mot de passe différent",
     "MSG_WALLET_PASSWORD": "veuillez entrer l'ancien mot de passe",
@@ -133,7 +133,7 @@
         "",
         "Veuillez configurer votre application email, ou passer cette étape et enregistrer votre sauvegarde plus tard quand nous supporteront des app alternatives"
     ],
-    "MSG_BACKUP_EMAIL_SUBJECT_1": "Sauvegarde du portefeuille mobile Blocktrail",
+    "MSG_BACKUP_EMAIL_SUBJECT_1": "Sauvegarde du portefeuille mobile BTC.com",
     "MSG_BACKUP_EMAIL_BODY_1": [
         "Votre document de sauvegarde du portefeuille mobile est attaché.",
         "Conservez-le dans un endroit sûr.",
@@ -161,7 +161,7 @@
     "TX_INFO_RECEIVED_FROM": "reçu de",
     "TX_INFO_MESSAGE_TITLE": "message/référence",
     "TX_INFO_MORE_TITLE": "plus d'infos",
-    "TX_INFO_MORE_LINK": "voir sur blocktrail.com",
+    "TX_INFO_MORE_LINK": "voir sur BTC.com.com",
     // Sending screens
     "QR": "QR",
     "CONTACTS": "contacts",
@@ -197,7 +197,7 @@
     "MSG_SEND_FAIL_UNKNOWN": "il y avait un problème d'envoi",
     // contacts list
     "CONTACTS_NONE": "aucun contact trouvé",
-    "CONTACTS_NO_WALLETS": "aucun de vos contacts n'a de portefeuille Blocktrail",
+    "CONTACTS_NO_WALLETS": "aucun de vos contacts n'a de portefeuille BTC.com",
     "CONTACTS_INVITE": "inviter au portefeuille",
     "CONTACTS_MORE_NUMBERS": "plus",
     "CONTACTS_FILTER_TITLE": "filtrer les contacts",
@@ -208,8 +208,8 @@
     "CONTACTS_DISABLED": "contacts désactivés",
     "MSG_REQUIRE_CONTACTS_ACCESS": "Veuillez activer les 'Contacts' dans le menu des paramètres pour utiliser cette fonctionnalité",
     "MSG_INVITE_CONTACT": [
-        "Salut, télécharge l'appli Blocktrail Wallet pour utiliser Bitcoin !",
-        "Télécharge-la ici : https://blocktrail.com/download"
+        "Salut, télécharge l'appli BTC.com Wallet pour utiliser Bitcoin !",
+        "Télécharge-la ici : https://btc.com/download"
     ],
     // Receiving Screens
     "REQUEST_SEND": "envoyer une demande",
@@ -219,14 +219,14 @@
     "MSG_REQUEST_EMAIL_BODY_1": [
         "Bonjour,<br><br>Envoyez-moi des fonds dans mon portefeuille Bitcoin (code QR attaché)",
         "<p>Adresse : <a href='{{addressURI}}'>{{address}}</a> </p>",
-        "<p><br>envoyé avec <a href='https://www.blocktrail.com'>Portefeuille par Blocktrail</a></p>"
+        "<p><br>envoyé avec <a href='https://BTC.com'>Portefeuille par BTC.com</a></p>"
     ],
     "MSG_REQUEST_EMAIL_SUBJECT_2": "Envoyez-moi {{btcValue}} bitcoins (environ {{fiatValue}} {{localCurrency}})",
     "MSG_REQUEST_EMAIL_BODY_2": [
         "Bonjour,<br><br>Envoyez-moi des fonds dans mon portefeuille Bitcoin (code QR attaché)",
         "<p>Adresse : <a href='{{addressURI}}'>{{address}}</a> </p>",
         "<br>Montant : {{btcValue}} BTC (environ {{fiatValue}} {{localCurrency}})</p>",
-        "<p><br>envoyé avec <a href='https://www.blocktrail.com'>Wallet by Blocktrail</a></p>"
+        "<p><br>envoyé avec <a href='https://BTC.com'>Wallet by BTC.com</a></p>"
     ],
     "MSG_REQUEST_SMS_1": [
         "Bonjour, ",
@@ -271,7 +271,7 @@
     "SETTINGS_CONTACTS_UNSYNCED": "non synchronisés",
     "SETTINGS_ENABLE_CONTACTS": "activer les contacts ?",
     "SETTINGS_DISABLE_CONTACTS": "activer la synchronisation des contacts ?",
-    "SETTINGS_PHONE_DESCRIPTION": "Relier votre portefeuille à votre numéro de téléphone vous permettra d'envoyer des bitcoins à vos contacts téléphoniques qui ont des portefeuilles Blocktrail.",
+    "SETTINGS_PHONE_DESCRIPTION": "Relier votre portefeuille à votre numéro de téléphone vous permettra d'envoyer des bitcoins à vos contacts téléphoniques qui ont des portefeuilles BTC.com.",
     "SETTINGS_PHONE_NUMBER": "numéro",
     "SETTINGS_PHONE_UPDATE": "mettre à jour le téléphone",
     "SETTINGS_PHONE_CHANGE": "changer le téléphone",
@@ -321,8 +321,8 @@
     ],
     // About
     "ABOUT_TITLE": "Portefeuille",
-    "ABOUT_SUBTITLE": "par Blocktrail",
-    "ABOUT_DESCRIPTION": "Blocktrail est une startup Bitcoin basée à Amsterdam.",
+    "ABOUT_SUBTITLE": "par BTC.com",
+    "ABOUT_DESCRIPTION": "",
     "ABOUT_LABEL_NEWS": "news",
     "ABOUT_LABEL_RATEAPP": "Aimez-vous l'appli ?",
     "ABOUT_RATEAPP": "Notez le portefeuille !",
@@ -358,7 +358,7 @@
     "PERMISSION_REQUIRED_CONTACTS": "Le portefeuille a besoin d'accéder à vos contacts",
     "PERMISSION_REQUIRED_CAMERA": "Le portefeuille a besoin d'accéder à votre caméra",
     "PERMISSION_REQUIRED_PHOTOS": "Le portefeuille a besoin d'accéder à vos photos",
-    "MSG_CONTACTS_PERMISSIONS": "Pour accorder l'accès à vos contacts sur votre appareil, allez dans réglages>Blocktrail Wallet>Contacts",
-    "MSG_CAMERA_PERMISSIONS": "Pour accorder l'accès à votre caméra sur votre appareil, allez dans réglages>Blocktrail Wallet>App.photo",
-    "MSG_PHOTOS_PERMISSIONS": "Pour accorder l'accès à vos photos sur votre appareil, allez dans réglages>Blocktrail Wallet>Photo"
+    "MSG_CONTACTS_PERMISSIONS": "Pour accorder l'accès à vos contacts sur votre appareil, allez dans réglages>BTC.com Wallet>Contacts",
+    "MSG_CAMERA_PERMISSIONS": "Pour accorder l'accès à votre caméra sur votre appareil, allez dans réglages>BTC.com Wallet>App.photo",
+    "MSG_PHOTOS_PERMISSIONS": "Pour accorder l'accès à vos photos sur votre appareil, allez dans réglages>BTC.com Wallet>Photo"
 }
