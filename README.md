@@ -1,5 +1,5 @@
-# Blocktrail Wallet Translations
-This repo contains JSON files with all translations used for the Blocktrail Web and Mobile Wallet.  
+# BTC Wallet Translations
+This repo contains JSON files with all translations used for the BTC.com Web and Mobile Wallet.  
 The scripts to convert from JSON -> CSV -> JSON are horrific right now, but they do what they're supposed to, will be cleaned up at a later stage ...
 
 ## Structure
@@ -26,6 +26,6 @@ node import-csv.js
 `  ([A-Z].+): ?["'](.+)['"],` `"$1": "$2",`
 
 ## License
-The Blocktrail Wallet source code is released under the GNU Affero General Public License.  
-The Blocktrail Logo and any other images / graphics are not part of this.  
+The BTC Wallet source code is released under the GNU Affero General Public License.  
+The BTC.com Logo and any other images / graphics are not part of this.  
 See [LICENSE.md](LICENSE.md).
