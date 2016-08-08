@@ -1,6 +1,7 @@
 {
     // general
     "LOGOUT": "uitloggen",
+    "WARNING": "waarschuwing",
     "SEND": "verzenden",
     "RECEIVE": "ontvangen",
     "BACK": "terug",
@@ -169,6 +170,7 @@
     "MSG_BAD_PWD": "incorrect wachwoord",
     "MSG_BAD_ADDRESS": "ongeldig bitcoin adres",
     "MSG_BAD_CONTACT": "er kon geen adres op worden gehaald voor dit contact",
+    "MSG_LOW_BALANCE_FOR_FEE": "balans van wallet te laag om de fee te betalen",
     "MSG_BAD_CLIPBOARD": "geen geldig adres gevonden op je clipboard",
     "MSG_CLIPBOARD_ADDRESS": "adres van clipboard gehaald",
     "MSG_SEND_FAIL_UNKNOWN": "er was een probleem bij het versturen van de transactie",
@@ -317,6 +319,12 @@
     "MSG_CANT_OPEN_PDF": "er is geen app die een PDF kan openen.",
     "MSG_TWO_FACTOR_REQUIRED": "two-factor benodigd",
     "ESTIMATED_FEE": "geschatte transactie kosten",
+
+    "ADVANCED_SEND_OPTIONS": "geavanceerde instellingen",
+    "LOW_PRIORITY_LABEL": "lage prioriteit bitcoin fee",
+    "LOW_PRIORITY_WARNING": "lage prioriteit fees kunnen resulteren in langzamere confirmatie tijden!",
+    "LOW_PRIORITY_SEND_WARNING": "je maakt gebruik van lage prioriteit fees, dit kan resulteren in langzamere confirmatie tijden!!",
+
     "QR_SCAN_OVERLAY": "QR code scannen",
     "MSG_BAD_ADDRESS_2": "dat lijkt geen geldig bitcoin adres te zijn",
     "MSG_NEW_TX": "nieuwe transactie ontvangen!",
