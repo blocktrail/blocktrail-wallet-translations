@@ -1,6 +1,7 @@
 {
-    "LOGOUT": "logout!!",
     // general
+    "LOGOUT": "logout",
+    "WARNING": "warning",
     "SEND": "send",
     "RECEIVE": "receive",
     "BACK": "back",
@@ -46,11 +47,6 @@
     "TRANSACTIONS": "transactions",
     "WELCOME": "welcome",
     "TWO_FACTOR_TOKEN": "2FA token",
-    "NAVBAR_WALLET": "wallet",
-    "NAvbar_EXPLORER": "explorer",
-    "NAVBAR_DEVELOPER": "developer",
-    "NAVBAR_SIGNUP": "developer",
-    "NAVBAR_LOGIN": "developer",
     "MENU_TRANSACTIONS": "transactions",
     "MENU_SEND": "send",
     "MENU_RECEIVE": "receive",
@@ -179,6 +175,7 @@
     "MSG_BAD_PWD": "incorrect password",
     "MSG_BAD_ADDRESS": "invalid bitcoin address",
     "MSG_BAD_CONTACT": "unable to get an address for that contact",
+    "MSG_LOW_BALANCE_FOR_FEE": "wallet balance to low to pay the fee",
     "MSG_BAD_CLIPBOARD": "no valid address found in clipboard",
     "MSG_CLIPBOARD_ADDRESS": "an address was found in your clipboard",
     "MSG_SEND_FAIL_UNKNOWN": "there was a problem sending your transaction",
@@ -363,6 +360,12 @@
     ],
     "TX_INFO_FEE": "fee",
     "ESTIMATED_FEE": "estimated fee",
+
+    "ADVANCED_SEND_OPTIONS": "advanced settings",
+    "LOW_PRIORITY_LABEL": "low priority bitcoin fee",
+    "LOW_PRIORITY_WARNING": "using low priority fees can result in significantly SLOWER confirmation times! this is still experimental!",
+    "LOW_PRIORITY_SEND_WARNING": "you are using low priority fees, this can result in significantly SLOWER confirmation times! this is still experimental!",
+
     "QR_SCAN_OVERLAY": "scan QR code",
     "MSG_BAD_ADDRESS_2": "that doesn't appear to be a valid bitcoin address",
     "MSG_NEW_TX": "New transaction received!",
