@@ -196,14 +196,14 @@
     "MSG_REQUEST_EMAIL_BODY_1": [
         "Hi,<br><br>Stuur mij aub bitcoin (zie QR code). ",
         "<p>Adres: <a href='{{addressURI}}'>{{address}}</a> </p>",
-        " <p><br>Verzonden met <a href=\"https://blocktrail.com\">Wallet by Blocktrail</a></p>"
+        " <p><br>Verzonden met <a href=\"https://btc.com\">BTC Wallet</a></p>"
     ],
     "MSG_REQUEST_EMAIL_SUBJECT_2": "Zou je mij aub {{btcValue}} bitcoins kunnen sturen (ongeveer {{fiatValue}} {{localCurrency}})",
     "MSG_REQUEST_EMAIL_BODY_2": [
         "Hi,<br><br>Zou je mij aub bitcoin kunnen sturen (zie QR code).",
         "<p>Adres: <a href='{{addressURI}}'>{{address}}</a> </p>",
         "<br>Bedrag: {{btcValue}} BTC (ongeveer {{fiatValue}} {{localCurrency}})</p>",
-        "<p><br>Verzonden met <a href='https://www.blocktrail.com'>Blocktrail Wallet</a></p>"
+        "<p><br>Verzonden met <a href='https://btc.com'>BTC Wallet</a></p>"
     ],
     "MSG_REQUEST_SMS_1": [
         "Hi,",
@@ -358,12 +358,12 @@
     "SETUP_WEB_SYNC": "Contacten synchroniseren naar de web wallet",
     "SETUP_COMPLETE_TITLE": "Je bent helemaa klaar!",
     "SETUP_COMPLETE_SUBTITLE": "Welkom in de wereld van Bitcoin",
-    "SETUP_COMPLETE_SUBTITLE_2": "Ga naar www.blocktrail.com/faq voor tips.",
+    "SETUP_COMPLETE_SUBTITLE_2": "Ga naar btc.com/faq voor tips.",
     "MSG_USERNAME_WARNING": "*Registeren met een gebruikersnaam heeft iets meer privacy en anonimiteit, maar tegelijkertijd maakt het het ook onmogelijk om je wachtwoord te resetten.",
     "MSG_BACKUP_DESCRIPTION": "Sla je wallet backup veilig op zodat je je wallet nooit helemaal kwijt bent, wat er ook gebeurd.",
     "WALLET_YOUR_BITCOINS": "Jou Bitcoins",
     "TX_INFO_MORE_TITLE": "Meer info",
-    "TX_INFO_MORE_LINK": "zie blocktrail.com",
+    "TX_INFO_MORE_LINK": "zie btc.com",
     "AVAILABLE_BALANCE": "Beschikbaar Saldo",
     "AMOUNT_PLACEHOLDER": "bedrag",
     "RECIPIENT_PLACEHOLDER": "versturen aan",
