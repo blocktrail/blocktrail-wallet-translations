@@ -443,5 +443,16 @@
     "ABOUT_LABEL_RATEAPP": "Do you like the app?",
     "ABOUT_RATEAPP": "Please Rate Wallet!",
     "PROMO_REDEEM": "redeem a promo code",
-    "PROMO_CODE_PLACEHOLDER": "Promo Code"
+    "PROMO_CODE_PLACEHOLDER": "Promo Code",
+
+    // PSA: rebrand
+    "PSA_REBRAND_TITLE": "Service Announcement",
+    "PSA_REBRAND_BODY": [
+        "Blocktrail has been acquired by Bitmain and our products are being rebranded to BTC.com.",
+        "",
+        "Rest assured that during this transition of Blocktrail services into BTC.com, all of our services will continue to function as normal and no changes will be required on your side.",
+        "",
+        "If you have any questions or issues please contact support@btc.com"
+    ],
+    "PSA_REBRAND_OK": "Continue"
 }
