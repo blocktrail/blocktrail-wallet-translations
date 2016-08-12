@@ -25,7 +25,6 @@
     "WORKING": "bezig",
     "VERIFYING": "verifieren",
     "SYNCING": "syncen",
-
     "SETUP_WALLET_BACKUP_TEXT_APPEND": [
         "Het is belangrijk om je backup veilig, offline te bewaren.",
         "In geval van nood kan je met dit backup document altijd bij je bitcoins die in je wallet zitten."
@@ -60,7 +59,9 @@
     "MENU_SEND": "sturen",
     "MENU_RECEIVE": "ontvangen",
     "MENU_SETTINGS": "instellingen",
-    "APP_DOWNLOAD_ON": "haal hem voor",
+    "APP_DOWNLOAD_ON": "haal hem van",
+
+    // launch & setup screens
     "LAUNCH_NEW_ACCOUNT": "nieuw account maken",
     "LAUNCH_EXISTING_ACCOUNT": "heeft u al een account?",
     "SETUP_FORGOT_PASSWORD": "wachtwoord opnieuw instellen",
@@ -121,8 +122,10 @@
     "MSG_REPEAT_PASSWORD": "herhaal je wachtwoord",
     "MSG_SAVE_BACKUP": "bewaar de backup om verder te gaan",
     "MSG_BACKUP_EMAIL_SUBJECT_1": "Blocktrail wallet backup",
+    // side menu
     "MY_WALLET": "mijn wallet",
     "SEND_FEEDBACK": "feedback versturen",
+    // My Wallet screen
     "INTERNAL_TRANSACTION_TITLE": "interne transactie",
     "WALLET_NO_TXS": "er zijn nog geen transacties",
     "WALLET_ACTION_PRE": "ga aan de gang",
@@ -140,6 +143,7 @@
     "TX_INFO_SENT_TO": "verzonden aan",
     "TX_INFO_RECEIVED_FROM": "ontvangen van",
     "TX_INFO_MESSAGE_TITLE": "bericht/referentie",
+    // Sending screens
     "QR": "QR",
     "CONTACTS": "contacten",
     "BLUETOOTH": "bluetooth",
@@ -159,6 +163,7 @@
     "SENDING_CONFIRM_MSG": "Verzenden:",
     "ESITIMATED_FEE": "Transactiekosten:",
     "SEND_BITCOIN_TITLE": "bitcoin versturen",
+    // messages
     "MSG_GET_CONTACT_ADDR": "adres ophalen voor contact...",
     "MSG_INIT_WALLET": "wallet initialiseren...",
     "MSG_SENDING": "versturen...",
@@ -174,6 +179,7 @@
     "MSG_BAD_CLIPBOARD": "geen geldig adres gevonden op je clipboard",
     "MSG_CLIPBOARD_ADDRESS": "adres van clipboard gehaald",
     "MSG_SEND_FAIL_UNKNOWN": "er was een probleem bij het versturen van de transactie",
+    // contacts list
     "CONTACTS_NONE": "geen contact personen",
     "CONTACTS_NO_WALLETS": "geen contact personen met een Blocktrail wallet",
     "CONTACTS_INVITE": "uitnodigen voor wallet",
@@ -191,19 +197,20 @@
     "BITCOIN_ADDRESS_RECEIVE_HELP": "er is een nieuw bitcoin adres voor je gemaakt, gebruik dit adres om bitcoin te ontvangen.",
     "WAITING_FOR_PAYMENT": "wachten op transactie",
     "PAYMENT_RECEIVED": "transactie ontvangen",
+    // Receiving Screens
     "REQUEST_SEND": "verstuur betalingsverzoek",
     "MSG_REQUEST_EMAIL_SUBJECT_1": "Stuur mij aub bitcoins",
     "MSG_REQUEST_EMAIL_BODY_1": [
         "Hi,<br><br>Stuur mij aub bitcoin (zie QR code). ",
         "<p>Adres: <a href='{{addressURI}}'>{{address}}</a> </p>",
-        " <p><br>Verzonden met <a href=\"https://btc.com\">BTC Wallet</a></p>"
+        " <p><br>Verzonden met <a href=\"https://blocktrail.com\">Wallet by Blocktrail</a></p>"
     ],
     "MSG_REQUEST_EMAIL_SUBJECT_2": "Zou je mij aub {{btcValue}} bitcoins kunnen sturen (ongeveer {{fiatValue}} {{localCurrency}})",
     "MSG_REQUEST_EMAIL_BODY_2": [
         "Hi,<br><br>Zou je mij aub bitcoin kunnen sturen (zie QR code).",
         "<p>Adres: <a href='{{addressURI}}'>{{address}}</a> </p>",
         "<br>Bedrag: {{btcValue}} BTC (ongeveer {{fiatValue}} {{localCurrency}})</p>",
-        "<p><br>Verzonden met <a href='https://btc.com'>BTC Wallet</a></p>"
+        "<p><br>Verzonden met <a href='https://www.blocktrail.com'>Blocktrail Wallet</a></p>"
     ],
     "MSG_REQUEST_SMS_1": [
         "Hi,",
@@ -215,6 +222,7 @@
         "Zou je mij aub {{btcValue}} BTC kunnen sturen (ongeveer {{fiatValue}} {{localCurrency}}).",
         "Adres: {{address}}"
     ],
+    // Settings page
     "SETTINGS": "instellingen",
     "SETTINGS_ACCOUNT": "account",
     "SETTINGS_PROFILE": "profiel",
@@ -284,16 +292,20 @@
     "MSG_BAD_PIN_LENGTH": "de PIN code moet minimaal 4 cijfers zijn",
     "MSG_TRY_AGAIN": "probeer opnieuw",
     "MSG_PIN_CHANGED": "je PIN is veranderd",
+    // messages
     "SETTINGS_PHONE_VERIFIED": "geverifieerd",
     "SETTINGS_PHONE_UNVERIFIED": "niet geverifieerd",
     "MSG_BAD_TOKEN": "ongeldige of verlopen code",
     "MSG_PHONE_UPDATED": "er is een code naar je telefoon verstuurd als verificatie",
     "MSG_PHONE_VERIFIED": "je telefoonnummer is nu geverifieerd",
     "MSG_PHONE_REQUIRE_VERIFY": "aub je telefoonnummer verifieeren om verder te gaan",
+
+    // feedback
     "FEEDBACK": "feedback",
     "SEND_FEEDBACK_PLACEHOLDER": "uw bericht...",
     "MSG_BAD_FEEDBACK": "voer aub een bericht in",
     "MSG_FEEDBACK_SUCCESS": "uw feedback is verstuurd",
+    // languages
     "ENGLISH": "engels",
     "ENGLISH_US": "engels (US)",
     "FRENCH": "frans",
@@ -306,6 +318,7 @@
     "CHANGE_PASSWORD_WALLET_INPROGRESS": "even wachten, we encrypten je wallet met je nieuwe wachtwoord",
     "CHANGE_PASSWORD_ACCOUNT_INPROGRESS": "even wachten, we veranderen het wachtwoord van je account",
     "CHANGE_PASSWORD_SUCCESS": "je wachtwoord is veranderd!",
+    // permission popups
     "PERMISSION_REQUIRED": "toestemming benodigd",
     "PERMISSION_REQUIRED_CONTACTS": "Wallet heeft toegang nodig tot je contacten",
     "PERMISSION_REQUIRED_CAMERA": "Wallet heeft toegang nodig tot je camera",
@@ -329,6 +342,7 @@
     "MSG_BAD_ADDRESS_2": "dat lijkt geen geldig bitcoin adres te zijn",
     "MSG_NEW_TX": "nieuwe transactie ontvangen!",
     "MSG_ADDRESS_COPIED": "adres gekopieerd naar plakbord",
+    // Promo code page
     "PROMO_CODES": "promotie codes",
     "REDEEM": "claimen",
     "CHECKING": "controleren",
@@ -339,10 +353,10 @@
     "SETTINGS_DISPLAY": "weergeven",
     "SETTINGS_PRIVACY": "privacy",
     "SETTINGS_USAGE_DATA": "gebruiks informatie delen",
-    "ENABLE": "inschakelen",
-    "DISABLE": "uitschakelen",
-    "ENABLED": "ingeschakeld",
-    "DISABLED": "uitgeschakeld",
+    "ENABLE": "aanzetten",
+    "DISABLE": "uitzetten",
+    "ENABLED": "aan",
+    "DISABLED": "uit",
     "ADDRESS": "adres",
     "MSG_CORRUPT_DATA": "Helaas is je data onbruikbaar geworden, log aub opnieuw in om de data te verversen.",
     "MSG_ORPHAN_BLOCK": "let op: er is een “orphan” blok gevonden. Je wallet word nu opnieuw gesynchroniseerd",
@@ -385,6 +399,7 @@
     "MSG_PHONE_CODE_SENT": "Er is een verificatie code naar je telefoon gestuurd. Aub deze hieronder invoeren.",
     "MSG_ENABLE_CONTACTS": "Hiermee kan de app je contacten lijst doorzoeken voor andere wallet gebruikers zodat je makkelijk direct naar hun bitcoins kan sturen.",
     "MSG_DISABLE_CONTACTS": "Het uitschakelen van het synchroniseren van contacten verwijderd ook alle data die is opgeslagen en je kan daarna niet meer naar je contacten bitcoins versturen.",
+    // About
     "ABOUT_TITLE": "Wallet",
     "ABOUT_SUBTITLE": "door Blocktrail",
     "ABOUT_DESCRIPTION": "Blocktrail is een Bitcoin Tech Startup in Amsterdam.",

@@ -1,6 +1,6 @@
 {
-    "LOGOUT": "выход!!",
     // general
+    "LOGOUT": "выход!!",
     "SEND": "отправить",
     "RECEIVE": "получить",
     "BACK": "назад",
@@ -324,7 +324,7 @@
     "FRENCH": "french",
     "GERMAN": "german",
     "DUTCH": "dutch",
-	"Rus": "рус",
+    "Rus": "рус",
     "CHANGE_PASSWORD": "смена пароля",
     "ENTER_CURRENT_PASSWORD": "введите ваш текущий пароль",
     "ENTER_NEW_PASSWORD": "введите ваш новый пароль",
@@ -364,6 +364,7 @@
     ],
     "TX_INFO_FEE": "плата",
     "ESTIMATED_FEE": "предполагаемая плата",
+
     "QR_SCAN_OVERLAY": "сканирование QR-код",
     "MSG_BAD_адрес_2": "кажется, не допустимым биткоин адрес",
     "MSG_NEW_TX": "Новая транзакция получено!",
