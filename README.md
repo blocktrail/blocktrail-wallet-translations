@@ -17,6 +17,9 @@ node export-csv.js > translations.csv
 ```
 
 ## Import CSV with changes back into the JSON files
+before import a new language make sure to create the .json file for it with `{}` as content.  
+the CSV should have a semi-colon `;` as delimeter and it's recommended to wrap all text in double quotes `"`.  
+
 ```
 # asumes translations.csv is in the root dir
 node import-csv.js
