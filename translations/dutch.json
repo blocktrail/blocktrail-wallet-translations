@@ -30,7 +30,7 @@
         "In geval van nood kan je met dit backup document altijd bij je bitcoins die in je wallet zitten."
     ],
     "MSG_BACKUP_EMAIL_BODY_1": [
-        "bijgevoegd is het backup document van je Blocktrail Wallet.",
+        "bijgevoegd is het backup document van je BTC Wallet.",
         "Bewaar het op een veilige plek, in geval van nood zal je dit document en je wachtwoord nodig hebben om je Wallet te herstellen. "
     ],
     "APPLY": "toepassen",
@@ -115,13 +115,13 @@
     "MSG_USERNAME_TAKEN": "die gebruikersnaam is al in gebruik",
     "MSG_BAD_EMAIL": "ongeldig email adres",
     "MSG_EMAIL_TAKEN": "dat email adres is al in gebruik",
-    "MSG_UPGRADE_REQUIRED": "ga aub naar www.blocktrail.com/dev/login om automatisch je oude blocktrail account te upgraden naar een wallet account",
+    "MSG_UPGRADE_REQUIRED": "ga aub naar blocktrail.com/dev/login om automatisch je oude blocktrail account te upgraden naar een wallet account",
     "MSG_PIN_HELP": "kies een PIN waarmee je je wallet beveiligd voor het maken van transacties",
     "MSG_WALLET_PASSWORD_MISMATCH": "je account heeft al een wallet, maar met een ander wachtwoord",
     "MSG_WALLET_PASSWORD": "voer aub je oude wachtwoord in",
     "MSG_REPEAT_PASSWORD": "herhaal je wachtwoord",
     "MSG_SAVE_BACKUP": "bewaar de backup om verder te gaan",
-    "MSG_BACKUP_EMAIL_SUBJECT_1": "Blocktrail wallet backup",
+    "MSG_BACKUP_EMAIL_SUBJECT_1": "BTC.com wallet backup",
     // side menu
     "MY_WALLET": "mijn wallet",
     "SEND_FEEDBACK": "feedback versturen",
@@ -181,7 +181,7 @@
     "MSG_SEND_FAIL_UNKNOWN": "er was een probleem bij het versturen van de transactie",
     // contacts list
     "CONTACTS_NONE": "geen contact personen",
-    "CONTACTS_NO_WALLETS": "geen contact personen met een Blocktrail wallet",
+    "CONTACTS_NO_WALLETS": "geen contact personen met een BTC Wallet",
     "CONTACTS_INVITE": "uitnodigen voor wallet",
     "CONTACTS_MORE_NUMBERS": "meer",
     "CONTACTS_FILTER_TITLE": "filter contacten",
@@ -190,7 +190,7 @@
     "CONTACTS_REFRESH": "contacten verversen",
     "CONTACTS_RESYNC": "contacten opnieuw syncen",
     "MSG_INVITE_CONTACT": [
-        "Hey, gebruik ook de Blocktrail Bitcoin Wallet App!",
+        "Hey, gebruik ook de BTC.com Bitcoin Wallet App!",
         "Je kan hem hier downloaden:"
     ],
     "RECEIVE_BITCOIN_TITLE": "bitcoin ontvangen",
@@ -203,14 +203,14 @@
     "MSG_REQUEST_EMAIL_BODY_1": [
         "Hi,<br><br>Stuur mij aub bitcoin (zie QR code). ",
         "<p>Adres: <a href='{{addressURI}}'>{{address}}</a> </p>",
-        " <p><br>Verzonden met <a href=\"https://blocktrail.com\">Wallet by Blocktrail</a></p>"
+        " <p><br>Verzonden met <a href=\"https://btc.com\">BTC Wallet</a></p>"
     ],
     "MSG_REQUEST_EMAIL_SUBJECT_2": "Zou je mij aub {{btcValue}} bitcoins kunnen sturen (ongeveer {{fiatValue}} {{localCurrency}})",
     "MSG_REQUEST_EMAIL_BODY_2": [
         "Hi,<br><br>Zou je mij aub bitcoin kunnen sturen (zie QR code).",
         "<p>Adres: <a href='{{addressURI}}'>{{address}}</a> </p>",
         "<br>Bedrag: {{btcValue}} BTC (ongeveer {{fiatValue}} {{localCurrency}})</p>",
-        "<p><br>Verzonden met <a href='https://www.blocktrail.com'>Blocktrail Wallet</a></p>"
+        "<p><br>Verzonden met <a href='https://btc.com'>BTC Wallet</a></p>"
     ],
     "MSG_REQUEST_SMS_1": [
         "Hi,",
@@ -238,7 +238,7 @@
     "SETTINGS_CHANGE_PIN": "PIN veranderen",
     "SETTINGS_CHANGE_PASSWORD": "wachtwoord veranderen",
     "SETTINGS_RECOMMENDED": "aangeraden",
-    "SETTINGS_NEWSLETTER": "houd mij op de hoogte van Blocktrail nieuws",
+    "SETTINGS_NEWSLETTER": "houd mij op de hoogte van BTC.com nieuws",
     "SETTINGS_RESET_ACCOUNT": "wallet resetten",
     "SETTINGS_WALLET_BACKUP": "wallet backup",
     "SETTINGS_INFO": "informatie",
@@ -271,7 +271,7 @@
     "SETTINGS_2FA_STEP2": "Stap 2. account instellen",
     "SETTINGS_2FA_STEP2_BODY": [
         "download <a href=\"https://support.google.com/accounts/answer/1066447?hl=en\">google authentication</a>",
-        " of <a href=\"https://www.authy.com/users\">Authy</a> op je smartphone en scan de QRCode om Blocktrail toe te voegen."
+        " of <a href=\"https://www.authy.com/users\">Authy</a> op je smartphone en scan de QRCode om BTC Wallet toe te voegen."
     ],
     "SETINGS_2FA_STEP2_CODE": "of voer deze code handmatig in: {{ secret }}.",
     "SETTINGS_2FA_STEP3": "Stap 3. verificatie",
@@ -389,7 +389,7 @@
     "SETTINGS_BTC_DECIMALS": "BTC aantal decimalen",
     "SETTINGS_ENABLE_CONTACTS": "contacten inschakelen?",
     "SETTINGS_DISABLE_CONTACTS": "contacten synchroniseren uitschakelen?",
-    "SETTINGS_PHONE_DESCRIPTION": "Als je je telefoonnummer aan je wallet linkt is het mogelijk om bitoins naar de contactpersonen in je telefoon te sturen (als zei ook een Blocktrail Wallet hebben).",
+    "SETTINGS_PHONE_DESCRIPTION": "Als je je telefoonnummer aan je wallet linkt is het mogelijk om bitoins naar de contactpersonen in je telefoon te sturen (als zei ook een BTC Wallet hebben).",
     "SETTINGS_ENCRYPTION": "encryptie",
     "MSG_BACKUP_UNSAVED": [
         "WAARSCHUWING!",
@@ -401,8 +401,8 @@
     "MSG_DISABLE_CONTACTS": "Het uitschakelen van het synchroniseren van contacten verwijderd ook alle data die is opgeslagen en je kan daarna niet meer naar je contacten bitcoins versturen.",
     // About
     "ABOUT_TITLE": "Wallet",
-    "ABOUT_SUBTITLE": "door Blocktrail",
-    "ABOUT_DESCRIPTION": "Blocktrail is een Bitcoin Tech Startup in Amsterdam.",
+    "ABOUT_SUBTITLE": "door BTC.com",
+    "ABOUT_DESCRIPTION": "",
     "ABOUT_LABEL_NEWS": "nieuws",
     "ABOUT_LABEL_RATEAPP": "bij je tevreden over de app?",
     "ABOUT_RATEAPP": "Geef de app een score!",

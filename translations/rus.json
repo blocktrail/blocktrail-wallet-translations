@@ -114,13 +114,13 @@
     "MSG_USERNAME_TAKEN": "это имя пользователя уже занято",
     "MSG_BAD_EMAIL": "некорректный адрес электронной почты",
     "MSG_EMAIL_TAKEN": "адрес электронной почты уже занят",
-    "MSG_UPGRADE_REQUIRED": "войдите на btc.com -автоматическое обновление Вашей учетной записи и активировать Мобильный кошелек",
+    "MSG_UPGRADE_REQUIRED": "войдите на blocktrail.com/dev/login -автоматическое обновление Вашей учетной записи и активировать Мобильный кошелек",
     "MSG_PIN_HELP": "Создать PIN-код, который вы будете использовать, чтобы разблокировать свой кошелек для совершения сделки",
     "MSG_WALLET_PASSWORD_MISMATCH": "У вас есть уже существующий кошелек,которой был создан с другим паролем",
     "MSG_WALLET_PASSWORD": "введите старый пароль Кошелька",
     "MSG_REPEAT_PASSWORD": "повторите Ваш пароль",
     "MSG_SAVE_BACKUP": "сохранить резервную копию, продолжить",
-    "MSG_BACKUP_EMAIL_SUBJECT_1": "Blocktrail резервного копия бумажника",
+    "MSG_BACKUP_EMAIL_SUBJECT_1": "BTC.com резервного копия бумажника",
     "MSG_BACKUP_EMAIL_BODY_1": [
         "мобильное резервное копирование, кошелек прилагается.",
         "Храните его в безопасном месте.",
@@ -184,7 +184,7 @@
     "MSG_SEND_FAIL_UNKNOWN": "произошла ошибка при отправке вашей сделки",
     // contacts list
     "CONTACTS_NONE": "никаких контактов не найдено",
-    "CONTACTS_NO_WALLETS": "нет контактов Blocktrail кошелеке",
+    "CONTACTS_NO_WALLETS": "нет контактов BTC.com кошелеке",
     "CONTACTS_INVITE": "приглашение на кошелек",
     "CONTACTS_MORE_NUMBERS": "больше",
     "CONTACTS_FILTER_TITLE": "фильтр контактов",
@@ -193,7 +193,7 @@
     "CONTACTS_REFRESH": "обновить контакты",
     "CONTACTS_RESYNC": "повторно синхронизировать контакты",
     "MSG_INVITE_CONTACT": [
-        "Привет, Blocktrail приложение Кошелек для Биткоин!",
+        "Привет, BTC.com приложение Кошелек для Биткоин!",
         "Скачать здесь: https://btc.com/download"
     ],
     "RECEIVE_BITCOIN_TITLE": "получайте биткоины",
@@ -241,7 +241,7 @@
     "SETTINGS_CHANGE_PIN": "изменить PIN-код",
     "SETTINGS_CHANGE_PASSWORD": "смена пароля",
     "SETTINGS_RECOMMENDED": "рекомендуется",
-    "SETTINGS_NEWSLETTER": "Держите меня в курсе новости с Blocktrail",
+    "SETTINGS_NEWSLETTER": "Держите меня в курсе новости с BTC.com",
     "SETTINGS_RESET_ACCOUNT": "сбросить кошелек",
     "SETTINGS_WALLET_BACKUP": "резервное копирование",
     "SETTINGS_INFO": "инфо",
@@ -274,7 +274,7 @@
     "SETTINGS_2FA_STEP2": "Шаг 2. настройка учетной записи",
     "SETTINGS_2FA_STEP2_BODY": [
         "скачать <a href=\"https://support.google.com/accounts/answer/1066447?hl=en\">аутентификации Google</a>",
-        " о <a href=\"https://www.authy.com/users\">Authy</a> на свой смартфон и отсканируйте QR-кода ниже, чтобы добавить Blocktrail для вашего приложения."
+        " о <a href=\"https://www.authy.com/users\">Authy</a> на свой смартфон и отсканируйте QR-кода ниже, чтобы добавить BTC.com для вашего приложения."
     ],
     "SETINGS_2FA_STEP2_CODE": "или вручную введите этот код: {{ secret }}.",
     "SETTINGS_2FA_STEP3": "Шаг 3. проверка",
@@ -342,9 +342,9 @@
     "PERMISSION_REQUIRED_CONTACTS": "Кошелек должен иметь доступ к вашим контактам",
     "PERMISSION_REQUIRED_CAMERA": "Бумажник должен получить доступ к вашей камере",
     "PERMISSION_REQUIRED_PHOTOS": "Кошелеку нужен доступ к вашим фотографиям",
-    "MSG_CONTACTS_PERMISSIONS": "предоставить доступ к вашим контактам, перейдите в раздел настройки>Blocktrail кошелек>Контакты",
-    "MSG_CAMERA_PERMISSIONS": "предоставить доступ к вашей камере зайдите в настройки>Blocktrail кошелек>Приложение.цены",
-    "MSG_PHOTOS_PERMISSIONS": "предоставить доступ для ваших фотографий, перейдите в раздел настройки>Blocktrail кошелек>фото",
+    "MSG_CONTACTS_PERMISSIONS": "предоставить доступ к вашим контактам, перейдите в раздел настройки>BTC.com кошелек>Контакты",
+    "MSG_CAMERA_PERMISSIONS": "предоставить доступ к вашей камере зайдите в настройки>BTC.com кошелек>Приложение.цены",
+    "MSG_PHOTOS_PERMISSIONS": "предоставить доступ для ваших фотографий, перейдите в раздел настройки>BTC.com кошелек>фото",
     "SORRY": "к сожалению",
     "SYNCING_ALL": "синхронизации всего",
     "MSG_COPIED_TO_CLIPBOARD": "скопировать в буфер обмена",
@@ -421,7 +421,7 @@
     "SETTINGS_BTC_DECIMALS": "десятичный дисплей BTC",
     "SETTINGS_ENABLE_CONTACTS": "включить контакты?",
     "SETTINGS_DISABLE_CONTACTS": "отключить синхронизацию контактов?",
-    "SETTINGS_PHONE_DESCRIPTION": "Связывая свой кошелек к номеру телефона позволит вам отправить контактам в телефоне, которые также имеют Blocktrail кошелёк.",
+    "SETTINGS_PHONE_DESCRIPTION": "Связывая свой кошелек к номеру телефона позволит вам отправить контактам в телефоне, которые также имеют BTC.com кошелёк.",
     "SETTINGS_ENCRYPTION": "шифрование",
     "MSG_BACKUP_UNSAVED": [
         "Внимание!",
@@ -436,8 +436,8 @@
     "MSG_DISABLE_CONTACTS": "Отключить контакты удалить все синхронизированные данные и Вы не сможете отправить своим контактам больше.",
     // About
     "ABOUT_TITLE": "Кошелек",
-    "ABOUT_SUBTITLE": "by Blocktrail",
-    "ABOUT_DESCRIPTION": "Blocktrail-это Амстердам на основе Биткоин-стартап технологий.",
+    "ABOUT_SUBTITLE": "by BTC.com",
+    "ABOUT_DESCRIPTION": "",
     "ABOUT_LABEL_NEWS": "новости",
     "ABOUT_LABEL_RATEAPP": "Нравится ли вам приложение?",
     "ABOUT_RATEAPP": "Оцените Кошелек!",

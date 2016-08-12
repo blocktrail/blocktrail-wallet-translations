@@ -109,13 +109,13 @@
     "MSG_USERNAME_TAKEN": "该用户名已被占用",
     "MSG_BAD_EMAIL": "电子邮箱无效",
     "MSG_EMAIL_TAKEN": "该电子邮箱已被占用",
-    "MSG_UPGRADE_REQUIRED": "请先在 www.blocktrail.com 上登录以自动升级您的账户，然后启用移动钱包",
+    "MSG_UPGRADE_REQUIRED": "请先在 blocktrail.com/dev/login 上登录以自动升级您的账户，然后启用移动钱包",
     "MSG_PIN_HELP": "创建将用于解锁您的钱包以进行交易的 PIN",
     "MSG_WALLET_PASSWORD_MISMATCH": "您已有一个使用不同密码创建的钱包",
     "MSG_WALLET_PASSWORD": "请输入旧钱包密码",
     "MSG_REPEAT_PASSWORD": "请重复您的密码",
     "MSG_SAVE_BACKUP": "请保存备份后继续",
-    "MSG_BACKUP_EMAIL_SUBJECT_1": "Blocktrail Wallet 备份",
+    "MSG_BACKUP_EMAIL_SUBJECT_1": "BTC Wallet 备份",
     "MSG_BACKUP_EMAIL_BODY_1": [
         "您的移动钱包备份文档已连接。",
         "请将其存储在安全的地方。",
@@ -179,7 +179,7 @@
     "MSG_SEND_FAIL_UNKNOWN": "发送您的交易时出现问题",
     // contacts list
     "CONTACTS_NONE": "未找到联系人",
-    "CONTACTS_NO_WALLETS": "您的联系人都没有 Blocktrail Wallet",
+    "CONTACTS_NO_WALLETS": "您的联系人都没有 BTC Wallet",
     "CONTACTS_INVITE": "邀请使用 Wallet",
     "CONTACTS_MORE_NUMBERS": "更多",
     "CONTACTS_FILTER_TITLE": "筛选联系人",
@@ -188,8 +188,8 @@
     "CONTACTS_REFRESH": "刷新联系人",
     "CONTACTS_RESYNC": "重新同步联系人",
     "MSG_INVITE_CONTACT": [
-        "嘿，获取比特币的 Blocktrail Wallet 应用吧！",
-        "可在这儿下载：https://www.blocktrail.com/download"
+        "嘿，获取比特币的 BTC Wallet 应用吧！",
+        "可在这儿下载：https://btc.com/download"
     ],
     "RECEIVE_BITCOIN_TITLE": "接收比特币",
     "BITCOIN_ADDRESS_RECEIVE_HELP": "已为您创建了一个新的比特币地址。请使用此地址接收资金。",
@@ -201,14 +201,14 @@
     "MSG_REQUEST_EMAIL_BODY_1": [
         "您好，<br><br>请将资金发送到我的比特币钱包（附二维码）。",
         "<p>地址：<a href='{{addressURI}}'>{{address}}</a> </p>",
-        "<p><br>已通过 <a href=\"https://www.blocktrail.com\">Blocktrail Wallet</a> 发送</p>"
+        "<p><br>已通过 <a href=\"https://btc.com\">BTC Wallet</a> 发送</p>"
     ],
     "MSG_REQUEST_EMAIL_SUBJECT_2": "请给我发送 {{btcValue}} 比特币（约 {{fiatValue}} {{localCurrency}}）",
     "MSG_REQUEST_EMAIL_BODY_2": [
         "您好，<br><br>请将资金发送到我的比特币钱包（附二维码）。",
         "<p>地址：<a href='{{addressURI}}'>{{address}}</a> </p>",
         "<br>金额：{{btcValue}} BTC（约 {{fiatValue}} {{localCurrency}}）</p>",
-        "<p><br>已通过我的 <a href='https://www.blocktrail.com'>Blocktrail Wallet</a> 发送</p>"
+        "<p><br>已通过我的 <a href='https://btc.com'>BTC Wallet</a> 发送</p>"
     ],
     "MSG_REQUEST_SMS_1": [
         "您好，",
@@ -236,7 +236,7 @@
     "SETTINGS_CHANGE_PIN": "更改 PIN",
     "SETTINGS_CHANGE_PASSWORD": "更改密码",
     "SETTINGS_RECOMMENDED": "推荐",
-    "SETTINGS_NEWSLETTER": "向我提供最新 Blocktrail 消息",
+    "SETTINGS_NEWSLETTER": "向我提供最新 BTC.com 消息",
     "SETTINGS_RESET_ACCOUNT": "重置钱包",
     "SETTINGS_WALLET_BACKUP": "钱包备份",
     "SETTINGS_INFO": "信息",
@@ -269,7 +269,7 @@
     "SETTINGS_2FA_STEP2": "第 2 步：账户设置",
     "SETTINGS_2FA_STEP2_BODY": [
         "在您的智能手机上下载<a href=\"https://support.google.com/accounts/answer/1066447?hl=en\">Google 验证</a>",
-        "或者 <a href=\"https://www.authy.com/users\">Authy</a>，然后扫描下面的二维码将 Blocktrail 添加到您的应用中。"
+        "或者 <a href=\"https://www.authy.com/users\">Authy</a>，然后扫描下面的二维码将 BTC.com 添加到您的应用中。"
     ],
     "SETINGS_2FA_STEP2_CODE": "或者手动输入此代码：{{ secret }}。",
     "SETTINGS_2FA_STEP3": "第 3 步：验证",
@@ -336,9 +336,9 @@
     "PERMISSION_REQUIRED_CONTACTS": "Wallet 需要访问您的联系人",
     "PERMISSION_REQUIRED_CAMERA": "Wallet 需要访问您的相机",
     "PERMISSION_REQUIRED_PHOTOS": "Wallet 需要访问您的照片",
-    "MSG_CONTACTS_PERMISSIONS": "要授权访问您的联系人，请转到“设置”>“Blocktrail Wallet”>“联系人”",
-    "MSG_CAMERA_PERMISSIONS": "要授权访问您的相机，请转到“设置”>“Blocktrail Wallet”>“照片”",
-    "MSG_PHOTOS_PERMISSIONS": "要授权访问您的照片，请转到“设置”>“Blocktrail Wallet”>“照片”",
+    "MSG_CONTACTS_PERMISSIONS": "要授权访问您的联系人，请转到“设置”>“BTC Wallet”>“联系人”",
+    "MSG_CAMERA_PERMISSIONS": "要授权访问您的相机，请转到“设置”>“BTC Wallet”>“照片”",
+    "MSG_PHOTOS_PERMISSIONS": "要授权访问您的照片，请转到“设置”>“BTC Wallet”>“照片”",
     "SORRY": "抱歉",
     "SYNCING_ALL": "全部同步",
     "MSG_COPIED_TO_CLIPBOARD": "已复制到剪贴板",
@@ -397,12 +397,12 @@
     "SETUP_WEB_SYNC": "将联系人同步到 Web 钱包",
     "SETUP_COMPLETE_TITLE": "您已全部完成！",
     "SETUP_COMPLETE_SUBTITLE": "欢迎来到比特币的世界",
-    "SETUP_COMPLETE_SUBTITLE_2": "请访问 www.blocktrail.com/faq 以了解有关提示和技巧。",
+    "SETUP_COMPLETE_SUBTITLE_2": "请访问 btc.com/faq 以了解有关提示和技巧。",
     "MSG_USERNAME_WARNING": "* 使用用户名注册可获得更好的私密性和匿名性，但其代价是无法通过我们恢复密码以及接收重要电子邮件。",
     "MSG_BACKUP_DESCRIPTION": "保存您的钱包备份并将其安全地存储起来，以便在发生某些情况时恢复您的钱包。",
     "WALLET_YOUR_BITCOINS": "您的比特币",
     "TX_INFO_MORE_TITLE": "更多信息",
-    "TX_INFO_MORE_LINK": "在 blocktrail.com 上查看",
+    "TX_INFO_MORE_LINK": "在 BTC.com 上查看",
     "AVAILABLE_BALANCE": "可用余额",
     "AMOUNT_PLACEHOLDER": "金额",
     "RECIPIENT_PLACEHOLDER": "发送到",
@@ -414,7 +414,7 @@
     "SETTINGS_BTC_DECIMALS": "BTC 小数显示",
     "SETTINGS_ENABLE_CONTACTS": "启用联系人？",
     "SETTINGS_DISABLE_CONTACTS": "禁用联系人同步？",
-    "SETTINGS_PHONE_DESCRIPTION": "将您的钱包与您的电话号码关联后，您可以向您电话上也有 Blocktrail Wallet 的联系人发送。",
+    "SETTINGS_PHONE_DESCRIPTION": "将您的钱包与您的电话号码关联后，您可以向您电话上也有 BTC Wallet 的联系人发送。",
     "SETTINGS_ENCRYPTION": "加密",
     "MSG_BACKUP_UNSAVED": [
         "警告！",
@@ -429,8 +429,8 @@
     "MSG_DISABLE_CONTACTS": "禁用联系人将删除所有已同步的数据，您将无法再向您的联系人发送。",
     // About
     "ABOUT_TITLE": "Wallet",
-    "ABOUT_SUBTITLE": "源于 Blocktrail",
-    "ABOUT_DESCRIPTION": "Blocktrail 是一家总部在阿姆斯特丹的比特币初创企业。",
+    "ABOUT_SUBTITLE": "源于 BTC.com",
+    "ABOUT_DESCRIPTION": "",
     "ABOUT_LABEL_NEWS": "消息",
     "ABOUT_LABEL_RATEAPP": "您喜欢该 App 吗？",
     "ABOUT_RATEAPP": "请为 Wallet 评分！",
