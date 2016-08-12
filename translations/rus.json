@@ -324,7 +324,7 @@
     "FRENCH": "french",
     "GERMAN": "german",
     "DUTCH": "dutch",
-	"Rus": "рус"
+	"Rus": "рус",
     "CHANGE_PASSWORD": "смена пароля",
     "ENTER_CURRENT_PASSWORD": "введите ваш текущий пароль",
     "ENTER_NEW_PASSWORD": "введите ваш новый пароль",
