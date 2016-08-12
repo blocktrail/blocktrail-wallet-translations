@@ -2,7 +2,7 @@
 
     // launch & setup screens
     "LAUNCH_NEW_ACCOUNT": "nieuw account",
-    "LAUNCH_EXISTING_ACCOUNT": "registeren",
+    "LAUNCH_EXISTING_ACCOUNT": "inloggen",
     "SETUP_REGISTER": "nieuw account",
     "SETUP_WALLET_BACKUP": "wallet backup"
 }
