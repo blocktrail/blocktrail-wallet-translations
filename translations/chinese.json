@@ -1,6 +1,6 @@
 {
     // general
-    "LOGOUT": "注销",
+    "LOGOUT": "退出",
     "SEND": "发送",
     "RECEIVE": "接收",
     "BACK": "返回",
@@ -50,7 +50,7 @@
     "MENU_SEND": "发送",
     "MENU_RECEIVE": "接收",
     "MENU_SETTINGS": "设置",
-    "APP_DOWNLOAD_ON": "启用",
+    "APP_DOWNLOAD_ON": "下载",
     "ANDROID": "Android",
     "IOS": "iOS",
 
@@ -61,7 +61,7 @@
     "SETUP_FORGOT_PASSWORD_Q": "忘记密码？",
     "'SETUP_FORGOT_PASS_PLACEHOLDER'": "电子邮箱",
     "SETUP_LOGIN": "登录",
-    "LOGGING_IN": "正登录",
+    "LOGGING_IN": "正在登录",
     "SETUP_LOGIN_PLACEHOLDER": "用户名或电子邮箱",
     "SETUP_USERNAME_PLACEHOLDER": "用户名",
     "SETUP_EMAIL_PLACEHOLDER": "电子邮箱",
@@ -95,9 +95,9 @@
     "SAVING_WALLET": "正在保存钱包",
     "LOADING_WALLET": "正在加载钱包",
     "MSG_BAD_NETWORK": "没有网络连接",
-    "MSG_BAD_LOGIN": "登录详细信息不正确",
+    "MSG_BAD_LOGIN": "登录信息不正确",
     "MSG_INCORRECT_PASSWORD": "密码不正确",
-    "MSG_INCORRECT_PASSWORD_CAPS_ON": "警告；在键入密码时您打开了大写锁定键！",
+    "MSG_INCORRECT_PASSWORD_CAPS_ON": "注意：在键入密码时您打开了大写锁定键！",
     "MSG_MISSING_LOGIN": "请输入您的登录详细信息",
     "MSG_MISSING_PASSWORD": "请输入您的密码",
     "MSG_MISSING_TWO_FACTOR_TOKEN": "请输入您的双因素验证令牌",
@@ -160,7 +160,7 @@
     "TO": "至",
     "SENDING_CONFIRM_TITLE": "确认您的密码",
     "SENDING_CONFIRM_MSG": "您正在发送",
-    "ESITIMATED_FEE": "网络费 ",
+    "ESITIMATED_FEE": "矿工费 ",
     "SEND_BITCOIN_TITLE": "发送比特币",
     // messages
     "MSG_GET_CONTACT_ADDR": "正在获取联系地址...",
@@ -236,7 +236,7 @@
     "SETTINGS_CHANGE_PIN": "更改 PIN",
     "SETTINGS_CHANGE_PASSWORD": "更改密码",
     "SETTINGS_RECOMMENDED": "推荐",
-    "SETTINGS_NEWSLETTER": "向我提供最新 BTC.com 消息",
+    "SETTINGS_NEWSLETTER": "向我提供 BTC.com 的最新消息",
     "SETTINGS_RESET_ACCOUNT": "重置钱包",
     "SETTINGS_WALLET_BACKUP": "钱包备份",
     "SETTINGS_INFO": "信息",
@@ -257,11 +257,11 @@
     "SETTINGS_PHONE_PLACEHOLDER": "电话号码",
     "SETTINGS_TOKEN_PLACEHOLDER": "验证代码",
     "SETTINGS_PHONE_REQUIRE_VERIFY": "需要电话验证",
-    "SETTINGS_PROFILE_PICTURE": "资料图片",
+    "SETTINGS_PROFILE_PICTURE": "头像",
     "SETTINGS_SAVE": "保存设置",
-    "SETTINGS_CROP_PROFILE_PIC": "剪裁您的资料图片",
+    "SETTINGS_CROP_PROFILE_PIC": "剪裁头像",
     "SETTINGS_CROP_ALLOWED_FILE_TYPES": "允许的文件类型",
-    "SETTINGS_PROFILE_PIC_SAVED": "已保存您的资料图片",
+    "SETTINGS_PROFILE_PIC_SAVED": "已保存您的头像",
     "SETTINGS_2FA": "启用双因素验证",
     "SETTINGS_2FA_STEP1": "第 1 步：验证密码",
     "SETTINGS_2FA_STEP1_BODY": "请输入您的密码以设置双因素验证",
@@ -328,8 +328,8 @@
     "CHANGE_PASSWORD_SUCCESS": "已更改您的密码！",
     "CHANGE_PASSWORD_BACKUP": [
         "已更新您的密码！<br />",
-        "由于您的旧备份无法使用新密码，因此您需要下载 1 个额外的页面，",
-        "并将该页面与现有文档一起存储！"
+        "由于您的旧备份无法使用新密码，因此您需要重新下载 1 个备份，",
+        "并将该备份与现有文档一起存储！"
     ],
     // permission popups
     "PERMISSION_REQUIRED": "需要权限",
@@ -349,7 +349,7 @@
     "MSG_TWO_FACTOR_REQUIRED": "需要 2FA 代码",
     "MSG_SKIP_BACKUP": [
         "您可以以后保存您的备份，方法是：转到“设置”>“Wallet 备份”",
-        "请注意，备份信息此后将留在此手机上，这是一个安全风险"
+        "请注意，备份信息此后将留在此手机上，可能存在安全风险"
     ],
     "MSG_EMAIL_NOT_SETUP": [
         "您未在此手机上配置默认邮件帐户。",
@@ -429,7 +429,7 @@
     "MSG_DISABLE_CONTACTS": "禁用联系人将删除所有已同步的数据，您将无法再向您的联系人发送。",
     // About
     "ABOUT_TITLE": "Wallet",
-    "ABOUT_SUBTITLE": "源于 BTC.com",
+    "ABOUT_SUBTITLE": "来自 BTC.com",
     "ABOUT_DESCRIPTION": "",
     "ABOUT_LABEL_NEWS": "消息",
     "ABOUT_LABEL_RATEAPP": "您喜欢该 App 吗？",
