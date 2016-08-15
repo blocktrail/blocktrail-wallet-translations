@@ -1,6 +1,6 @@
 {
     // general
-    "LOGOUT": "¡¡cerrar sesión!!",
+    "LOGOUT": "cerrar sesión",
     "SEND": "enviar",
     "RECEIVE": "recibir",
     "BACK": "atrás",

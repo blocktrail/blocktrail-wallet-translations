@@ -1,6 +1,6 @@
 {
     // general
-    "LOGOUT": "logout!!",
+    "LOGOUT": "logout",
     "WARNING": "warning",
     "SEND": "send",
     "RECEIVE": "receive",
