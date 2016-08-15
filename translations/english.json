@@ -55,6 +55,11 @@
     "ANDROID": "android",
     "IOS": "iOS",
 
+    // datetime
+    "TODAY": "today",
+    "TOMORROW": "tomorrow",
+    "YESTERDAY": "yesterday",
+
     // launch & setup screens
     "LAUNCH_NEW_ACCOUNT": "create a new account",
     "LAUNCH_EXISTING_ACCOUNT": "already have an account?",
@@ -315,12 +320,18 @@
     "SEND_FEEDBACK_PLACEHOLDER": "your message...",
     "MSG_BAD_FEEDBACK": "please enter a message",
     "MSG_FEEDBACK_SUCCESS": "your feedback has been sent",
+
     // languages
     "ENGLISH": "english",
     "ENGLISH_US": "english (US)",
     "FRENCH": "french",
     "GERMAN": "german",
     "DUTCH": "dutch",
+    "SPANISH": "spanish",
+    "RUSSIAN": "russian",
+    "CHINESE": "chinese",
+
+    // change password
     "CHANGE_PASSWORD": "change password",
     "ENTER_CURRENT_PASSWORD": "please enter your current password",
     "ENTER_NEW_PASSWORD": "please enter your new password",

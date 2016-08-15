@@ -61,6 +61,11 @@
     "MENU_SETTINGS": "instellingen",
     "APP_DOWNLOAD_ON": "haal hem van",
 
+    // datetime
+    "TODAY": "vandaag",
+    "TOMORROW": "morgen",
+    "YESTERDAY": "gisteren",
+
     // launch & setup screens
     "LAUNCH_NEW_ACCOUNT": "nieuw account maken",
     "LAUNCH_EXISTING_ACCOUNT": "heeft u al een account?",

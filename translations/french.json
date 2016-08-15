@@ -54,6 +54,11 @@
     "MSG_CORRUPT_DATA": "Malheureusement vos données sont corrompues. Veuillez vous reconnecter pour recharger votre portefeuille.",
     "MSG_ORPHAN_BLOCK": "Attention : bloc orphelin détecté. Votre portefeuille va resynchroniser ses transactions",
 
+    // datetime
+    "TODAY": "aujourd'hui",
+    "TOMORROW": "demain",
+    "YESTERDAY": "hier",
+
     // launch & setup screens
     "LAUNCH_NEW_ACCOUNT": "nouveau compte",
     "LAUNCH_EXISTING_ACCOUNT": "se connecter",
