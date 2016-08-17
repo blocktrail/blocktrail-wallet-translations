@@ -168,6 +168,8 @@
     "SENDING_CONFIRM_MSG": "You are sending",
     "ESITIMATED_FEE": "Network fee: ",
     "SEND_BITCOIN_TITLE": "send bitcoin",
+    "MSG_INVALID_AMOUNT": "invalid amount",
+
     // messages
     "MSG_GET_CONTACT_ADDR": "getting contact address...",
     "MSG_INIT_WALLET": "initialising wallet...",
