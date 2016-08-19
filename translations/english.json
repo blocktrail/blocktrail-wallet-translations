@@ -467,5 +467,35 @@
         "",
         "If you have any questions or issues please contact support@btc.com"
     ],
-    "PSA_REBRAND_OK": "Continue"
+    "PSA_REBRAND_OK": "Continue",
+
+    // Footer
+    "FOOTER_PRODUCT": "Products",
+    "FOOTER_ANTMINER": "Antminer",
+    "FOOTER_ANTPOOL": "Antpool",
+    "FOOTER_HASHNEST": "Hashnest",
+    "FOOTER_MINERLINK": "Minerlink",
+    "FOOTER_COMPANY": "Company",
+    "FOOTER_ABOUT": "About us",
+    "FOOTER_JOIN_US": "Join us",
+    "FOOTER_CONTACT": "Contact us",
+    "FOOTER_MEDIA": "Media",
+    "FOOTER_WEIBO": "Official Weibo",
+    "FOOTER_COMMUNITY": "Community",
+    "FOOTER_TWITTER": "Twitter",
+    "FOOTER_FACEBOOK": "Facebook",
+    "FOOTER_DEVELOPERS": "Developers",
+    "FOOTER_API": "API",
+    "FOOTER_MOBILESITE": "Mobile Site",
+    "FOOTER_DESKTOPSITE": "Desktop Site",
+    "FOOTER_FEEDBACK" : "Feedback",
+
+    // Navbar
+    "NAVBAR_HOME": "Home",
+    "NAVBAR_BLOCKS": "Blocks",
+    "NAVBAR_STATS": "Stats",
+    "NAVBAR_TOOLS": "Tools",
+    "NAVBAR_APPLICATIONS": "Applications",
+    "NAVBAR_SEARCH_PLACEHOLDER": "Address/Height/Hash..."
+
 }
