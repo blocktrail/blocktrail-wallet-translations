@@ -376,8 +376,8 @@
 
     "ADVANCED_SEND_OPTIONS": "advanced settings",
     "LOW_PRIORITY_LABEL": "low priority bitcoin fee",
-    "LOW_PRIORITY_WARNING": "using low priority fees can result in significantly SLOWER confirmation times! this is still experimental!",
-    "LOW_PRIORITY_SEND_WARNING": "you are using low priority fees, this can result in significantly SLOWER confirmation times! this is still experimental!",
+    "LOW_PRIORITY_WARNING": "using low priority fees can result in significantly SLOWER confirmation times!",
+    "LOW_PRIORITY_SEND_WARNING": "you are using low priority fees, this can result in significantly SLOWER confirmation times!",
 
     "QR_SCAN_OVERLAY": "scan QR code",
     "MSG_BAD_ADDRESS_2": "that doesn't appear to be a valid bitcoin address",
