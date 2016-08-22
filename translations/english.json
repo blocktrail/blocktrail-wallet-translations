@@ -461,12 +461,14 @@
     // PSA: rebrand
     "PSA_REBRAND_TITLE": "Service Announcement",
     "PSA_REBRAND_BODY": [
-        "Blocktrail has been acquired by Bitmain and our products are being rebranded to BTC.com.",
+        "Welcome to your new BTC.com Wallet by Blocktrail",
         "",
-        "Rest assured that during this transition of Blocktrail services into BTC.com, all of our services will continue to function as normal and no changes will be required on your side.",
+        "Blocktrail has been acquired by Bitmain, and our services are now offered at BTC.com!",
         "",
-        "If you have any questions or issues please contact support@btc.com"
+        "Thank you for being a loyal Blocktrail user! We look forward to continue to deliver you the most powerful Bitcoin wallet as BTC.com"
     ],
+    "PSA_REBRAND_BLOG_HREF_PRE": "Read the annoucement",
+    "PSA_REBRAND_BLOG_HREF" : "on our blog",
     "PSA_REBRAND_OK": "Continue",
 
     // Footer
