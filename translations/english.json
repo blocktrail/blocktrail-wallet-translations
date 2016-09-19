@@ -336,6 +336,14 @@
     "RUSSIAN": "russian",
     "CHINESE": "chinese",
 
+    // regions
+    "NETHERLANDS": "The Netherlands",
+    "USA": "USA",
+    "FRANCE": "France",
+    "GERMANY": "Germany",
+    "BELGIUM": "Belgium",
+    "CANADA": "Canada",
+
     // change password
     "CHANGE_PASSWORD": "change password",
     "ENTER_CURRENT_PASSWORD": "please enter your current password",
@@ -501,6 +509,74 @@
     "NAVBAR_STATS": "Stats",
     "NAVBAR_TOOLS": "Tools",
     "NAVBAR_APPLICATIONS": "Applications",
-    "NAVBAR_SEARCH_PLACEHOLDER": "Address/Height/Hash..."
+    "NAVBAR_SEARCH_PLACEHOLDER": "Address/Height/Hash...",
 
+    // Buy BTC
+    "BUYBTC": "buy bitcoins",
+    "BUYBTC_NAVTITLE": "buy bitcoins",
+
+    "BUYBTC_CHOOSE_REGION_TITLE": "to be able to buy bitcoin we need to know your region",
+    "BUYBTC_CHOOSE_REGION_BODY": [
+        "because we offer the possibility to easy buy bitcoin through partners specific to your region.",
+        "that way we can let these partners handle all the rules specific to their jurisdiction."
+    ],
+    "BUYBTC_REGIONS": "regions",
+    "OTHER_REGIONS": "other",
+
+    "BUYBTC_REGION_NOTOK_TITLE": "your selected region",
+    "BUYBTC_REGION_NOTOK_BODY": [
+        "unfortunatly we currently don't have a partner in your region to offer this service."
+    ],
+    "BUYBTC_CHANGE_REGION": "change region",
+
+    "BUYBTC_CHOOSE_TITLE": "Easily buy some bitcoin",
+    "BUYBTC_CHOOSE_SUBTITLE": "We offer the possibility to easy buy bitcoin through these partners specific to your region.",
+
+    "BUYBTC_PROVIDERS": "Partners",
+    "BUYBTC_NOPROVIDERS_REGION": "There are no partners that service your region",
+
+    "BUYBTC_BUY_TITLE": "You're buying bitcoin!?",
+    "BUYBTC_BUY_SUBTITLE": [
+        "Maybe you should consider investing in something less risky instead!",
+        "How about some ETC or XCP?"
+    ],
+
+    "CURRENT_PRICE": "current price",
+    "BUYBTC_INCL_FEE": "including fee",
+    "BUYBTC_BUY": "buy bitcoins",
+
+    "MSG_BUYBTC_PIN_TO_ENCRYPT": "Please enter your current PIN so we can encrypt your access token for secure storage.",
+    "MSG_BUYBTC_PIN_TO_DECRYPT": "Please enter your current PIN so we can decrypt your access token for use.",
+
+    "MSG_BUYBTC_SETUP_GLIDERA_TITLE": "Glidera",
+    "MSG_BUYBTC_SETUP_GLIDERA_BODY": [
+        "To be able to use Glidera to buy bitcoins from the app you need to setup a Glidera account!",
+        "We will now redirect you to their platform to do so, once you are done you will be automatically send back."
+    ],
+
+    "MSG_BUYBTC_SETUP_MORE_GLIDERA_TITLE": "Glidera",
+    "MSG_BUYBTC_SETUP_MORE_GLIDERA_BODY": [
+        "To be able to use Glidera to buy bitcoins from the app you need finish all account setup steps;",
+        "{{ message }}.",
+        "",
+        "We will now redirect you to their platform to do so, once you are done click the \"Return to BTC Wallet\" button to return."
+    ],
+
+    "MSG_BUYBTC_GLIDERA_2FA_TITLE": "Two-Factor Authentication",
+    "MSG_BUYBTC_GLIDERA_2FA_BODY": "A Glidera Two-factor {{ mode }} authentication code is required!",
+
+    "MSG_BUYBTC_FIAT_USD_ONLY_TITLE": "careful!",
+    "MSG_BUYBTC_FIAT_USD_ONLY": "Your default currency is set to {{ yourCurrency }}, but when buy bitcoin values are denominated in {{ currency }}",
+
+    "MSG_BUYBTC_CONFIRM_TITLE": "buy bitcoins",
+    "MSG_BUYBTC_CONFIRM_BODY": "Are you sure you want to buy {{ qty }} BTC for {{ currencySymbol }}{{ price }}? (including {{ currencySymbol }}{{ fee }} fee)",
+
+    "MSG_BUYBTC_BOUGHT_TITLE": "bought bitcoins",
+    "MSG_BUYBTC_BOUGHT_BODY": "You just purchased {{ qty }} BTC for {{ currencySymbol }}{{ price }}! (including {{ currencySymbol }}{{ fee }} fee)",
+
+    "MSG_BETTER_LANGUAGE_TITLE": "new language available",
+    "MSG_BETTER_LANGUAGE": [
+        "We just addded a new language to the app and detected that you might be interested in switch to this new language!",
+        "Would you like to switch your language from {{ oldLanguage }} to {{ newLanguage }}?"
+    ]
 }
