@@ -91,6 +91,8 @@
     "SETUP_SYNC_CONTACTS": "sync contacts",
     "SETUP_PROFILE_PIC": "set profile picture",
     "SETUP_COMPLETE": "go to my wallet",
+    "SETUP_TERMS_OF_SERVICE_TEXT": "I agree to the",
+    "SETUP_TERMS_OF_SERVICE_LINK": "terms of service",
     "CREATING_ACCOUNT": "creating account",
     "CREATING_WALLET": "creating wallet",
     "CREATING_GENERATE_PRIMARYKEY": "generating primary key",
@@ -122,6 +124,7 @@
     "MSG_REPEAT_PASSWORD": "please repeat your password",
     "MSG_SAVE_BACKUP": "please save a backup to continue",
     "MSG_BACKUP_EMAIL_SUBJECT_1": "BTC Wallet backup",
+    "MSG_BAD_LEGAL": "You must agree to the terms of service",
     "MSG_BACKUP_EMAIL_BODY_1": [
         "your mobile wallet backup document is attached.",
         "Store it in a safe place.",
