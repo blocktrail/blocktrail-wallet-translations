@@ -515,6 +515,12 @@
     "BUYBTC": "Buy Bitcoins",
     "BUYBTC_NAVTITLE": "Buy Bitcoins",
 
+    "TX_INFO_BUYBTC_FROM": "Bitcoins Purchased From",
+    "TX_INFO_BUYBTC": "Bitcoins Purchased",
+    "TX_INFO_BUYBTC_DETAILS": "{{ qty }} BTC Purchased at {{ price }} {{ currency }} per BTC.",
+
+    "BUYBTC_BUYING": "Buying Bitcoins...",
+
     "BUYBTC_CHOOSE_REGION_TITLE": "To be able to buy bitcoin we need to know your region",
     "BUYBTC_CHOOSE_REGION_BODY": [
         "Because we offer the possibility to easy buy bitcoin through partners specific to your region.",
@@ -545,11 +551,21 @@
 
     "MSG_BUYBTC_PIN_TO_ENCRYPT": "Please enter your current PIN so we can encrypt your access token for secure storage.",
     "MSG_BUYBTC_PIN_TO_DECRYPT": "Please enter your current PIN so we can decrypt your access token for use.",
+    "MSG_BUYBTC_PIN_INCORRECT": "Incorrect PIN.",
+
+    "MSG_BUYBTC_PASSWORD_TO_ENCRYPT": "Please enter your current password so we can encrypt your access token for secure storage.",
+    "MSG_BUYBTC_PASSWORD_TO_DECRYPT": "Please enter your current password so we can decrypt your access token for use.",
+    "MSG_BUYBTC_PASSWORD_INCORRECT": "Incorrect Password.",
 
     "MSG_BUYBTC_SETUP_GLIDERA_TITLE": "Glidera",
     "MSG_BUYBTC_SETUP_GLIDERA_BODY": [
         "To be able to use Glidera to buy bitcoins from the app you need to setup a Glidera account!",
         "We will now redirect you to their platform to do so, once you are done you will be automatically send back."
+    ],
+
+    "MSG_BUYBTC_GLIDERA_COMPLETE": "Glidera Transaction Complete",
+    "MSG_BUYBTC_GLIDERA_COMPLETE_BODY": [
+        "Your transaction for {{ qty }} BTC with Glidera has completed!"
     ],
 
     "MSG_BUYBTC_SETUP_MORE_GLIDERA_TITLE": "Glidera",
