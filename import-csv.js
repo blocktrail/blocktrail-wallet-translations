@@ -7,6 +7,10 @@ var _debug = require('debug');
 
 _debug.enable('import-csv:errors');
 
+String.prototype.sentenceCase = function() {
+    return this.charAt(0).toUpperCase() + this.slice(1);
+};
+
 var debug = function(prefix) {
     var d = _debug(prefix);
     return function() {
@@ -20,6 +24,7 @@ var BASE_LANGUAGE = "english";
 var BLACKLIST = ['package.json'];
 var DIR = __dirname + "/translations";
 var MOBILE_DIR = DIR + "/mobile";
+var SENTENCE_CASE = false;
 
 // store all translations in here before writing to .json files
 var translations = {};
@@ -77,6 +82,16 @@ csv.parse(raw, {delimiter: ";", columns: true}, function(err, data) {
                 if (row[language].match(/\n/)) {
                     row[language] = row[language].replace(/\r\n/, '\n'); // windows to unix newlines
                     row[language] = row[language].split(/\n/);
+                }
+
+                if (SENTENCE_CASE) {
+                    if (_.isArray(row[language])) {
+                        row[language] = row[language].map(function(line) {
+                            return line.sentenceCase();
+                        });
+                    } else {
+                        row[language] = row[language].sentenceCase();
+                    }
                 }
 
                 // only store translations of which the keys are known (in BASE_LANGUAGE)

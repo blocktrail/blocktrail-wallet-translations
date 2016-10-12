@@ -52,7 +52,7 @@
     "MENU_SETTINGS": "设置",
     "APP_DOWNLOAD_ON": "下载",
     "ANDROID": "Android",
-    "IOS": "iOS",
+    "IOS": "IOS",
 
     // launch & setup screens
     "LAUNCH_NEW_ACCOUNT": "创建新账户",
@@ -162,6 +162,7 @@
     "SENDING_CONFIRM_MSG": "您正在发送",
     "ESITIMATED_FEE": "矿工费 ",
     "SEND_BITCOIN_TITLE": "发送比特币",
+
     // messages
     "MSG_GET_CONTACT_ADDR": "正在获取联系地址...",
     "MSG_INIT_WALLET": "正在初始化钱包...",
@@ -313,12 +314,15 @@
     "SEND_FEEDBACK_PLACEHOLDER": "您的消息...",
     "MSG_BAD_FEEDBACK": "请输入一条消息",
     "MSG_FEEDBACK_SUCCESS": "已发送您的反馈",
+
     // languages
     "ENGLISH": "英语",
     "ENGLISH_US": "英语（美国）",
     "FRENCH": "法语",
     "GERMAN": "德语",
     "DUTCH": "荷兰语",
+
+    // change password
     "CHANGE_PASSWORD": "更改密码",
     "ENTER_CURRENT_PASSWORD": "请输入您当前的密码",
     "ENTER_NEW_PASSWORD": "请输入您的新密码",

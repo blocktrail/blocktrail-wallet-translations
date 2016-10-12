@@ -1,15 +1,15 @@
 {
 
     // launch & setup screens
-    "LAUNCH_NEW_ACCOUNT": "new account",
-    "LAUNCH_EXISTING_ACCOUNT": "sign in",
+    "LAUNCH_NEW_ACCOUNT": "New Account",
+    "LAUNCH_EXISTING_ACCOUNT": "Sign in",
     "SETUP_PIN_PLACEHOLDER": "New PIN code",
     "SETUP_PIN_REPEAT_PLACEHOLDER": "Repeat PIN code",
-    "SETUP_REGISTER": "create account",
-    "SETUP_WALLET_BACKUP": "wallet backup",
-    "BACKUP_CREATE_PDF": "open backup PDF",
-    "CREATING_SUBMIT_WALLET": "sending wallet info to server",
-    "CREATING_DONE": "done",
+    "SETUP_REGISTER": "Create account",
+    "SETUP_WALLET_BACKUP": "Wallet backup",
+    "BACKUP_CREATE_PDF": "Open backup PDF",
+    "CREATING_SUBMIT_WALLET": "Sending wallet info to server",
+    "CREATING_DONE": "Done",
     "MSG_SKIP_BACKUP": [
         "You will be able to save your backup later by going to Settings>Wallet Backup",
         "Please note that the backup info will remain on this phone until then, which is a security risk"
@@ -25,15 +25,15 @@
         "Store it in a safe place. ",
         "You will need it along with your current password to recover your wallet in an emergency."
     ],
-    "WALLET_NO_TXS": "no transactions",
-    "TX_INFO_HASH": "transaction hash",
-    "BITCOIN_ADDRESS": "bitcoin address",
-    "SEND_TO": "send to",
-    "WALLET_PIN": "wallet PIN code",
-    "TRANSACTION_SEND_SUCCESS": "your transaction has been sent",
-    "MSG_MISSING_AMOUNT": "please enter an amount in Bitcoin",
-    "MSG_INSUFFICIENT_FUNDS": "you do not have enough funds for this transaction",
-    "CONTACTS_NO_WALLETS": "none of your contacts have a BTC Wallet",
+    "WALLET_NO_TXS": "No transactions",
+    "TX_INFO_HASH": "Transaction hash",
+    "BITCOIN_ADDRESS": "Bitcoin address",
+    "SEND_TO": "Send to",
+    "WALLET_PIN": "Wallet PIN code",
+    "TRANSACTION_SEND_SUCCESS": "Your transaction has been sent",
+    "MSG_MISSING_AMOUNT": "Please enter an amount in Bitcoin",
+    "MSG_INSUFFICIENT_FUNDS": "You do not have enough funds for this transaction",
+    "CONTACTS_NO_WALLETS": "None of your contacts have a BTC Wallet",
     "MSG_INVITE_CONTACT": [
         "Hi, get the BTC Wallet app for Bitcoin!",
         "Download it here: https://btc.com/download"
@@ -59,15 +59,15 @@
         "Please send {{btcValue}} BTC (approx {{fiatValue}} {{localCurrency}}) to my Bitcoin wallet. ",
         "Address: {{address}}"
     ],
-    "SETTINGS_RESET_ACCOUNT": "logout",
-    "SETTINGS_WALLET_POLLING": "background polling",
+    "SETTINGS_RESET_ACCOUNT": "Logout",
+    "SETTINGS_WALLET_POLLING": "Background polling",
     "MSG_RESET_WALLET": [
         "Would you like to logout of your current wallet?",
         "You can then log back in, or create a new account"
     ],
     "SEND_PHONE_NUMBER_REQUIRED_IOS": [
         "To be able to send bitcoin to contacts in your phone's address book you need to provide your phone number ",
-        "and give access to your contacts."
+        "And give access to your contacts."
     ],
     "MSG_CONTACTS_PERMISSIONS": "To grant access to your contacts on your device, go to settings>BTC Wallet>Contacts",
     "MSG_CAMERA_PERMISSIONS": "To grant access to your camera on your device, go to settings>BTC Wallet>App.photo",
