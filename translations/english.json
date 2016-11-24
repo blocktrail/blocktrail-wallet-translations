@@ -103,6 +103,7 @@
     "CREATING_INIT_WALLET": "Initialising wallet",
     "CREATING_DONE": "Done. Redirecting...",
     "SAVING_WALLET": "Saving wallet",
+    "UPGRADING_WALLET": "Upgrading wallet",
     "PREPARING_WALLET": "Preparing wallet for use",
     "LOADING_WALLET": "Loading wallet",
     "MSG_BAD_NETWORK": "No network connection",
