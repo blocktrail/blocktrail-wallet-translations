@@ -53,7 +53,10 @@
     "MENU_SETTINGS": "Settings",
     "APP_DOWNLOAD_ON": "Get it on",
     "ANDROID": "Android",
-    "IOS": "iOS",
+    "IOS": "IOS",
+    "CHANGE": "change",
+    "VIA": "via",
+    "AT": "at",
 
     // datetime
     "TODAY": "Today",
@@ -538,43 +541,42 @@
     // Buy BTC
     "BUYBTC": "Buy Bitcoins",
     "BUYBTC_NAVTITLE": "Buy Bitcoins",
-
+    "BUYBTC_GETSTARTED_HEAD": "Initial Setup",
+    "BUYBTC_GETSTARTED_BODY": "Before you can buy Bitcoin, let's setup your exchange account",
+    "BUYBTC_GETSTARTED_BUTTON": "Continue", 
     "TX_INFO_BUYBTC_FROM": "Bitcoins Purchased From",
     "TX_INFO_BUYBTC": "Bitcoins Purchased",
     "TX_INFO_BUYBTC_DETAILS": "{{ qty }} BTC Purchased at {{ price }} {{ currency }} per BTC.",
 
     "BUYBTC_BUYING": "Buying Bitcoins...",
 
-    "BUYBTC_CHOOSE_REGION_TITLE": "To be able to buy bitcoin we need to know your region",
+    "BUYBTC_CHOOSE_REGION_TITLE": "Select your region",
     "BUYBTC_CHOOSE_REGION_BODY": [
-        "Because we offer the possibility to easy buy bitcoin through partners specific to your region.",
-        "That way we can let these partners handle all the rules specific to their jurisdiction."
+        "Select your region for available purchase methods"
     ],
+    "BUYBTC_SELECTED_REGION": "In",
+    "BUYBTC_FUNDING_METHOD": "Funding Method",
     "BUYBTC_REGIONS": "Regions",
     "OTHER_REGIONS": "Other",
 
     "BUYBTC_REGION_NOTOK_TITLE": "Your selected region",
-    "BUYBTC_REGION_NOTOK_BODY": "Unfortunatly we currently don't have a partner in your region to offer this service.",
+    "BUYBTC_REGION_NOTOK_BODY": "Unfortunatly we do not currently have a partner in your region to offer this service. We're working on it, so check back soon!",
     "BUYBTC_CHANGE_REGION": "Change region",
 
-    "BUYBTC_CHOOSE_TITLE": "Easily buy some bitcoin",
-    "BUYBTC_CHOOSE_SUBTITLE": "We offer the possibility to easy buy bitcoin through these partners specific to your region.",
+    "BUYBTC_CHOOSE_TITLE": "Select a purchase method",
+    "BUYBTC_CHOOSE_SUBTITLE": "We have the following purchase methods available",
 
     "BUYBTC_PROVIDERS": "Partners",
     "BUYBTC_NOPROVIDERS_REGION": "There are no partners that service your region",
 
-    "BUYBTC_BUY_TITLE": "You're buying bitcoin!?",
-    "BUYBTC_BUY_SUBTITLE": [
-        "Maybe you should consider investing in something less risky instead!",
-        "How about some ETC or XCP?"
-    ],
-
     "CURRENT_PRICE": "Current price",
     "BUYBTC_INCL_FEE": "Including fee",
-    "BUYBTC_BUY": "Buy bitcoins",
+    "BUYBTC_BUY": "Continue",
+    "BUYBTC_VIA": "Your purchase will complete using",
 
-    "MSG_BUYBTC_PIN_TO_ENCRYPT": "Please enter your current PIN so we can encrypt your access token for secure storage.",
-    "MSG_BUYBTC_PIN_TO_DECRYPT": "Please enter your current PIN so we can decrypt your access token for use.",
+    "MSG_BUYBTC_PIN_TO_ENCRYPT": "Please enter your wallet PIN code.",
+    "MSG_BUYBTC_PIN_TO_DECRYPT_TITLE": "Enter PIN",
+    "MSG_BUYBTC_PIN_TO_DECRYPT": "Please enter your wallet PIN code.",
     "MSG_BUYBTC_PIN_INCORRECT": "Incorrect PIN.",
 
     "MSG_BUYBTC_PASSWORD_TO_ENCRYPT": "Please enter your current password so we can encrypt your access token for secure storage.",
@@ -607,10 +609,10 @@
     "MSG_BUYBTC_FIAT_USD_ONLY": "Your default currency is set to {{ yourCurrency }}, but when buy bitcoin values are denominated in {{ currency }}",
 
     "MSG_BUYBTC_CONFIRM_TITLE": "Buy bitcoins",
-    "MSG_BUYBTC_CONFIRM_BODY": "Are you sure you want to buy {{ qty }} BTC for {{ currencySymbol }}{{ price }}? (including {{ currencySymbol }}{{ fee }} fee)",
+    "MSG_BUYBTC_CONFIRM_BODY": "Are you sure you want to buy {{ qty }} BTC for {{ currencySymbol }}{{ price }}?",
 
     "MSG_BUYBTC_BOUGHT_TITLE": "Bought bitcoins",
-    "MSG_BUYBTC_BOUGHT_BODY": "You just purchased {{ qty }} BTC for {{ currencySymbol }}{{ price }}! (including {{ currencySymbol }}{{ fee }} fee)",
+    "MSG_BUYBTC_BOUGHT_BODY": "You just purchased {{ qty }} BTC for {{ currencySymbol }}{{ price }}!",
 
     "MSG_BETTER_LANGUAGE_TITLE": "New language available",
     "MSG_BETTER_LANGUAGE": [
