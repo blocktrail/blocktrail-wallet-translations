@@ -112,6 +112,7 @@
     "LOADING_WALLET": "Loading wallet",
     "MSG_BAD_NETWORK": "No network connection",
     "MSG_BAD_LOGIN": "Incorrect login details",
+    "MSG_BAD_LOGIN_UNKNOWN": "Failed to login for unknown reasons",
     "MSG_INCORRECT_PASSWORD": "Incorrect password",
     "MSG_INCORRECT_PASSWORD_CAPS_ON": "Warning; you had your caps-lock on while typing in the password!",
     "MSG_MISSING_LOGIN": "Please enter your login details",
