@@ -126,6 +126,7 @@
     "MSG_USERNAME_TAKEN": "That username already taken",
     "MSG_BAD_EMAIL": "Invalid email",
     "MSG_EMAIL_TAKEN": "That email is already taken",
+    "MSG_WEAK_PASSWORD": "Your password is too weak",
     "MSG_UPGRADE_REQUIRED": "Please login on blocktrail.com/dev/login first to automatically upgrade your account and enable the mobile wallet",
     "MSG_PIN_HELP": "Create a PIN which you will use to unlock your wallet to make transaction",
     "MSG_WALLET_PASSWORD_MISMATCH": "You have an existing wallet which was created with a different password",
@@ -139,6 +140,15 @@
         "Store it in a safe place.",
         "You will need it along with your current password to recover your wallet in an emergency."
     ],
+
+    // password checker
+    "PASSWORD_SUPER_WEAK": "Your password is super weak, ",
+    "PASSWORD_WEAK": "Your password is weak, ",
+    "PASSWORD_MEDIOCRE": "Your password isn't very strong, ",
+    "PASSWORD_STRONG": "Your password is strong, ",
+    "PASSWORD_SUPER_STRONG": "Your password is super strong, ",
+    "PASSWORD_TIME_TO_CRACK": "takes <b>{{ duration }}</b> to crack.",
+
     // side menu
     "MY_WALLET": "My Wallet",
     "SEND_FEEDBACK": "Send Feedback",
