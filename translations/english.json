@@ -142,12 +142,12 @@
     ],
 
     // password checker
-    "PASSWORD_SUPER_WEAK": "Your password is super weak, ",
-    "PASSWORD_WEAK": "Your password is weak, ",
-    "PASSWORD_MEDIOCRE": "Your password isn't very strong, ",
-    "PASSWORD_STRONG": "Your password is strong, ",
-    "PASSWORD_SUPER_STRONG": "Your password is super strong, ",
-    "PASSWORD_TIME_TO_CRACK": "takes <b>{{ duration }}</b> to crack.",
+    "PASSWORD_SUPER_WEAK": "Super weak, ",
+    "PASSWORD_WEAK": "Too weak, ",
+    "PASSWORD_MEDIOCRE": "Not very strong, ",
+    "PASSWORD_STRONG": "Strong, ",
+    "PASSWORD_SUPER_STRONG": "Super strong, ",
+    "PASSWORD_TIME_TO_CRACK": "estimated to take <b>{{ duration }}</b> to crack.",
 
     // side menu
     "MY_WALLET": "My Wallet",
