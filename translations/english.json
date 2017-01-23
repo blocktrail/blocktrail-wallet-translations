@@ -433,7 +433,6 @@
         "Your backup has already been saved. ",
         "The backup data is no longer stored on this phone."
     ],
-    "NULL": null,
     "ENABLE": "Enable",
     "DISABLE": "Disable",
     "ENABLED": "Enabled",
@@ -543,7 +542,7 @@
     "BUYBTC_NAVTITLE": "Buy Bitcoins",
     "BUYBTC_GETSTARTED_HEAD": "Initial Setup",
     "BUYBTC_GETSTARTED_BODY": "Before you can buy Bitcoin, let's setup your exchange account",
-    "BUYBTC_GETSTARTED_BUTTON": "Continue", 
+    "BUYBTC_GETSTARTED_BUTTON": "Continue",
     "TX_INFO_BUYBTC_FROM": "Bitcoins Purchased From",
     "TX_INFO_BUYBTC": "Bitcoins Purchased",
     "TX_INFO_BUYBTC_DETAILS": "{{ qty }} BTC Purchased at {{ price }} {{ currency }} per BTC.",
@@ -551,9 +550,7 @@
     "BUYBTC_BUYING": "Buying Bitcoins...",
 
     "BUYBTC_CHOOSE_REGION_TITLE": "Select your region",
-    "BUYBTC_CHOOSE_REGION_BODY": [
-        "Select your region for available purchase methods"
-    ],
+    "BUYBTC_CHOOSE_REGION_BODY": "Select your region for available purchase methods",
     "BUYBTC_SELECTED_REGION": "In",
     "BUYBTC_FUNDING_METHOD": "Funding Method",
     "BUYBTC_REGIONS": "Regions",
@@ -590,9 +587,7 @@
     ],
 
     "MSG_BUYBTC_GLIDERA_COMPLETE": "Glidera Transaction Complete",
-    "MSG_BUYBTC_GLIDERA_COMPLETE_BODY": [
-        "Your transaction for {{ qty }} BTC with Glidera has completed!"
-    ],
+    "MSG_BUYBTC_GLIDERA_COMPLETE_BODY": "Your transaction for {{ qty }} BTC with Glidera has completed!",
 
     "MSG_BUYBTC_SETUP_MORE_GLIDERA_TITLE": "Glidera",
     "MSG_BUYBTC_SETUP_MORE_GLIDERA_BODY": [

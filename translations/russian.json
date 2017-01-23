@@ -46,11 +46,6 @@
     "TRANSACTIONS": "Транзакция",
     "WELCOME": "Добро пожаловать",
     "TWO_FACTOR_TOKEN": "2FA token",
-    "NAVBAR_WALLET": "Кошель",
-    "NAvbar_EXPLORER": "обозреватель",
-    "NAVBAR_DEVELOPER": "Разработчик",
-    "NAVBAR_SIGNUP": "Разработчик",
-    "NAVBAR_LOGIN": "Разработчик",
     "MENU_TRANSACTIONS": "Транзакции",
     "MENU_SEND": "Отправить",
     "MENU_RECEIVE": "Получить",
@@ -126,6 +121,7 @@
         "Храните его в безопасном месте.",
         "Вам нужно будет хранить его с ваш текущий паролем, чтобы восстановить свой кошелек в чрезвычайной ситуации."
     ],
+
     // side menu
     "MY_WALLET": "Мой кошелек",
     "SEND_FEEDBACK": "Отправить",
@@ -151,11 +147,9 @@
     "QR": "QR",
     "CONTACTS": "Контакты",
     "BLUETOOTH": "Блютуз",
-    "BITCOIN_адрес": "адрес",
     "SENDING": "Отправка",
     "SEARCH_CONTACTS": "Контакты Поиск...",
     "SEND_TO": "Получатель адрес",
-    "SEND_адрес_FOUND": "адрес скопирован",
     "SEND_MESSAGE_PLACEHOLDER": "Сообщение или реквизиты платежа...",
     "WALLET_PIN": "PIN кошелька",
     "TRANSACTION_SEND_SUCCESS": "Сделка отправлено",
@@ -178,10 +172,8 @@
     "MSG_INSUFFICIENT_FUNDS": "Недостаточно средств",
     "MSG_BAD_PIN": "Неверный пин-код",
     "MSG_BAD_PWD": "Неверный пароль",
-    "MSG_BAD_адрес": "неверный биткоин адрес",
     "MSG_BAD_CONTACT": "Невозможно получить адрес для этого контакта",
     "MSG_BAD_CLIPBOARD": "Не допустимый адрес в буфере обмена",
-    "MSG_CLIPBOARD_адрес": "адрес из буфера обмена",
     "MSG_SEND_FAIL_UNKNOWN": "Произошла ошибка при отправке вашей сделки",
     // contacts list
     "CONTACTS_NONE": "Никаких контактов не найдено",
@@ -198,7 +190,6 @@
         "Скачать здесь: https://btc.com/download"
     ],
     "RECEIVE_BITCOIN_TITLE": "Получайте биткоины",
-    "BITCOIN_адрес_RECEIVE_HELP": "Новый биткоин-адрес создан для вас. Используйте этот адрес, чтобы получать средства.",
     "WAITING_FOR_PAYMENT": "Жду оплаты",
     "PAYMENT_RECEIVED": "Полученние ",
     // Receiving Screens
@@ -326,7 +317,6 @@
     "FRENCH": "French",
     "GERMAN": "German",
     "DUTCH": "Dutch",
-    "Rus": "рус",
 
     // change password
     "CHANGE_PASSWORD": "Смена пароля",
@@ -370,9 +360,7 @@
     "ESTIMATED_FEE": "Предполагаемая плата",
 
     "QR_SCAN_OVERLAY": "Сканирование QR-код",
-    "MSG_BAD_адрес_2": "кажется, не допустимым биткоин адрес",
     "MSG_NEW_TX": "Новая транзакция получено!",
-    "MSG_адрес_COPIED": "адрес скопирован в буфер обмена",
     // Promo code page
     "PROMO_CODES": "Промо-Коды",
     "REDEEM": "Выкупить",
@@ -388,12 +376,10 @@
         "Резервную копию уже сохранили. ",
         "Резервные копии данных хранятся не на этом телефоне."
     ],
-    "NULL": null,
     "ENABLE": "Включить",
     "DISABLE": "Отключить",
     "ENABLED": "Включено",
     "DISABLED": "Отключен",
-    "адрес": "адрес",
     "MSG_CORRUPT_DATA": "К сожалению ваших данные повреждены. Войдите снова, чтобы перезагрузить Ваш кошелек.",
     "MSG_ORPHAN_BLOCK": "Предупреждение:обнаружен сиротский блок. Ваш кошелек будет синхронизирована .....",
     "SETUP_SIGNUP_METHOD": "Подписаться",
@@ -417,7 +403,6 @@
     "AVAILABLE_BALANCE": "Доступный Остаток",
     "AMOUNT_PLACEHOLDER": "Сумма",
     "RECIPIENT_PLACEHOLDER": "Отправить",
-    "ENTER_адрес_TITLE": "введите биткоин адрес",
     "CONTACTS_DISABLED": "Контакты отключены",
     "MSG_REQUIRE_CONTACTS_ACCESS": " включите контакты в меню настройки, чтобы использовать эту функцию",
     "SETTINGS_UPDATE_PHOTO": "Обновление фото",
@@ -446,5 +431,7 @@
     "ABOUT_LABEL_RATEAPP": "Нравится ли вам приложение?",
     "ABOUT_RATEAPP": "Оцените Кошелек!",
     "PROMO_REDEEM": "Активировать промо-код",
-    "PROMO_CODE_PLACEHOLDER": "Промо-Код"
+    "PROMO_CODE_PLACEHOLDER": "Промо-Код",
+    "NAVBAR_SIGNUP": "Разработчик",
+    "NAVBAR_LOGIN": "Разработчик"
 }

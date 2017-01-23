@@ -12,6 +12,7 @@
     "OK": "OK",
     "DONE": "Klaar",
     "CONFIRM": "Bevestig",
+    "APPLY": "Toepassen",
     "SYNC": "Sync",
     "SYNC_NOW": "Nu syncen",
     "OPTIONAL": "Optioneel",
@@ -25,15 +26,6 @@
     "WORKING": "Bezig",
     "VERIFYING": "Verifieren",
     "SYNCING": "Syncen",
-    "SETUP_WALLET_BACKUP_TEXT_APPEND": [
-        "Het is belangrijk om je backup veilig, offline te bewaren.",
-        "In geval van nood kan je met dit backup document altijd bij je bitcoins die in je wallet zitten."
-    ],
-    "MSG_BACKUP_EMAIL_BODY_1": [
-        "Bijgevoegd is het backup document van je BTC Wallet.",
-        "Bewaar het op een veilige plek, in geval van nood zal je dit document en je wachtwoord nodig hebben om je Wallet te herstellen. "
-    ],
-    "APPLY": "Toepassen",
     "SKIP_STEP": "Overslaan",
     "PLEASE_WAIT": "Even wachten",
     "PLEASE_WAIT_2": "Een moment aub",
@@ -60,6 +52,8 @@
     "MENU_RECEIVE": "Ontvangen",
     "MENU_SETTINGS": "Instellingen",
     "APP_DOWNLOAD_ON": "Haal hem van",
+    "ANDROID": "Android",
+    "IOS": "IOS",
 
     // datetime
     "TODAY": "Vandaag",
@@ -89,6 +83,10 @@
     "'SETUP_WALLET_BACKUP_CHECKBOX'": "Bevestig dat u de backup heeft opgeslagen",
     "SETUP_WALLET_BACKUP_TEXT": "Bewaar eerst het backup document",
     "SETUP_WALLET_BACKUP_TEXT_BOLD": "Voordat u de wallet gaat gebruiken",
+    "SETUP_WALLET_BACKUP_TEXT_APPEND": [
+        "Het is belangrijk om je backup veilig, offline te bewaren.",
+        "In geval van nood kan je met dit backup document altijd bij je bitcoins die in je wallet zitten."
+    ],
     "BACKUP_EMAIL_PDF": "Email backup PDF",
     "BACKUP_CREATE_PDF": "Wallet backup opslaan",
     "BACKUP_CHECKBOX": "Ik heb de backup veilig opgeslagen",
@@ -127,6 +125,11 @@
     "MSG_REPEAT_PASSWORD": "Herhaal je wachtwoord",
     "MSG_SAVE_BACKUP": "Bewaar de backup om verder te gaan",
     "MSG_BACKUP_EMAIL_SUBJECT_1": "BTC.com wallet backup",
+    "MSG_BACKUP_EMAIL_BODY_1": [
+        "Bijgevoegd is het backup document van je BTC Wallet.",
+        "Bewaar het op een veilige plek, in geval van nood zal je dit document en je wachtwoord nodig hebben om je Wallet te herstellen. "
+    ],
+
     // side menu
     "MY_WALLET": "Mijn wallet",
     "SEND_FEEDBACK": "Feedback versturen",
@@ -291,6 +294,7 @@
     "SETTINGS_NEW_PIN": "Nieuwe PIN",
     "SETTINGS_REPEAT_PIN": "PIN herhalen",
     "MSG_ARE_YOU_SURE": "Weet je het zeker?",
+    "MSG_RESET_WALLET": "Wil je je huidige wallet uitloggen? Je kan daarna inloggen met dezelfde of een andere wallet",
     "MSG_ENTER_PIN": "Voer je huidige PIN in",
     "MSG_ENTER_NEW_PIN": "Kies een nieuwe PIN (min 4 cijfers)",
     "MSG_REPEAT_PIN": "Herhaal je PIN",
@@ -298,6 +302,8 @@
     "MSG_BAD_PIN_LENGTH": "De PIN code moet minimaal 4 cijfers zijn",
     "MSG_TRY_AGAIN": "Probeer opnieuw",
     "MSG_PIN_CHANGED": "Je PIN is veranderd",
+    "SEND_PHONE_NUMBER_REQUIRED": "Om bitcoins te kunnen versteren naar mensen in het adresboek van je telefoon hebben we je telefoonnummer nodig.",
+    "SEND_PHONE_NUMBER_REQUIRED_IOS": "Om bitcoins te kunnen versteren naar mensen in het adresboek van je telefoon hebben we je telefoonnummer nodig en toegang tot je adresboek.",
     // messages
     "SETTINGS_PHONE_VERIFIED": "Geverifieerd",
     "SETTINGS_PHONE_UNVERIFIED": "Niet geverifieerd",
@@ -327,11 +333,18 @@
     "CHANGE_PASSWORD_WALLET_INPROGRESS": "Even wachten, we encrypten je wallet met je nieuwe wachtwoord",
     "CHANGE_PASSWORD_ACCOUNT_INPROGRESS": "Even wachten, we veranderen het wachtwoord van je account",
     "CHANGE_PASSWORD_SUCCESS": "Je wachtwoord is veranderd!",
+    "CHANGE_PASSWORD_BACKUP": [
+        "Je wachtwoord is veranderd! <br />",
+        "Omdat je oude backup niet werkt met je nieuwe wachtwoord moet je 1 extra pagina opslaan bij je huidige backup document!"
+    ],
     // permission popups
     "PERMISSION_REQUIRED": "Toestemming benodigd",
     "PERMISSION_REQUIRED_CONTACTS": "Wallet heeft toegang nodig tot je contacten",
     "PERMISSION_REQUIRED_CAMERA": "Wallet heeft toegang nodig tot je camera",
     "PERMISSION_REQUIRED_PHOTOS": "Wallet heeft toegang nodig tot je foto's",
+    "MSG_CONTACTS_PERMISSIONS": "Om toegang te geven tot je adresboek ga je naar Instellingen > BTC Wallet > Contacten",
+    "MSG_CAMERA_PERMISSIONS": "Om toegang te geven tot je camera ga je naar Instellingen > BTC Wallet > App.Camera",
+    "MSG_PHOTOS_PERMISSIONS": "Om toegang te geven tot je foto's ga je naar Instellingen > BTC Wallet > Foto's",
     "SORRY": "Sorry",
     "SYNCING_ALL": "Synchroniseren",
     "MSG_COPIED_TO_CLIPBOARD": "Gekopieerd naar plakbord",
@@ -340,6 +353,12 @@
     "TWO_FACTOR_REQUIRED": "Two-factor benodigd",
     "MSG_CANT_OPEN_PDF": "Er is geen app die een PDF kan openen.",
     "MSG_TWO_FACTOR_REQUIRED": "Two-factor benodigd",
+    "MSG_SKIP_BACKUP": "Je kan altijd later je backup nog opslaan door te gaan naar Instellingen > Wallet Backup.",
+    "MSG_EMAIL_NOT_SETUP": [
+        "Je hebt geen standaard email geconfigureerd op je telefoon.",
+        "",
+        "Configureer aub je “mail” app of sla dit over tot we een andere manier hebben om je backup PDF te downloaden."
+    ],
     "ESTIMATED_FEE": "Geschatte transactie kosten",
 
     "ADVANCED_SEND_OPTIONS": "Geavanceerde instellingen",
@@ -362,6 +381,10 @@
     "SETTINGS_DISPLAY": "Weergeven",
     "SETTINGS_PRIVACY": "Privacy",
     "SETTINGS_USAGE_DATA": "Gebruiks informatie delen",
+    "MSG_BACKUP_SAVED_ALREADY": [
+        "Je backup is al opgeslagen.",
+        "De backup data is niet langer beschikbaar op je telefoon."
+    ],
     "ENABLE": "Aanzetten",
     "DISABLE": "Uitzetten",
     "ENABLED": "Aan",
@@ -416,27 +439,5 @@
     "ABOUT_LABEL_RATEAPP": "Bij je tevreden over de app?",
     "ABOUT_RATEAPP": "Geef de app een score!",
     "PROMO_REDEEM": "Promotie code invoeren",
-    "PROMO_CODE_PLACEHOLDER": "Promotie code",
-    "ANDROID": "Android",
-    "IOS": "IOS",
-    "MSG_RESET_WALLET": "Wil je je huidige wallet uitloggen? Je kan daarna inloggen met dezelfde of een andere wallet",
-    "SEND_PHONE_NUMBER_REQUIRED": "Om bitcoins te kunnen versteren naar mensen in het adresboek van je telefoon hebben we je telefoonnummer nodig.",
-    "SEND_PHONE_NUMBER_REQUIRED_IOS": "Om bitcoins te kunnen versteren naar mensen in het adresboek van je telefoon hebben we je telefoonnummer nodig en toegang tot je adresboek.",
-    "CHANGE_PASSWORD_BACKUP": [
-        "Je wachtwoord is veranderd! <br />",
-        "Omdat je oude backup niet werkt met je nieuwe wachtwoord moet je 1 extra pagina opslaan bij je huidige backup document!"
-    ],
-    "MSG_CONTACTS_PERMISSIONS": "Om toegang te geven tot je adresboek ga je naar Instellingen > BTC Wallet > Contacten",
-    "MSG_CAMERA_PERMISSIONS": "Om toegang te geven tot je camera ga je naar Instellingen > BTC Wallet > App.Camera",
-    "MSG_PHOTOS_PERMISSIONS": "Om toegang te geven tot je foto's ga je naar Instellingen > BTC Wallet > Foto's",
-    "MSG_SKIP_BACKUP": "Je kan altijd later je backup nog opslaan door te gaan naar Instellingen > Wallet Backup.",
-    "MSG_EMAIL_NOT_SETUP": [
-        "Je hebt geen standaard email geconfigureerd op je telefoon.",
-        "",
-        "Configureer aub je “mail” app of sla dit over tot we een andere manier hebben om je backup PDF te downloaden."
-    ],
-    "MSG_BACKUP_SAVED_ALREADY": [
-        "Je backup is al opgeslagen.",
-        "De backup data is niet langer beschikbaar op je telefoon."
-    ]
+    "PROMO_CODE_PLACEHOLDER": "Promotie code"
 }

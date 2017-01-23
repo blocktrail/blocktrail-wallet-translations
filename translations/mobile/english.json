@@ -10,15 +10,6 @@
     "BACKUP_CREATE_PDF": "Open backup PDF",
     "CREATING_SUBMIT_WALLET": "Sending wallet info to server",
     "CREATING_DONE": "Done",
-    "MSG_SKIP_BACKUP": [
-        "You will be able to save your backup later by going to Settings>Wallet Backup",
-        "Please note that the backup info will remain on this phone until then, which is a security risk"
-    ],
-    "MSG_EMAIL_NOT_SETUP": [
-        "You don't have a default mail account configured on this phone.",
-        "",
-        "Please configure your mail app, or you can skip this step and save your backup later when we support alternative apps"
-    ],
     "MSG_BACKUP_EMAIL_SUBJECT_1": "BTC.com mobile wallet backup",
     "MSG_BACKUP_EMAIL_BODY_1": [
         "Your mobile wallet backup document is attached.",
@@ -71,5 +62,14 @@
     ],
     "MSG_CONTACTS_PERMISSIONS": "To grant access to your contacts on your device, go to settings>BTC Wallet>Contacts",
     "MSG_CAMERA_PERMISSIONS": "To grant access to your camera on your device, go to settings>BTC Wallet>App.photo",
-    "MSG_PHOTOS_PERMISSIONS": "To grant access to your photos on your device, go to settings>BTC Wallet>Photo"
+    "MSG_PHOTOS_PERMISSIONS": "To grant access to your photos on your device, go to settings>BTC Wallet>Photo",
+    "MSG_SKIP_BACKUP": [
+        "You will be able to save your backup later by going to Settings>Wallet Backup",
+        "Please note that the backup info will remain on this phone until then, which is a security risk"
+    ],
+    "MSG_EMAIL_NOT_SETUP": [
+        "You don't have a default mail account configured on this phone.",
+        "",
+        "Please configure your mail app, or you can skip this step and save your backup later when we support alternative apps"
+    ]
 }

@@ -199,7 +199,13 @@ csv.parse(raw, {delimiter: ";", columns: true}, function(err, data) {
         var _comments = comments[isMobile];
 
         // create new JSON file
-        var json = JSON.stringify(translations[language], null, 4).split("\n");
+        var preJson = {};
+        _.forEach(keys, function(key) {
+            if (typeof translations[language][key] !== "undefined") {
+                preJson[key] = translations[language][key];
+            }
+        });
+        var json = JSON.stringify(preJson, null, 4).split("\n");
 
         // apply comments and blank lines to new JSON file
         json.slice().forEach(function(line) {

@@ -117,6 +117,7 @@
     "MSG_SAVE_BACKUP": "Por favor, guarda una copia de seguridad para continuar",
     "MSG_BACKUP_EMAIL_SUBJECT_1": "Copia de seguridad de la cartera BTC.com",
     "MSG_BACKUP_EMAIL_BODY_1": "Se adjunta el documento de copia de seguridad de la cartera móvil. Almacénalo en un lugar seguro. Lo necesitarás, junto con tu contraseña actual, para recuperar tu cartera en caso de emergencia.",
+
     // side menu
     "MY_WALLET": "Mi cartera",
     "SEND_FEEDBACK": "Enviar comentarios",
