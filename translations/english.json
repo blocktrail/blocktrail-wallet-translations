@@ -154,6 +154,8 @@
     "SEND_FEEDBACK": "Send Feedback",
     // My Wallet screen
     "INTERNAL_TRANSACTION_TITLE": "Sent to self",
+    "SENT_TO_MANY_TITLE": "Sent to many",
+    "RECEIVED_FROM_MANY_TITLE": "Received from many",
     "WALLET_NO_TXS": "No transactions, yet",
     "WALLET_ACTION_PRE": "Get started by",
     "WALLET_ACTION_LINK": "Funding your wallet",
