@@ -1,6 +1,7 @@
 {
     // general
     "LOGOUT": "Cerrar sesión",
+    "WARNING": "Advertencia",
     "SEND": "Enviar",
     "RECEIVE": "Recibir",
     "BACK": "Atrás",
@@ -53,6 +54,14 @@
     "APP_DOWNLOAD_ON": "Conseguirlo en",
     "ANDROID": "Android",
     "IOS": "IOS",
+    "CHANGE": "Cambio",
+    "VIA": "Via",
+    "AT": "A",
+
+    // datetime
+    "TODAY": "Hoy",
+    "TOMORROW": "Mañana",
+    "YESTERDAY": "Ayer",
 
     // launch & setup screens
     "LAUNCH_NEW_ACCOUNT": "Crear una cuenta nueva",
@@ -62,6 +71,8 @@
     "'SETUP_FORGOT_PASS_PLACEHOLDER'": "Dirección de correo electrónico",
     "SETUP_LOGIN": "Registrarse",
     "LOGGING_IN": "Iniciando sesión",
+    "LOGGED_OUT_CONFIRMATION_TITLE": "Desconectado",
+    "LOGGED_OUT_CONFIRMATION_TEXT": "¡Descargue la cartera móvil de BTC.com para acceder a su bitcoin desde cualquier lugar!",
     "SETUP_LOGIN_PLACEHOLDER": "Nombre de usuario o correo electrónico",
     "SETUP_USERNAME_PLACEHOLDER": "Nombre de usuario",
     "SETUP_EMAIL_PLACEHOLDER": "Correo electrónico",
@@ -85,17 +96,26 @@
     "SETUP_SYNC_CONTACTS": "Sincronizar contactos",
     "SETUP_PROFILE_PIC": "Establecer imagen de perfil",
     "SETUP_COMPLETE": "Ir a mi cartera",
+    "SETUP_TERMS_OF_SERVICE_TEXT": "Estoy de acuerdo con los",
+    "SETUP_TERMS_OF_SERVICE_LINK": "términos de servicio",
+    "SETUP_DOWNLOAD_MOBILE_TITLE": "BTC.com cartera para",
+    "SETUP_DOWNLOAD_MOBILE_TEXT": "¡Descargue la cartera móvil de BTC.com para acceder a su bitcoin desde cualquier lugar!",
     "CREATING_ACCOUNT": "Creando cuenta",
     "CREATING_WALLET": "Creando cartera",
+    "CREATING_GENERATE_RECOVERY": "Generando la hoja de recuperación",
     "CREATING_GENERATE_PRIMARYKEY": "Generando clave primaria",
     "CREATING_GENERATE_BACKUPKEY": "Generando copia de seguridad de la clave",
+    "CREATING_INIT_KEYS": "Inicializando claves privadas",
     "CREATING_SUBMIT_WALLET": "Sincronizando con los servidores",
     "CREATING_INIT_WALLET": "Inicializando cartera",
     "CREATING_DONE": "Hecho. Redirigiendo ...",
     "SAVING_WALLET": "Guardando cartera",
+    "UPGRADING_WALLET": "Actualizando la cartera",
+    "PREPARING_WALLET": "Preparando la cartera para su uso",
     "LOADING_WALLET": "Cargando cartera",
     "MSG_BAD_NETWORK": "No hay conexion de red",
     "MSG_BAD_LOGIN": "Datos de acceso incorrectos",
+    "MSG_BAD_LOGIN_UNKNOWN": "Error al iniciar sesión por razones desconocidas.",
     "MSG_INCORRECT_PASSWORD": "Contraseña incorrecta",
     "MSG_INCORRECT_PASSWORD_CAPS_ON": "Advertencia: las mayúsculas estaban activadas mientras escribías la contraseña",
     "MSG_MISSING_LOGIN": "Por favor, introduce tus datos de acceso",
@@ -109,6 +129,7 @@
     "MSG_USERNAME_TAKEN": "Ese nombre de usuario ya existe",
     "MSG_BAD_EMAIL": "Email inválido",
     "MSG_EMAIL_TAKEN": "Ese correo electrónico ya existe",
+    "MSG_WEAK_PASSWORD": "Tu contraseña es demasiado débil",
     "MSG_UPGRADE_REQUIRED": "Incia sesión primero en blocktrail.com/dev/login para actualizar automáticamente tu cuenta y habilitar la cartera móvil",
     "MSG_PIN_HELP": "Crea el PIN que vas a utilizar para desbloquear tu cartera para realizar transacciones",
     "MSG_WALLET_PASSWORD_MISMATCH": "Tienes una cartera existente que se creó con una contraseña diferente",
@@ -116,13 +137,24 @@
     "MSG_REPEAT_PASSWORD": "Por favor, repite tu contraseña",
     "MSG_SAVE_BACKUP": "Por favor, guarda una copia de seguridad para continuar",
     "MSG_BACKUP_EMAIL_SUBJECT_1": "Copia de seguridad de la cartera BTC.com",
+    "MSG_BAD_LEGAL": "Usted debe aceptar los términos del servicio",
     "MSG_BACKUP_EMAIL_BODY_1": "Se adjunta el documento de copia de seguridad de la cartera móvil. Almacénalo en un lugar seguro. Lo necesitarás, junto con tu contraseña actual, para recuperar tu cartera en caso de emergencia.",
+
+    // password checker
+    "PASSWORD_SUPER_WEAK": "Demasiado débil, ",
+    "PASSWORD_WEAK": "Débil, ",
+    "PASSWORD_MEDIOCRE": "No muy fuerte, ",
+    "PASSWORD_STRONG": "Fuerte, ",
+    "PASSWORD_SUPER_STRONG": "Bien fuerte, ",
+    "PASSWORD_TIME_TO_CRACK": "estimado para tomar <b> {{duration}} </ b> para crackear.",
 
     // side menu
     "MY_WALLET": "Mi cartera",
     "SEND_FEEDBACK": "Enviar comentarios",
     // My Wallet screen
     "INTERNAL_TRANSACTION_TITLE": "Enviado a uno mismo",
+    "SENT_TO_MANY_TITLE": "Enviado a muchos",
+    "RECEIVED_FROM_MANY_TITLE": "Recibido de muchos",
     "WALLET_NO_TXS": "No hay transacciones aún",
     "WALLET_ACTION_PRE": "Empezar por",
     "WALLET_ACTION_LINK": "La financiación de tu cartera",
@@ -159,6 +191,7 @@
     "SENDING_CONFIRM_MSG": "Estás enviando",
     "ESITIMATED_FEE": "Cuota de la red:",
     "SEND_BITCOIN_TITLE": "Enviar bitcoin",
+    "MSG_INVALID_AMOUNT": "Monto invalido",
 
     // messages
     "MSG_GET_CONTACT_ADDR": "Obteniendo la dirección de contacto ...",
@@ -172,6 +205,7 @@
     "MSG_BAD_PWD": "Contraseña incorrecta",
     "MSG_BAD_ADDRESS": "Dirección bitcoin no válida",
     "MSG_BAD_CONTACT": "No se puede obtener una dirección para ese contacto",
+    "MSG_LOW_BALANCE_FOR_FEE": "El saldo de tu Wallet no es suficiente para pagar la tarifa",
     "MSG_BAD_CLIPBOARD": "No se ha encontrado ninguna dirección válida en el portapapeles",
     "MSG_CLIPBOARD_ADDRESS": "Se ha encontrado una dirección en tu portapapeles",
     "MSG_SEND_FAIL_UNKNOWN": "Ha habido un problema al enviar tu transacción",
@@ -299,6 +333,17 @@
     "FRENCH": "Francés",
     "GERMAN": "Alemán",
     "DUTCH": "Holandés",
+    "SPANISH": "Español",
+    "RUSSIAN": "Ruso",
+    "CHINESE": "Chino",
+
+    // regions
+    "NETHERLANDS": "Los Países Bajos",
+    "USA": "Estados Unidos",
+    "FRANCE": "Francia",
+    "GERMANY": "Alemania",
+    "BELGIUM": "Bélgica",
+    "CANADA": "Canadá",
 
     // change password
     "CHANGE_PASSWORD": "Cambiar la contraseña",
@@ -329,6 +374,11 @@
     "MSG_EMAIL_NOT_SETUP": "No tienes una cuenta de correo predeterminada configurada en este teléfono. Por favor, configura tu aplicación de correo electrónico. Si no, puedes omitir este paso y guardar la copia de seguridad más tarde, cuando seamos compatibles con otras aplicaciones alternativas.",
     "TX_INFO_FEE": "Cuota",
     "ESTIMATED_FEE": "Cuota estimada",
+
+    "ADVANCED_SEND_OPTIONS": "Ajustes avanzados",
+    "LOW_PRIORITY_LABEL": "Cuota de bitcoin de baja prioridad",
+    "LOW_PRIORITY_WARNING": "¡Utilizando las tasas de baja prioridad pueden dar como resultado tiempos de confirmación significativamente más lento!",
+    "LOW_PRIORITY_SEND_WARNING": "¡Está utilizando tasas de baja prioridad, esto puede resultar en tiempos de confirmación significativamente más lento!",
 
     "QR_SCAN_OVERLAY": "Escanear código QR",
     "MSG_BAD_ADDRESS_2": "No parece una dirección válida de bitcoin",
@@ -396,5 +446,57 @@
     "ABOUT_LABEL_RATEAPP": "¿Te gusta la aplicación?",
     "ABOUT_RATEAPP": "¡Por favor, califica a Wallet!",
     "PROMO_REDEEM": "Canjear un código promocional",
-    "PROMO_CODE_PLACEHOLDER": "Código promocional"
+    "PROMO_CODE_PLACEHOLDER": "Código promocional",
+    "PSA_REBRAND_BODY": [
+        "Bienvenido a tu nueva BTC.com Wallet de Blocktrail",
+        "",
+        "¡Blocktrail ha sido adquirido por Bitmain, y nuestros servicios ahora se ofrecen en BTC.com!",
+        "",
+        "¡Gracias por ser un usuario leal de Blocktrail! Esperamos seguir ofreciéndole la cartera más potente de Bitcoin"
+    ],
+    "PSA_REBRAND_BLOG_HREF_PRE": "Leer el anuncio",
+    "PSA_REBRAND_BLOG_HREF": "En nuestro blog",
+    "PSA_REBRAND_OK": "Continuar",
+
+    // Footer
+    "FOOTER_PRODUCT": "Productos",
+    "FOOTER_ANTMINER": "Antminer",
+    "FOOTER_ANTPOOL": "Antpool",
+    "FOOTER_HASHNEST": "Hashnest",
+    "FOOTER_MINERLINK": "Minerlink",
+    "FOOTER_COMPANY": "Empresa",
+    "FOOTER_ABOUT": "Sobre nosotros",
+    "FOOTER_JOIN_US": "Únete a nosotros",
+    "FOOTER_CONTACT": "Contáctenos",
+    "FOOTER_MEDIA": "Medios de comunicación",
+    "FOOTER_WEIBO": "Weibo Oficial",
+    "FOOTER_COMMUNITY": "Comunidad",
+    "FOOTER_TWITTER": "Twitter",
+    "FOOTER_FACEBOOK": "Facebook",
+    "FOOTER_DEVELOPERS": "Desarrolladores",
+    "FOOTER_API": "API",
+    "FOOTER_MOBILESITE": "Sitio movil",
+    "FOOTER_DESKTOPSITE": "Sitio de escritorio",
+    "FOOTER_FEEDBACK": "Retroalimentación",
+    "FOOTER_BLOG": "Blog",
+
+    // Navbar
+    "NAVBAR_HOME": "Casa",
+    "NAVBAR_BLOCKS": "Bloques",
+    "NAVBAR_STATS": "Estadísticas",
+    "NAVBAR_TOOLS": "Herramientas",
+    "NAVBAR_APPLICATIONS": "Aplicaciones",
+    "NAVBAR_SEARCH_PLACEHOLDER": "Dirección / Altura / Hash ...",
+    "NAVBAR_SIGNUP": "Crear Cartera",
+    "NAVBAR_LOGIN": "Registrarse",
+
+    // Buy BTC
+    "BUYBTC": "Comprar Bitcoins",
+    "BUYBTC_NAVTITLE": "Comprar Bitcoins",
+
+    "MSG_BETTER_LANGUAGE_TITLE": "Nuevo idioma disponible",
+    "MSG_BETTER_LANGUAGE": [
+        "Acabamos de añadir un nuevo idioma a la aplicación y detectó que podría estar interesado en cambiar a este nuevo idioma!_x000D_",
+        "¿Desea cambiar su idioma de {{antiguo idioma}} a {{nuevo idioma}}? "
+    ]
 }
