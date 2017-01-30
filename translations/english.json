@@ -611,7 +611,7 @@
 
     "MSG_BETTER_LANGUAGE_TITLE": "New language available",
     "MSG_BETTER_LANGUAGE": [
-        "We just addded a new language to the app and detected that you might be interested in switch to this new language!",
+        "We just added a new language to the app and detected that you might be interested in switch to this new language!",
         "Would you like to switch your language from {{ oldLanguage }} to {{ newLanguage }}?"
     ]
 }
