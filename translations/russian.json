@@ -1,6 +1,7 @@
 {
     // general
     "LOGOUT": "Выход",
+    "WARNING": "Внимание",
     "SEND": "Отправить",
     "RECEIVE": "Получить",
     "BACK": "Назад",
@@ -53,6 +54,14 @@
     "APP_DOWNLOAD_ON": "Получить на этот",
     "ANDROID": "Андройд",
     "IOS": "Макинтош",
+    "CHANGE": "изменить",
+    "VIA": "через",
+    "AT": "в",
+
+    // datetime
+    "TODAY": "Сегодня",
+    "TOMORROW": "Завтра",
+    "YESTERDAY": "Вчера",
 
     // launch & setup screens
     "LAUNCH_NEW_ACCOUNT": "Создать новую учетную запись",
@@ -62,6 +71,8 @@
     "'SETUP_FORGOT_PASS_PLACEHOLDER'": "Адрес почты",
     "SETUP_LOGIN": "Новый логин",
     "LOGGING_IN": "Логин",
+    "LOGGED_OUT_CONFIRMATION_TITLE": "Вы вышли из системы",
+    "LOGGED_OUT_CONFIRMATION_TEXT": "Скачайте мобильный кошелек BTC.com, и ваши биткоины будут доступны из любого места мира!",
     "SETUP_LOGIN_PLACEHOLDER": "Логин или email",
     "SETUP_USERNAME_PLACEHOLDER": "Логин",
     "SETUP_EMAIL_PLACEHOLDER": "Email",
@@ -85,17 +96,26 @@
     "SETUP_SYNC_CONTACTS": "Синхронизация контактов",
     "SETUP_PROFILE_PIC": "Установить фото",
     "SETUP_COMPLETE": "Мой кошелек",
+    "SETUP_TERMS_OF_SERVICE_TEXT": "Я принимаю",
+    "SETUP_TERMS_OF_SERVICE_LINK": "условия использования",
+    "SETUP_DOWNLOAD_MOBILE_TITLE": "Кошелек BTC.com для",
+    "SETUP_DOWNLOAD_MOBILE_TEXT": "Скачайте приложение BTC.com на свой мобильный, и ваши биткоины будут доступны из любого места мира!",
     "CREATING_ACCOUNT": "Создание учетной записи",
     "CREATING_WALLET": "Создание кошелька",
+    "CREATING_GENERATE_RECOVERY": "Генерация секретного кода восстановления",
     "CREATING_GENERATE_PRIMARYKEY": "Приватный ключ, генерация",
     "CREATING_GENERATE_BACKUPKEY": "Генерация ключа резервного копирования",
+    "CREATING_INIT_KEYS": "Инициализация закрытых ключей",
     "CREATING_SUBMIT_WALLET": "Синхронизация с серверами",
     "CREATING_INIT_WALLET": "Инициализация Кошелька",
     "CREATING_DONE": "Перенаправление..",
     "SAVING_WALLET": "Сохранить кошель",
+    "UPGRADING_WALLET": "Обновление кошелька",
+    "PREPARING_WALLET": "Подготовка кошелька к использованию",
     "LOADING_WALLET": "Загрузка кошелька",
     "MSG_BAD_NETWORK": "Нет соединений с сетью",
     "MSG_BAD_LOGIN": "Некоректный логин",
+    "MSG_BAD_LOGIN_UNKNOWN": "Вход не удался по неизвестной причине",
     "MSG_INCORRECT_PASSWORD": "Неверный пароль",
     "MSG_INCORRECT_PASSWORD_CAPS_ON": "Внимание; отключить капс-лок на время ввода пароля!",
     "MSG_MISSING_LOGIN": "Введите ваши данные для входа",
@@ -109,6 +129,7 @@
     "MSG_USERNAME_TAKEN": "Это имя пользователя уже занято",
     "MSG_BAD_EMAIL": "Некорректный адрес электронной почты",
     "MSG_EMAIL_TAKEN": "Адрес электронной почты уже занят",
+    "MSG_WEAK_PASSWORD": "У вас слишком слабый пароль",
     "MSG_UPGRADE_REQUIRED": "Войдите на blocktrail.com/dev/login -автоматическое обновление Вашей учетной записи и активировать Мобильный кошелек",
     "MSG_PIN_HELP": "Создать PIN-код, который вы будете использовать, чтобы разблокировать свой кошелек для совершения сделки",
     "MSG_WALLET_PASSWORD_MISMATCH": "У вас есть уже существующий кошелек,которой был создан с другим паролем",
@@ -116,17 +137,28 @@
     "MSG_REPEAT_PASSWORD": "Повторите Ваш пароль",
     "MSG_SAVE_BACKUP": "Сохранить резервную копию, продолжить",
     "MSG_BACKUP_EMAIL_SUBJECT_1": "BTC.com резервного копия бумажника",
+    "MSG_BAD_LEGAL": "Вы должны принять условия использования",
     "MSG_BACKUP_EMAIL_BODY_1": [
         "Мобильное резервное копирование, кошелек прилагается.",
         "Храните его в безопасном месте.",
         "Вам нужно будет хранить его с ваш текущий паролем, чтобы восстановить свой кошелек в чрезвычайной ситуации."
     ],
 
+    // password checker
+    "PASSWORD_SUPER_WEAK": "Очень простой,",
+    "PASSWORD_WEAK": "Слишком простой,",
+    "PASSWORD_MEDIOCRE": "Не очень сложный,",
+    "PASSWORD_STRONG": "Сложный",
+    "PASSWORD_SUPER_STRONG": "Очень сложный,",
+    "PASSWORD_TIME_TO_CRACK": "на его взлом потребуется примерно <b>{{ duration }}</b>.",
+
     // side menu
     "MY_WALLET": "Мой кошелек",
     "SEND_FEEDBACK": "Отправить",
     // My Wallet screen
-    "INTERNAL_TRANSACTION_TITLE": "Отправлено ",
+    "INTERNAL_TRANSACTION_TITLE": "Отправлено",
+    "SENT_TO_MANY_TITLE": "Отправлено многим",
+    "RECEIVED_FROM_MANY_TITLE": "Получено от многих",
     "WALLET_NO_TXS": "Сделок нет",
     "WALLET_ACTION_PRE": "Начните",
     "WALLET_ACTION_LINK": "Пополнение Вашего кошелька",
@@ -147,9 +179,11 @@
     "QR": "QR",
     "CONTACTS": "Контакты",
     "BLUETOOTH": "Блютуз",
+    "BITCOIN_ADDRESS": "Адрес",
     "SENDING": "Отправка",
     "SEARCH_CONTACTS": "Контакты Поиск...",
     "SEND_TO": "Получатель адрес",
+    "SEND_ADDRESS_FOUND": "Адрес скопирован",
     "SEND_MESSAGE_PLACEHOLDER": "Сообщение или реквизиты платежа...",
     "WALLET_PIN": "PIN кошелька",
     "TRANSACTION_SEND_SUCCESS": "Сделка отправлено",
@@ -159,8 +193,9 @@
     "TO": "Для",
     "SENDING_CONFIRM_TITLE": "Подтвердите пароль",
     "SENDING_CONFIRM_MSG": "Отправить на",
-    "ESITIMATED_FEE": "Сеть: ",
+    "ESITIMATED_FEE": "Сеть:",
     "SEND_BITCOIN_TITLE": "Отправить биткоин",
+    "MSG_INVALID_AMOUNT": "Неверное количество",
 
     // messages
     "MSG_GET_CONTACT_ADDR": "Добавить контакт из адрес...",
@@ -172,8 +207,11 @@
     "MSG_INSUFFICIENT_FUNDS": "Недостаточно средств",
     "MSG_BAD_PIN": "Неверный пин-код",
     "MSG_BAD_PWD": "Неверный пароль",
+    "MSG_BAD_ADDRESS": "Неверный биткоин-адрес",
     "MSG_BAD_CONTACT": "Невозможно получить адрес для этого контакта",
+    "MSG_LOW_BALANCE_FOR_FEE": "Остатка на кошельке не хватает на оплату комиссии",
     "MSG_BAD_CLIPBOARD": "Не допустимый адрес в буфере обмена",
+    "MSG_CLIPBOARD_ADDRESS": "В вашем буфере обмена найден адрес",
     "MSG_SEND_FAIL_UNKNOWN": "Произошла ошибка при отправке вашей сделки",
     // contacts list
     "CONTACTS_NONE": "Никаких контактов не найдено",
@@ -190,32 +228,33 @@
         "Скачать здесь: https://btc.com/download"
     ],
     "RECEIVE_BITCOIN_TITLE": "Получайте биткоины",
+    "BITCOIN_ADDRESS_RECEIVE_HELP": "Мы создали для вас новый биткоин-адрес. Используйте этот адрес для получения средств.",
     "WAITING_FOR_PAYMENT": "Жду оплаты",
-    "PAYMENT_RECEIVED": "Полученние ",
+    "PAYMENT_RECEIVED": "Полученние",
     // Receiving Screens
     "REQUEST_SEND": "Отправить запрос",
     "MSG_REQUEST_EMAIL_SUBJECT_1": "Пожалуйста, пришлите мне биткоины",
     "MSG_REQUEST_EMAIL_BODY_1": [
         "Привет,<br><br>Пожалуйста, присылайте средства на мой кошелек bitcoin (QR код прилагается).",
-        "<p>адрес: <a href='{{адресURI}}'>{{адрес}}</a> </p>",
+        "<p>адрес: <a href='{{addressURI}}'>{{address}}</a> </p>",
         "<p><br>Отправить <a href=\"https://btc.com\">BTC Кошелёк</a></p>"
     ],
     "MSG_REQUEST_EMAIL_SUBJECT_2": "Пожалуйста, пришлите мне {{btcValue}} bitcoins (approx {{fiatValue}} {{localCurrency}})",
     "MSG_REQUEST_EMAIL_BODY_2": [
         "Hi,<br><br>Пожалуйста, присылайте средства на мой кошелек bitcoin (QR код прилагается).",
-        "<p>адрес: <a href='{{адресURI}}'>{{адрес}}</a> </p>",
+        "<p>адрес: <a href='{{addressURI}}'>{{address}}</a> </p>",
         "<br>Amount: {{btcValue}} BTC (approx {{fiatValue}} {{localCurrency}})</p>",
         "<p><br>Отправить <a href='https://btc.com'>BTC кошель</a></p>"
     ],
     "MSG_REQUEST_SMS_1": [
         "Хай,",
         "Пожалуйста, отправьте мне деньги на Биткоин кошелек.",
-        "Адрес: {{адрес}}"
+        "Адрес: {{address}}"
     ],
     "MSG_REQUEST_SMS_2": [
         "Хай,",
         "Пожалуйста, пришлите {{btcValue}} BTC (approx {{fiatValue}} {{localCurrency}}) на мой биткоин кошель.",
-        "Адрес: {{адрес}}"
+        "Адрес: {{address}}"
     ],
     // Settings page
     "SETTINGS": "Настройка",
@@ -317,6 +356,17 @@
     "FRENCH": "French",
     "GERMAN": "German",
     "DUTCH": "Dutch",
+    "SPANISH": "Испанский",
+    "RUSSIAN": "Русский",
+    "CHINESE": "Китайский",
+
+    // regions
+    "NETHERLANDS": "Голландия",
+    "USA": "США",
+    "FRANCE": "Франция",
+    "GERMANY": "Германия",
+    "BELGIUM": "Бельгия",
+    "CANADA": "Канада",
 
     // change password
     "CHANGE_PASSWORD": "Смена пароля",
@@ -359,8 +409,15 @@
     "TX_INFO_FEE": "Плата",
     "ESTIMATED_FEE": "Предполагаемая плата",
 
+    "ADVANCED_SEND_OPTIONS": "Дополнительные настройки",
+    "LOW_PRIORITY_LABEL": "Низкий приоритет из-за комиссии",
+    "LOW_PRIORITY_WARNING": "Использование низкой комиссии может существенно ЗАМЕДЛИТЬ подтверждение транзакций!",
+    "LOW_PRIORITY_SEND_WARNING": "Вы используете низкую комиссию – это может существенно ЗАМЕДЛИТЬ подтверждение транзакций!",
+
     "QR_SCAN_OVERLAY": "Сканирование QR-код",
+    "MSG_BAD_ADDRESS_2": "Это некорректный биткоин-адрес",
     "MSG_NEW_TX": "Новая транзакция получено!",
+    "MSG_ADDRESS_COPIED": "Адрес скопирован в буфер обмена",
     // Promo code page
     "PROMO_CODES": "Промо-Коды",
     "REDEEM": "Выкупить",
@@ -380,6 +437,7 @@
     "DISABLE": "Отключить",
     "ENABLED": "Включено",
     "DISABLED": "Отключен",
+    "ADDRESS": "Адрес",
     "MSG_CORRUPT_DATA": "К сожалению ваших данные повреждены. Войдите снова, чтобы перезагрузить Ваш кошелек.",
     "MSG_ORPHAN_BLOCK": "Предупреждение:обнаружен сиротский блок. Ваш кошелек будет синхронизирована .....",
     "SETUP_SIGNUP_METHOD": "Подписаться",
@@ -403,8 +461,9 @@
     "AVAILABLE_BALANCE": "Доступный Остаток",
     "AMOUNT_PLACEHOLDER": "Сумма",
     "RECIPIENT_PLACEHOLDER": "Отправить",
+    "ENTER_ADDRESS_TITLE": "Введите биткоин-адрес",
     "CONTACTS_DISABLED": "Контакты отключены",
-    "MSG_REQUIRE_CONTACTS_ACCESS": " включите контакты в меню настройки, чтобы использовать эту функцию",
+    "MSG_REQUIRE_CONTACTS_ACCESS": "включите контакты в меню настройки, чтобы использовать эту функцию",
     "SETTINGS_UPDATE_PHOTO": "Обновление фото",
     "SETTINGS_PROFILE_DESCRIPTION": "Установить фотографию профиля, чтобы Ваши контакты видели вас, когда вы посылаете им.",
     "SETTINGS_BTC_DECIMALS": "Десятичный дисплей BTC",
@@ -432,6 +491,126 @@
     "ABOUT_RATEAPP": "Оцените Кошелек!",
     "PROMO_REDEEM": "Активировать промо-код",
     "PROMO_CODE_PLACEHOLDER": "Промо-Код",
+
+    // PSA: rebrand
+    "PSA_REBRAND_TITLE": "Сообщение от сервиса",
+    "PSA_REBRAND_BODY": [
+        "Представляем новый кошелек BTC.com от Blocktrail",
+        "",
+        "Компания Blocktrail была куплена Bitmain, и теперь мы предлагаем свои услуги на BTC.com!",
+        "",
+        "Спасибо за то, что пользуетесь Blocktrail! Мы продолжим предоставлять вам функциональный биткоин-кошелек, но уже под брендом BTC.com"
+    ],
+    "PSA_REBRAND_BLOG_HREF_PRE": "Прочитать объявление",
+    "PSA_REBRAND_BLOG_HREF": "На нашем блоге",
+    "PSA_REBRAND_OK": "Продолжить",
+
+    // Footer
+    "FOOTER_PRODUCT": "Продукты",
+    "FOOTER_ANTMINER": "Antminer",
+    "FOOTER_ANTPOOL": "Antpool",
+    "FOOTER_HASHNEST": "Hashnest",
+    "FOOTER_MINERLINK": "Minerlink",
+    "FOOTER_COMPANY": "Компания",
+    "FOOTER_ABOUT": "О нас",
+    "FOOTER_JOIN_US": "Вакансии",
+    "FOOTER_CONTACT": "Контакты",
+    "FOOTER_MEDIA": "Пресса",
+    "FOOTER_WEIBO": "Официальный Weibo",
+    "FOOTER_COMMUNITY": "Сообщество",
+    "FOOTER_TWITTER": "Twitter",
+    "FOOTER_FACEBOOK": "Facebook",
+    "FOOTER_DEVELOPERS": "Разработчики",
+    "FOOTER_API": "API",
+    "FOOTER_MOBILESITE": "Мобильный сайт",
+    "FOOTER_DESKTOPSITE": "Полный сайт",
+    "FOOTER_FEEDBACK": "Отзывы",
+    "FOOTER_BLOG": "Блог",
+
+    // Navbar
+    "NAVBAR_HOME": "Главная",
+    "NAVBAR_BLOCKS": "Блоки",
+    "NAVBAR_STATS": "Статистика",
+    "NAVBAR_TOOLS": "Инструменты",
+    "NAVBAR_APPLICATIONS": "Приложения",
+    "NAVBAR_SEARCH_PLACEHOLDER": "Адрес/высота блока/хэш...",
     "NAVBAR_SIGNUP": "Разработчик",
-    "NAVBAR_LOGIN": "Разработчик"
+    "NAVBAR_LOGIN": "Разработчик",
+
+    // Buy BTC
+    "BUYBTC": "Купить биткоины",
+    "BUYBTC_NAVTITLE": "Купить биткоины",
+    "BUYBTC_GETSTARTED_HEAD": "Начальная настройка",
+    "BUYBTC_GETSTARTED_BODY": "Перед покупкой биткоинов необходимо настроить аккаунт",
+    "BUYBTC_GETSTARTED_BUTTON": "Продолжить",
+    "TX_INFO_BUYBTC_FROM": "Биткоины, купленные в",
+    "TX_INFO_BUYBTC": "Купленные биткоины",
+    "TX_INFO_BUYBTC_DETAILS": "{{ qty }} BTC куплено по {{ price }} {{ currency }} за BTC.",
+
+    "BUYBTC_BUYING": "Покупка биткоинов...",
+
+    "BUYBTC_CHOOSE_REGION_TITLE": "Выберите регион",
+    "BUYBTC_CHOOSE_REGION_BODY": "Выберите регион, чтобы посмотреть доступные способы покупки",
+    "BUYBTC_SELECTED_REGION": "В",
+    "BUYBTC_FUNDING_METHOD": "Способ оплаты",
+    "BUYBTC_REGIONS": "Регионы",
+    "OTHER_REGIONS": "Другое",
+
+    "BUYBTC_REGION_NOTOK_TITLE": "Выбранный регион",
+    "BUYBTC_REGION_NOTOK_BODY": "К сожалению, у нас пока нет партнеров в этом регионе. Но мы работаем над этим, так что посматривайте на эту страницу.",
+    "BUYBTC_CHANGE_REGION": "Сменить регион",
+
+    "BUYBTC_CHOOSE_TITLE": "Выберите способ покупки",
+    "BUYBTC_CHOOSE_SUBTITLE": "Доступны следующие способы покупки",
+
+    "BUYBTC_PROVIDERS": "Партнеры",
+    "BUYBTC_NOPROVIDERS_REGION": "У нас нет партнеров, обслуживающих этот регион",
+
+    "CURRENT_PRICE": "Текущая цена",
+    "BUYBTC_INCL_FEE": "Включая комиссию",
+    "BUYBTC_BUY": "Продолжить",
+    "BUYBTC_VIA": "Вы совершите покупку при помощи",
+
+    "MSG_BUYBTC_PIN_TO_ENCRYPT": "Пожалуйста, введите пин-код от своего кошелька.",
+    "MSG_BUYBTC_PIN_TO_DECRYPT_TITLE": "Введите пин-код",
+    "MSG_BUYBTC_PIN_TO_DECRYPT": "Пожалуйста, введите пин-код от своего кошелька.",
+    "MSG_BUYBTC_PIN_INCORRECT": "Неверный пин-код.",
+
+    "MSG_BUYBTC_PASSWORD_TO_ENCRYPT": "Пожалуйста, введите пароль, чтобы зашифровать токен доступа для безопасного хранения.",
+    "MSG_BUYBTC_PASSWORD_TO_DECRYPT": "Пожалуйста, введите пароль, чтобы дешифровать токен доступа для использования.",
+    "MSG_BUYBTC_PASSWORD_INCORRECT": "Неверный пароль.",
+
+    "MSG_BUYBTC_SETUP_GLIDERA_TITLE": "Glidera",
+    "MSG_BUYBTC_SETUP_GLIDERA_BODY": [
+        "Чтобы использовать Glidera для покупки биткоинов из приложения, вам нужно создать аккаунт в Glidera!",
+        "Для этого мы перенаправим вас на их платформу, а после создания аккаунта вы автоматически вернетесь сюда."
+    ],
+
+    "MSG_BUYBTC_GLIDERA_COMPLETE": "Транзакция Glidera завершена",
+    "MSG_BUYBTC_GLIDERA_COMPLETE_BODY": "Транзакция размером {{ qty }} BTC через Glidera завершена!",
+
+    "MSG_BUYBTC_SETUP_MORE_GLIDERA_TITLE": "Glidera",
+    "MSG_BUYBTC_SETUP_MORE_GLIDERA_BODY": [
+        "Чтобы использовать Glidera для покупки биткоинов из приложения, вам нужно завершить все шаги по регистрации;",
+        "{{ message }}.",
+        "Для этого мы перенаправим вас на их платформу, а после завершения вы можете нажать «Вернуться к кошельку BTC»."
+    ],
+
+    "MSG_BUYBTC_GLIDERA_2FA_TITLE": "Двухфакторная аутентификации",
+    "MSG_BUYBTC_GLIDERA_2FA_BODY": "Необходим код двухфакторной {{ mode }} аутентификации Glidera!",
+
+    "MSG_BUYBTC_FIAT_USD_ONLY_TITLE": "Осторожно!",
+    "MSG_BUYBTC_FIAT_USD_ONLY": "Ваша валюта по умолчанию – {{ yourCurrency }}, но при покупке биткоинов вы будете платить в {{ currency }}",
+
+    "MSG_BUYBTC_CONFIRM_TITLE": "Купить биткоины",
+    "MSG_BUYBTC_CONFIRM_BODY": "Вы точно хотите купить {{ qty }} BTC за {{ price }} {{ currencySymbol }}?",
+
+    "MSG_BUYBTC_BOUGHT_TITLE": "Биткоины куплены",
+    "MSG_BUYBTC_BOUGHT_BODY": "Вы купили {{ qty }} BTC за {{ price }} {{ currencySymbol }}!",
+
+    "MSG_BETTER_LANGUAGE_TITLE": "Доступен новый язык",
+    "MSG_BETTER_LANGUAGE": [
+        "Мы только что добавили в приложение новый язык, и вам, возможно, будет интересно переключиться на него!",
+        "Вы хотите переключиться с языка {{ oldLanguage }} на язык {{ newLanguage }}?"
+    ]
 }

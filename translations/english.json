@@ -145,11 +145,11 @@
     ],
 
     // password checker
-    "PASSWORD_SUPER_WEAK": "Super weak, ",
-    "PASSWORD_WEAK": "Too weak, ",
-    "PASSWORD_MEDIOCRE": "Not very strong, ",
-    "PASSWORD_STRONG": "Strong, ",
-    "PASSWORD_SUPER_STRONG": "Super strong, ",
+    "PASSWORD_SUPER_WEAK": "Super weak,",
+    "PASSWORD_WEAK": "Too weak,",
+    "PASSWORD_MEDIOCRE": "Not very strong,",
+    "PASSWORD_STRONG": "Strong,",
+    "PASSWORD_SUPER_STRONG": "Super strong,",
     "PASSWORD_TIME_TO_CRACK": "estimated to take <b>{{ duration }}</b> to crack.",
 
     // side menu
@@ -193,7 +193,7 @@
     "TO": "To",
     "SENDING_CONFIRM_TITLE": "Confirm your password",
     "SENDING_CONFIRM_MSG": "You are sending",
-    "ESITIMATED_FEE": "Network fee: ",
+    "ESITIMATED_FEE": "Network fee:",
     "SEND_BITCOIN_TITLE": "Send bitcoin",
     "MSG_INVALID_AMOUNT": "Invalid amount",
 
@@ -611,7 +611,7 @@
 
     "MSG_BETTER_LANGUAGE_TITLE": "New language available",
     "MSG_BETTER_LANGUAGE": [
-        "We just added a new language to the app and detected that you might be interested in switch to this new language!",
+        "We just addded a new language to the app and detected that you might be interested in switch to this new language!",
         "Would you like to switch your language from {{ oldLanguage }} to {{ newLanguage }}?"
     ]
 }

@@ -1,4 +1,7 @@
 {
+    // general
+    "LOGOUT": "Déconnexion",
+    "WARNING": "Attention",
     "SEND": "Envoyer",
     "RECEIVE": "Recevoir",
     "BACK": "Précédent",
@@ -41,6 +44,19 @@
     "BALANCE_AVAILABLE": "Solde disponible",
     "BALANCE_CONFIRMED": "Solde confirmé",
     "BALANCE_UNCONFIRMED": "Solde non confirmé",
+    "TRANSACTIONS": "Transactions",
+    "WELCOME": "Bienvenue",
+    "TWO_FACTOR_TOKEN": "Jeton 2FA",
+    "MENU_TRANSACTIONS": "Transactions",
+    "MENU_SEND": "Envoyer",
+    "MENU_RECEIVE": "Recevoir",
+    "MENU_SETTINGS": "Paramètres",
+    "APP_DOWNLOAD_ON": "Achetez sur",
+    "ANDROID": "Android",
+    "IOS": "IOS",
+    "CHANGE": "changer",
+    "VIA": "via",
+    "AT": "à",
 
     // datetime
     "TODAY": "Aujourd'hui",
@@ -50,8 +66,13 @@
     // launch & setup screens
     "LAUNCH_NEW_ACCOUNT": "Nouveau compte",
     "LAUNCH_EXISTING_ACCOUNT": "Se connecter",
+    "SETUP_FORGOT_PASSWORD": "Réinitialisez votre mot de passe",
+    "SETUP_FORGOT_PASSWORD_Q": "Mot de passe oublié ?",
+    "'SETUP_FORGOT_PASS_PLACEHOLDER'": "Adresse e-mail",
     "SETUP_LOGIN": "Se connecter",
     "LOGGING_IN": "Connexion",
+    "LOGGED_OUT_CONFIRMATION_TITLE": "Vous vous êtes déconnecté",
+    "LOGGED_OUT_CONFIRMATION_TEXT": "Obtenez l'application de portefeuille mobile BTC.com et accédez à vos bitcoins en toute sécurité depuis n'importe où !",
     "SETUP_LOGIN_PLACEHOLDER": "Nom d'utilisateur ou email",
     "SETUP_USERNAME_PLACEHOLDER": "Nom d'utilisateur",
     "SETUP_EMAIL_PLACEHOLDER": "Email",
@@ -64,24 +85,43 @@
     "SETUP_EXISTING_WALLET": "Portefeuille existant trouvé",
     "SETUP_WALLET_PASSWORD": "Mot de passe du portefeuille",
     "SETUP_WALLET_BACKUP": "Sauvegarde du portefeuille",
+    "'SETUP_WALLET_BACKUP_CHECKBOX'": "Veuillez confirmer que vous avez enregistré les phrases de récupération de votre porte-monnaie",
+    "SETUP_WALLET_BACKUP_TEXT": "Avant de commencer à utiliser votre nouveau portefeuille, s’il vous plaît",
+    "SETUP_WALLET_BACKUP_TEXT_BOLD": "Téléchargez le document de sauvegarde ci-dessous",
+    "SETUP_WALLET_BACKUP_TEXT_APPEND": "Il est important de préserver la confidentialité de cette sauvegarde et de la conserver en toute sécurité en mode hors connexion. En cas d’urgence, ce document de sauvegarde vous permet d’accéder aux fonds stockés sur le portefeuille et de les récupérer.",
     "BACKUP_EMAIL_PDF": "Envoyer par email la sauvegarde PDF",
     "BACKUP_CREATE_PDF": "Ouvrir la sauvegarde PDF",
+    "BACKUP_CHECKBOX": "J'ai mis ma sauvegarde en sécurité",
     "SETUP_PHONE": "Configurer le téléphone",
     "SETUP_SYNC_CONTACTS": "Synchroniser les contacts",
     "SETUP_PROFILE_PIC": "Définir une photo de profil",
     "SETUP_COMPLETE": "Aller dans mon portefeuille",
+    "SETUP_TERMS_OF_SERVICE_TEXT": "Je suis d'accord avec",
+    "SETUP_TERMS_OF_SERVICE_LINK": "les conditions d'utilisation",
+    "SETUP_DOWNLOAD_MOBILE_TITLE": "Portefeuille BTC.com pour",
+    "SETUP_DOWNLOAD_MOBILE_TEXT": "Installez l'application de portefeuille BTC.com sur votre mobile et accédez à vos bitcoins en toute sécurité depuis n'importe où !",
     "CREATING_ACCOUNT": "Création du compte",
     "CREATING_WALLET": "Création du portefeuille",
+    "CREATING_GENERATE_RECOVERY": "Génération clé de récupération",
     "CREATING_GENERATE_PRIMARYKEY": "Génération de la clé primaire",
     "CREATING_GENERATE_BACKUPKEY": "Génération de la clé de sauvegarde",
+    "CREATING_INIT_KEYS": "Initialisation des clés privées",
     "CREATING_SUBMIT_WALLET": "Envoi des infos du portefeuille au serveur",
     "CREATING_INIT_WALLET": "Initialisation du portefeuille",
     "CREATING_DONE": "Terminé",
     "SAVING_WALLET": "Enregistrement du portefeuille",
+    "UPGRADING_WALLET": "Mise à niveau du portefeuille en cours",
+    "PREPARING_WALLET": "Préparation du portefeuille pour l'utilisation en cours",
     "LOADING_WALLET": "Chargement du portefeuille",
     "MSG_BAD_NETWORK": "Aucune connexion réseau",
     "MSG_BAD_LOGIN": "Informations de connexion incorrectes",
+    "MSG_BAD_LOGIN_UNKNOWN": "Échec du login pour des raisons inconnues",
+    "MSG_INCORRECT_PASSWORD": "Mot de passe incorrect",
+    "MSG_INCORRECT_PASSWORD_CAPS_ON": "Attention ; vous aviez votre clavier en majuscules pendant que vous tapiez le mot de passe !",
     "MSG_MISSING_LOGIN": "Veuillez entrer vos informations de connexion",
+    "MSG_MISSING_PASSWORD": "Veuillez saisir votre mot de passe",
+    "MSG_MISSING_TWO_FACTOR_TOKEN": "Veuillez saisir votre jeton d'authentification à deux facteurs",
+    "MSG_INCORRECT_TWO_FACTOR_TOKEN": "Jeton d’authentification à deux facteurs incorrect",
     "MSG_INVALID_USERNAME": "Nom d'utilisateur invalide",
     "MSG_BAD_USERNAME": "Veuillez choisir un nom d'utilisateur avec au moins 4 caractères alphanumériques",
     "MSG_BAD_PASSWORD": "Veuillez entrer un mot de passe valide",
@@ -89,6 +129,7 @@
     "MSG_USERNAME_TAKEN": "Ce nom d'utilisateur est déjà pris",
     "MSG_BAD_EMAIL": "Email invalide",
     "MSG_EMAIL_TAKEN": "Cet email est déjà pris",
+    "MSG_WEAK_PASSWORD": "Votre mot de passe est trop faible",
     "MSG_UPGRADE_REQUIRED": "Veuillez d'abord vous connecter sur blocktrail.com/dev/login pour mettre à jour automatiquement votre compte et activer le portefeuille mobile",
     "MSG_PIN_HELP": "Créer un PIN que vous utiliserez pour déverrouiller votre portefeuille pour faire des transactions",
     "MSG_WALLET_PASSWORD_MISMATCH": "Vous avez un portefeuille existant qui a été créé avec un mot de passe différent",
@@ -96,18 +137,31 @@
     "MSG_REPEAT_PASSWORD": "Veuillez répéter votre mot de passe",
     "MSG_SAVE_BACKUP": "Veuillez enregistrer une sauvegarde pour continuer",
     "MSG_BACKUP_EMAIL_SUBJECT_1": "Sauvegarde du portefeuille mobile BTC.com",
+    "MSG_BAD_LEGAL": "Vous devez accepter les conditions d'utilisation",
     "MSG_BACKUP_EMAIL_BODY_1": [
         "Votre document de sauvegarde du portefeuille mobile est attaché.",
         "Conservez-le dans un endroit sûr.",
         "Vous en aurez besoin avec votre mot de passe actuel pour récupérer votre portefeuille en cas d'urgence."
     ],
 
+    // password checker
+    "PASSWORD_SUPER_WEAK": "Super faible,",
+    "PASSWORD_WEAK": "Trop faible,",
+    "PASSWORD_MEDIOCRE": "Pas très fort,",
+    "PASSWORD_STRONG": "Fort,",
+    "PASSWORD_SUPER_STRONG": "Super fort,",
+    "PASSWORD_TIME_TO_CRACK": "estimé prendre <b>{{ duration }}</b> à craquer.",
+
     // side menu
     "MY_WALLET": "Mon portefeuille",
     "SEND_FEEDBACK": "Envoyer feedback",
     // My Wallet screen
     "INTERNAL_TRANSACTION_TITLE": "Envoyé à vous-même",
+    "SENT_TO_MANY_TITLE": "Envoyé à plusieurs",
+    "RECEIVED_FROM_MANY_TITLE": "Reçu de plusieurs",
     "WALLET_NO_TXS": "Pas de transactions",
+    "WALLET_ACTION_PRE": "Commencez par",
+    "WALLET_ACTION_LINK": "Déposer des fonds sur votre portefeuille",
     "WALLET_NO_MORE_TXS": "Pas plus de transactions",
     "TX_INFO_SENT": "Bitcoin envoyé",
     "TX_INFO_RECEIVED": "Bitcoin reçu",
@@ -133,6 +187,15 @@
     "SEND_MESSAGE_PLACEHOLDER": "Message ou référence de paiement...",
     "WALLET_PIN": "PIN du portefeuille",
     "TRANSACTION_SEND_SUCCESS": "Votre transaction a été envoyé",
+    "WALLET_PASSWORD": "Mot de passe du portefeuille",
+    "AMOUNT": "Montant",
+    "TWO_FACTOR_TOKEN_DESC": "Un jeton d'authentification à deux facteurs est requis pour envoyer des transactions.",
+    "TO": "À",
+    "SENDING_CONFIRM_TITLE": "Confirmez votre mot de passe",
+    "SENDING_CONFIRM_MSG": "Vous envoyez",
+    "ESITIMATED_FEE": "Frais de réseau :",
+    "SEND_BITCOIN_TITLE": "Envoyer bitcoin",
+    "MSG_INVALID_AMOUNT": "Montant non valide",
 
     // messages
     "MSG_GET_CONTACT_ADDR": "Obtention de l'adresse du contact...",
@@ -140,11 +203,13 @@
     "MSG_SENDING": "Envoi...",
     "MSG_MISSING_AMOUNT": "Veuillez entrer un montant en bitcoins",
     "MSG_MISSING_RECIPIENT": "Veuillez entrer un bénéficiaire",
+    "MSG_INVALID_RECIPIENT": "Destinataire non valide",
     "MSG_INSUFFICIENT_FUNDS": "Pas assez de fonds pour cette transaction",
     "MSG_BAD_PIN": "Mauvais code PIN",
     "MSG_BAD_PWD": "Mauvais mot de passe",
     "MSG_BAD_ADDRESS": "Adresse Bitcoin invalide",
     "MSG_BAD_CONTACT": "Impossible d'obtenir une adresse pour ce contact",
+    "MSG_LOW_BALANCE_FOR_FEE": "Solde du portefeuille insufisant pour payer les frais",
     "MSG_BAD_CLIPBOARD": "Aucune adresse Bitcoin trouvée dans le presse-papier",
     "MSG_CLIPBOARD_ADDRESS": "Une adresse a été trouvée dans votre presse-papier",
     "MSG_SEND_FAIL_UNKNOWN": "Il y avait un problème d'envoi",
@@ -162,6 +227,10 @@
         "Salut, télécharge l'appli BTC Wallet pour utiliser Bitcoin !",
         "Télécharge-la ici : https://btc.com/download"
     ],
+    "RECEIVE_BITCOIN_TITLE": "Recevez du bitcoin",
+    "BITCOIN_ADDRESS_RECEIVE_HELP": "Une nouvelle adresse bitcoin a été créée pour vous. Utilisez cette adresse pour recevoir des fonds.",
+    "WAITING_FOR_PAYMENT": "En attente de paiement",
+    "PAYMENT_RECEIVED": "Paiement reçu",
     // Receiving Screens
     "REQUEST_SEND": "Envoyer une demande",
     "MSG_REQUEST_EMAIL_SUBJECT_1": "Envoyez-moi des bitcoins",
@@ -201,6 +270,9 @@
     "SETTINGS_WALLET": "Portefeuille",
     "SETTINGS_CURRENT_WALLET": "Portefeuille actuel",
     "SETTINGS_CHANGE_PIN": "Changer le code PIN",
+    "SETTINGS_CHANGE_PASSWORD": "Changer mot de passe",
+    "SETTINGS_RECOMMENDED": "Recommandé",
+    "SETTINGS_NEWSLETTER": "Tenez-moi informé avec des nouvelles de BTC.com",
     "SETTINGS_RESET_ACCOUNT": "Se déconnecter",
     "SETTINGS_WALLET_BACKUP": "Sauvegarde de portefeuille",
     "SETTINGS_INFO": "Infos",
@@ -221,6 +293,28 @@
     "SETTINGS_PHONE_PLACEHOLDER": "Numéro de téléphone",
     "SETTINGS_TOKEN_PLACEHOLDER": "Code de vérification",
     "SETTINGS_PHONE_REQUIRE_VERIFY": "Vérification de téléphone requise",
+    "SETTINGS_PROFILE_PICTURE": "Photo de profil",
+    "SETTINGS_SAVE": "Enregistrer les paramètres",
+    "SETTINGS_CROP_PROFILE_PIC": "Recadrer votre photo de profil",
+    "SETTINGS_CROP_ALLOWED_FILE_TYPES": "Types de fichiers autorisés",
+    "SETTINGS_PROFILE_PIC_SAVED": "Votre photo de profil a été enregistrée",
+    "SETTINGS_2FA": "Authentification à deux facteurs",
+    "SETTINGS_2FA_STEP1": "Étape 1. vérifiez le mot de passe",
+    "SETTINGS_2FA_STEP1_BODY": "Veuillez entrer votre mot de passe pour mettre en place l’authentification à deux facteurs",
+    "SETTINGS_2FA_PASSWORD": "Mot de passe",
+    "SETTINGS_2FA_STEP2": "Étape 2. configuration du compte",
+    "SETTINGS_2FA_STEP2_BODY": [
+        "Téléchargez <a href=\"https://support.google.com/accounts/answer/1066447?hl=en\">google authentication</a>",
+        " ou <a href=\"https://www.authy.com/users\">Authy</a> sur votre smartphone et scannez le QRCode ci-dessous pour ajouter BTC.com à votre application."
+    ],
+    "SETINGS_2FA_STEP2_CODE": "Ou saisissez manuellement ce code : {{ secret }}.",
+    "SETTINGS_2FA_STEP3": "Étape 3. vérification",
+    "SETTINGS_2FA_STEP3_BODY": "Entrez un jeton de l'application de votre smartphone pour vérifier que tout fonctionne.",
+    "SETTINGS_2FA_VERIFY_TOKEN": "Vérifier le jeton",
+    "SETTINGS_2FA_DONE": "Mis en place l'authentification à deux facteurs réussie !",
+    "SETTINGS_2FA_DISABLE_BODY": "Entrez un jeton de l'application de votre smartphone pour désactiver l’authentification à deux facteurs.",
+    "SETTINGS_2FA_DISABLE_2FA": "Désactiver 2FA",
+    "SETTINGS_2FA_HELP": "Sécuriser votre compte à l’aide de plusieurs dispositifs d’authentification",
     "SETTINGS_CURRENT_PIN": "PIN actuel",
     "SETTINGS_NEW_PIN": "Nouveau PIN",
     "SETTINGS_REPEAT_PIN": "Répétez le PIN",
@@ -261,6 +355,30 @@
     "FRENCH": "Français",
     "GERMAN": "Allemand",
     "DUTCH": "Néerlandais",
+    "SPANISH": "Espagnol",
+    "RUSSIAN": "Russe",
+    "CHINESE": "Chinois",
+
+    // regions
+    "NETHERLANDS": "Les Pays-Bas",
+    "USA": "USA",
+    "FRANCE": "France",
+    "GERMANY": "Allemagne",
+    "BELGIUM": "Belgique",
+    "CANADA": "Canada",
+
+    // change password
+    "CHANGE_PASSWORD": "Changer mot de passe",
+    "ENTER_CURRENT_PASSWORD": "Veuillez saisir votre mot de passe actuel",
+    "ENTER_NEW_PASSWORD": "Veuillez saisir votre nouveau mot de passe",
+    "ENTER_REPEAT_PASSWORD": "Veuillez ressaisir votre nouveau mot de passe",
+    "CHANGE_PASSWORD_WALLET_INPROGRESS": "Veuillez patienter pendant que nous encryptons votre portefeuille avec votre nouveau mot de passe",
+    "CHANGE_PASSWORD_ACCOUNT_INPROGRESS": "Veuillez patienter pendant que nous mettons à jour votre mot de passe pour votre compte",
+    "CHANGE_PASSWORD_SUCCESS": "Votre mot de passe a été changé !",
+    "CHANGE_PASSWORD_BACKUP": [
+        "Votre mot de passe a été mis à jour ! <br />",
+        "Parce que votre ancienne sauvegarde ne fonctionnera pas avec le nouveau mot de passe vous devez télécharger 1 page supplémentaire et la rangez avec le document existant !"
+    ],
     // permission popups
     "PERMISSION_REQUIRED": "Permission requise",
     "PERMISSION_REQUIRED_CONTACTS": "Le portefeuille a besoin d'accéder à vos contacts",
@@ -288,6 +406,11 @@
     ],
     "TX_INFO_FEE": "Frais",
     "ESTIMATED_FEE": "Frais estimés",
+
+    "ADVANCED_SEND_OPTIONS": "Paramètres avancés",
+    "LOW_PRIORITY_LABEL": "Frais bitcoin de faible priorité",
+    "LOW_PRIORITY_WARNING": "Utiliser de faibles frais de priorité peut entraîner des temps de confirmation significativement PLUS LENTS !",
+    "LOW_PRIORITY_SEND_WARNING": "Vous utilisez frais de faible priorité, cela peut entraîner des temps de confirmation significativement PLUS LENTS !",
 
     "QR_SCAN_OVERLAY": "Scanner un code QR",
     "MSG_BAD_ADDRESS_2": "Adresse Bitcoin invalide",
@@ -365,5 +488,128 @@
     "ABOUT_LABEL_RATEAPP": "Aimez-vous l'appli ?",
     "ABOUT_RATEAPP": "Notez le portefeuille !",
     "PROMO_REDEEM": "Racheter un code promotionnel",
-    "PROMO_CODE_PLACEHOLDER": "Promo Code"
+    "PROMO_CODE_PLACEHOLDER": "Promo Code",
+
+    // PSA: rebrand
+    "PSA_REBRAND_TITLE": "Annonce de service",
+    "PSA_REBRAND_BODY": [
+        "Bienvenue sur votre nouveau portefeuille BTC.com par Blocktrail",
+        "",
+        "Blocktrail a été acquis par Bitmain, et nos services sont maintenant offerts sur BTC.com !",
+        "",
+        "Merci d'être un fidèle utilisateur de Blocktrail! Nous sommes impatients de continuer à vous offrir le plus puissant portefeuille Bitcoin en tant que BTC.com"
+    ],
+    "PSA_REBRAND_BLOG_HREF_PRE": "Lire l’annonce",
+    "PSA_REBRAND_BLOG_HREF": "Sur notre blog",
+    "PSA_REBRAND_OK": "Continuer",
+
+    // Footer
+    "FOOTER_PRODUCT": "Produits",
+    "FOOTER_ANTMINER": "Antminer",
+    "FOOTER_ANTPOOL": "Antpool",
+    "FOOTER_HASHNEST": "Hashnest",
+    "FOOTER_MINERLINK": "Minerlink",
+    "FOOTER_COMPANY": "Société",
+    "FOOTER_ABOUT": "À propos de nous",
+    "FOOTER_JOIN_US": "Rejoignez-nous",
+    "FOOTER_CONTACT": "Contactez-nous",
+    "FOOTER_MEDIA": "Médias",
+    "FOOTER_WEIBO": "Weibo officiel",
+    "FOOTER_COMMUNITY": "Communauté",
+    "FOOTER_TWITTER": "Twitter",
+    "FOOTER_FACEBOOK": "Facebook",
+    "FOOTER_DEVELOPERS": "Développeurs",
+    "FOOTER_API": "API",
+    "FOOTER_MOBILESITE": "Site mobile",
+    "FOOTER_DESKTOPSITE": "Site internet",
+    "FOOTER_FEEDBACK": "Vos commentaires",
+    "FOOTER_BLOG": "Blog",
+
+    // Navbar
+    "NAVBAR_HOME": "Accueil",
+    "NAVBAR_BLOCKS": "Blocks",
+    "NAVBAR_STATS": "Statistiques",
+    "NAVBAR_TOOLS": "Outils",
+    "NAVBAR_APPLICATIONS": "Applications",
+    "NAVBAR_SEARCH_PLACEHOLDER": "Adresse / Hauteur / Hash ...",
+    "NAVBAR_SIGNUP": "Créer un portefeuille",
+    "NAVBAR_LOGIN": "S'inscrire",
+
+    // Buy BTC
+    "BUYBTC": "Acheter des Bitcoins",
+    "BUYBTC_NAVTITLE": "Acheter des Bitcoins",
+    "BUYBTC_GETSTARTED_HEAD": "Configuration initiale",
+    "BUYBTC_GETSTARTED_BODY": "Avant que vous puissiez acheter du Bitcoin, nous allons configurer votre compte d'échange",
+    "BUYBTC_GETSTARTED_BUTTON": "Continuer",
+    "TX_INFO_BUYBTC_FROM": "Bitcoins achetés à",
+    "TX_INFO_BUYBTC": "Bitcoins achetés",
+    "TX_INFO_BUYBTC_DETAILS": "{{ qty }} BTC acheté(s) à {{ price }} {{ currency }} par BTC.",
+
+    "BUYBTC_BUYING": "Achat de Bitcoins en cours...",
+
+    "BUYBTC_CHOOSE_REGION_TITLE": "Sélectionnez votre région",
+    "BUYBTC_CHOOSE_REGION_BODY": "Sélectionnez votre région pour connaître les méthodes d'achat disponibles",
+    "BUYBTC_SELECTED_REGION": "Dans",
+    "BUYBTC_FUNDING_METHOD": "Méthode d'alimentation",
+    "BUYBTC_REGIONS": "Régions",
+    "OTHER_REGIONS": "Autre",
+
+    "BUYBTC_REGION_NOTOK_TITLE": "Votre région sélectionnée",
+    "BUYBTC_REGION_NOTOK_BODY": "Malheureusement nous n’avons actuellement pas de partenaire dans votre région offrant ce service. Nous y travaillons dessus, vérifiez prochainement !",
+    "BUYBTC_CHANGE_REGION": "Changer de région",
+
+    "BUYBTC_CHOOSE_TITLE": "Sélectionnez une méthode d'achat",
+    "BUYBTC_CHOOSE_SUBTITLE": "Les méthodes d'achat suivantes sont disponibles",
+
+    "BUYBTC_PROVIDERS": "Partenaires",
+    "BUYBTC_NOPROVIDERS_REGION": "Il n’y a aucun partenaire qui serve votre région",
+
+    "CURRENT_PRICE": "Prix actuel",
+    "BUYBTC_INCL_FEE": "Dont frais",
+    "BUYBTC_BUY": "Continuer",
+    "BUYBTC_VIA": "Votre achat s'effectuera en utilisant",
+
+    "MSG_BUYBTC_PIN_TO_ENCRYPT": "Veuillez saisir le code PIN de votre portefeuille.",
+    "MSG_BUYBTC_PIN_TO_DECRYPT_TITLE": "Saisissez le code PIN",
+    "MSG_BUYBTC_PIN_TO_DECRYPT": "Veuillez saisir le code PIN de votre portefeuille.",
+    "MSG_BUYBTC_PIN_INCORRECT": "Code PIN incorrect.",
+
+    "MSG_BUYBTC_PASSWORD_TO_ENCRYPT": "Veuillez entrer votre mot de passe actuel afin que nous puissions crypter votre jeton d'accès pour un stockage sécurisé.",
+    "MSG_BUYBTC_PASSWORD_TO_DECRYPT": "Veuillez entrer votre mot de passe actuel afin que nous puissions déchiffrer votre jeton d’accès pour l’utilisation.",
+    "MSG_BUYBTC_PASSWORD_INCORRECT": "Mot de passe incorrect",
+
+    "MSG_BUYBTC_SETUP_GLIDERA_TITLE": "Glidera",
+    "MSG_BUYBTC_SETUP_GLIDERA_BODY": [
+        "Pour pouvoir utiliser Glidera pour acheter des bitcoins à partir de l'application, vous devez configurer un compte Glidera !",
+        "Nous allons maintenant vous rediriger vers leur plate-forme pour ce faire, une fois que vous avez fini vous serez automatiquement renvoyé ici."
+    ],
+
+    "MSG_BUYBTC_GLIDERA_COMPLETE": "Transaction Glidera terminée",
+    "MSG_BUYBTC_GLIDERA_COMPLETE_BODY": "Votre transaction de {{ qty }} BTC avec Glidera est terminée !",
+
+    "MSG_BUYBTC_SETUP_MORE_GLIDERA_TITLE": "Glidera",
+    "MSG_BUYBTC_SETUP_MORE_GLIDERA_BODY": [
+        "Pour pouvoir utiliser Glidera pour acheter des bitcoins à partir de l'application vous devez terminer toutes les étapes de configuration du compte;",
+        "{{ message }}.",
+        "",
+        "Nous allons maintenant vous rediriger vers leur plate-forme pour ce faire, une fois que vous avez terminé cliquez sur le bouton « Return to BTC Wallet » pour revenir."
+    ],
+
+    "MSG_BUYBTC_GLIDERA_2FA_TITLE": "Authentification à deux facteurs",
+    "MSG_BUYBTC_GLIDERA_2FA_BODY": "Un code d’authentification deux facteurs {{ mode }} de Glidera est requis !",
+
+    "MSG_BUYBTC_FIAT_USD_ONLY_TITLE": "Attention !",
+    "MSG_BUYBTC_FIAT_USD_ONLY": "Votre devise par défaut est défini à {{ yourCurrency }}, mais quand vous achetez du bitcoin les valeurs sont libellés en {{ currency }}",
+
+    "MSG_BUYBTC_CONFIRM_TITLE": "Acheter des Bitcoins",
+    "MSG_BUYBTC_CONFIRM_BODY": "Voulez-vous vraiment acheter {{ qty }} BTC pour {{ price }}{{ currencySymbol }} ?",
+
+    "MSG_BUYBTC_BOUGHT_TITLE": "Bitcoins achetés",
+    "MSG_BUYBTC_BOUGHT_BODY": "Vous venez juste d'acheter {{ qty }} BTC pour {{ price }}{{ currencySymbol }} !",
+
+    "MSG_BETTER_LANGUAGE_TITLE": "Nouvelle langue disponible",
+    "MSG_BETTER_LANGUAGE": [
+        "Nous venons d'ajouter une nouvelle langue à l'application et avons détecté que vous pourriez être intéressé à changer pour cette nouvelle langue !",
+        "Voulez-vous changer votre langue de {{ oldLanguage }} à {{ newLanguage }} ?"
+    ]
 }

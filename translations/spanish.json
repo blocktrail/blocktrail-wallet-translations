@@ -29,7 +29,7 @@
     "SKIP_STEP": "Omitir este paso",
     "PLEASE_WAIT": "Por favor espera",
     "PLEASE_WAIT_2": "Un segundo por favor",
-    "NONE": "Ninguno  ",
+    "NONE": "Ninguno",
     "TAKEN": "Tomado",
     "SEARCH": "Buscar",
     "STATUS": "Estado",
@@ -40,7 +40,7 @@
     "ERROR_TITLE_2": "Uy",
     "ERROR_TITLE_3": "Error",
     "ION_REFRESHER": "Tira para refrescar...",
-    "BALANCE": "Saldo  ",
+    "BALANCE": "Saldo",
     "BALANCE_AVAILABLE": "Saldo disponible",
     "BALANCE_CONFIRMED": "Saldo confirmado",
     "BALANCE_UNCONFIRMED": "Saldo sin confirmar",
@@ -54,13 +54,13 @@
     "APP_DOWNLOAD_ON": "Conseguirlo en",
     "ANDROID": "Android",
     "IOS": "IOS",
-    "CHANGE": "Cambio",
-    "VIA": "Via",
-    "AT": "A",
+    "CHANGE": "cambio",
+    "VIA": "mediante",
+    "AT": "a",
 
     // datetime
     "TODAY": "Hoy",
-    "TOMORROW": "Mañana",
+    "TOMORROW": "mañana",
     "YESTERDAY": "Ayer",
 
     // launch & setup screens
@@ -71,8 +71,8 @@
     "'SETUP_FORGOT_PASS_PLACEHOLDER'": "Dirección de correo electrónico",
     "SETUP_LOGIN": "Registrarse",
     "LOGGING_IN": "Iniciando sesión",
-    "LOGGED_OUT_CONFIRMATION_TITLE": "Desconectado",
-    "LOGGED_OUT_CONFIRMATION_TEXT": "¡Descargue la cartera móvil de BTC.com para acceder a su bitcoin desde cualquier lugar!",
+    "LOGGED_OUT_CONFIRMATION_TITLE": "Has cerrado la sesión",
+    "LOGGED_OUT_CONFIRMATION_TEXT": "¡Consigue la aplicación BTC.com Wallet para móviles y accede a tus bitcoin de forma segura desde cualquier lugar!",
     "SETUP_LOGIN_PLACEHOLDER": "Nombre de usuario o correo electrónico",
     "SETUP_USERNAME_PLACEHOLDER": "Nombre de usuario",
     "SETUP_EMAIL_PLACEHOLDER": "Correo electrónico",
@@ -82,12 +82,12 @@
     "SETUP_PIN_REPEAT_PLACEHOLDER": "Repite el PIN",
     "SETUP_LOGIN_FAILED": "Error de inicio de sesion",
     "SETUP_REGISTER": "Crear una nueva cartera",
-    "SETUP_EXISTING_WALLET": "Se ha encontrado una cartera existente ",
+    "SETUP_EXISTING_WALLET": "Se ha encontrado una cartera existente",
     "SETUP_WALLET_PASSWORD": "Contraseña de la cartera",
     "SETUP_WALLET_BACKUP": "Descargar copia de seguridad de tu cartera",
     "'SETUP_WALLET_BACKUP_CHECKBOX'": "Por favor, confirma que has guardado las frases de recuperación de tu cartera",
     "SETUP_WALLET_BACKUP_TEXT": "Antes de empezar a usar tu nueva cartera, por favor",
-    "SETUP_WALLET_BACKUP_TEXT_BOLD": "Descarga el siguiente documento de copia de seguridad ",
+    "SETUP_WALLET_BACKUP_TEXT_BOLD": "Descarga el siguiente documento de copia de seguridad",
     "SETUP_WALLET_BACKUP_TEXT_APPEND": "Es importante guardar esta copia de seguridad de forma confidencial y almacenarla de forma segura fuera de línea. En caso de emergencia, este documento de copia de seguridad te permitirá acceder y recuperar los fondos que tengas almacenados en la cartera.",
     "BACKUP_EMAIL_PDF": "PDF de copia de seguridad del correo electrónico",
     "BACKUP_CREATE_PDF": "Descargar copia de seguridad de la cartera",
@@ -98,14 +98,14 @@
     "SETUP_COMPLETE": "Ir a mi cartera",
     "SETUP_TERMS_OF_SERVICE_TEXT": "Estoy de acuerdo con los",
     "SETUP_TERMS_OF_SERVICE_LINK": "términos de servicio",
-    "SETUP_DOWNLOAD_MOBILE_TITLE": "BTC.com cartera para",
-    "SETUP_DOWNLOAD_MOBILE_TEXT": "¡Descargue la cartera móvil de BTC.com para acceder a su bitcoin desde cualquier lugar!",
+    "SETUP_DOWNLOAD_MOBILE_TITLE": "BTC.com Wallet para",
+    "SETUP_DOWNLOAD_MOBILE_TEXT": "¡Consigue la aplicación BTC.com wallet en tu móvil y accede a tus bitcoin de forma segura desde cualquier lugar!",
     "CREATING_ACCOUNT": "Creando cuenta",
     "CREATING_WALLET": "Creando cartera",
-    "CREATING_GENERATE_RECOVERY": "Generando la hoja de recuperación",
+    "CREATING_GENERATE_RECOVERY": "Generando secretos de recuperación",
     "CREATING_GENERATE_PRIMARYKEY": "Generando clave primaria",
     "CREATING_GENERATE_BACKUPKEY": "Generando copia de seguridad de la clave",
-    "CREATING_INIT_KEYS": "Inicializando claves privadas",
+    "CREATING_INIT_KEYS": "Iniciando claves privadas",
     "CREATING_SUBMIT_WALLET": "Sincronizando con los servidores",
     "CREATING_INIT_WALLET": "Inicializando cartera",
     "CREATING_DONE": "Hecho. Redirigiendo ...",
@@ -137,16 +137,16 @@
     "MSG_REPEAT_PASSWORD": "Por favor, repite tu contraseña",
     "MSG_SAVE_BACKUP": "Por favor, guarda una copia de seguridad para continuar",
     "MSG_BACKUP_EMAIL_SUBJECT_1": "Copia de seguridad de la cartera BTC.com",
-    "MSG_BAD_LEGAL": "Usted debe aceptar los términos del servicio",
+    "MSG_BAD_LEGAL": "Debes aceptar los términos de servicio",
     "MSG_BACKUP_EMAIL_BODY_1": "Se adjunta el documento de copia de seguridad de la cartera móvil. Almacénalo en un lugar seguro. Lo necesitarás, junto con tu contraseña actual, para recuperar tu cartera en caso de emergencia.",
 
     // password checker
-    "PASSWORD_SUPER_WEAK": "Demasiado débil, ",
-    "PASSWORD_WEAK": "Débil, ",
-    "PASSWORD_MEDIOCRE": "No muy fuerte, ",
-    "PASSWORD_STRONG": "Fuerte, ",
-    "PASSWORD_SUPER_STRONG": "Bien fuerte, ",
-    "PASSWORD_TIME_TO_CRACK": "estimado para tomar <b> {{duration}} </ b> para crackear.",
+    "PASSWORD_SUPER_WEAK": "Extremadamente débil,",
+    "PASSWORD_WEAK": "Muy debil,",
+    "PASSWORD_MEDIOCRE": "No muy fuerte,",
+    "PASSWORD_STRONG": "Fuerte,",
+    "PASSWORD_SUPER_STRONG": "Extremadamente fuerte,",
+    "PASSWORD_TIME_TO_CRACK": "se estima que tarda <b> {{ duration }} </b> en ser craqueada.",
 
     // side menu
     "MY_WALLET": "Mi cartera",
@@ -191,7 +191,7 @@
     "SENDING_CONFIRM_MSG": "Estás enviando",
     "ESITIMATED_FEE": "Cuota de la red:",
     "SEND_BITCOIN_TITLE": "Enviar bitcoin",
-    "MSG_INVALID_AMOUNT": "Monto invalido",
+    "MSG_INVALID_AMOUNT": "Cantidad no válida",
 
     // messages
     "MSG_GET_CONTACT_ADDR": "Obteniendo la dirección de contacto ...",
@@ -205,7 +205,7 @@
     "MSG_BAD_PWD": "Contraseña incorrecta",
     "MSG_BAD_ADDRESS": "Dirección bitcoin no válida",
     "MSG_BAD_CONTACT": "No se puede obtener una dirección para ese contacto",
-    "MSG_LOW_BALANCE_FOR_FEE": "El saldo de tu Wallet no es suficiente para pagar la tarifa",
+    "MSG_LOW_BALANCE_FOR_FEE": "Saldo de la cartera demasiado bajo para pagar la cuota",
     "MSG_BAD_CLIPBOARD": "No se ha encontrado ninguna dirección válida en el portapapeles",
     "MSG_CLIPBOARD_ADDRESS": "Se ha encontrado una dirección en tu portapapeles",
     "MSG_SEND_FAIL_UNKNOWN": "Ha habido un problema al enviar tu transacción",
@@ -214,7 +214,7 @@
     "CONTACTS_NO_WALLETS": "Ninguno de tus contactos tiene una cartera BTC.com",
     "CONTACTS_INVITE": "Invitar a Wallet",
     "CONTACTS_MORE_NUMBERS": "Más",
-    "CONTACTS_FILTER_TITLE": "Filtrar contactos ",
+    "CONTACTS_FILTER_TITLE": "Filtrar contactos",
     "CONTACTS_SHOW_ALL": "Todos los contactos",
     "CONTACTS_WALLETS_ONLY": "Con carteras",
     "CONTACTS_REFRESH": "Actualizar contactos",
@@ -251,14 +251,14 @@
     "SETTINGS_REMOVE_PHOTO": "Eliminar la foto",
     "SETTINGS_CURRENCY": "Moneda",
     "SETTINGS_LANGUAGE": "Idioma",
-    "SETTINGS_WALLET": "Cartera ",
+    "SETTINGS_WALLET": "Cartera",
     "SETTINGS_CURRENT_WALLET": "Cartera actual",
     "SETTINGS_CHANGE_PIN": "Cambiar PIN",
     "SETTINGS_CHANGE_PASSWORD": "Cambia la contraseña",
     "SETTINGS_RECOMMENDED": "Recomendado",
     "SETTINGS_NEWSLETTER": "Quiero estar al día de las noticias de BTC.com",
     "SETTINGS_RESET_ACCOUNT": "Reiniciar cartera",
-    "SETTINGS_WALLET_BACKUP": "Copia de seguridad de la cartera  ",
+    "SETTINGS_WALLET_BACKUP": "Copia de seguridad de la cartera",
     "SETTINGS_INFO": "Información",
     "SETTINGS_ABOUT": "Acerca de",
     "SETTINGS_VERSION": "Versión",
@@ -281,7 +281,7 @@
     "SETTINGS_SAVE": "Guardar ajustes",
     "SETTINGS_CROP_PROFILE_PIC": "Recortar tu imagen de perfil",
     "SETTINGS_CROP_ALLOWED_FILE_TYPES": "Tipos de archivo permitidos",
-    "SETTINGS_PROFILE_PIC_SAVED": "Se ha guardado tu imagen de perfil ",
+    "SETTINGS_PROFILE_PIC_SAVED": "Se ha guardado tu imagen de perfil",
     "SETTINGS_2FA": "Autenticación de dos factores",
     "SETTINGS_2FA_STEP1": "Paso 1. verificar contraseña",
     "SETTINGS_2FA_STEP1_BODY": "Por favor, introduce tu contraseña para configurar la autenticación de dos factores",
@@ -318,7 +318,7 @@
     "SETTINGS_PHONE_UNVERIFIED": "No verificado",
     "MSG_BAD_TOKEN": "Token no válido o caducado",
     "MSG_PHONE_UPDATED": "Se ha enviado un código a tu teléfono para la verificación",
-    "MSG_PHONE_VERIFIED": "Se ha verificado tu teléfono ",
+    "MSG_PHONE_VERIFIED": "Se ha verificado tu teléfono",
     "MSG_PHONE_REQUIRE_VERIFY": "Por favor verifica tu teléfono para continuar",
 
     // feedback
@@ -355,7 +355,7 @@
     "CHANGE_PASSWORD_SUCCESS": "¡Se ha cambiado tu contraseña!",
     "CHANGE_PASSWORD_BACKUP": "Se ha actualizado tu contraseña <br /> Como tu copia de seguridad anterior no funcionará con la nueva contraseña debes descargar 1 página adicional y almacenarla con el documento existente",
     // permission popups
-    "PERMISSION_REQUIRED": "Es necesario un permiso ",
+    "PERMISSION_REQUIRED": "Es necesario un permiso",
     "PERMISSION_REQUIRED_CONTACTS": "Wallet necesita acceder a tus contactos",
     "PERMISSION_REQUIRED_CAMERA": "Wallet necesita acceder a la cámara",
     "PERMISSION_REQUIRED_PHOTOS": "Wallet necesita acceder a tus fotos",
@@ -367,7 +367,7 @@
     "MSG_COPIED_TO_CLIPBOARD": "Copiado al portapapeles",
     "SETUP_WALLET_BACKUP_CONFIRM": "He guardado mi copia de seguridad",
     "SETUP_SKIP_BACKUP": "Hacerlo más tarde",
-    "TWO_FACTOR_REQUIRED": "Se requieren dos factores ",
+    "TWO_FACTOR_REQUIRED": "Se requieren dos factores",
     "MSG_CANT_OPEN_PDF": "No hay ninguna aplicación instalada para abrir el PDF de copia de seguridad.",
     "MSG_TWO_FACTOR_REQUIRED": "Se requiere un código 2fa",
     "MSG_SKIP_BACKUP": "Podrás guardar la copia de seguridad más adelante, desde Configuración>Copia de seguridad de la cartera. Ten en cuenta que la información de la copia de seguridad permanecerá en este teléfono hasta ese momento, lo cual es un riesgo de seguridad",
@@ -377,8 +377,8 @@
 
     "ADVANCED_SEND_OPTIONS": "Ajustes avanzados",
     "LOW_PRIORITY_LABEL": "Cuota de bitcoin de baja prioridad",
-    "LOW_PRIORITY_WARNING": "¡Utilizando las tasas de baja prioridad pueden dar como resultado tiempos de confirmación significativamente más lento!",
-    "LOW_PRIORITY_SEND_WARNING": "¡Está utilizando tasas de baja prioridad, esto puede resultar en tiempos de confirmación significativamente más lento!",
+    "LOW_PRIORITY_WARNING": "¡El uso de cuotas de baja prioridad puede traducirse en tiempos de confirmación significativamente MENORES!",
+    "LOW_PRIORITY_SEND_WARNING": "¡Estás usando cuotas de baja prioridad, esto puede traducirse en tiempos de confirmación mucho MENORES!",
 
     "QR_SCAN_OVERLAY": "Escanear código QR",
     "MSG_BAD_ADDRESS_2": "No parece una dirección válida de bitcoin",
@@ -386,7 +386,7 @@
     "MSG_ADDRESS_COPIED": "La dirección se ha copiado al portapapeles",
     // Promo code page
     "PROMO_CODES": "Códigos promocionales",
-    "REDEEM": "Canjear  ",
+    "REDEEM": "Canjear",
     "CHECKING": "Comprobando",
     "MSG_MISSING_PROMO_CODE": "Por favor, introduce un código promocional",
     "MSG_BAD_PROMO_CODE": "No parece un código válido",
@@ -439,7 +439,7 @@
     "MSG_ENABLE_CONTACTS": "Esto permitirá la sincronización de contactos para descubrir los contactos de tu dispositivo que tienen una cartera. A partir de ahí podrás enviarles directamente.",
     "MSG_DISABLE_CONTACTS": "La desactivación de los contactos borrará todos los datos sincronizados y no podrás enviar más a tus contactos.",
     // About
-    "ABOUT_TITLE": "Cartera  ",
+    "ABOUT_TITLE": "Cartera",
     "ABOUT_SUBTITLE": "De BTC Wallet",
     "ABOUT_DESCRIPTION": "",
     "ABOUT_LABEL_NEWS": "Noticias",
@@ -447,12 +447,15 @@
     "ABOUT_RATEAPP": "¡Por favor, califica a Wallet!",
     "PROMO_REDEEM": "Canjear un código promocional",
     "PROMO_CODE_PLACEHOLDER": "Código promocional",
+
+    // PSA: rebrand
+    "PSA_REBRAND_TITLE": "Anuncio de servicio",
     "PSA_REBRAND_BODY": [
         "Bienvenido a tu nueva BTC.com Wallet de Blocktrail",
         "",
         "¡Blocktrail ha sido adquirido por Bitmain, y nuestros servicios ahora se ofrecen en BTC.com!",
         "",
-        "¡Gracias por ser un usuario leal de Blocktrail! Esperamos seguir ofreciéndole la cartera más potente de Bitcoin"
+        "¡Gracias por ser un usuario leal de Blocktrail! Esperamos seguir ofreciéndote la cartera de bitcoin más potente como BTC.com "
     ],
     "PSA_REBRAND_BLOG_HREF_PRE": "Leer el anuncio",
     "PSA_REBRAND_BLOG_HREF": "En nuestro blog",
@@ -464,20 +467,20 @@
     "FOOTER_ANTPOOL": "Antpool",
     "FOOTER_HASHNEST": "Hashnest",
     "FOOTER_MINERLINK": "Minerlink",
-    "FOOTER_COMPANY": "Empresa",
-    "FOOTER_ABOUT": "Sobre nosotros",
+    "FOOTER_COMPANY": "Compañía",
+    "FOOTER_ABOUT": "Quiénes somos",
     "FOOTER_JOIN_US": "Únete a nosotros",
-    "FOOTER_CONTACT": "Contáctenos",
-    "FOOTER_MEDIA": "Medios de comunicación",
+    "FOOTER_CONTACT": "Contacta con nosotros",
+    "FOOTER_MEDIA": "Redes sociales",
     "FOOTER_WEIBO": "Weibo Oficial",
     "FOOTER_COMMUNITY": "Comunidad",
     "FOOTER_TWITTER": "Twitter",
     "FOOTER_FACEBOOK": "Facebook",
     "FOOTER_DEVELOPERS": "Desarrolladores",
     "FOOTER_API": "API",
-    "FOOTER_MOBILESITE": "Sitio movil",
+    "FOOTER_MOBILESITE": "Sitio para móviles",
     "FOOTER_DESKTOPSITE": "Sitio de escritorio",
-    "FOOTER_FEEDBACK": "Retroalimentación",
+    "FOOTER_FEEDBACK": "Comentarios",
     "FOOTER_BLOG": "Blog",
 
     // Navbar
@@ -486,17 +489,85 @@
     "NAVBAR_STATS": "Estadísticas",
     "NAVBAR_TOOLS": "Herramientas",
     "NAVBAR_APPLICATIONS": "Aplicaciones",
-    "NAVBAR_SEARCH_PLACEHOLDER": "Dirección / Altura / Hash ...",
-    "NAVBAR_SIGNUP": "Crear Cartera",
+    "NAVBAR_SEARCH_PLACEHOLDER": "Dirección/Altura/Hash...",
+    "NAVBAR_SIGNUP": "Crear cartera",
     "NAVBAR_LOGIN": "Registrarse",
 
     // Buy BTC
     "BUYBTC": "Comprar Bitcoins",
     "BUYBTC_NAVTITLE": "Comprar Bitcoins",
+    "BUYBTC_GETSTARTED_HEAD": "Configuración inicial",
+    "BUYBTC_GETSTARTED_BODY": "Antes de comprar Bitcoin, configuremos tu cuenta de cambio",
+    "BUYBTC_GETSTARTED_BUTTON": "Continuar",
+    "TX_INFO_BUYBTC_FROM": "Bitcoins comprados de",
+    "TX_INFO_BUYBTC": "Bitcoins comprados",
+    "TX_INFO_BUYBTC_DETAILS": "{{ qty }} BTC comprados a {{ price }} {{ currency }} por BTC.",
+
+    "BUYBTC_BUYING": "Comprando Bitcoins...",
+
+    "BUYBTC_CHOOSE_REGION_TITLE": "Selecciona tu región",
+    "BUYBTC_CHOOSE_REGION_BODY": "Selecciona tu región para los métodos de compra disponibles",
+    "BUYBTC_SELECTED_REGION": "En",
+    "BUYBTC_FUNDING_METHOD": "Método de financiación",
+    "BUYBTC_REGIONS": "Regiones",
+    "OTHER_REGIONS": "Otro",
+
+    "BUYBTC_REGION_NOTOK_TITLE": "Tu región seleccionada",
+    "BUYBTC_REGION_NOTOK_BODY": "Por desgracia, actualmente no tenemos un socio en tu región para ofrecer este servicio. ¡Estamos trabajando en ello, así que vuelve pronto!",
+    "BUYBTC_CHANGE_REGION": "Cambiar de región",
+
+    "BUYBTC_CHOOSE_TITLE": "Selecciona un método de compra",
+    "BUYBTC_CHOOSE_SUBTITLE": "Tenemos disponibles los siguientes métodos de compra",
+
+    "BUYBTC_PROVIDERS": "Socios",
+    "BUYBTC_NOPROVIDERS_REGION": "No hay socios que presten servicio en tu región",
+
+    "CURRENT_PRICE": "Precio actual",
+    "BUYBTC_INCL_FEE": "Incluyendo la cuota",
+    "BUYBTC_BUY": "Continuar",
+    "BUYBTC_VIA": "Tu compra se completará usando",
+
+    "MSG_BUYBTC_PIN_TO_ENCRYPT": "Introduce el código PIN de tu cartera.",
+    "MSG_BUYBTC_PIN_TO_DECRYPT_TITLE": "Introduce tu PIN",
+    "MSG_BUYBTC_PIN_TO_DECRYPT": "Introduce el código PIN de tu cartera.",
+    "MSG_BUYBTC_PIN_INCORRECT": "PIN incorrecto.",
+
+    "MSG_BUYBTC_PASSWORD_TO_ENCRYPT": "Introduce tu contraseña actual para poder cifrar su token de acceso para un almacenamiento seguro.",
+    "MSG_BUYBTC_PASSWORD_TO_DECRYPT": "Introduce tu contraseña actual para poder descifrar tu token de acceso para su uso.",
+    "MSG_BUYBTC_PASSWORD_INCORRECT": "Contraseña incorrecta.",
+
+    "MSG_BUYBTC_SETUP_GLIDERA_TITLE": "Glidera",
+    "MSG_BUYBTC_SETUP_GLIDERA_BODY": [
+        "Para poder usar Glidera para comprar bitcoins desde la aplicación, ¡necesitas configurar una cuenta de Glidera!",
+        "Ahora te redireccionaremos a su plataforma para hacerlo, una vez que hayas terminado, te enviaremos de vuelta automáticamente."
+    ],
+
+    "MSG_BUYBTC_GLIDERA_COMPLETE": "Transacción de Glidera completada",
+    "MSG_BUYBTC_GLIDERA_COMPLETE_BODY": "¡Tu transacción de {{ qty }} BTC con Glidera ha terminado!",
+
+    "MSG_BUYBTC_SETUP_MORE_GLIDERA_TITLE": "Glidera",
+    "MSG_BUYBTC_SETUP_MORE_GLIDERA_BODY": [
+        "Para poder usar Glidera para comprar bitcoins desde la aplicación, debes finalizar todos los pasos de configuración de la cuenta;",
+        "{{ message }}.",
+        "",
+        "Ahora te redirigiremos a su plataforma para hacerlo, una vez que hayas terminado, haz clic en el botón \"Volver a BTC Wallet\" para regresar."
+    ],
+
+    "MSG_BUYBTC_GLIDERA_2FA_TITLE": "Autenticación de dos factores",
+    "MSG_BUYBTC_GLIDERA_2FA_BODY": "¡Se requiere un código de autenticación de dos factores {{ mode }} de Glidera!",
+
+    "MSG_BUYBTC_FIAT_USD_ONLY_TITLE": "¡Ten cuidado!",
+    "MSG_BUYBTC_FIAT_USD_ONLY": "Tu moneda predeterminada es {{ yourCurrency }}, pero cuando compras bitcoin, los valores están denominados en {{ currency }}",
+
+    "MSG_BUYBTC_CONFIRM_TITLE": "Comprar bitcoins",
+    "MSG_BUYBTC_CONFIRM_BODY": "¿Seguro que quieres comprar {{ qty }} BTC para {{ currencySymbol }} {{ price }}?",
+
+    "MSG_BUYBTC_BOUGHT_TITLE": "Compró bitcoins",
+    "MSG_BUYBTC_BOUGHT_BODY": "¡Acabas de comprar {{ qty }} BTC por {{ currencySymbol }} {{ price }}!",
 
     "MSG_BETTER_LANGUAGE_TITLE": "Nuevo idioma disponible",
     "MSG_BETTER_LANGUAGE": [
-        "Acabamos de añadir un nuevo idioma a la aplicación y detectó que podría estar interesado en cambiar a este nuevo idioma!_x000D_",
-        "¿Desea cambiar su idioma de {{antiguo idioma}} a {{nuevo idioma}}? "
+        "¡Acabamos de añadir un nuevo idioma a la aplicación y hemos detectado que podrías estar interesado en pasarte a este nuevo idioma!",
+        "¿Quieres cambiar tu idioma de {{ oldLanguage }} a {{ newLanguage }}? "
     ]
 }

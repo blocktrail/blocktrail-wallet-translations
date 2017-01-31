@@ -1,6 +1,7 @@
 {
     // general
     "LOGOUT": "退出",
+    "WARNING": "警告",
     "SEND": "发送",
     "RECEIVE": "接收",
     "BACK": "返回",
@@ -53,6 +54,14 @@
     "APP_DOWNLOAD_ON": "下载",
     "ANDROID": "Android",
     "IOS": "IOS",
+    "CHANGE": "修改",
+    "VIA": "通过",
+    "AT": "在",
+
+    // datetime
+    "TODAY": "今天",
+    "TOMORROW": "明天",
+    "YESTERDAY": "昨天",
 
     // launch & setup screens
     "LAUNCH_NEW_ACCOUNT": "创建新账户",
@@ -62,6 +71,8 @@
     "'SETUP_FORGOT_PASS_PLACEHOLDER'": "电子邮箱",
     "SETUP_LOGIN": "登录",
     "LOGGING_IN": "正在登录",
+    "LOGGED_OUT_CONFIRMATION_TITLE": "您已注销。",
+    "LOGGED_OUT_CONFIRMATION_TEXT": "获取 BTC.com 手机钱包 app 即可从任何地方安全地访问您的比特币！",
     "SETUP_LOGIN_PLACEHOLDER": "用户名或电子邮箱",
     "SETUP_USERNAME_PLACEHOLDER": "用户名",
     "SETUP_EMAIL_PLACEHOLDER": "电子邮箱",
@@ -85,17 +96,26 @@
     "SETUP_SYNC_CONTACTS": "同步联系人",
     "SETUP_PROFILE_PIC": "设置资料图片",
     "SETUP_COMPLETE": "转到我的钱包",
+    "SETUP_TERMS_OF_SERVICE_TEXT": "我同意",
+    "SETUP_TERMS_OF_SERVICE_LINK": "服务条款",
+    "SETUP_DOWNLOAD_MOBILE_TITLE": "面向 的 BTC.com 钱包",
+    "SETUP_DOWNLOAD_MOBILE_TEXT": "在您的手机上装上 BTC.com 手机钱包 app 即可从任何地方安全地访问您的比特币！",
     "CREATING_ACCOUNT": "创建账户",
     "CREATING_WALLET": "创建钱包",
+    "CREATING_GENERATE_RECOVERY": "正在生成恢复密钥",
     "CREATING_GENERATE_PRIMARYKEY": "正在生成主密钥",
     "CREATING_GENERATE_BACKUPKEY": "正在生成备份密钥",
+    "CREATING_INIT_KEYS": "正在初始化私有密钥",
     "CREATING_SUBMIT_WALLET": "正在与服务器同步",
     "CREATING_INIT_WALLET": "正在初始化钱包",
     "CREATING_DONE": "完成。正在重定向...",
     "SAVING_WALLET": "正在保存钱包",
+    "UPGRADING_WALLET": "正在升级钱包",
+    "PREPARING_WALLET": "正在准备钱包便于使用",
     "LOADING_WALLET": "正在加载钱包",
     "MSG_BAD_NETWORK": "没有网络连接",
     "MSG_BAD_LOGIN": "登录信息不正确",
+    "MSG_BAD_LOGIN_UNKNOWN": "因未知原因导致登录失败",
     "MSG_INCORRECT_PASSWORD": "密码不正确",
     "MSG_INCORRECT_PASSWORD_CAPS_ON": "注意：在键入密码时您打开了大写锁定键！",
     "MSG_MISSING_LOGIN": "请输入您的登录详细信息",
@@ -109,6 +129,7 @@
     "MSG_USERNAME_TAKEN": "该用户名已被占用",
     "MSG_BAD_EMAIL": "电子邮箱无效",
     "MSG_EMAIL_TAKEN": "该电子邮箱已被占用",
+    "MSG_WEAK_PASSWORD": "您的密码太弱",
     "MSG_UPGRADE_REQUIRED": "请先在 blocktrail.com/dev/login 上登录以自动升级您的账户，然后启用移动钱包",
     "MSG_PIN_HELP": "创建将用于解锁您的钱包以进行交易的 PIN",
     "MSG_WALLET_PASSWORD_MISMATCH": "您已有一个使用不同密码创建的钱包",
@@ -116,17 +137,28 @@
     "MSG_REPEAT_PASSWORD": "请重复您的密码",
     "MSG_SAVE_BACKUP": "请保存备份后继续",
     "MSG_BACKUP_EMAIL_SUBJECT_1": "BTC Wallet 备份",
+    "MSG_BAD_LEGAL": "您必须同意使用条款",
     "MSG_BACKUP_EMAIL_BODY_1": [
         "您的移动钱包备份文档已连接。",
         "请将其存储在安全的地方。",
         "在紧急情况下，您将需要将其与您当前的密码一起使用来恢复您的钱包。"
     ],
 
+    // password checker
+    "PASSWORD_SUPER_WEAK": "超弱，",
+    "PASSWORD_WEAK": "太弱，",
+    "PASSWORD_MEDIOCRE": "不是很强，",
+    "PASSWORD_STRONG": "强，",
+    "PASSWORD_SUPER_STRONG": "超强，",
+    "PASSWORD_TIME_TO_CRACK": "预计要花<b>{{ duration }}</b>才能破解。",
+
     // side menu
     "MY_WALLET": "我的钱包",
     "SEND_FEEDBACK": "发送反馈",
     // My Wallet screen
     "INTERNAL_TRANSACTION_TITLE": "发送给自己",
+    "SENT_TO_MANY_TITLE": "发送给多人",
+    "RECEIVED_FROM_MANY_TITLE": "从多人处收取",
     "WALLET_NO_TXS": "尚无交易",
     "WALLET_ACTION_PRE": "开始于",
     "WALLET_ACTION_LINK": "为您的钱包注资",
@@ -161,8 +193,9 @@
     "TO": "至",
     "SENDING_CONFIRM_TITLE": "确认您的密码",
     "SENDING_CONFIRM_MSG": "您正在发送",
-    "ESITIMATED_FEE": "矿工费 ",
+    "ESITIMATED_FEE": "矿工费",
     "SEND_BITCOIN_TITLE": "发送比特币",
+    "MSG_INVALID_AMOUNT": "无效数额",
 
     // messages
     "MSG_GET_CONTACT_ADDR": "正在获取联系地址...",
@@ -176,6 +209,7 @@
     "MSG_BAD_PWD": "密码不正确",
     "MSG_BAD_ADDRESS": "比特币地址无效",
     "MSG_BAD_CONTACT": "无法获取该联系人的地址",
+    "MSG_LOW_BALANCE_FOR_FEE": "钱包余额太少不足以支付该费用",
     "MSG_BAD_CLIPBOARD": "剪贴板中未找到有效地址",
     "MSG_CLIPBOARD_ADDRESS": "在您的剪贴板中找到一个地址",
     "MSG_SEND_FAIL_UNKNOWN": "发送您的交易时出现问题",
@@ -322,6 +356,17 @@
     "FRENCH": "法语",
     "GERMAN": "德语",
     "DUTCH": "荷兰语",
+    "SPANISH": "西班牙语",
+    "RUSSIAN": "俄语",
+    "CHINESE": "中文",
+
+    // regions
+    "NETHERLANDS": "荷兰",
+    "USA": "美国",
+    "FRANCE": "法国",
+    "GERMANY": "德国",
+    "BELGIUM": "比利时",
+    "CANADA": "加拿大",
 
     // change password
     "CHANGE_PASSWORD": "更改密码",
@@ -363,6 +408,11 @@
     ],
     "TX_INFO_FEE": "费用",
     "ESTIMATED_FEE": "估计费用",
+
+    "ADVANCED_SEND_OPTIONS": "高级设置",
+    "LOW_PRIORITY_LABEL": "低优先级比特币费用",
+    "LOW_PRIORITY_WARNING": "使用低优先级费用会导致确认时间明显要慢很多！",
+    "LOW_PRIORITY_SEND_WARNING": "您正在使用低优先级费用，这会确认时间明显要慢很多！",
 
     "QR_SCAN_OVERLAY": "扫描二维码",
     "MSG_BAD_ADDRESS_2": "这似乎不是有效的比特币地址",
@@ -440,5 +490,127 @@
     "ABOUT_LABEL_RATEAPP": "您喜欢该 App 吗？",
     "ABOUT_RATEAPP": "请为 Wallet 评分！",
     "PROMO_REDEEM": "兑换促销代码",
-    "PROMO_CODE_PLACEHOLDER": "促销代码"
+    "PROMO_CODE_PLACEHOLDER": "促销代码",
+
+    // PSA: rebrand
+    "PSA_REBRAND_TITLE": "服务通告",
+    "PSA_REBRAND_BODY": [
+        "欢迎使用由 Blocktrail 开发的新的 BTC.com 钱包",
+        "",
+        "Blocktrail 已经被 Bitmain 收购，我们现在是通过 BTC.com 提供服务！",
+        "",
+        "感谢您作为 Blocktrail 的忠实用户！我们期望继续以 BTC.com 的身份为您提供最强大的比特币钱包"
+    ],
+    "PSA_REBRAND_BLOG_HREF_PRE": "阅读通告",
+    "PSA_REBRAND_BLOG_HREF": "在我们的博客上",
+    "PSA_REBRAND_OK": "继续",
+
+    // Footer
+    "FOOTER_PRODUCT": "产品",
+    "FOOTER_ANTMINER": "蚂蚁矿机",
+    "FOOTER_ANTPOOL": "蚂蚁矿池",
+    "FOOTER_HASHNEST": "算力巢",
+    "FOOTER_MINERLINK": "矿机链",
+    "FOOTER_COMPANY": "公司",
+    "FOOTER_ABOUT": "关于我们",
+    "FOOTER_JOIN_US": "加入我们",
+    "FOOTER_CONTACT": "联系我们",
+    "FOOTER_MEDIA": "媒体",
+    "FOOTER_WEIBO": "官方微博",
+    "FOOTER_COMMUNITY": "社区",
+    "FOOTER_TWITTER": "Twitter",
+    "FOOTER_FACEBOOK": "Facebook",
+    "FOOTER_DEVELOPERS": "开发者",
+    "FOOTER_API": "应用程序接口",
+    "FOOTER_MOBILESITE": "手机端网站",
+    "FOOTER_DESKTOPSITE": "桌面端网站",
+    "FOOTER_FEEDBACK": "反馈",
+    "FOOTER_BLOG": "博客",
+
+    // Navbar
+    "NAVBAR_HOME": "主页",
+    "NAVBAR_BLOCKS": "块",
+    "NAVBAR_STATS": "统计数据",
+    "NAVBAR_TOOLS": "工具",
+    "NAVBAR_APPLICATIONS": "应用",
+    "NAVBAR_SEARCH_PLACEHOLDER": "地址/高度/散列……",
+    "NAVBAR_SIGNUP": "创建钱包",
+    "NAVBAR_LOGIN": "登录",
+
+    // Buy BTC
+    "BUYBTC": "购买比特币",
+    "BUYBTC_NAVTITLE": "购买比特币",
+    "BUYBTC_GETSTARTED_HEAD": "初始设置",
+    "BUYBTC_GETSTARTED_BODY": "在您能够购买比特币之前，让我们先为您设置兑换账户",
+    "BUYBTC_GETSTARTED_BUTTON": "继续",
+    "TX_INFO_BUYBTC_FROM": "从 购买的比特币",
+    "TX_INFO_BUYBTC": "已购买的比特币",
+    "TX_INFO_BUYBTC_DETAILS": "以{{ price }} {{ currency }}每个比特币的价格购买的{{ qty }}个比特币。",
+
+    "BUYBTC_BUYING": "正在购买比特币……",
+
+    "BUYBTC_CHOOSE_REGION_TITLE": "选择您的地区",
+    "BUYBTC_CHOOSE_REGION_BODY": "选择您的地区以获取可选的购买方式",
+    "BUYBTC_SELECTED_REGION": "位于",
+    "BUYBTC_FUNDING_METHOD": "支付方式",
+    "BUYBTC_REGIONS": "地区",
+    "OTHER_REGIONS": "其他",
+
+    "BUYBTC_REGION_NOTOK_TITLE": "您所选的地区",
+    "BUYBTC_REGION_NOTOK_BODY": "抱歉，在您所选的地区我们目前还没有合作伙伴。我们正在解决该问题，所以请不久之后再回来查看！",
+    "BUYBTC_CHANGE_REGION": "更改地区",
+
+    "BUYBTC_CHOOSE_TITLE": "选择购买方式",
+    "BUYBTC_CHOOSE_SUBTITLE": "我们有以下可选的购买方式",
+
+    "BUYBTC_PROVIDERS": "合作伙伴",
+    "BUYBTC_NOPROVIDERS_REGION": "在您所选地区我们没有提供服务的合作伙伴",
+
+    "CURRENT_PRICE": "当前价格",
+    "BUYBTC_INCL_FEE": "包含费用",
+    "BUYBTC_BUY": "继续",
+    "BUYBTC_VIA": "您的购买将使用 完成",
+
+    "MSG_BUYBTC_PIN_TO_ENCRYPT": "请输入您的钱包 PIN 码。",
+    "MSG_BUYBTC_PIN_TO_DECRYPT_TITLE": "输入 PIN 码",
+    "MSG_BUYBTC_PIN_TO_DECRYPT": "请输入您的钱包 PIN 码。",
+    "MSG_BUYBTC_PIN_INCORRECT": "错误的 PIN 码。",
+
+    "MSG_BUYBTC_PASSWORD_TO_ENCRYPT": "请输入您的当前密码以便我们能够加密您的访问令牌从而实现安全存储。",
+    "MSG_BUYBTC_PASSWORD_TO_DECRYPT": "请输入您的当前密码以便我们能够加密您的访问令牌用于使用。",
+    "MSG_BUYBTC_PASSWORD_INCORRECT": "错误的密码。",
+
+    "MSG_BUYBTC_SETUP_GLIDERA_TITLE": "Glidera",
+    "MSG_BUYBTC_SETUP_GLIDERA_BODY": [
+        "为了能够使用 Glidera 从 app 购买比特币，您需要注册一个 Glidera 账户！",
+        "我们现在会将您引导到他们的平台进行账户注册，一旦您完成账户注册，就会自动返回。"
+    ],
+
+    "MSG_BUYBTC_GLIDERA_COMPLETE": "Glidera 交易完成",
+    "MSG_BUYBTC_GLIDERA_COMPLETE_BODY": "您和 Glidera 之间{{ qty }}个比特币的交易已完成！",
+
+    "MSG_BUYBTC_SETUP_MORE_GLIDERA_TITLE": "Glidera",
+    "MSG_BUYBTC_SETUP_MORE_GLIDERA_BODY": [
+        "为了能够使用 Glidera 从 app 购买比特币，您需要完成所有的账户注册步骤；",
+        "{{ message }}",
+        "我们现在会将您引导到他们的平台进行账户注册，一旦您完成账户注册，就会自动返回。"
+    ],
+
+    "MSG_BUYBTC_GLIDERA_2FA_TITLE": "双因素认证",
+    "MSG_BUYBTC_GLIDERA_2FA_BODY": "需要 Glidera 双因素{{ mode }}认证码！",
+
+    "MSG_BUYBTC_FIAT_USD_ONLY_TITLE": "小心！",
+    "MSG_BUYBTC_FIAT_USD_ONLY": "您的默认货币设置的是 {{ yourCurrency }}，但是当购买比特币时价值是以{{ currency }} 显示的",
+
+    "MSG_BUYBTC_CONFIRM_TITLE": "购买比特币",
+    "MSG_BUYBTC_CONFIRM_BODY": "您确定想要以{{ currencySymbol }}{{ price }}购买{{ qty }}个比特币吗？",
+
+    "MSG_BUYBTC_BOUGHT_TITLE": "已购买的比特币",
+    "MSG_BUYBTC_BOUGHT_BODY": "您刚刚以{{ currencySymbol }}{{ price }}购买了{{ qty }}个比特币！",
+
+    "MSG_BETTER_LANGUAGE_TITLE": "有新的可选语言",
+    "MSG_BETTER_LANGUAGE": [
+        "我们刚刚向 app 中添加了一种新的语言并且检测到您可能会想要切换到该新语言！",
+        "您想要将您的语言从{{ oldLanguage }}切换到{{ newLanguage }}吗？"
+    ]
 }
