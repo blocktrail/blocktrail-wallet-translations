@@ -616,5 +616,8 @@
     "MSG_BETTER_LANGUAGE": [
         "We just addded a new language to the app and detected that you might be interested in switch to this new language!",
         "Would you like to switch your language from {{ oldLanguage }} to {{ newLanguage }}?"
-    ]
+    ],
+
+    "SECURITY_REMINDER": "Security Reminder",
+    "SECURITY_REMINDER_2FA": "We strongly recommend you setup two-factor authentication to increase your wallet security."
 }
