@@ -619,5 +619,18 @@
     ],
 
     "SECURITY_REMINDER": "Security Reminder",
-    "SECURITY_REMINDER_2FA": "We strongly recommend you setup two-factor authentication to increase your wallet security."
+    "SECURITY_REMINDER_2FA": "We strongly recommend you setup two-factor authentication to increase your wallet security.",
+
+    "BANNED_IP_TITLE": "Uh-oh, Your IP has been blocked.",
+    "BANNED_IP_BODY": [
+        "We're sorry to inform you that your IP has been blocked by our security system.",
+        "",
+        "This sometimes happens due to our security detection system being too aggressive,",
+        "If this is the case we're extremely sorry and we will help you get your IP unblocked ASAP",
+        "",
+        "Please contact support so they can help you get your IP unblocked and for a swift resolution please make sure to include your IP: <b>{{ bannedIp }}</b>.",
+        "You can contact us through <a href=\"mailto:support@btc.com\">support@btc.com</a>",
+        "",
+        "The BTC.com Team"
+    ]
 }
