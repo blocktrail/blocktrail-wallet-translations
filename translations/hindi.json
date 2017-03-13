@@ -549,7 +549,6 @@
 
     "BUYBTC_CHOOSE_REGION_TITLE": "अपने क्षेत्र का चयन करें",
     "BUYBTC_CHOOSE_REGION_BODY": "उपलब्ध ख़रीदारी विधियों के लिए अपने क्षेत्र का चयन करें",
-    "BUYBTC_SELECTED_REGION": "में",
     "BUYBTC_FUNDING_METHOD": "निधिकरण विधि",
     "BUYBTC_REGIONS": "क्षेत्र",
     "OTHER_REGIONS": "अन्य",
@@ -559,7 +558,6 @@
     "BUYBTC_CHANGE_REGION": "क्षेत्र बदलें",
 
     "BUYBTC_CHOOSE_TITLE": "एक ख़रीदारी विधि का चयन करें",
-    "BUYBTC_CHOOSE_SUBTITLE": "हमारे पास निम्न ख़रीदारी विधिया उपलब्ध हैं",
 
     "BUYBTC_PROVIDERS": "भागीदार",
     "BUYBTC_NOPROVIDERS_REGION": "ऐसा कोई भागीदार नहीं हो जो आपके क्षेत्र में सर्विस करता है",

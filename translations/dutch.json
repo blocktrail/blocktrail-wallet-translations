@@ -499,7 +499,6 @@
 
     "BUYBTC_CHOOSE_REGION_TITLE": "Kies je regio",
     "BUYBTC_CHOOSE_REGION_BODY": "Kies je regio voor beschikbare aankoop methodes",
-    "BUYBTC_SELECTED_REGION": "in",
     "BUYBTC_FUNDING_METHOD": "Aankop methods",
     "BUYBTC_REGIONS": "regio’s",
     "OTHER_REGIONS": "andere",
@@ -509,9 +508,9 @@
     "BUYBTC_CHANGE_REGION": "Verander regio",
 
     "BUYBTC_CHOOSE_TITLE": "Kies aankoop methode",
-    "BUYBTC_CHOOSE_SUBTITLE": "We hebben de volgende aankoop methodes beschikbaar",
+    "BUYBTC_CHOOSE_SUBTITLE": "We hebben de volgende aankoop methodes beschikbaar in {{ region }} (<a {{ href }}>verander</a>).",
 
-    "BUYBTC_PROVIDERS": "Partners",
+    "BUYBTC_PROVIDERS": "Partners in {{ region }}",
     "BUYBTC_NOPROVIDERS_REGION": "Er zijn geen partners die beschikbaar zijn in jou regio",
 
     "CURRENT_PRICE": "Huidige prijs",

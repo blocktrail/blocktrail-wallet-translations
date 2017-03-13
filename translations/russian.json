@@ -542,7 +542,6 @@
 
     "BUYBTC_CHOOSE_REGION_TITLE": "Выберите регион",
     "BUYBTC_CHOOSE_REGION_BODY": "Выберите регион, чтобы посмотреть доступные способы покупки",
-    "BUYBTC_SELECTED_REGION": "В",
     "BUYBTC_FUNDING_METHOD": "Способ оплаты",
     "BUYBTC_REGIONS": "Регионы",
     "OTHER_REGIONS": "Другое",
@@ -552,7 +551,6 @@
     "BUYBTC_CHANGE_REGION": "Сменить регион",
 
     "BUYBTC_CHOOSE_TITLE": "Выберите способ покупки",
-    "BUYBTC_CHOOSE_SUBTITLE": "Доступны следующие способы покупки",
 
     "BUYBTC_PROVIDERS": "Партнеры",
     "BUYBTC_NOPROVIDERS_REGION": "У нас нет партнеров, обслуживающих этот регион",

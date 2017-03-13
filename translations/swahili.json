@@ -532,7 +532,6 @@
 
     "BUYBTC_CHOOSE_REGION_TITLE": "Chagua eneo lako",
     "BUYBTC_CHOOSE_REGION_BODY": "Chagua eneo lako kwa mbinu za ununuzi zinazopatikana",
-    "BUYBTC_SELECTED_REGION": "Katika",
     "BUYBTC_FUNDING_METHOD": "Mbuni za Malipo",
     "BUYBTC_REGIONS": "Maeneo",
     "OTHER_REGIONS": "Mengine",
@@ -542,9 +541,8 @@
     "BUYBTC_CHANGE_REGION": "Badilisha eneo",
 
     "BUYBTC_CHOOSE_TITLE": "Chagua mbinu ya malipo",
-    "BUYBTC_CHOOSE_SUBTITLE": "Tuna mbinu za ununuzi zinazofuata zinazopatikana",
 
-    "BUYBTC_PROVIDERS": "Wabia",
+    "BUYBTC_PROVIDERS": "Wabia katika {{ region }}",
     "BUYBTC_NOPROVIDERS_REGION": "Hakua wabia wanaohudumia eneo lako",
 
     "CURRENT_PRICE": "Bei ya sasa",

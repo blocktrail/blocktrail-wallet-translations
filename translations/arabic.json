@@ -547,7 +547,6 @@
 
     "BUYBTC_CHOOSE_REGION_TITLE": "حدد منطقتك",
     "BUYBTC_CHOOSE_REGION_BODY": "حدد منطقتك لمعرفة طرق الشراء المتاحة لديك",
-    "BUYBTC_SELECTED_REGION": "في",
     "BUYBTC_FUNDING_METHOD": "طريقة الدفع",
     "BUYBTC_REGIONS": "المناطق",
     "OTHER_REGIONS": "أخرى",
@@ -557,7 +556,6 @@
     "BUYBTC_CHANGE_REGION": "تغيير المنطقة",
 
     "BUYBTC_CHOOSE_TITLE": "حدد طريقة شراء",
-    "BUYBTC_CHOOSE_SUBTITLE": "توجد لدينا طرق الشراء التالية",
 
     "BUYBTC_PROVIDERS": "الشركاء",
     "BUYBTC_NOPROVIDERS_REGION": "لا يوجد لدينا شركاء يقدمون الخدمة في منطقتك",

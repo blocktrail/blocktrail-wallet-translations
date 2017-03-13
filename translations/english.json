@@ -554,7 +554,6 @@
 
     "BUYBTC_CHOOSE_REGION_TITLE": "Select your region",
     "BUYBTC_CHOOSE_REGION_BODY": "Select your region for available purchase methods",
-    "BUYBTC_SELECTED_REGION": "In",
     "BUYBTC_FUNDING_METHOD": "Funding Method",
     "BUYBTC_REGIONS": "Regions",
     "OTHER_REGIONS": "Other",
@@ -564,9 +563,9 @@
     "BUYBTC_CHANGE_REGION": "Change region",
 
     "BUYBTC_CHOOSE_TITLE": "Select a purchase method",
-    "BUYBTC_CHOOSE_SUBTITLE": "We have the following purchase methods available",
+    "BUYBTC_CHOOSE_SUBTITLE": "We have the following purchase methods available in {{ region }} (<a {{ href }}>change</a>).",
 
-    "BUYBTC_PROVIDERS": "Partners",
+    "BUYBTC_PROVIDERS": "Partners in {{ region }}",
     "BUYBTC_NOPROVIDERS_REGION": "There are no partners that service your region",
 
     "CURRENT_PRICE": "Current price",
