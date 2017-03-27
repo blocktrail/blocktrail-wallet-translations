@@ -584,8 +584,8 @@
 
     "MSG_BUYBTC_SETUP_GLIDERA_TITLE": "Glidera",
     "MSG_BUYBTC_SETUP_GLIDERA_BODY": [
-        "To be able to use Glidera to buy bitcoins from the app you need to setup a Glidera account!",
-        "We will now redirect you to their platform to do so, once you are done you will be automatically send back."
+        "To buy Bitcoin using Glidera you first need to create or login to your Glidera account.",
+        "We will now redirect you to Glidera to continue your setup. You will be automatically redirected back when finished."
     ],
 
     "MSG_BUYBTC_GLIDERA_COMPLETE": "Glidera Transaction Complete",
