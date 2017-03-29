@@ -631,5 +631,14 @@
         "You can contact us through <a href=\"mailto:support@btc.com\">support@btc.com</a>",
         "",
         "The BTC.com Team"
-    ]
+    ],
+
+    "APPRATE_TITLE": "Rate BTC.com Wallet",
+    "APPRATE_BODY": [
+        "If you enjoy using BTC.com Wallet,  would you mind taking a moment to rate it?",
+        "It won’t take more than a minute. Thanks for your support."
+    ],
+    "APPRATE_NO": "No, thanks",
+    "APPRATE_LATER": "Remind me later",
+    "APPRATE_RATE": "Rate it now"
 }
