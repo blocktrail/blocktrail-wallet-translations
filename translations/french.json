@@ -609,5 +609,29 @@
     "MSG_BETTER_LANGUAGE": [
         "Nous venons d'ajouter une nouvelle langue à l'application et avons détecté que vous pourriez être intéressé à changer pour cette nouvelle langue !",
         "Voulez-vous changer votre langue de {{ oldLanguage }} à {{ newLanguage }} ?"
-    ]
+    ],
+
+    "SECURITY_REMINDER": "Rappel de sécurité",
+    "SECURITY_REMINDER_2FA": "Nous vous recommandons vivement d'établir une authentification à deux facteurs pour améliorer la sécurité de votre portefeuille.",
+
+    "BANNED_IP_TITLE": "Oh, oh, votre adresse IP a été bloquée.",
+    "BANNED_IP_BODY": [
+        "Nous avons le regret de vous annoncer que votre adresse IP a été bloquée par notre système de sécurité.",
+        "",
+        "Cela peut parfois se produire en raison de l'agressivité de notre système de détection de sécurité. Si cela s'avère être le cas, nous en sommes sincèrement désolés et nous allons vous aider à débloquer votre adresse IP au plus tôt.",
+        "",
+        "Veuillez contacter l'équipe d'assistance afin qu'elle puisse vous aider à débloquer votre adresse IP. Pour une résolution rapide du problème, nous vous prions de bien vouloir inclure votre adresse IP :  <b>{{ bannedIp }}</b>",
+        "",
+        "Vous pouvez nous contacter en envoyant un e-mail à <a href=\"mailto:support@btc.com\">support@btc.com</a>",
+        "",
+        "L'équipe BTC.com"
+    ],
+
+    "APPRATE_BODY": [
+        "Si vous appréciez le Portefeuille BTC.com, pourriez-vous prendre quelques instants pour l'évaluer ?",
+        "Cela ne prendra pas plus d'une minute. Merci pour votre soutien."
+    ],
+    "APPRATE_NO": "Non, merci",
+    "APPRATE_LATER": "Me le rappeler plus tard",
+    "APPRATE_RATE": "Évaluer maintenant"
 }

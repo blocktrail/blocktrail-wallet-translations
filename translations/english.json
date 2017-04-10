@@ -633,16 +633,16 @@
         "The BTC.com Team"
     ],
 
-
     "APPRATE_BODY": [
-        "How do you like your BTC.com wallet?"
+        "If you enjoy using BTC.com Wallet,  would you mind taking a moment to rate it?",
+        "It won’t take more than a minute. Thanks for your support."
     ],
     "APPRATE_FOOTER": "Tap the number of stars you'd give us on a scale from 1-5",
     "APPRATE_NO": "No, thanks",
     "APPRATE_LATER": "Remind me later",
-    "APPRATE_RATE": "Rate BTC.com",
+    "APPRATE_RATE": "Rate it now",
     "APPRATE_BODY_GOOD_TITLE": "Thank you!",
-    "APPRATE_BODY_GOOD_BODY" : "Please consider showing your support for BTC.com by leaving us a review on the AppStore",
+    "APPRATE_BODY_GOOD_BODY": "Please consider showing your support for BTC.com by leaving us a review on the AppStore",
     "APPRATE_BODY_BAD": "Uh oh. Would you consider leaving us feedback?",
     "APPRATE_FEEDBACK": "Send",
     "APPRATE_SKIP": "Skip"

@@ -610,5 +610,31 @@
     "MSG_BETTER_LANGUAGE": [
         "我们刚刚向 app 中添加了一种新的语言并且检测到您可能会想要切换到该新语言！",
         "您想要将您的语言从{{ oldLanguage }}切换到{{ newLanguage }}吗？"
-    ]
+    ],
+
+    "SECURITY_REMINDER": "安全提醒",
+    "SECURITY_REMINDER_2FA": "强烈建议您设置两步验证以提高您的钱包安全性。",
+
+    "BANNED_IP_TITLE": "对不起，您的IP地址已被屏蔽。",
+    "BANNED_IP_BODY": [
+        "非常遗憾地告诉您，您的IP地址已被我们的安全系统屏蔽。",
+        "",
+        "由于我们的安全检测系统非常激进，有时会发生这种情况。",
+        "如果是这种情况我们非常抱歉，将会尽快解除对您的IP地址屏蔽。",
+        "",
+        "请联系技术支持团队使他们可以迅速解除对您的IP地址屏蔽，请在邮件中提供您的IP地址：<b>{{ bannedIp }}</b>",
+        "您可以通过以下方式与我们联系：<a href=\"mailto:support@btc.com\">support@btc.com</a>",
+        "",
+        "BTC.com 团队",
+        ""
+    ],
+
+    "APPRATE_BODY": [
+        "如果您喜欢使用BTC.com钱包，可否用一点时间给我们评价？",
+        "",
+        "不会超过一分钟。感谢您的支持。"
+    ],
+    "APPRATE_NO": "不，谢谢",
+    "APPRATE_LATER": "稍后提醒",
+    "APPRATE_RATE": "立刻评价"
 }

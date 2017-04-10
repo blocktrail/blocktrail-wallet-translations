@@ -555,5 +555,29 @@
     "MSG_BETTER_LANGUAGE": [
         "We hebben zojuist een nieuwe taal toegevoegd aan de app en gedetecteerd dat je misschien wel deze taal zou willen gebruiken!",
         "Wil je de taal vna de app wisselen van {{ oldLanguage }} naar {{ newLanguage }}?"
-    ]
+    ],
+
+    "SECURITY_REMINDER": "Beveiligingsherinnering",
+    "SECURITY_REMINDER_2FA": "We raden sterk aan om tweeledige verificatie op te zetten om je portomonneebeveiliging te verhogen.",
+
+    "BANNED_IP_TITLE": "Oh-oh, je IP is geblokkeerd.",
+    "BANNED_IP_BODY": [
+        "Het spijt ons om je te moeten informeren dat je IP geblokkeerd is door ons beveiligingssysteem.",
+        "",
+        "Soms gebeurt dit omdat ons beveiligingsdetectiesysteem te aggressief is,",
+        "Als dit het geval is spijt het ons enorm en zullen we zo snel mogelijk je helpen je IP gedeblokkeerd te krijgen",
+        "",
+        "Neem contact op met ondersteuning zodat ze je kunnen helpen je IP gedeblokkeerd te krijgen. Om zeker te zijn van een snelle oplossing, voeg je IP toe: <b>{{ bannedIp }}</b>",
+        "Je kan contact met ons opnemen via <a href=\"mailto:support@btc.com\">support@btc.com</a>",
+        "",
+        "Het BTC.com Team"
+    ],
+
+    "APPRATE_BODY": [
+        "Als je graag BTC.com Portomonnee gebruikt, zou je dan een momentje willen nemen om het te beoordelen?",
+        "Het zal niet langer dan een minuut duren. Bedankt voor je ondersteuning."
+    ],
+    "APPRATE_NO": "Nee bedankt",
+    "APPRATE_LATER": "Herinner me later",
+    "APPRATE_RATE": "Beoordeel het nu"
 }

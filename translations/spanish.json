@@ -567,5 +567,29 @@
     "MSG_BETTER_LANGUAGE": [
         "¡Acabamos de añadir un nuevo idioma a la aplicación y hemos detectado que podrías estar interesado en pasarte a este nuevo idioma!",
         "¿Quieres cambiar tu idioma de {{ oldLanguage }} a {{ newLanguage }}? "
-    ]
+    ],
+
+    "SECURITY_REMINDER": "Recordatorio de seguridad",
+    "SECURITY_REMINDER_2FA": "Te recomendamos que configures la doble autenticación para aumentar la seguridad de tu cartera.",
+
+    "BANNED_IP_TITLE": "Vaya, tu IP ha sido bloqueada.",
+    "BANNED_IP_BODY": [
+        "Sentimos informarte de que nuestro sistema de seguridad ha bloqueado tu IP.",
+        "",
+        "Esto ocurre porque a veces nuestro sistema de seguridad es demasiado agresivo.",
+        "Si este es el caso, lo lamentamos profundamente y te ayudaremos a desbloquear tu IP lo antes posible.",
+        "",
+        "Por favor, ponte en contacto con asistencia técnica para que puedan ayudarte a desbloquear tu IP. Para resolverlo lo antes posible, no olvides incluir tu IP: <b>{{ bannedIp }}</b>",
+        "Puedes contactar con nosotros en <a href=\"mailto:support@btc.com\">support@btc.com</a>",
+        "",
+        "El equipo de BTC.com "
+    ],
+
+    "APPRATE_BODY": [
+        "Si te gusta usar BTC.com Wallet, ¿te importaría darle una valoración?",
+        "No tardarás más de un minuto. Gracias por tu apoyo."
+    ],
+    "APPRATE_NO": "No, gracias",
+    "APPRATE_LATER": "Recordármelo más tarde",
+    "APPRATE_RATE": "Valorar ahora"
 }

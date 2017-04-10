@@ -592,5 +592,30 @@
     "MSG_BETTER_LANGUAGE": [
         "Tumeongeza lugha mpya kwenye programu na tumegundua kwa mba huenda ukawa unataka kubadilisha uanze kutumia lugh hii mpya!",
         "Ungependa kubadilisha lugha yako kutoka {{ oldLanguage }} iwe {{ newLanguage }}?"
-    ]
+    ],
+
+    "SECURITY_REMINDER": "Kikumbusho cha Usalama",
+    "SECURITY_REMINDER_2FA": "Tunapendekeza sana kwamba uweke mbinu ya kuthibitisha ya hatua mbili ili kuboresha usalama wa hazina yako.",
+
+    "BANNED_IP_TITLE": "Samahani, IP yako imezuiwa.",
+    "BANNED_IP_BODY": [
+        "Tunasikitika kukuarifu kuwa IP yako imezuiwa na mfumo wetu wa usalama.",
+        "",
+        "Jambo hili wakati mwingine hutokea wakati mfumo wetu wa utambuzi wa usalama unafanya kazi kwa viwango vya juu sana,",
+        "Ikiwa hali iliyokuathiri ni hii, samahani sana, na tutakusaidia kufungua IP yako haraka iwezekanavyo.",
+        "",
+        "Tafadhali wasiliana na timu ya usaidizi ili usaidiwe kufungua IP yako, na ili upate usaidizi wa haraka, tafadhali hakikisha umejumuisha IP yako: <b>{{ bannedIp }}</b>.",
+        "Unaweza kuwasiliana nasi kupitia <a href=\"mailto:support@btc.com\"> support@btc.com </a>",
+        "",
+        "Timu ya BTC.com"
+    ],
+
+    "APPRATE_BODY": [
+        "Ikiwa umefurahia kutumia BTC.com Wallet, tafadhali tenga wakati mfupi kuikadiria.",
+        "",
+        "Haitakuchukua zaidi ya dakika moja. Asante kwa usaidizi wako."
+    ],
+    "APPRATE_NO": "Hapana, asante",
+    "APPRATE_LATER": "Nikumbushe baadaye",
+    "APPRATE_RATE": "Ikadirie sasa"
 }
