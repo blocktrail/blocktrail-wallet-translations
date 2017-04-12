@@ -25,10 +25,6 @@
     "MSG_MISSING_AMOUNT": "Please enter an amount in Bitcoin",
     "MSG_INSUFFICIENT_FUNDS": "You do not have enough funds for this transaction",
     "CONTACTS_NO_WALLETS": "None of your contacts have a BTC Wallet",
-    "MSG_INVITE_CONTACT": [
-        "Hi, get the BTC Wallet app for Bitcoin!",
-        "Download it here: https://btc.com/download"
-    ],
     "MSG_REQUEST_EMAIL_BODY_1": [
         "Hi,<br><br>Please send funds to my Bitcoin wallet (QR code attached)",
         "<p>Address: <a href='{{addressURI}}'>{{address}}</a> ",

@@ -1,4 +1,5 @@
 {
+    "APPNAME": "BTC.com Wallet",
     // general
     "LOGOUT": "Logout",
     "WARNING": "Warning",
@@ -155,6 +156,7 @@
     // side menu
     "MY_WALLET": "My Wallet",
     "SEND_FEEDBACK": "Send Feedback",
+    "TELL_A_FRIEND": "Tell a friend",
     // My Wallet screen
     "INTERNAL_TRANSACTION_TITLE": "Sent to self",
     "SENT_TO_MANY_TITLE": "Sent to many",
@@ -224,8 +226,8 @@
     "CONTACTS_REFRESH": "Refresh contacts",
     "CONTACTS_RESYNC": "Re-sync contacts",
     "MSG_INVITE_CONTACT": [
-        "Hi, get the BTC Wallet app for Bitcoin!",
-        "Download it here: https://btc.com/download"
+        "Hi, get the BTC.com Wallet app for Bitcoin!",
+        "Get it here: https://wallet.btc.com/"
     ],
     "RECEIVE_BITCOIN_TITLE": "Receive bitcoin",
     "BITCOIN_ADDRESS_RECEIVE_HELP": "A new bitcoin address has been created for you. Use this address to receive funds.",
