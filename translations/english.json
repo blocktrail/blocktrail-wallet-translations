@@ -272,6 +272,7 @@
     "SETTINGS_WALLET": "Wallet",
     "SETTINGS_CURRENT_WALLET": "Current wallet",
     "SETTINGS_CHANGE_PIN": "Change pin",
+    "SETTINGS_FORGOT_PIN": "Forgot pin",
     "SETTINGS_CHANGE_PASSWORD": "Change password",
     "SETTINGS_RECOMMENDED": "Recommended",
     "SETTINGS_NEWSLETTER": "Keep me updated with BTC.com news",
