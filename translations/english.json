@@ -275,6 +275,8 @@
     "SETTINGS_NEWSLETTER": "Keep me updated with BTC.com news",
     "SETTINGS_RESET_ACCOUNT": "Reset wallet",
     "SETTINGS_WALLET_BACKUP": "Wallet backup",
+    "SETTINGS_HELP": "Support",
+    "SETTINGS_FAQ": "Frequently Asked Questions",
     "SETTINGS_INFO": "Info",
     "SETTINGS_ABOUT": "About",
     "SETTINGS_VERSION": "Version",
