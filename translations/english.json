@@ -175,6 +175,7 @@
     "TX_INFO_SENT_TO": "Sent to",
     "TX_INFO_RECEIVED_FROM": "Received from",
     "TX_INFO_MESSAGE_TITLE": "Message/reference",
+
     // Sending screens
     "QR": "QR",
     "CONTACTS": "Contacts",
@@ -196,6 +197,7 @@
     "ESITIMATED_FEE": "Network fee:",
     "SEND_BITCOIN_TITLE": "Send bitcoin",
     "MSG_INVALID_AMOUNT": "Invalid amount",
+    "FEE_STRATEGY": "Fee strategy",
 
     // messages
     "MSG_GET_CONTACT_ADDR": "Getting contact address...",
@@ -409,8 +411,15 @@
         "",
         "Please configure your mail app, or you can skip this step and save your backup later when we support alternative apps"
     ],
+
+    // fees related
     "TX_INFO_FEE": "Fee",
     "ESTIMATED_FEE": "Estimated fee",
+    "OPTIMAL_FEE": "Optimal fee",
+    "LOW_PRIORITY_FEE": "Low priority fee",
+
+    "LOW_PRIORITY_NOTICE": "Transaction may not confirm for several hours",
+    "OPTIMAL_PRIORITY_NOTICE": "Recommended network fee for fast confirmation",
 
     "ADVANCED_SEND_OPTIONS": "Advanced settings",
     "LOW_PRIORITY_LABEL": "Low priority bitcoin fee",
