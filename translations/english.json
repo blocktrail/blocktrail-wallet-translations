@@ -215,6 +215,11 @@
     "MSG_BAD_CLIPBOARD": "No valid address found in clipboard",
     "MSG_CLIPBOARD_ADDRESS": "An address was found in your clipboard",
     "MSG_SEND_FAIL_UNKNOWN": "There was a problem sending your transaction",
+    "MSG_SEND_FAIL_FEE": "There was a problem sending your transaction",
+    "MSG_SEND_FAIL_FEE_DETAILED": [
+        "You don't have enough balance to pay for the fee. ",
+        "A fee of {{ fee }} BTC is required."
+    ],
     // contacts list
     "CONTACTS_NONE": "No contacts found",
     "CONTACTS_NO_WALLETS": "None of your contacts have a BTC Wallet",
