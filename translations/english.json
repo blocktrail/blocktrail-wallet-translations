@@ -13,6 +13,8 @@
     "OK": "OK",
     "DONE": "Done",
     "CONFIRM": "Confirm",
+    "CLOSE": "Close",
+    "APPSTORE": "Appstore",
     "APPLY": "Apply",
     "SYNC": "Sync",
     "SYNC_NOW": "Sync now",
@@ -58,6 +60,18 @@
     "CHANGE": "change",
     "VIA": "via",
     "AT": "at",
+
+    // update notices
+    "UPDATE_AVAILABLE_NOTICE": "There's a new update of the app available to download.",
+    "UPDATE_AVAILABLE_NOTICE_BODY": "We recommend you update the app to be able to use the latest features and improvements.",
+    "UNSUPPORTED_NOTICE": "You are using a version of the wallet that is no longer supported.",
+    "UNSUPPORTED_NOTICE_BODY": "You will have to you update the app to continue using it!",
+    "DEPRECATED_NOTICE": "You are using a old version of the wallet",
+    "DEPRECATED_NOTICE_BODY": "We <b>strongly</b> recommend you update the app for an optimal experience!",
+    "UPDATED_NOTICE": "The wallet has been updated.",
+
+    // per version update messages
+    "GLIDERA_UPDATE": "You can now easily buy bitcoins from all US states (except New York) from within your wallet through our partnership integration of Glidera!",
 
     // datetime
     "TODAY": "Today",
