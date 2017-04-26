@@ -609,6 +609,7 @@
     "BUYBTC_INCL_FEE": "Including fee",
     "BUYBTC_BUY": "Continue",
     "BUYBTC_VIA": "Your purchase will complete using",
+    "BUYBTC_BANK_TRANSFER_SLOW": "Bitcoins purchased via bank transfer can take several business days to settle.",
 
     "MSG_BUYBTC_PIN_TO_ENCRYPT": "Please enter your wallet PIN code.",
     "MSG_BUYBTC_PIN_TO_DECRYPT_TITLE": "Enter PIN",
@@ -646,7 +647,7 @@
     "MSG_BUYBTC_CONFIRM_BODY": "Are you sure you want to buy {{ qty }} BTC for {{ currencySymbol }}{{ price }}?",
 
     "MSG_BUYBTC_BOUGHT_TITLE": "Bought bitcoins",
-    "MSG_BUYBTC_BOUGHT_BODY": "You just purchased {{ qty }} BTC for {{ currencySymbol }}{{ price }}!",
+    "MSG_BUYBTC_BOUGHT_BODY": "You just purchased {{ qty }} BTC for {{ currencySymbol }}{{ price }}! The bitcoins are expected to be settled: {{ estimatedDate }}",
 
     "MSG_BETTER_LANGUAGE_TITLE": "New language available",
     "MSG_BETTER_LANGUAGE": [
