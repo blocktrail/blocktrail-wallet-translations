@@ -273,7 +273,7 @@
     "SETTINGS_CHANGE_PASSWORD": "更改密码",
     "SETTINGS_RECOMMENDED": "推荐",
     "SETTINGS_NEWSLETTER": "向我提供 BTC.com 的最新消息",
-    "SETTINGS_RESET_ACCOUNT": "重置钱包",
+    "SETTINGS_RESET_ACCOUNT": "登出",
     "SETTINGS_WALLET_BACKUP": "钱包备份",
     "SETTINGS_INFO": "信息",
     "SETTINGS_ABOUT": "关于",
