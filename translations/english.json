@@ -191,6 +191,7 @@
     "TX_INFO_SENT_TO": "Sent to",
     "TX_INFO_RECEIVED_FROM": "Received from",
     "TX_INFO_MESSAGE_TITLE": "Message/reference",
+
     // Sending screens
     "QR": "QR",
     "CONTACTS": "Contacts",
@@ -212,6 +213,7 @@
     "ESITIMATED_FEE": "Network fee:",
     "SEND_BITCOIN_TITLE": "Send bitcoin",
     "MSG_INVALID_AMOUNT": "Invalid amount",
+    "FEE_STRATEGY": "Fee strategy",
 
     //receive screen
     "ADDRESS_REUSE_NOTICE_1": "Any Bitcoin address you generate here will remain valid.",
