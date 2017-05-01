@@ -219,6 +219,10 @@
     "ADDRESS_REUSE_NOTICE_1": "Any Bitcoin address you generate here will remain valid.",
     "ADDRESS_REUSE_NOTICE_2": "You can generate as many as you like.",
 
+    //receive screen
+    "ADDRESS_REUSE_NOTICE_1": "Any Bitcoin address you generate here will remain valid.",
+    "ADDRESS_REUSE_NOTICE_2": "You can generate as many as you like.",
+
     // messages
     "MSG_GET_CONTACT_ADDR": "Getting contact address...",
     "MSG_INIT_WALLET": "Initialising wallet...",
