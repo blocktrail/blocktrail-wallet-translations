@@ -467,6 +467,8 @@
     "PRIOBOOST_NOT_POSSIBLE":"Cant accelerate. Please try a different amount",
     "PRIOBOOST_TOO_LARGE":"We don't provide the accelerated priority for transactions which are too large in size.",
     "PRIOBOOST_ZERO_CONF":"We don't provide the accelerated priority for transactions which spend from unconfirmed transactions.",
+    "PRIOBOOST_NO_CREDITS":"You've used all your credits for this month.",
+    "PRIOBOOST_NO_CREDITS_SHORT": "You have no credits left.",
 
     "QR_SCAN_OVERLAY": "Scan QR code",
     "MSG_BAD_ADDRESS_2": "That doesn't appear to be a valid bitcoin address",
