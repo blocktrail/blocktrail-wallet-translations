@@ -68,10 +68,17 @@
     "UNSUPPORTED_NOTICE_BODY": "You will have to you update the app to continue using it!",
     "DEPRECATED_NOTICE": "You are using a old version of the wallet",
     "DEPRECATED_NOTICE_BODY": "We <b>strongly</b> recommend you update the app for an optimal experience!",
-    "UPDATED_NOTICE": "The wallet has been updated.",
+    "UPDATED_NOTICE": "Your wallet has been upgraded.",
 
     // per version update messages
     "GLIDERA_UPDATE": "You can now easily buy bitcoins from all US states (except New York) from within your wallet through our partnership integration of Glidera!",
+    "UPDATE_NOTICE_030304": [
+        "New \"Accelerated priority\" transactions!",
+        "",
+        "Send your transactions at the highest possible transaction speed, while using the lowest possible fee rate accepted by the bitcoin network. These transactions are pushed directly to the BTC.com mining pool.",
+        "",
+        "For now, you can send up to 3 accelerated priority transactions each month, with more ways to increase this amount coming soon!"
+    ],
 
     // datetime
     "TODAY": "Today",
@@ -191,6 +198,7 @@
     "TX_INFO_SENT_TO": "Sent to",
     "TX_INFO_RECEIVED_FROM": "Received from",
     "TX_INFO_MESSAGE_TITLE": "Message/reference",
+
     // Sending screens
     "QR": "QR",
     "CONTACTS": "Contacts",
@@ -212,6 +220,7 @@
     "ESITIMATED_FEE": "Network fee:",
     "SEND_BITCOIN_TITLE": "Send bitcoin",
     "MSG_INVALID_AMOUNT": "Invalid amount",
+    "FEE_STRATEGY": "Fee strategy",
 
     //receive screen
     "ADDRESS_REUSE_NOTICE_1": "Any Bitcoin address you generate here will remain valid.",
@@ -439,10 +448,11 @@
     ],
 
     // fees related
+    "TRANSACTION_FEES": "Transaction Fees",
     "TX_INFO_FEE": "Fee",
     "ESTIMATED_FEE": "Estimated fee",
-    "OPTIMAL_FEE": "Optimal fee",
-    "LOW_PRIORITY_FEE": "Low priority fee",
+    "OPTIMAL_FEE": "Optimal",
+    "LOW_PRIORITY_FEE": "Low priority",
 
     "LOW_PRIORITY_NOTICE": "Transaction may not confirm for several hours",
     "OPTIMAL_PRIORITY_NOTICE": "Recommended network fee for fast confirmation",
@@ -450,6 +460,15 @@
     "ADVANCED_SEND_OPTIONS": "Advanced settings",
     "LOW_PRIORITY_LABEL": "Low priority bitcoin fee",
     "LOW_PRIORITY_SEND_WARNING": "You are using low priority fees, this can result in significantly SLOWER confirmation times!",
+
+    "PRIOBOOST": "Accelerated priority",
+    "PRIOBOOST_NOTICE": "Fastest transaction speed at lowest possible network fee, pushed directly through our mining pool.",
+    "PRIOBOOST_CREDITS": "You have {{ credits }} priority credits remaining this month.",
+    "PRIOBOOST_NOT_POSSIBLE":"Cant accelerate. Please try a different amount",
+    "PRIOBOOST_TOO_LARGE":"We don't provide the accelerated priority for transactions which are too large in size.",
+    "PRIOBOOST_ZERO_CONF":"We don't provide the accelerated priority for transactions which spend from unconfirmed transactions.",
+    "PRIOBOOST_NO_CREDITS":"You've used all your credits for this month.",
+    "PRIOBOOST_NO_CREDITS_SHORT": "You have no credits left.",
 
     "QR_SCAN_OVERLAY": "Scan QR code",
     "MSG_BAD_ADDRESS_2": "That doesn't appear to be a valid bitcoin address",
@@ -578,8 +597,12 @@
     "BUYBTC": "Buy Bitcoins",
     "BUYBTC_NAVTITLE": "Buy Bitcoins",
     "BUYBTC_PENDING_ORDERS": "Pending Orders",
-    "BUYBTC_PENDING_ORDER": "Pending Order from {{ order.displayName }}",
+    "BUYBTC_PENDING_ORDER": "pending order",
+    "BUYBTC_PENDING_ORDER_FROM": "Pending Order from {{ order.displayName }}",
     "BUYBTC_PENDING_ORDER_SUBTITLE": "Purchased at {{ order.price }} {{ order.currency }} per BTC",
+    "PURCHASED_AT": "Purchased at:",
+    "BUYBTC_PENDING_ORDER_PRICE": "{{ order.price }} {{ order.currency }} per BTC",
+    "EST_DELIVERY": "Estimated delivery:",
     "BUYBTC_GETSTARTED_HEAD": "Initial Setup",
     "BUYBTC_GETSTARTED_BODY": "Before you can buy Bitcoin, let's setup your exchange account",
     "BUYBTC_GETSTARTED_BUTTON": "Continue",
@@ -609,6 +632,7 @@
     "BUYBTC_INCL_FEE": "Including fee",
     "BUYBTC_BUY": "Continue",
     "BUYBTC_VIA": "Your purchase will complete using",
+    "BUYBTC_BANK_TRANSFER_SLOW": "Bitcoins purchased via bank transfer can take several business days to settle.",
 
     "MSG_BUYBTC_PIN_TO_ENCRYPT": "Please enter your wallet PIN code.",
     "MSG_BUYBTC_PIN_TO_DECRYPT_TITLE": "Enter PIN",
@@ -646,7 +670,7 @@
     "MSG_BUYBTC_CONFIRM_BODY": "Are you sure you want to buy {{ qty }} BTC for {{ currencySymbol }}{{ price }}?",
 
     "MSG_BUYBTC_BOUGHT_TITLE": "Bought bitcoins",
-    "MSG_BUYBTC_BOUGHT_BODY": "You just purchased {{ qty }} BTC for {{ currencySymbol }}{{ price }}!",
+    "MSG_BUYBTC_BOUGHT_BODY": "You just purchased {{ qty }} BTC for {{ currencySymbol }}{{ price }}! The bitcoins are expected to be settled: {{ estimatedDate }}",
 
     "MSG_BETTER_LANGUAGE_TITLE": "New language available",
     "MSG_BETTER_LANGUAGE": [
