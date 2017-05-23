@@ -58,6 +58,9 @@
     "VIA": "通过",
     "AT": "在",
 
+    // update notices
+    "UPDATED_NOTICE": "您的钱包已升级",
+
     // datetime
     "TODAY": "今天",
     "TOMORROW": "明天",
@@ -155,6 +158,7 @@
     // side menu
     "MY_WALLET": "我的钱包",
     "SEND_FEEDBACK": "发送反馈",
+    "TELL_A_FRIEND": "推荐给朋友",
     // My Wallet screen
     "INTERNAL_TRANSACTION_TITLE": "发送给自己",
     "SENT_TO_MANY_TITLE": "发送给多人",
@@ -270,11 +274,14 @@
     "SETTINGS_WALLET": "钱包",
     "SETTINGS_CURRENT_WALLET": "当前钱包",
     "SETTINGS_CHANGE_PIN": "更改 PIN",
+    "SETTINGS_FORGOT_PIN": "忘记 PIN",
     "SETTINGS_CHANGE_PASSWORD": "更改密码",
     "SETTINGS_RECOMMENDED": "推荐",
     "SETTINGS_NEWSLETTER": "向我提供 BTC.com 的最新消息",
     "SETTINGS_RESET_ACCOUNT": "登出",
     "SETTINGS_WALLET_BACKUP": "钱包备份",
+    "SETTINGS_HELP": "帮助",
+    "SETTINGS_FAQ": "常见问题",
     "SETTINGS_INFO": "信息",
     "SETTINGS_ABOUT": "关于",
     "SETTINGS_VERSION": "版本",
@@ -413,6 +420,15 @@
     "LOW_PRIORITY_LABEL": "低优先级比特币费用",
     "LOW_PRIORITY_WARNING": "使用低优先级费用会导致确认时间明显要慢很多！",
     "LOW_PRIORITY_SEND_WARNING": "您正在使用低优先级费用，这会确认时间明显要慢很多！",
+
+    "PRIOBOOST": "优先级升级",
+    "PRIOBOOST_NOTICE": "使用最低手续费率，获得最快的确认速度。交易将被推送到 BTC.com 的加速确认队列。",
+    "PRIOBOOST_CREDITS": "您本月还有 {{ credits }} 次机会",
+    "PRIOBOOST_NOT_POSSIBLE": "当前交易不能用于加速。请尝试不同的金额。",
+    "PRIOBOOST_TOO_LARGE": "当前交易体积过大，不适用于自动加速。",
+    "PRIOBOOST_ZERO_CONF": "当前交易有未确认的输入，不适用于自动加速。",
+    "PRIOBOOST_NO_CREDITS": "本月您当前没有可用的加速机会了。",
+    "PRIOBOOST_NO_CREDITS_SHORT": "无可用加速。",
 
     "QR_SCAN_OVERLAY": "扫描二维码",
     "MSG_BAD_ADDRESS_2": "这似乎不是有效的比特币地址",
