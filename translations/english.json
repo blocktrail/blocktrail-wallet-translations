@@ -80,6 +80,13 @@
         "For now, you can send up to 3 accelerated priority transactions each month, with more ways to increase this amount coming soon!"
     ],
 
+    // invalid session
+    "INVALID_SESSION": "Your session is no longer valid",
+    "INVALID_SESSION_LOGOUT_NOW": [
+        "We're sorry for the inconvenience but for security reasons your session has expired.",
+        "You will now be logged out, please log back in afterwards."
+    ],
+
     // datetime
     "TODAY": "Today",
     "TOMORROW": "Tomorrow",
