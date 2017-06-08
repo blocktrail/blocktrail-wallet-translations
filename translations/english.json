@@ -71,7 +71,7 @@
     "UPDATED_NOTICE": "Your wallet has been upgraded.",
 
     // per version update messages
-    "GLIDERA_UPDATE": "You can now easily buy bitcoins from all US states (except New York) from within your wallet through our partnership integration of Glidera!",
+    "GLIDERA_UPDATE": "You can now easily buy bitcoin from all US states (except New York) from within your wallet through our partnership integration of Glidera!",
     "UPDATE_NOTICE_030304": [
         "New \"Accelerated priority\" transactions!",
         "",
@@ -274,13 +274,13 @@
     "PAYMENT_RECEIVED": "Payment received",
     // Receiving Screens
     "REQUEST_SEND": "Send request",
-    "MSG_REQUEST_EMAIL_SUBJECT_1": "Please send me bitcoins",
+    "MSG_REQUEST_EMAIL_SUBJECT_1": "Please send me bitcoin",
     "MSG_REQUEST_EMAIL_BODY_1": [
         "Hi,<br><br>Please send funds to my Bitcoin wallet (QR code attached).",
         "<p>Address: <a href='{{addressURI}}'>{{address}}</a> </p>",
         "<p><br>Sent with <a href=\"https://btc.com\">Wallet by BTC.com</a></p>"
     ],
-    "MSG_REQUEST_EMAIL_SUBJECT_2": "Please send me {{btcValue}} bitcoins (approx {{fiatValue}} {{localCurrency}})",
+    "MSG_REQUEST_EMAIL_SUBJECT_2": "Please send me {{btcValue}} bitcoin (approx {{fiatValue}} {{localCurrency}})",
     "MSG_REQUEST_EMAIL_BODY_2": [
         "Hi,<br><br>Please send funds to my Bitcoin wallet (QR code attached).",
         "<p>Address: <a href='{{addressURI}}'>{{address}}</a> </p>",
@@ -515,14 +515,14 @@
     "SETUP_PHONE_SKIP_MSG": "You can always do this later in the settings.",
     "SETUP_PHONE_LINKED": "Phone linked",
     "SETUP_CONTACTS_DESC_TITLE": "Synchronise your contacts?",
-    "SETUP_CONTACTS_DESC_SUBTITLE": "This will let the app to search the contacts on your phone for other Wallet users, so you can easily send bitcoins directly to them.",
+    "SETUP_CONTACTS_DESC_SUBTITLE": "This will let the app to search the contacts on your phone for other Wallet users, so you can easily send bitcoin directly to them.",
     "SETUP_WEB_SYNC": "Sync contacts to web wallet",
     "SETUP_COMPLETE_TITLE": "You're all done!",
     "SETUP_COMPLETE_SUBTITLE": "Welcome to the world of Bitcoin",
     "SETUP_COMPLETE_SUBTITLE_2": "Visit btc.com/faq for tips and tricks.",
     "MSG_USERNAME_WARNING": "*Signing up with a username gives you greater privacy and anonymity, but at a cost of being able to recover passwords and receive critical emails from us.",
     "MSG_BACKUP_DESCRIPTION": "Save your wallet backup and store it safely so you can recover your wallet if anything happens.",
-    "WALLET_YOUR_BITCOINS": "Your Bitcoins",
+    "WALLET_YOUR_BITCOINS": "Your Bitcoin",
     "TX_INFO_MORE_TITLE": "More info",
     "TX_INFO_MORE_LINK": "See on BTC.com",
     "AVAILABLE_BALANCE": "Available Balance",
@@ -605,8 +605,8 @@
     "NAVBAR_LOGIN": "Sign In",
 
     // Buy BTC
-    "BUYBTC": "Buy Bitcoins",
-    "BUYBTC_NAVTITLE": "Buy Bitcoins",
+    "BUYBTC": "Buy Bitcoin",
+    "BUYBTC_NAVTITLE": "Buy Bitcoin",
     "BUYBTC_PENDING_ORDERS": "Pending Orders",
     "BUYBTC_PENDING_ORDER": "pending order",
     "BUYBTC_PENDING_ORDER_FROM": "Pending Order from {{ order.displayName }}",
@@ -617,11 +617,11 @@
     "BUYBTC_GETSTARTED_HEAD": "Initial Setup",
     "BUYBTC_GETSTARTED_BODY": "Before you can buy Bitcoin, let's setup your exchange account",
     "BUYBTC_GETSTARTED_BUTTON": "Continue",
-    "TX_INFO_BUYBTC_FROM": "Bitcoins Purchased from",
-    "TX_INFO_BUYBTC": "Bitcoins Purchased",
+    "TX_INFO_BUYBTC_FROM": "Bitcoin Purchased from",
+    "TX_INFO_BUYBTC": "Bitcoin Purchased",
     "TX_INFO_BUYBTC_DETAILS": "{{ qty }} BTC Purchased at {{ price }} {{ currency }} per BTC.",
 
-    "BUYBTC_BUYING": "Buying Bitcoins...",
+    "BUYBTC_BUYING": "Buying Bitcoin...",
 
     "BUYBTC_CHOOSE_REGION_TITLE": "Select your region",
     "BUYBTC_CHOOSE_REGION_BODY": "Select your region for available purchase methods",
@@ -643,7 +643,7 @@
     "BUYBTC_INCL_FEE": "Including fee",
     "BUYBTC_BUY": "Continue",
     "BUYBTC_VIA": "Your purchase will complete using",
-    "BUYBTC_BANK_TRANSFER_SLOW": "Bitcoins purchased via bank transfer can take several business days to settle.",
+    "BUYBTC_BANK_TRANSFER_SLOW": "Bitcoin purchased via bank transfer can take several business days to settle.",
 
     "MSG_BUYBTC_PIN_TO_ENCRYPT": "Please enter your wallet PIN code.",
     "MSG_BUYBTC_PIN_TO_DECRYPT_TITLE": "Enter PIN",
@@ -665,7 +665,7 @@
 
     "MSG_BUYBTC_SETUP_MORE_GLIDERA_TITLE": "Glidera",
     "MSG_BUYBTC_SETUP_MORE_GLIDERA_BODY": [
-        "To be able to use Glidera to buy bitcoins from the app you need finish all account setup steps;",
+        "To be able to use Glidera to buy bitcoin from the app you need finish all account setup steps;",
         "{{ message }}.",
         "",
         "We will now redirect you to their platform to do so, once you are done click the \"Return to BTC Wallet\" button to return."
@@ -677,11 +677,11 @@
     "MSG_BUYBTC_FIAT_USD_ONLY_TITLE": "Careful!",
     "MSG_BUYBTC_FIAT_USD_ONLY": "Your default currency is set to {{ yourCurrency }}, but when buy bitcoin values are denominated in {{ currency }}",
 
-    "MSG_BUYBTC_CONFIRM_TITLE": "Buy bitcoins",
+    "MSG_BUYBTC_CONFIRM_TITLE": "Buy bitcoin",
     "MSG_BUYBTC_CONFIRM_BODY": "Are you sure you want to buy {{ qty }} BTC for {{ currencySymbol }}{{ price }}?",
 
-    "MSG_BUYBTC_BOUGHT_TITLE": "Bought bitcoins",
-    "MSG_BUYBTC_BOUGHT_BODY": "You just purchased {{ qty }} BTC for {{ currencySymbol }}{{ price }}! The bitcoins are expected to be settled: {{ estimatedDate }}",
+    "MSG_BUYBTC_BOUGHT_TITLE": "Bought bitcoin",
+    "MSG_BUYBTC_BOUGHT_BODY": "You just purchased {{ qty }} BTC for {{ currencySymbol }}{{ price }}! The bitcoin are expected to be settled: {{ estimatedDate }}",
 
     "MSG_BETTER_LANGUAGE_TITLE": "New language available",
     "MSG_BETTER_LANGUAGE": [

@@ -89,7 +89,7 @@
     "SETUP_WALLET_BACKUP_TEXT_BOLD": "Voordat u de wallet gaat gebruiken",
     "SETUP_WALLET_BACKUP_TEXT_APPEND": [
         "Het is belangrijk om je backup veilig, offline te bewaren.",
-        "In geval van nood kan je met dit backup document altijd bij je bitcoins die in je wallet zitten."
+        "In geval van nood kan je met dit backup document altijd bij je bitcoin die in je wallet zitten."
     ],
     "BACKUP_EMAIL_PDF": "Email backup PDF",
     "BACKUP_CREATE_PDF": "Wallet backup opslaan",
@@ -161,8 +161,8 @@
     "WALLET_ACTION_PRE": "Ga aan de gang",
     "WALLET_ACTION_LINK": "Door je wallet te vullen",
     "WALLET_NO_MORE_TXS": "Einde van de transacties",
-    "TX_INFO_SENT": "Bitcoins verstuurd",
-    "TX_INFO_RECEIVED": "Bitcoins ontvangen",
+    "TX_INFO_SENT": "Bitcoin verstuurd",
+    "TX_INFO_RECEIVED": "Bitcoin ontvangen",
     "TX_INFO_HASH": "Transactie ID",
     "TX_INFO_TIME_SUBTITLE": "Op het moment van de transactie",
     "TX_INFO_TIME_SUBTITLE_2": "Op de huidige prijs",
@@ -231,13 +231,13 @@
     "PAYMENT_RECEIVED": "Transactie ontvangen",
     // Receiving Screens
     "REQUEST_SEND": "Verstuur betalingsverzoek",
-    "MSG_REQUEST_EMAIL_SUBJECT_1": "Stuur mij aub bitcoins",
+    "MSG_REQUEST_EMAIL_SUBJECT_1": "Stuur mij aub bitcoin",
     "MSG_REQUEST_EMAIL_BODY_1": [
         "Hi,<br><br>Stuur mij aub bitcoin (zie QR code). ",
         "<p>Adres: <a href='{{addressURI}}'>{{address}}</a> </p>",
         " <p><br>Verzonden met <a href=\"https://btc.com\">BTC Wallet</a></p>"
     ],
-    "MSG_REQUEST_EMAIL_SUBJECT_2": "Zou je mij aub {{btcValue}} bitcoins kunnen sturen (ongeveer {{fiatValue}} {{localCurrency}})",
+    "MSG_REQUEST_EMAIL_SUBJECT_2": "Zou je mij aub {{btcValue}} bitcoin kunnen sturen (ongeveer {{fiatValue}} {{localCurrency}})",
     "MSG_REQUEST_EMAIL_BODY_2": [
         "Hi,<br><br>Zou je mij aub bitcoin kunnen sturen (zie QR code).",
         "<p>Adres: <a href='{{addressURI}}'>{{address}}</a> </p>",
@@ -246,7 +246,7 @@
     ],
     "MSG_REQUEST_SMS_1": [
         "Hi,",
-        "Zou je aub bitcoins kunnen sturen naar mijn wallet.",
+        "Zou je aub bitcoin kunnen sturen naar mijn wallet.",
         "Adres: {{address}}"
     ],
     "MSG_REQUEST_SMS_2": [
@@ -325,8 +325,8 @@
     "MSG_BAD_PIN_LENGTH": "De PIN code moet minimaal 4 cijfers zijn",
     "MSG_TRY_AGAIN": "Probeer opnieuw",
     "MSG_PIN_CHANGED": "Je PIN is veranderd",
-    "SEND_PHONE_NUMBER_REQUIRED": "Om bitcoins te kunnen versteren naar mensen in het adresboek van je telefoon hebben we je telefoonnummer nodig.",
-    "SEND_PHONE_NUMBER_REQUIRED_IOS": "Om bitcoins te kunnen versteren naar mensen in het adresboek van je telefoon hebben we je telefoonnummer nodig en toegang tot je adresboek.",
+    "SEND_PHONE_NUMBER_REQUIRED": "Om bitcoin te kunnen versteren naar mensen in het adresboek van je telefoon hebben we je telefoonnummer nodig.",
+    "SEND_PHONE_NUMBER_REQUIRED_IOS": "Om bitcoin te kunnen versteren naar mensen in het adresboek van je telefoon hebben we je telefoonnummer nodig en toegang tot je adresboek.",
     // messages
     "SETTINGS_PHONE_VERIFIED": "Geverifieerd",
     "SETTINGS_PHONE_UNVERIFIED": "Niet geverifieerd",
@@ -430,18 +430,18 @@
     "SETUP_PIN_DESC_TITLE": "Kies een PIN van minimaal 4 cijfers",
     "SETUP_PIN_DESC_SUBTITLE": "Kies een PIN die je makkelijk kan onthouden, je hebt deze nodig bij het doen van transacties en het aanpassen van instellingen.",
     "SETUP_PHONE_DESC_TITLE": "Link je telefoonnummer aan je wallet?",
-    "SETUP_PHONE_DESC_SUBTITLE": "Je kan dan makkelijk bitcoins sturen en ontvangen van en naar je contact personen.",
+    "SETUP_PHONE_DESC_SUBTITLE": "Je kan dan makkelijk bitcoin sturen en ontvangen van en naar je contact personen.",
     "SETUP_PHONE_SKIP_MSG": "Je kan dit altijd later nog doen via de instellingen.",
     "SETUP_PHONE_LINKED": "Telefoonnummer gelinkt",
     "SETUP_CONTACTS_DESC_TITLE": "Contacten synchroniseren?",
-    "SETUP_CONTACTS_DESC_SUBTITLE": "Hiermee kan de app je contacten lijst doorzoeken voor andere wallet gebruikers zodat je makkelijk direct naar hun bitcoins kan sturen.",
+    "SETUP_CONTACTS_DESC_SUBTITLE": "Hiermee kan de app je contacten lijst doorzoeken voor andere wallet gebruikers zodat je makkelijk direct naar hun bitcoin kan sturen.",
     "SETUP_WEB_SYNC": "Contacten synchroniseren naar de web wallet",
     "SETUP_COMPLETE_TITLE": "Je bent helemaal klaar!",
     "SETUP_COMPLETE_SUBTITLE": "Welkom in de wereld van Bitcoin",
     "SETUP_COMPLETE_SUBTITLE_2": "Ga naar btc.com/faq voor tips.",
     "MSG_USERNAME_WARNING": "*Registeren met een gebruikersnaam heeft iets meer privacy en anonimiteit, maar tegelijkertijd maakt het het ook onmogelijk om je wachtwoord te resetten.",
     "MSG_BACKUP_DESCRIPTION": "Sla je wallet backup veilig op zodat je je wallet nooit helemaal kwijt bent, wat er ook gebeurd.",
-    "WALLET_YOUR_BITCOINS": "Jouw bitcoins",
+    "WALLET_YOUR_BITCOINS": "Jouw bitcoin",
     "TX_INFO_MORE_TITLE": "Meer info",
     "TX_INFO_MORE_LINK": "Zie btc.com",
     "AVAILABLE_BALANCE": "Beschikbaar saldo",
@@ -463,8 +463,8 @@
         "Weet je dit zeker?"
     ],
     "MSG_PHONE_CODE_SENT": "Er is een verificatie code naar je telefoon gestuurd. Aub deze hieronder invoeren.",
-    "MSG_ENABLE_CONTACTS": "Hiermee kan de app je contacten lijst doorzoeken voor andere wallet gebruikers zodat je makkelijk direct naar hun bitcoins kan sturen.",
-    "MSG_DISABLE_CONTACTS": "Het uitschakelen van het synchroniseren van contacten verwijderd ook alle data die is opgeslagen en je kan daarna niet meer naar je contacten bitcoins versturen.",
+    "MSG_ENABLE_CONTACTS": "Hiermee kan de app je contacten lijst doorzoeken voor andere wallet gebruikers zodat je makkelijk direct naar hun bitcoin kan sturen.",
+    "MSG_DISABLE_CONTACTS": "Het uitschakelen van het synchroniseren van contacten verwijderd ook alle data die is opgeslagen en je kan daarna niet meer naar je contacten bitcoin versturen.",
     // About
     "ABOUT_TITLE": "Wallet",
     "ABOUT_SUBTITLE": "Door BTC.com",
@@ -486,16 +486,16 @@
     "NAVBAR_LOGIN": "Inloggen",
 
     // Buy BTC
-    "BUYBTC": "Bitcoins kopen",
-    "BUYBTC_NAVTITLE": "Bitcoins kopen",
+    "BUYBTC": "Bitcoin kopen",
+    "BUYBTC_NAVTITLE": "Bitcoin kopen",
     "BUYBTC_GETSTARTED_HEAD": "Initiele Setup",
     "BUYBTC_GETSTARTED_BODY": "Voordat je Bitcoin kan kopen moeten we je exchange account op zetten.",
     "BUYBTC_GETSTARTED_BUTTON": "Verder",
-    "TX_INFO_BUYBTC_FROM": "Bitcoins gekocht van",
-    "TX_INFO_BUYBTC": "Bitcoins gekocht",
+    "TX_INFO_BUYBTC_FROM": "Bitcoin gekocht van",
+    "TX_INFO_BUYBTC": "Bitcoin gekocht",
     "TX_INFO_BUYBTC_DETAILS": "{{ qty }} BTC gekocht voor {{ price }} {{ currency }} per BTC.",
 
-    "BUYBTC_BUYING": "Bitcoins kopen…",
+    "BUYBTC_BUYING": "Bitcoin kopen…",
 
     "BUYBTC_CHOOSE_REGION_TITLE": "Kies je regio",
     "BUYBTC_CHOOSE_REGION_BODY": "Kies je regio voor beschikbare aankoop methodes",
@@ -545,10 +545,10 @@
     "MSG_BUYBTC_FIAT_USD_ONLY_TITLE": "Voorzichtig!",
     "MSG_BUYBTC_FIAT_USD_ONLY": "Je default valuta staat op {{ yourCurrency }}, maar bij het kopen van bitcoin is de prijs uitgedrukt in {{ currency }}",
 
-    "MSG_BUYBTC_CONFIRM_TITLE": "Bitcoins kopen",
+    "MSG_BUYBTC_CONFIRM_TITLE": "Bitcoin kopen",
     "MSG_BUYBTC_CONFIRM_BODY": "Weet je zeker dat je {{ qty }} BTC wilt kopen voor {{ currencySymbol }}{{ price }}?",
 
-    "MSG_BUYBTC_BOUGHT_TITLE": "Bitcoins gekocht",
+    "MSG_BUYBTC_BOUGHT_TITLE": "Bitcoin gekocht",
     "MSG_BUYBTC_BOUGHT_BODY": "Je hebt zojuist {{ qty }} BTC gekocht voor {{ currencySymbol }}{{ price }}!",
 
     "MSG_BETTER_LANGUAGE_TITLE": "Nieuwe taal beschikbaar",

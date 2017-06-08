@@ -226,9 +226,9 @@
     "PAYMENT_RECEIVED": "Pago recibido",
     // Receiving Screens
     "REQUEST_SEND": "Enviar petición",
-    "MSG_REQUEST_EMAIL_SUBJECT_1": "Por favor, envíeme bitcoins",
+    "MSG_REQUEST_EMAIL_SUBJECT_1": "Por favor, envíeme bitcoin",
     "MSG_REQUEST_EMAIL_BODY_1": "Hola,<br><br>Por favor, envíe los fondos a mi cartera Bitcoin (se adjunta código QR). <p>Dirección: <a href='{{addressURI}}'>{{address}}</a> </p> <p><br>Enviado con <a href=\"https://btc.com\">BTC Wallet</a></p>",
-    "MSG_REQUEST_EMAIL_SUBJECT_2": "Por favor, envíeme {{btcValue}} bitcoins (aprox. {{fiatValue}} {{localCurrency}})",
+    "MSG_REQUEST_EMAIL_SUBJECT_2": "Por favor, envíeme {{btcValue}} bitcoin (aprox. {{fiatValue}} {{localCurrency}})",
     "MSG_REQUEST_EMAIL_BODY_2": "Hola,<br><br>Por favor, envíe fondos a mi cartera Bitcoin (se adjunta código QR). <p>Dirección: <a href='{{addressURI}}'>{{address}}</a> </p> <br>Cantidad: {{btcValue}} BTC (aprox. {{fiatValue}} {{localCurrency}})</p> <p><br>Enviado con mi <a href='https://btc.com'>cartera BTC.com</a></p>",
     "MSG_REQUEST_SMS_1": [
         "Hola,",
@@ -311,8 +311,8 @@
     "MSG_BAD_PIN_LENGTH": "El nuevo PIN debe tener al menos 4 números",
     "MSG_TRY_AGAIN": "Inténtalo de nuevo",
     "MSG_PIN_CHANGED": "El PIN se ha cambiado",
-    "SEND_PHONE_NUMBER_REQUIRED": "Para poder enviar bitcoins a los contactos de la libreta de direcciones de tu teléfono, debes proporcionar tu número de teléfono.",
-    "SEND_PHONE_NUMBER_REQUIRED_IOS": "Para poder enviar bitcoins a los contactos de la libreta de direcciones de tu teléfono, debes proporcionar tu número de teléfono y dar acceso a tus contactos.",
+    "SEND_PHONE_NUMBER_REQUIRED": "Para poder enviar bitcoin a los contactos de la libreta de direcciones de tu teléfono, debes proporcionar tu número de teléfono.",
+    "SEND_PHONE_NUMBER_REQUIRED_IOS": "Para poder enviar bitcoin a los contactos de la libreta de direcciones de tu teléfono, debes proporcionar tu número de teléfono y dar acceso a tus contactos.",
     // messages
     "SETTINGS_PHONE_VERIFIED": "Verificado",
     "SETTINGS_PHONE_UNVERIFIED": "No verificado",
@@ -411,14 +411,14 @@
     "SETUP_PHONE_SKIP_MSG": "Puedes puede hacer esto más adelante desde Configuración.",
     "SETUP_PHONE_LINKED": "Teléfono vinculado",
     "SETUP_CONTACTS_DESC_TITLE": "¿Quieres sincronizar tus contactos?",
-    "SETUP_CONTACTS_DESC_SUBTITLE": "Esto permitirá que la aplicación busque otros usuarios de Wallet en los contactos de tu teléfono, para que puedas enviarles bitcoins directamente de forma sencilla.",
+    "SETUP_CONTACTS_DESC_SUBTITLE": "Esto permitirá que la aplicación busque otros usuarios de Wallet en los contactos de tu teléfono, para que puedas enviarles bitcoin directamente de forma sencilla.",
     "SETUP_WEB_SYNC": "Sincronizar contactos a la cartera web",
     "SETUP_COMPLETE_TITLE": "¡Eso es todo!",
     "SETUP_COMPLETE_SUBTITLE": "Bienvenido al mundo de Bitcoin",
     "SETUP_COMPLETE_SUBTITLE_2": "Visita btc.com/faq para obtener consejos y trucos.",
     "MSG_USERNAME_WARNING": "* El registro con un nombre de usuario te proporciona una mayor privacidad y anonimato, pero a cambio puedes recuperar contraseñas y recibir correos electrónicos importantes de nuestra parte.",
     "MSG_BACKUP_DESCRIPTION": "Guarda la copia de seguridad de tu cartera y almacénala de forma segura para que puedas recuperar tu cartera si ocurre algo.",
-    "WALLET_YOUR_BITCOINS": "Tus Bitcoins",
+    "WALLET_YOUR_BITCOINS": "Tus Bitcoin",
     "TX_INFO_MORE_TITLE": "Más información",
     "TX_INFO_MORE_LINK": "Ver en BTC.com",
     "AVAILABLE_BALANCE": "Saldo disponible",
@@ -494,16 +494,16 @@
     "NAVBAR_LOGIN": "Registrarse",
 
     // Buy BTC
-    "BUYBTC": "Comprar Bitcoins",
-    "BUYBTC_NAVTITLE": "Comprar Bitcoins",
+    "BUYBTC": "Comprar Bitcoin",
+    "BUYBTC_NAVTITLE": "Comprar Bitcoin",
     "BUYBTC_GETSTARTED_HEAD": "Configuración inicial",
     "BUYBTC_GETSTARTED_BODY": "Antes de comprar Bitcoin, configuremos tu cuenta de cambio",
     "BUYBTC_GETSTARTED_BUTTON": "Continuar",
-    "TX_INFO_BUYBTC_FROM": "Bitcoins comprados de",
-    "TX_INFO_BUYBTC": "Bitcoins comprados",
+    "TX_INFO_BUYBTC_FROM": "Bitcoin comprados de",
+    "TX_INFO_BUYBTC": "Bitcoin comprados",
     "TX_INFO_BUYBTC_DETAILS": "{{ qty }} BTC comprados a {{ price }} {{ currency }} por BTC.",
 
-    "BUYBTC_BUYING": "Comprando Bitcoins...",
+    "BUYBTC_BUYING": "Comprando Bitcoin...",
 
     "BUYBTC_CHOOSE_REGION_TITLE": "Selecciona tu región",
     "BUYBTC_CHOOSE_REGION_BODY": "Selecciona tu región para los métodos de compra disponibles",
@@ -536,7 +536,7 @@
 
     "MSG_BUYBTC_SETUP_GLIDERA_TITLE": "Glidera",
     "MSG_BUYBTC_SETUP_GLIDERA_BODY": [
-        "Para poder usar Glidera para comprar bitcoins desde la aplicación, ¡necesitas configurar una cuenta de Glidera!",
+        "Para poder usar Glidera para comprar bitcoin desde la aplicación, ¡necesitas configurar una cuenta de Glidera!",
         "Ahora te redireccionaremos a su plataforma para hacerlo, una vez que hayas terminado, te enviaremos de vuelta automáticamente."
     ],
 
@@ -545,7 +545,7 @@
 
     "MSG_BUYBTC_SETUP_MORE_GLIDERA_TITLE": "Glidera",
     "MSG_BUYBTC_SETUP_MORE_GLIDERA_BODY": [
-        "Para poder usar Glidera para comprar bitcoins desde la aplicación, debes finalizar todos los pasos de configuración de la cuenta;",
+        "Para poder usar Glidera para comprar bitcoin desde la aplicación, debes finalizar todos los pasos de configuración de la cuenta;",
         "{{ message }}.",
         "",
         "Ahora te redirigiremos a su plataforma para hacerlo, una vez que hayas terminado, haz clic en el botón \"Volver a BTC Wallet\" para regresar."
@@ -557,10 +557,10 @@
     "MSG_BUYBTC_FIAT_USD_ONLY_TITLE": "¡Ten cuidado!",
     "MSG_BUYBTC_FIAT_USD_ONLY": "Tu moneda predeterminada es {{ yourCurrency }}, pero cuando compras bitcoin, los valores están denominados en {{ currency }}",
 
-    "MSG_BUYBTC_CONFIRM_TITLE": "Comprar bitcoins",
+    "MSG_BUYBTC_CONFIRM_TITLE": "Comprar bitcoin",
     "MSG_BUYBTC_CONFIRM_BODY": "¿Seguro que quieres comprar {{ qty }} BTC para {{ currencySymbol }} {{ price }}?",
 
-    "MSG_BUYBTC_BOUGHT_TITLE": "Compró bitcoins",
+    "MSG_BUYBTC_BOUGHT_TITLE": "Compró bitcoin",
     "MSG_BUYBTC_BOUGHT_BODY": "¡Acabas de comprar {{ qty }} BTC por {{ currencySymbol }} {{ price }}!",
 
     "MSG_BETTER_LANGUAGE_TITLE": "Nuevo idioma disponible",

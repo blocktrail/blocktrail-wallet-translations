@@ -72,7 +72,7 @@
     "SETUP_LOGIN": "Se connecter",
     "LOGGING_IN": "Connexion",
     "LOGGED_OUT_CONFIRMATION_TITLE": "Vous vous êtes déconnecté",
-    "LOGGED_OUT_CONFIRMATION_TEXT": "Obtenez l'application de portefeuille mobile BTC.com et accédez à vos bitcoins en toute sécurité depuis n'importe où !",
+    "LOGGED_OUT_CONFIRMATION_TEXT": "Obtenez l'application de portefeuille mobile BTC.com et accédez à vos bitcoin en toute sécurité depuis n'importe où !",
     "SETUP_LOGIN_PLACEHOLDER": "Nom d'utilisateur ou email",
     "SETUP_USERNAME_PLACEHOLDER": "Nom d'utilisateur",
     "SETUP_EMAIL_PLACEHOLDER": "Email",
@@ -99,7 +99,7 @@
     "SETUP_TERMS_OF_SERVICE_TEXT": "Je suis d'accord avec",
     "SETUP_TERMS_OF_SERVICE_LINK": "les conditions d'utilisation",
     "SETUP_DOWNLOAD_MOBILE_TITLE": "Portefeuille BTC.com pour",
-    "SETUP_DOWNLOAD_MOBILE_TEXT": "Installez l'application de portefeuille BTC.com sur votre mobile et accédez à vos bitcoins en toute sécurité depuis n'importe où !",
+    "SETUP_DOWNLOAD_MOBILE_TEXT": "Installez l'application de portefeuille BTC.com sur votre mobile et accédez à vos bitcoin en toute sécurité depuis n'importe où !",
     "CREATING_ACCOUNT": "Création du compte",
     "CREATING_WALLET": "Création du portefeuille",
     "CREATING_GENERATE_RECOVERY": "Génération clé de récupération",
@@ -201,7 +201,7 @@
     "MSG_GET_CONTACT_ADDR": "Obtention de l'adresse du contact...",
     "MSG_INIT_WALLET": "Initialisation du portefeuille...",
     "MSG_SENDING": "Envoi...",
-    "MSG_MISSING_AMOUNT": "Veuillez entrer un montant en bitcoins",
+    "MSG_MISSING_AMOUNT": "Veuillez entrer un montant en bitcoin",
     "MSG_MISSING_RECIPIENT": "Veuillez entrer un bénéficiaire",
     "MSG_INVALID_RECIPIENT": "Destinataire non valide",
     "MSG_INSUFFICIENT_FUNDS": "Pas assez de fonds pour cette transaction",
@@ -233,13 +233,13 @@
     "PAYMENT_RECEIVED": "Paiement reçu",
     // Receiving Screens
     "REQUEST_SEND": "Envoyer une demande",
-    "MSG_REQUEST_EMAIL_SUBJECT_1": "Envoyez-moi des bitcoins",
+    "MSG_REQUEST_EMAIL_SUBJECT_1": "Envoyez-moi des bitcoin",
     "MSG_REQUEST_EMAIL_BODY_1": [
         "Bonjour,<br><br>Envoyez-moi des fonds dans mon portefeuille Bitcoin (code QR attaché)",
         "<p>Adresse : <a href='{{addressURI}}'>{{address}}</a> </p>",
         "<p><br>envoyé avec <a href='https://btc.com'>Portefeuille par BTC.com</a></p>"
     ],
-    "MSG_REQUEST_EMAIL_SUBJECT_2": "Envoyez-moi {{btcValue}} bitcoins (environ {{fiatValue}} {{localCurrency}})",
+    "MSG_REQUEST_EMAIL_SUBJECT_2": "Envoyez-moi {{btcValue}} bitcoin (environ {{fiatValue}} {{localCurrency}})",
     "MSG_REQUEST_EMAIL_BODY_2": [
         "Bonjour,<br><br>Envoyez-moi des fonds dans mon portefeuille Bitcoin (code QR attaché)",
         "<p>Adresse : <a href='{{addressURI}}'>{{address}}</a> </p>",
@@ -330,9 +330,9 @@
     "MSG_BAD_PIN_LENGTH": "Le nouveau PIN doit contenir au moins 4 chiffres",
     "MSG_TRY_AGAIN": "Veuillez réessayer",
     "MSG_PIN_CHANGED": "Votre PIN a été changé",
-    "SEND_PHONE_NUMBER_REQUIRED": "Pour être capable d'envoyer des bitcoins aux contacts de votre carnet d'adresses de votre téléphone, vous devez fournir votre numéro de téléphone.",
+    "SEND_PHONE_NUMBER_REQUIRED": "Pour être capable d'envoyer des bitcoin aux contacts de votre carnet d'adresses de votre téléphone, vous devez fournir votre numéro de téléphone.",
     "SEND_PHONE_NUMBER_REQUIRED_IOS": [
-        "Pour être capable d'envoyer des bitcoins aux contacts de votre carnet d'adresses de votre téléphone, vous devez fournir votre numéro de téléphone ",
+        "Pour être capable d'envoyer des bitcoin aux contacts de votre carnet d'adresses de votre téléphone, vous devez fournir votre numéro de téléphone ",
         "Et donner l'accès à vos contacts."
     ],
     // messages
@@ -446,14 +446,14 @@
     "SETUP_PHONE_SKIP_MSG": "Vous pouvez toujours faire ceci plus tard dans les paramètres.",
     "SETUP_PHONE_LINKED": "Téléphone relié",
     "SETUP_CONTACTS_DESC_TITLE": "Synchroniser vos contacts ?",
-    "SETUP_CONTACTS_DESC_SUBTITLE": "Ceci permettra à l'appli de rechercher les contacts de votre téléphone pour les autres utilisateurs de portefeuille, vous pourrez donc envoyer facilement et directement des bitcoins à eux.",
+    "SETUP_CONTACTS_DESC_SUBTITLE": "Ceci permettra à l'appli de rechercher les contacts de votre téléphone pour les autres utilisateurs de portefeuille, vous pourrez donc envoyer facilement et directement des bitcoin à eux.",
     "SETUP_WEB_SYNC": "Synchroniser les contacts dans le portefeuille web",
     "SETUP_COMPLETE_TITLE": "C'est terminé !",
     "SETUP_COMPLETE_SUBTITLE": "Bienvenue dans l'univers de Bitcoin",
     "SETUP_COMPLETE_SUBTITLE_2": "Visitez btc.com/faq pour les trucs et astuces.",
     "MSG_USERNAME_WARNING": "*S'inscrire avec un nom d'utilisateur renforce votre anonymat, mais vous ne pourrez pas récupérer vos mots de passe et recevoir des emails critiques de notre part.",
     "MSG_BACKUP_DESCRIPTION": "Enregistrez votre sauvegarde de portefeuille et conservez-la dans un endroit sûr pour récupérer votre portefeuille si quelque chose arrive.",
-    "WALLET_YOUR_BITCOINS": "Vos Bitcoins",
+    "WALLET_YOUR_BITCOINS": "Vos Bitcoin",
     "TX_INFO_MORE_TITLE": "Plus d'infos",
     "TX_INFO_MORE_LINK": "Voir sur BTC.com",
     "AVAILABLE_BALANCE": "Solde disponible",
@@ -467,7 +467,7 @@
     "SETTINGS_BTC_DECIMALS": "Affichage des décimales BTC",
     "SETTINGS_ENABLE_CONTACTS": "Activer les contacts ?",
     "SETTINGS_DISABLE_CONTACTS": "Activer la synchronisation des contacts ?",
-    "SETTINGS_PHONE_DESCRIPTION": "Relier votre portefeuille à votre numéro de téléphone vous permettra d'envoyer des bitcoins à vos contacts téléphoniques qui ont des portefeuilles BTC.com.",
+    "SETTINGS_PHONE_DESCRIPTION": "Relier votre portefeuille à votre numéro de téléphone vous permettra d'envoyer des bitcoin à vos contacts téléphoniques qui ont des portefeuilles BTC.com.",
     "SETTINGS_ENCRYPTION": "Chiffrement",
     "MSG_BACKUP_UNSAVED": [
         "ATTENTION !",
@@ -477,9 +477,9 @@
     "MSG_PHONE_CODE_SENT": "Un code a été envoyé a votre téléphone. Veuillez le saisir ci-dessous pour confirmer votre nombre.",
     "MSG_ENABLE_CONTACTS": [
         "Ceci va activer la synchronisation des contacts pour découvrir ceux qui disposent d'un portefeuille. ",
-        "Vous serez capable d'envoyer directement des bitcoins à eux."
+        "Vous serez capable d'envoyer directement des bitcoin à eux."
     ],
-    "MSG_DISABLE_CONTACTS": "La désactivation des contacts supprimera toutes les données synchronisées et vous ne pourrez plus envoyer des bitcoins à vos contacts.",
+    "MSG_DISABLE_CONTACTS": "La désactivation des contacts supprimera toutes les données synchronisées et vous ne pourrez plus envoyer des bitcoin à vos contacts.",
     // About
     "ABOUT_TITLE": "Portefeuille",
     "ABOUT_SUBTITLE": "Par BTC.com",
@@ -536,16 +536,16 @@
     "NAVBAR_LOGIN": "S'inscrire",
 
     // Buy BTC
-    "BUYBTC": "Acheter des Bitcoins",
-    "BUYBTC_NAVTITLE": "Acheter des Bitcoins",
+    "BUYBTC": "Acheter des Bitcoin",
+    "BUYBTC_NAVTITLE": "Acheter des Bitcoin",
     "BUYBTC_GETSTARTED_HEAD": "Configuration initiale",
     "BUYBTC_GETSTARTED_BODY": "Avant que vous puissiez acheter du Bitcoin, nous allons configurer votre compte d'échange",
     "BUYBTC_GETSTARTED_BUTTON": "Continuer",
-    "TX_INFO_BUYBTC_FROM": "Bitcoins achetés à",
-    "TX_INFO_BUYBTC": "Bitcoins achetés",
+    "TX_INFO_BUYBTC_FROM": "Bitcoin achetés à",
+    "TX_INFO_BUYBTC": "Bitcoin achetés",
     "TX_INFO_BUYBTC_DETAILS": "{{ qty }} BTC acheté(s) à {{ price }} {{ currency }} par BTC.",
 
-    "BUYBTC_BUYING": "Achat de Bitcoins en cours...",
+    "BUYBTC_BUYING": "Achat de Bitcoin en cours...",
 
     "BUYBTC_CHOOSE_REGION_TITLE": "Sélectionnez votre région",
     "BUYBTC_CHOOSE_REGION_BODY": "Sélectionnez votre région pour connaître les méthodes d'achat disponibles",
@@ -578,7 +578,7 @@
 
     "MSG_BUYBTC_SETUP_GLIDERA_TITLE": "Glidera",
     "MSG_BUYBTC_SETUP_GLIDERA_BODY": [
-        "Pour pouvoir utiliser Glidera pour acheter des bitcoins à partir de l'application, vous devez configurer un compte Glidera !",
+        "Pour pouvoir utiliser Glidera pour acheter des bitcoin à partir de l'application, vous devez configurer un compte Glidera !",
         "Nous allons maintenant vous rediriger vers leur plate-forme pour ce faire, une fois que vous avez fini vous serez automatiquement renvoyé ici."
     ],
 
@@ -587,7 +587,7 @@
 
     "MSG_BUYBTC_SETUP_MORE_GLIDERA_TITLE": "Glidera",
     "MSG_BUYBTC_SETUP_MORE_GLIDERA_BODY": [
-        "Pour pouvoir utiliser Glidera pour acheter des bitcoins à partir de l'application vous devez terminer toutes les étapes de configuration du compte;",
+        "Pour pouvoir utiliser Glidera pour acheter des bitcoin à partir de l'application vous devez terminer toutes les étapes de configuration du compte;",
         "{{ message }}.",
         "",
         "Nous allons maintenant vous rediriger vers leur plate-forme pour ce faire, une fois que vous avez terminé cliquez sur le bouton « Return to BTC Wallet » pour revenir."
@@ -599,10 +599,10 @@
     "MSG_BUYBTC_FIAT_USD_ONLY_TITLE": "Attention !",
     "MSG_BUYBTC_FIAT_USD_ONLY": "Votre devise par défaut est défini à {{ yourCurrency }}, mais quand vous achetez du bitcoin les valeurs sont libellés en {{ currency }}",
 
-    "MSG_BUYBTC_CONFIRM_TITLE": "Acheter des Bitcoins",
+    "MSG_BUYBTC_CONFIRM_TITLE": "Acheter des Bitcoin",
     "MSG_BUYBTC_CONFIRM_BODY": "Voulez-vous vraiment acheter {{ qty }} BTC pour {{ price }}{{ currencySymbol }} ?",
 
-    "MSG_BUYBTC_BOUGHT_TITLE": "Bitcoins achetés",
+    "MSG_BUYBTC_BOUGHT_TITLE": "Bitcoin achetés",
     "MSG_BUYBTC_BOUGHT_BODY": "Vous venez juste d'acheter {{ qty }} BTC pour {{ price }}{{ currencySymbol }} !",
 
     "MSG_BETTER_LANGUAGE_TITLE": "Nouvelle langue disponible",

@@ -233,13 +233,13 @@
     "PAYMENT_RECEIVED": "भुगतान प्राप्त हुआ",
     // Receiving Screens
     "REQUEST_SEND": "अनुरोध भेजें",
-    "MSG_REQUEST_EMAIL_SUBJECT_1": "कृपया मुझे bitcoins भेजें",
+    "MSG_REQUEST_EMAIL_SUBJECT_1": "कृपया मुझे bitcoin भेजें",
     "MSG_REQUEST_EMAIL_BODY_1": [
         "नमस्कार,<br><br>कृपया मेरे Bitcoin वॉलेट में फ़ंड भेजें (QR कोड अनुलग्न किया गया है).",
         "<p>पता: <a href='{{addressURI}}'>{{address}}</a> </p>",
         "<p><br> BTC.com द्वारा <a href=\"https://btc.com\">वॉलेट के साथ भेजा गया</a></p>"
     ],
-    "MSG_REQUEST_EMAIL_SUBJECT_2": "कृपया मुझे {{btcValue}} bitcoins (approx {{fiatValue}} {{localCurrency}}) भेजें",
+    "MSG_REQUEST_EMAIL_SUBJECT_2": "कृपया मुझे {{btcValue}} bitcoin (approx {{fiatValue}} {{localCurrency}}) भेजें",
     "MSG_REQUEST_EMAIL_BODY_2": [
         "नमस्कार,<br><br>कृपया मेरे Bitcoin वॉलेट में फ़ंड भेजें (QR कोड अनुलग्न किया गया है).",
         "<p>पता: <a href='{{addressURI}}'>{{address}}</a> </p>",
@@ -447,14 +447,14 @@
     "SETUP_PHONE_SKIP_MSG": "आप बाद में कभी भी सेटिंग में जाकर ऐसा कर सकते हैं.",
     "SETUP_PHONE_LINKED": "फ़ोन लिंक हो गया",
     "SETUP_CONTACTS_DESC_TITLE": "आपके संपर्क सिंक्रनाइज़ करें?",
-    "SETUP_CONTACTS_DESC_SUBTITLE": "यह ऐप को आपके फ़ोन पर अन्य वॉलेट उपयोगकर्ताओं के लिए संपर्क खोजने देगा, ताकि आप bitcoins को आसानी से सीधे उन्हें भेज सकें.",
+    "SETUP_CONTACTS_DESC_SUBTITLE": "यह ऐप को आपके फ़ोन पर अन्य वॉलेट उपयोगकर्ताओं के लिए संपर्क खोजने देगा, ताकि आप bitcoin को आसानी से सीधे उन्हें भेज सकें.",
     "SETUP_WEB_SYNC": "संपर्कों को वेब वॉलेट में सिंक करें",
     "SETUP_COMPLETE_TITLE": "आपने पूर्ण कर लिया है!",
     "SETUP_COMPLETE_SUBTITLE": "Bitcoin की दुनिया में आपका स्वागत है",
     "SETUP_COMPLETE_SUBTITLE_2": "युक्तियों और तरकीबों के लिए btc.com/faq पर जाएं.",
     "MSG_USERNAME_WARNING": "*उपयोगकर्ता नाम के साथ साइन अप करने से आपको बहुत अधिक गोपनीयता एवं अनामिकता मिलती है, लेकिन पासवर्ड पुनर्प्राप्त कर पाने और हमारी ओर से महत्वपूर्ण ईमेल प्राप्त करने के मूल्य पर.",
     "MSG_BACKUP_DESCRIPTION": "अपने वॉलेट बैकअप को सहेजें और उसे सुरक्षित तरीके से संग्रहीत करें ताकि अगर कुछ हो, तो आप अपना वॉलेट पुनर्प्राप्त कर सकें.",
-    "WALLET_YOUR_BITCOINS": "आपके Bitcoins",
+    "WALLET_YOUR_BITCOINS": "आपके Bitcoin",
     "TX_INFO_MORE_TITLE": "अधिक जानकारी",
     "TX_INFO_MORE_LINK": "BTC.com पर देखें",
     "AVAILABLE_BALANCE": "उपलब्ध शेषराशि",
@@ -536,16 +536,16 @@
     "NAVBAR_LOGIN": "साइन इन करें",
 
     // Buy BTC
-    "BUYBTC": "Bitcoins ख़रीदें",
-    "BUYBTC_NAVTITLE": "Bitcoins ख़रीदें",
+    "BUYBTC": "Bitcoin ख़रीदें",
+    "BUYBTC_NAVTITLE": "Bitcoin ख़रीदें",
     "BUYBTC_GETSTARTED_HEAD": "शुरुआती सेटअप",
     "BUYBTC_GETSTARTED_BODY": "इससे पहले कि आप Bitcoin ख़रीद सकें, चलिए आपका एक्सचेंज खाता सेटअप करते हैं",
     "BUYBTC_GETSTARTED_BUTTON": "आगे बढ़ें",
-    "TX_INFO_BUYBTC_FROM": "इससे ख़रीदे गए Bitcoins",
-    "TX_INFO_BUYBTC": "ख़रीदे गए Bitcoins",
+    "TX_INFO_BUYBTC_FROM": "इससे ख़रीदे गए Bitcoin",
+    "TX_INFO_BUYBTC": "ख़रीदे गए Bitcoin",
     "TX_INFO_BUYBTC_DETAILS": "{{ price }} {{ currency }} प्रति BTC में खरीदे गए {{ qty }} BTC.",
 
-    "BUYBTC_BUYING": "Bitcoins ख़रीदे जा रहे हैं...",
+    "BUYBTC_BUYING": "Bitcoin ख़रीदे जा रहे हैं...",
 
     "BUYBTC_CHOOSE_REGION_TITLE": "अपने क्षेत्र का चयन करें",
     "BUYBTC_CHOOSE_REGION_BODY": "उपलब्ध ख़रीदारी विधियों के लिए अपने क्षेत्र का चयन करें",
@@ -578,7 +578,7 @@
 
     "MSG_BUYBTC_SETUP_GLIDERA_TITLE": "Glidera",
     "MSG_BUYBTC_SETUP_GLIDERA_BODY": [
-        "ऐप से bitcoins ख़रीदने के लिए Glidera का उपयोग करने में सक्षम होने के लिए, आपको Glidera खाता सेटअप करने की आवश्यकता होती है!",
+        "ऐप से bitcoin ख़रीदने के लिए Glidera का उपयोग करने में सक्षम होने के लिए, आपको Glidera खाता सेटअप करने की आवश्यकता होती है!",
         "हम अब आपको ऐसा करने के लिए उनके प्लेटफ़ॉर्म पर रिडायरेक्ट करेंगे, जब आप ऐसा कर लेंगे तब आपको स्वचालित रूप से वापस भेज दिया जाएगा."
     ],
 
@@ -587,7 +587,7 @@
 
     "MSG_BUYBTC_SETUP_MORE_GLIDERA_TITLE": "Glidera",
     "MSG_BUYBTC_SETUP_MORE_GLIDERA_BODY": [
-        "ऐप से bitcoins ख़रीदने के लिए Glidera का उपयोग करने में सक्षम होने के लिए, आपको सभी खाता सेटअप चरण पूर्ण करने की आवश्यकता होती है;",
+        "ऐप से bitcoin ख़रीदने के लिए Glidera का उपयोग करने में सक्षम होने के लिए, आपको सभी खाता सेटअप चरण पूर्ण करने की आवश्यकता होती है;",
         "{{ message }}.",
         "",
         "हम अब आपको ऐसा करने के लिए उनके प्लेटफ़ॉर्म पर रिडायरेक्ट करेंगे, जब आप ऐसा कर लें तब वापस आने के लिए \"BTC वॉलेट पर वापस जाएं\" बटन क्लिक करें."
@@ -599,10 +599,10 @@
     "MSG_BUYBTC_FIAT_USD_ONLY_TITLE": "सावधान!",
     "MSG_BUYBTC_FIAT_USD_ONLY": "आपकी डिफ़ॉल्ट मुद्रा {{ yourCurrency }} पर सेट है, लेकिन जब आप bitcoin ख़रीदते हैं, तब मूल्यों को {{ currency }} में गिना जाता है",
 
-    "MSG_BUYBTC_CONFIRM_TITLE": "Bitcoins ख़रीदें",
+    "MSG_BUYBTC_CONFIRM_TITLE": "Bitcoin ख़रीदें",
     "MSG_BUYBTC_CONFIRM_BODY": "क्या आप वाकई {{ currencySymbol }}{{ price }} के {{ qty }} BTC ख़रीदना चाहते हैं?",
 
-    "MSG_BUYBTC_BOUGHT_TITLE": "ख़रीदे गए bitcoins",
+    "MSG_BUYBTC_BOUGHT_TITLE": "ख़रीदे गए bitcoin",
     "MSG_BUYBTC_BOUGHT_BODY": "आपने अभी-अभी में {{ currencySymbol }}{{ price }} के {{ qty }} BTC ख़रीदे!",
 
     "MSG_BETTER_LANGUAGE_TITLE": "नई भाषा उपलब्ध है",
