@@ -613,6 +613,7 @@
     "BUYBTC_PENDING_ORDER_SUBTITLE": "Purchased at {{ order.price }} {{ order.currency }} per BTC",
     "PURCHASED_AT": "Purchased at:",
     "BUYBTC_PENDING_ORDER_PRICE": "{{ order.price }} {{ order.currency }} per BTC",
+    "BUYBTC_PENDING_ORDER_PRICE_LONG": "{{ order.total }} {{ order.currency }} ({{ order.price }} {{ order.currency }} per BTC)",
     "EST_DELIVERY": "Estimated delivery:",
     "BUYBTC_GETSTARTED_HEAD": "Initial Setup",
     "BUYBTC_GETSTARTED_BODY": "Before you can buy Bitcoin, let's setup your exchange account",
