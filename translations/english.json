@@ -610,7 +610,7 @@
     "BUYBTC_PENDING_ORDERS": "Pending Orders",
     "BUYBTC_PENDING_ORDER": "pending order",
     "BUYBTC_PENDING_ORDER_FROM": "Pending Order from {{ order.displayName }}",
-    "BUYBTC_PENDING_ORDER_SUBTITLE": "Purchased at {{ order.price }} {{ order.currency }} per BTC",
+    "BUYBTC_PENDING_ORDER_SUBTITLE": "Purchased at {{ order.total }} {{ order.currency }} ({{ order.price }} {{ order.currency }} per BTC)",
     "PURCHASED_AT": "Purchased at:",
     "BUYBTC_PENDING_ORDER_PRICE": "{{ order.price }} {{ order.currency }} per BTC",
     "BUYBTC_PENDING_ORDER_PRICE_LONG": "{{ order.total }} {{ order.currency }} ({{ order.price }} {{ order.currency }} per BTC)",
