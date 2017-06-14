@@ -90,7 +90,7 @@
     "SETUP_WALLET_BACKUP_TEXT_BOLD": "Pakua hati ya akiba iliyo hapa chini",
     "SETUP_WALLET_BACKUP_TEXT_APPEND": "Ni muhimu kuweka akiba hii ikiwa ya siri na kuiweka kwa usalama nje ya mtandao. Ikiwa kutakuwa na jambo la dharura, hati hii ya akibisho hukuwezesha kufikia na kurejesha pesa zozote zilizo kwenye pochi.",
     "BACKUP_EMAIL_PDF": "Tuma PDF ya akiba kwa barua pepe",
-    "BACKUP_CREATE_PDF": "Pakua akibisho la pochi",
+    "BACKUP_CREATE_PDF": "Pakua akibisho la pochi (PDF)",
     "BACKUP_CHECKBOX": "Nimehifadhi akiba yangu kwa usalama",
     "SETUP_PHONE": "Sanidi simu",
     "SETUP_SYNC_CONTACTS": "Landanisha anwani",

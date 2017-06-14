@@ -92,7 +92,7 @@
         "In geval van nood kan je met dit backup document altijd bij je bitcoin die in je wallet zitten."
     ],
     "BACKUP_EMAIL_PDF": "Email backup PDF",
-    "BACKUP_CREATE_PDF": "Wallet backup opslaan",
+    "BACKUP_CREATE_PDF": "Wallet backup opslaan (PDF)",
     "BACKUP_CHECKBOX": "Ik heb de backup veilig opgeslagen",
     "SETUP_PHONE": "Telefoon instellen",
     "SETUP_SYNC_CONTACTS": "Contacten synchroniseren",
