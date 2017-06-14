@@ -48,6 +48,7 @@
     "BALANCE_CONFIRMED": "Confirmed balance",
     "BALANCE_UNCONFIRMED": "Unconfirmed balance",
     "TRANSACTIONS": "Transactions",
+    "TRANSACTION": "Transaction",
     "WELCOME": "Welcome",
     "TWO_FACTOR_TOKEN": "2FA token",
     "MENU_TRANSACTIONS": "Transactions",
@@ -244,6 +245,8 @@
     "ADDRESS_LABEL": "Label",
     "USAGES": "Usages",
     "CHECKOUT_AT_BTCCOM": "Click for more details on BTC.com",
+    "MORE_DETAILS": "More details",
+    "NO_MORE_ADDRESSES": "No more addresses",
     // address lookup search
     "ADDRESS_LOOKUP_SEARCH_PLACEHOLDER": "Search for label or address",
     "ADDRESS_LOOKUP_CHECKONLY_USAGE": "Only used addresses",
