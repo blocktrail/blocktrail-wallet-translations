@@ -251,6 +251,8 @@
     "ADDRESS_LOOKUP_SEARCH_PLACEHOLDER": "Search for label or address",
     "ADDRESS_LOOKUP_CHECKONLY_USAGE": "Only used addresses",
     "ADDRESS_LOOKUP_CHECKONLY_LABELED": "Only labeled addresses",
+    "ADDRESS_LOOKUP_CHECKONLY_USAGE_SHORT": "Used addresses",
+    "ADDRESS_LOOKUP_CHECKONLY_LABELED_SHORT": "Labeled addresses",
 
     // messages
     "MSG_GET_CONTACT_ADDR": "Getting contact address...",
