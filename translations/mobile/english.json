@@ -67,5 +67,9 @@
         "You don't have a default mail account configured on this phone.",
         "",
         "Please configure your mail app, or you can skip this step and save your backup later when we support alternative apps"
-    ]
+    ],
+
+    //address lookup
+    "ADDRESS_LOOKUP_CHECKONLY_USAGE_MOBILE": "Used addresses",
+    "ADDRESS_LOOKUP_CHECKONLY_LABELED_MOBILE": "Labeled addresses"
 }
