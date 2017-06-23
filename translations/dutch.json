@@ -68,7 +68,7 @@
     "LAUNCH_EXISTING_ACCOUNT": "Heeft u al een account?",
     "SETUP_FORGOT_PASSWORD": "Wachtwoord opnieuw instellen",
     "SETUP_FORGOT_PASSWORD_Q": "Wachtwoord vergeten?",
-    "'SETUP_FORGOT_PASS_PLACEHOLDER'": "Email adres",
+    "SETUP_FORGOT_PASS_PLACEHOLDER": "Email adres",
     "SETUP_LOGIN": "Inloggen",
     "LOGGING_IN": "Inloggen",
     "LOGGED_OUT_CONFIRMATION_TITLE": "Je bent uitgelogd",
@@ -84,7 +84,7 @@
     "SETUP_EXISTING_WALLET": "Bestaande wallet gevonden",
     "SETUP_WALLET_PASSWORD": "Wachtwoord voor wallet",
     "SETUP_WALLET_BACKUP": "Download je wallet backup",
-    "'SETUP_WALLET_BACKUP_CHECKBOX'": "Bevestig dat u de backup heeft opgeslagen",
+    "SETUP_WALLET_BACKUP_CHECKBOX": "Bevestig dat u de backup heeft opgeslagen",
     "SETUP_WALLET_BACKUP_TEXT": "Bewaar eerst het backup document",
     "SETUP_WALLET_BACKUP_TEXT_BOLD": "Voordat u de wallet gaat gebruiken",
     "SETUP_WALLET_BACKUP_TEXT_APPEND": [
