@@ -702,6 +702,7 @@
 
     "MSG_BUYBTC_CONFIRM_TITLE": "Buy bitcoin",
     "MSG_BUYBTC_CONFIRM_BODY": "Are you sure you want to buy {{ qty }} BTC for {{ currencySymbol }}{{ price }}?",
+    "MSG_BUYBTC_ZERO_AMOUNT": "You want to buy 0 BTC, please select an amount greater than zero.",
 
     "MSG_BUYBTC_BOUGHT_TITLE": "Bought bitcoin",
     "MSG_BUYBTC_BOUGHT_BODY": "You just purchased {{ qty }} BTC for {{ currencySymbol }}{{ price }}! The bitcoin are expected to be settled: {{ estimatedDate }}",
