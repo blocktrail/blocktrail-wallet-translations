@@ -663,6 +663,7 @@
     "BUYBTC_NOPROVIDERS_REGION": "There are no partners that service your region",
 
     "CURRENT_PRICE": "Current price",
+    "APPROXIMATE": "Approximate",
     "BUYBTC_INCL_FEE": "Including fee",
     "BUYBTC_BUY": "Continue",
     "BUYBTC_VIA": "Your purchase will complete using",
@@ -707,11 +708,16 @@
     "MSG_BUYBTC_BOUGHT_TITLE": "Bought bitcoin",
     "MSG_BUYBTC_BOUGHT_BODY": "You just purchased {{ qty }} BTC for {{ currencySymbol }}{{ price }}! The bitcoin are expected to be settled: {{ estimatedDate }}",
 
+    "MSG_BUYBTC_ERROR_TRY_AGAIN_LATER": "Something went wrong when placing your order, please try again later.",
+    "MSG_BUYBTC_ERROR_INVALID_AMOUNT": "You've either entered to little or to much.",
+
     "MSG_BETTER_LANGUAGE_TITLE": "New language available",
     "MSG_BETTER_LANGUAGE": [
         "We just addded a new language to the app and detected that you might be interested in switch to this new language!",
         "Would you like to switch your language from {{ oldLanguage }} to {{ newLanguage }}?"
     ],
+
+    "MSG_BUYBTC_FORWARD_TO_BROKER": "You will now be forwarded to {{ broker }} to complete your purchase.",
 
     "SECURITY_REMINDER": "Security Reminder",
     "SECURITY_REMINDER_2FA": "We strongly recommend you setup two-factor authentication to increase your wallet security.",
