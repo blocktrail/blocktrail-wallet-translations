@@ -347,6 +347,8 @@
     "SPANISH": "Испанский",
     "RUSSIAN": "Русский",
     "CHINESE": "Китайский",
+    "JAPANESE": "японский",
+    "KOREAN": "корейский",
 
     // regions
     "NETHERLANDS": "Голландия",
