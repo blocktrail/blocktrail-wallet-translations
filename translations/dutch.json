@@ -1,4 +1,5 @@
 {
+    "APPNAME": "BTC.com Portemonnee",
     // general
     "LOGOUT": "Uitloggen",
     "WARNING": "Waarschuwing",
@@ -12,6 +13,8 @@
     "OK": "OK",
     "DONE": "Klaar",
     "CONFIRM": "Bevestig",
+    "CLOSE": "Sluit",
+    "APPSTORE": "App Store",
     "APPLY": "Toepassen",
     "SYNC": "Sync",
     "SYNC_NOW": "Nu syncen",
@@ -45,6 +48,7 @@
     "BALANCE_CONFIRMED": "Bevestigd saldo",
     "BALANCE_UNCONFIRMED": "Onbevestigd saldo",
     "TRANSACTIONS": "Transacties",
+    "TRANSACTION": "Transactie",
     "WELCOME": "Welkom",
     "TWO_FACTOR_TOKEN": "2FA code",
     "MENU_TRANSACTIONS": "Transacties",
@@ -57,6 +61,29 @@
     "CHANGE": "verander",
     "VIA": "via",
     "AT": "bij",
+
+    // update notices
+    "UPDATE_AVAILABLE_NOTICE": "Er is een nieuwe update voor de app beschikbaar om gedownload te worden.",
+    "UPDATE_AVAILABLE_NOTICE_BODY": "Wij raden dat je de app update om de nieuwste functies en verbeteringen te kunnen gebruiken",
+    "UNSUPPORTED_NOTICE": "Je gebruikt een versie van de portemonnee die niet langer ondersteund wordt.",
+    "UNSUPPORTED_NOTICE_BODY": "Je moet de app updaten om deze te blijven gebruiken!",
+    "DEPRECATED_NOTICE": "Je gebruikt een oude versie van de portemonnee",
+    "DEPRECATED_NOTICE_BODY": "Wij raden <b>sterk</b> aan dat je de app update voor een optimale ervaring!",
+    "UPDATED_NOTICE": "Je portemonnee is geüpgraded.",
+
+    // per version update messages
+    "GLIDERA_UPDATE": "Je kunt nu gemakkelijk bitcoin kopen rond de hele VS (behalve New York) vanuit je portemonnee via onze geïntegreerde partnerschap met Glidera!",
+    "UPDATE_NOTICE_030304": [
+        "Nieuwe \"Versnelde prioriteit\" transacties!",
+        " ",
+        " Stuur je transacties met de hoogst mogelijke transactiesnelheid, terwijl je de laagst mogelijke kostentarief geaccepteerd door het bitcoin-netwerk gebruikt. Deze transacties worden direct verwerkt door de BTC.com mining pool.",
+        " ",
+        " Voor nu kun je elke maand tot en met 3 versnelde prioriteit-transacties sturen, met binnenkort meer manieren om dit aantal te verhogen!"
+    ],
+
+    // invalid session
+    "INVALID_SESSION": "Je sessie is niet langer geldig.",
+    "INVALID_SESSION_LOGOUT_NOW": "Onze excuses voor het ongemak, maar om beveiligingsredenen is je sessie niet langer geldig. Je wordt nu uitgelogd, log alsjeblieft hierna opnieuw in.",
 
     // datetime
     "TODAY": "Vandaag",
@@ -72,6 +99,7 @@
     "SETUP_LOGIN": "Inloggen",
     "LOGGING_IN": "Inloggen",
     "LOGGED_OUT_CONFIRMATION_TITLE": "Je bent uitgelogd",
+    "LOGGED_OUT_CONFIRMATION_TEXT": "Download de BTC.com mobiele portemonnee app en gebruik je bitcoin veilig waar je ook bent!",
     "SETUP_LOGIN_PLACEHOLDER": "Gebruikersnaam of email",
     "SETUP_USERNAME_PLACEHOLDER": "Gebruikersnaam",
     "SETUP_EMAIL_PLACEHOLDER": "Email",
@@ -99,8 +127,8 @@
     "SETUP_PROFILE_PIC": "Profiel foto instellen",
     "SETUP_COMPLETE": "Naar de wallet",
     "SETUP_TERMS_OF_SERVICE_TEXT": "Ik ga akkoord met de <a target='_blank' href='https://btc.com/legal'>gebruikersvoorwaarden</a>",
-    "SETUP_TERMS_OF_SERVICE_LINK": "gebruikersvoorwaarden",
     "SETUP_DOWNLOAD_MOBILE_TITLE": "BTC.com Wallet voor {{ platform }}",
+    "SETUP_DOWNLOAD_MOBILE_TEXT": "Download de BTC.com portemonnee app en gebruik je bitcoin veilig waar je ook bent!",
     "CREATING_ACCOUNT": "Account aan het maken",
     "CREATING_WALLET": "Wallet aan het maken",
     "CREATING_GENERATE_RECOVERY": "Herstel sleutel genereren",
@@ -155,8 +183,11 @@
     // side menu
     "MY_WALLET": "Mijn wallet",
     "SEND_FEEDBACK": "Feedback versturen",
+    "TELL_A_FRIEND": "Vertel een vriend",
     // My Wallet screen
     "INTERNAL_TRANSACTION_TITLE": "Interne transactie",
+    "SENT_TO_MANY_TITLE": "Naar velen verstuurd",
+    "RECEIVED_FROM_MANY_TITLE": "Van velen ontvangen",
     "WALLET_NO_TXS": "Er zijn nog geen transacties",
     "WALLET_ACTION_PRE": "Ga aan de gang",
     "WALLET_ACTION_LINK": "Door je wallet te vullen",
@@ -173,6 +204,7 @@
     "TX_INFO_SENT_TO": "Verzonden aan",
     "TX_INFO_RECEIVED_FROM": "Ontvangen van",
     "TX_INFO_MESSAGE_TITLE": "Bericht/referentie",
+
     // Sending screens
     "QR": "QR",
     "CONTACTS": "Contacten",
@@ -194,6 +226,31 @@
     "ESITIMATED_FEE": "Transactiekosten:",
     "SEND_BITCOIN_TITLE": "Bitcoin versturen",
     "MSG_INVALID_AMOUNT": "Ongeldige hoeveelheid",
+    "FEE_STRATEGY": "Tariefstrategie",
+
+    //receive screen
+    "ADDRESS_REUSE_NOTICE_1": "Enige Bitcoin-adressen die je hier genereert zullen geldig blijven.",
+    "ADDRESS_REUSE_NOTICE_2": "Je kunt zoveel genereren als je maar wilt.",
+    "MY_ADDRESSES": "Mijn adressen",
+
+    // address lookup and labels
+    "ADDRESS_LOOKUP": "Adressen opzoeken",
+    "EDIT_LABEL": "Bewerk Label",
+    "ENTER_NEW_LABEL": "Voer een nieuw label in voor het geselecteerde adres.",
+    "DELETE_LABEL": "Verwijder Label",
+    "CONFIRM_DELETE_LABEL_QUESTION": "Wil je het geselecteerde label verwijderen?",
+    "LABEL_MAX_LENGTH_INFO": "Fout. Maximale lengte voor label is 100 tekens.",
+    "ADDRESS_LABEL": "Label",
+    "USAGES": "Toepassingen",
+    "CHECKOUT_AT_BTCCOM": "Klik voor meer details op BTC.com",
+    "MORE_DETAILS": "Meer details",
+    "NO_MORE_ADDRESSES": "Geen adressen meer",
+    // address lookup search
+    "ADDRESS_LOOKUP_SEARCH_PLACEHOLDER": "Zoek naar label of adres",
+    "ADDRESS_LOOKUP_CHECKONLY_USAGE": "Enkel gebruikte adressen",
+    "ADDRESS_LOOKUP_CHECKONLY_LABELED": "Enkel gelabelde adressen",
+    "ADDRESS_LOOKUP_CHECKONLY_USAGE_SHORT": "Gebruikte adressen",
+    "ADDRESS_LOOKUP_CHECKONLY_LABELED_SHORT": "Gelabelde adressen",
 
     // messages
     "MSG_GET_CONTACT_ADDR": "Adres ophalen voor contact...",
@@ -211,6 +268,11 @@
     "MSG_BAD_CLIPBOARD": "Geen geldig adres gevonden op je clipboard",
     "MSG_CLIPBOARD_ADDRESS": "Adres van clipboard gehaald",
     "MSG_SEND_FAIL_UNKNOWN": "Er was een probleem bij het versturen van de transactie",
+    "MSG_SEND_FAIL_FEE": "Er was een probleem bij het versturen van je transactie",
+    "MSG_SEND_FAIL_FEE_DETAILED": [
+        "Je hebt niet genoeg saldo om het tarief te betalen.",
+        " Een tarief van {{ fee }} BTC is benodigd."
+    ],
     // contacts list
     "CONTACTS_NONE": "Geen contact personen",
     "CONTACTS_NO_WALLETS": "Geen contact personen met een BTC Wallet",
@@ -268,11 +330,14 @@
     "SETTINGS_WALLET": "Wallet",
     "SETTINGS_CURRENT_WALLET": "Huidige wallet",
     "SETTINGS_CHANGE_PIN": "PIN veranderen",
+    "SETTINGS_FORGOT_PIN": "Pin vergeten",
     "SETTINGS_CHANGE_PASSWORD": "Wachtwoord veranderen",
     "SETTINGS_RECOMMENDED": "Aanbevolen",
     "SETTINGS_NEWSLETTER": "Houd mij op de hoogte van BTC.com nieuws",
     "SETTINGS_RESET_ACCOUNT": "Wallet resetten",
     "SETTINGS_WALLET_BACKUP": "Wallet backup",
+    "SETTINGS_HELP": "Ondersteuning",
+    "SETTINGS_FAQ": "Veelgestelde Vragen",
     "SETTINGS_INFO": "Informatie",
     "SETTINGS_ABOUT": "Over ons",
     "SETTINGS_VERSION": "Versie",
@@ -350,6 +415,12 @@
     "SPANISH": "Spaans",
     "RUSSIAN": "Russisch",
     "CHINESE": "Chinees",
+    "SWAHILI": "Swahili",
+    "ARABIC": "Arabisch",
+    "HINDI": "Hindi",
+    "JAPANESE": "Japans",
+    "KOREAN": "Koreaans",
+    "PORTUGUESE": "Portugees",
 
     // regions
     "NETHERLANDS": "Nederland",
@@ -393,12 +464,33 @@
         "",
         "Configureer aub je “mail” app of sla dit over tot we een andere manier hebben om je backup PDF te downloaden."
     ],
+
+    // fees related
+    "TRANSACTION_FEES": "Transactiekosten",
+    "TX_INFO_FEE": "Kosten",
     "ESTIMATED_FEE": "Geschatte transactie kosten",
+    "OPTIMAL_FEE": "Optimaal",
+    "OPTIMAL_FEE_LONG": "Optimale kosten",
+    "LOW_PRIORITY_FEE": "Lage prioriteit",
+    "LOW_PRIORITY_FEE_LONG": "Lage prioriteitskosten",
+
+    "LOW_PRIORITY_NOTICE": "Transactie kan mogelijk niet worden bevestigd voor enkele uren",
+    "OPTIMAL_PRIORITY_NOTICE": "Aangerade netwerkkosten voor snelle bevestiging",
 
     "ADVANCED_SEND_OPTIONS": "Geavanceerde instellingen",
     "LOW_PRIORITY_LABEL": "Lage prioriteit bitcoin fee",
-    "LOW_PRIORITY_WARNING": "Lage prioriteit fees kunnen resulteren in langzamere confirmatie tijden!",
     "LOW_PRIORITY_SEND_WARNING": "Je maakt gebruik van lage prioriteit fees, dit kan resulteren in langzamere confirmatie tijden!!",
+
+    "PRIOBOOST": "Versnelde prioriteit",
+    "PRIOBOOST_LONG": "Versnelde prioriteitskosten",
+    "PRIOBOOST_NOTICE": "Snelste transactiesnelheid voor de laagst mogelijke netwerkkosten, direct verwerkt door onze mining pool.",
+    "PRIOBOOST_CREDITS": "Je hebt {{ credits }} prioriteitskrediet over deze maand.",
+    "PRIOBOOST_NOT_POSSIBLE": "Kan niet versnellen. Probeer alsjeblieft een ander aantal.",
+    "PRIOBOOST_NOT_POSSIBLE_ERR_TITLE": "Kan transactieversneller niet gebruiken.",
+    "PRIOBOOST_TOO_LARGE": "We stellen de versnelde prioriteit niet beschikbaar voor transacties die te groot zijn.",
+    "PRIOBOOST_ZERO_CONF": "We stellen de versnelde prioriteit niet beschikbaar voor transacties die besteden van onbevestigde transacties.",
+    "PRIOBOOST_NO_CREDITS": "Je hebt al je krediet voor deze maand gebruikt.",
+    "PRIOBOOST_NO_CREDITS_SHORT": "Je hebt geen krediet over.",
 
     "QR_SCAN_OVERLAY": "QR code scannen",
     "MSG_BAD_ADDRESS_2": "Dat lijkt geen geldig bitcoin adres te zijn",
@@ -449,6 +541,7 @@
     "ENTER_ADDRESS_TITLE": "Voer een bitcoin adres in",
     "CONTACTS_DISABLED": "Contacten uitgeschakeld",
     "MSG_REQUIRE_CONTACTS_ACCESS": "Schakel eerst de “Contacten” in in het instellingen menu om deze feature te kunnen gebruiken",
+    "COPY_TO_CLIPBOARD": "Kopiëren naar klembord",
     "SETTINGS_UPDATE_PHOTO": "Foto aanpassen",
     "SETTINGS_PROFILE_DESCRIPTION": "Stel een profiel foto in zodat je contacten je makkelijk kunnen herkennen",
     "SETTINGS_BTC_DECIMALS": "BTC aantal decimalen",
@@ -474,6 +567,41 @@
     "PROMO_REDEEM": "Promotie code invoeren",
     "PROMO_CODE_PLACEHOLDER": "Promotie code",
 
+    // PSA: rebrand
+    "PSA_REBRAND_TITLE": "Publieke Mededeling",
+    "PSA_REBRAND_BODY": [
+        "Welkom bij je nieuwe BTC.com Portemonnee door Blocktrail",
+        " ",
+        " Blocktrail is bemachtigd door Bitmain, en onze diensten worden nu aangeboden op BTC.com!",
+        " ",
+        " Bedankt voor het zijn van een loyale Blocktrail gebruiker! Wij kijken er naar uit om je de krachtigste Bitcoin-portemonnee te bezorgen als BTC.com"
+    ],
+    "PSA_REBRAND_BLOG_HREF_PRE": "Lees de mededeling",
+    "PSA_REBRAND_BLOG_HREF": "Op onze blog",
+    "PSA_REBRAND_OK": "Doorgaan",
+
+    // Footer
+    "FOOTER_PRODUCT": "Producten",
+    "FOOTER_ANTMINER": "Antminer",
+    "FOOTER_ANTPOOL": "Antpool",
+    "FOOTER_HASHNEST": "Hashnest",
+    "FOOTER_MINERLINK": "Minerlink",
+    "FOOTER_COMPANY": "Bedrijf",
+    "FOOTER_ABOUT": "Over ons",
+    "FOOTER_JOIN_US": "Word lid",
+    "FOOTER_CONTACT": "Contact opnemen",
+    "FOOTER_MEDIA": "Media",
+    "FOOTER_WEIBO": "Officiële Weibo",
+    "FOOTER_COMMUNITY": "Gemeenschap",
+    "FOOTER_TWITTER": "Twitter",
+    "FOOTER_FACEBOOK": "Facebook",
+    "FOOTER_DEVELOPERS": "Ontwikkelaars",
+    "FOOTER_API": "API",
+    "FOOTER_MOBILESITE": "Mobiele Site",
+    "FOOTER_DESKTOPSITE": "Desktop Site",
+    "FOOTER_FEEDBACK": "Feedback",
+    "FOOTER_BLOG": "Blog",
+
     // Navbar
     "NAVBAR_HOME": "Home",
     "NAVBAR_BLOCKS": "Blokken",
@@ -487,6 +615,14 @@
     // Buy BTC
     "BUYBTC": "Bitcoin kopen",
     "BUYBTC_NAVTITLE": "Bitcoin kopen",
+    "BUYBTC_PENDING_ORDERS": "Opdrachten in Afwachting",
+    "BUYBTC_PENDING_ORDER": "opdrachten in afwachting",
+    "BUYBTC_PENDING_ORDER_FROM": "Opdracht in Afwachting van {{ order.displayName }}",
+    "BUYBTC_PENDING_ORDER_SUBTITLE": "Gekocht voor {{ order.total }} {{ order.currency }} ({{ order.price }} {{ order.currency }} per BTC)",
+    "PURCHASED_AT": "Gekocht voor:",
+    "BUYBTC_PENDING_ORDER_PRICE": "{{ order.price }} {{ order.currency }} per BTC",
+    "BUYBTC_PENDING_ORDER_PRICE_LONG": "{{ order.total }} {{ order.currency }} ({{ order.price }} {{ order.currency }} per BTC)",
+    "EST_DELIVERY": "Geschatte levering:",
     "BUYBTC_GETSTARTED_HEAD": "Initiele Setup",
     "BUYBTC_GETSTARTED_BODY": "Voordat je Bitcoin kan kopen moeten we je exchange account op zetten.",
     "BUYBTC_GETSTARTED_BUTTON": "Verder",
@@ -516,11 +652,15 @@
     "BUYBTC_INCL_FEE": "inclusief fee",
     "BUYBTC_BUY": "Verder",
     "BUYBTC_VIA": "Je aankoop zal verlopen via {{ broker }}",
+    "BUYBTC_BANK_TRANSFER_SLOW": "Bitcoin gekocht via bankoverschrijfing kunnen enkele werkdagen benodigen om te vestigen.",
 
     "MSG_BUYBTC_PIN_TO_ENCRYPT": "Voor aub je wallet PIN code in.",
     "MSG_BUYBTC_PIN_TO_DECRYPT_TITLE": "PIN code invoeren",
     "MSG_BUYBTC_PIN_TO_DECRYPT": "Voor aub je wallet PIN code in.",
     "MSG_BUYBTC_PIN_INCORRECT": "Incorrecte PIN.",
+
+    "MSG_BUYBTC_PASSWORD_TO_ENCRYPT": "Voer je huidige wachtwoord in zodat wij je toegangstoken kunnen versleutelen voor veilige opslag.",
+    "MSG_BUYBTC_PASSWORD_TO_DECRYPT": "Voer je huidige wachtwoord in zodat wij je toegangstoken kunnen ontsleutelen voor gebruik.",
     "MSG_BUYBTC_PASSWORD_INCORRECT": "Incorrect wachtwoord.",
 
     "MSG_BUYBTC_SETUP_GLIDERA_TITLE": "Glidera",
@@ -546,6 +686,7 @@
 
     "MSG_BUYBTC_CONFIRM_TITLE": "Bitcoin kopen",
     "MSG_BUYBTC_CONFIRM_BODY": "Weet je zeker dat je {{ qty }} BTC wilt kopen voor {{ currencySymbol }}{{ price }}?",
+    "MSG_BUYBTC_ZERO_AMOUNT": "Je wilt 0 BTC kopen, selecteer alsjeblieft een hoeveelheid meer dan nul.",
 
     "MSG_BUYBTC_BOUGHT_TITLE": "Bitcoin gekocht",
     "MSG_BUYBTC_BOUGHT_BODY": "Je hebt zojuist {{ qty }} BTC gekocht voor {{ currencySymbol }}{{ price }}!",
@@ -576,7 +717,13 @@
         "Als je graag BTC.com Portomonnee gebruikt, zou je dan een momentje willen nemen om het te beoordelen?",
         "Het zal niet langer dan een minuut duren. Bedankt voor je ondersteuning."
     ],
+    "APPRATE_FOOTER": "Tik het aantal sterren dat je ons zou geven op een schaal van 1-5",
     "APPRATE_NO": "Nee bedankt",
     "APPRATE_LATER": "Herinner me later",
-    "APPRATE_RATE": "Beoordeel het nu"
+    "APPRATE_RATE": "Beoordeel het nu",
+    "APPRATE_BODY_GOOD_TITLE": "Bedankt!",
+    "APPRATE_BODY_GOOD_BODY": "Overweeg om je steun voor BTC.com te weergeven door ons een beoordeling op de App Store te geven.",
+    "APPRATE_BODY_BAD": "Oh-oh. Zou je ons wat feedback willen geven?",
+    "APPRATE_FEEDBACK": "Versturen",
+    "APPRATE_SKIP": "Overslaan"
 }

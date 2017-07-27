@@ -170,6 +170,7 @@
     "TX_INFO_SENT_TO": "Imetumwa kwa",
     "TX_INFO_RECEIVED_FROM": "Imepokewa kutoka kwa",
     "TX_INFO_MESSAGE_TITLE": "Ujumbe/kumbukumbu",
+
     // Sending screens
     "QR": "QR",
     "CONTACTS": "Anwani",
@@ -348,8 +349,12 @@
     "SPANISH": "Kihispania",
     "RUSSIAN": "Kirusi",
     "CHINESE": "Kichina",
+    "SWAHILI": "Swahili",
+    "ARABIC": "Kiarabu",
+    "HINDI": "Kihindi",
     "JAPANESE": "Japanese",
     "KOREAN": "Kikorea",
+    "PORTUGUESE": "Portuguese",
 
     // regions
     "NETHERLANDS": "Uholanzi",
@@ -398,7 +403,6 @@
 
     "ADVANCED_SEND_OPTIONS": "Mipangilio mahiri",
     "LOW_PRIORITY_LABEL": "Ada ya sarafu mnemba yenye kipaumbele cha chini",
-    "LOW_PRIORITY_WARNING": "Kutumia ada ya sarafu mnemba yenye kipaumbele cha chini kunaweza kusababisha muda wa POLE POLE zaidi wa uthibitishaji!",
     "LOW_PRIORITY_SEND_WARNING": "Unatumia ada ya sarafu mnemba yenye kipaumbele cha chini, utasababisha muda wa POLE POLE zaidi wa uthibitishaji!",
 
     "QR_SCAN_OVERLAY": "Changanua msimbo wa QR",

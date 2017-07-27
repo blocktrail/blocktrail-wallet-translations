@@ -1,4 +1,5 @@
 {
+    "APPNAME": "حافظة BTC.com",
     // general
     "LOGOUT": "تسجيل الدخول",
     "WARNING": "تحذير",
@@ -12,6 +13,8 @@
     "OK": "موافق",
     "DONE": "تم",
     "CONFIRM": "تأكيد",
+    "CLOSE": "إغلاق",
+    "APPSTORE": "متجر التطبيقات",
     "APPLY": "تطبيق",
     "SYNC": "مزامنة",
     "SYNC_NOW": "مزامنة الآن",
@@ -45,6 +48,7 @@
     "BALANCE_CONFIRMED": "الرصيد المؤكد",
     "BALANCE_UNCONFIRMED": "الرصيد غير المؤكد",
     "TRANSACTIONS": "المعاملات",
+    "TRANSACTION": "المعاملة",
     "WELCOME": "مرحباً",
     "TWO_FACTOR_TOKEN": "رمز 2FA",
     "MENU_TRANSACTIONS": "المعاملات",
@@ -57,6 +61,29 @@
     "CHANGE": "تغيير",
     "VIA": "عبر",
     "AT": "عند",
+
+    // update notices
+    "UPDATE_AVAILABLE_NOTICE": "يوجد تحديث جديد للتطبيق متوفر للتنزيل.",
+    "UPDATE_AVAILABLE_NOTICE_BODY": "نوصيك بتحديث التطبيق لكي تتمكن من الاستفادة من أحدث المزايا والتحسينات.",
+    "UNSUPPORTED_NOTICE": "أنت تستخدم إصدارا للحافظة لم يعد مدعوما.",
+    "UNSUPPORTED_NOTICE_BODY": "يجب عليك تحديث التطبيق للاستمرار في استخدامه!",
+    "DEPRECATED_NOTICE": "أنت تستخدم إصدارا قديما للحافظة",
+    "DEPRECATED_NOTICE_BODY": "نوصيك <b>بقوة</b> بتحديث التطبيق للحصول على أفضل تجربة!",
+    "UPDATED_NOTICE": "لقد تمت ترقية حافظتك.",
+
+    // per version update messages
+    "GLIDERA_UPDATE": "يمكنك الآن شراء البيتكوين بسهولة من جميع الولايات المتحدة الأمريكية (عدا نيويورك) عن طريق حافظتك من خلال تكامل شراكات غليديرا (Glidera)!",
+    "UPDATE_NOTICE_030304": [
+        "معاملات عن طريق \"الأولية المعجلة\" الجديدة!",
+        " ",
+        " ارسل معاملاتك بأقصى سرعة ممكنة، مع الاستفادة من أقل معدل رسوم ممكن تقبله شبكة البيتكوين. يتم دفع هذه المعاملات مباشرة في التعدين الجماعي لـ BTC.com.",
+        " ",
+        " الآن، يمكنك إرسال حتى 3 معاملات بأولوية معجلة كل شهر، مع توافر طرق آكثر لزيادة هذه الكمية قريبا!"
+    ],
+
+    // invalid session
+    "INVALID_SESSION": "لم تعد جلستك صالحة",
+    "INVALID_SESSION_LOGOUT_NOW": "نتعتذر عن الإزعاج، لقد انتهت صلاحية جلستك لأسباب أمنية. وسوف يتم تسجيل خروجك، يُرجَى تسجيل الدخول مرة أخرى.",
 
     // datetime
     "TODAY": "اليوم",
@@ -96,6 +123,8 @@
     "SETUP_SYNC_CONTACTS": "مزامنة جهات الاتصال",
     "SETUP_PROFILE_PIC": "تحديد صورة ملف التعريف",
     "SETUP_COMPLETE": "الانتقال إلى محفظتي",
+    "SETUP_TERMS_OF_SERVICE_TEXT": "أوافق على <a target='_blank' href='https://btc.com/legal'>شروط الخدمة</a>",
+    "SETUP_DOWNLOAD_MOBILE_TITLE": "حافظة BTC.com لـ {{ platform }}",
     "SETUP_DOWNLOAD_MOBILE_TEXT": "احصل على تطبيق محفظة BTC.com وتمكن من الوصول إلى عملات بيتكوين الخاصة بك بأمانٍ من أي مكان!",
     "CREATING_ACCOUNT": "إنشاء حساب",
     "CREATING_WALLET": "إنشاء محفظة",
@@ -152,6 +181,7 @@
     // side menu
     "MY_WALLET": "محفظتي",
     "SEND_FEEDBACK": "إرسال تعليق",
+    "TELL_A_FRIEND": "اخبر صديق",
     // My Wallet screen
     "INTERNAL_TRANSACTION_TITLE": "تم الإرسال لنفسي",
     "SENT_TO_MANY_TITLE": "تم الإرسال لكثيرين",
@@ -172,6 +202,7 @@
     "TX_INFO_SENT_TO": "مُرسل إلى",
     "TX_INFO_RECEIVED_FROM": "وارد من",
     "TX_INFO_MESSAGE_TITLE": "الرسالة/المرجع",
+
     // Sending screens
     "QR": "رمز QR",
     "CONTACTS": "جهات الاتصال",
@@ -189,9 +220,35 @@
     "TWO_FACTOR_TOKEN_DESC": "مطلوب رمز المصادقة المميز ثنائي العامل لإرسال هذه المعاملات.",
     "TO": "إلى",
     "SENDING_CONFIRM_TITLE": "تأكيد كلمة المرور الخاصة بك",
+    "SENDING_CONFIRM_MSG": "أنت تقوم بإرسال <b>{{ amount }}</b> BTC to <b>{{ recipientAddress }}</b>",
     "ESITIMATED_FEE": "رسوم الشبكة:",
     "SEND_BITCOIN_TITLE": "إرسال بتكوين",
     "MSG_INVALID_AMOUNT": "مبلغ غير صالح",
+    "FEE_STRATEGY": "استراتيجية مجانية",
+
+    //receive screen
+    "ADDRESS_REUSE_NOTICE_1": "أي عنوان Bitcoin تقوم بإنشائه هنا سوف يظل صالحا.",
+    "ADDRESS_REUSE_NOTICE_2": "يمكنك إنشاء عناوين بالقدر الذي تريد.",
+    "MY_ADDRESSES": "عناويني",
+
+    // address lookup and labels
+    "ADDRESS_LOOKUP": "البحث عن عنوان",
+    "EDIT_LABEL": "تحرير القائمة",
+    "ENTER_NEW_LABEL": "أدخِل قائمة جديدة للعنوان الذي قمت بتحديده.",
+    "DELETE_LABEL": "حذف القائمة",
+    "CONFIRM_DELETE_LABEL_QUESTION": "هل ترغب في حذف القائمة التي قمت بتحديدها؟",
+    "LABEL_MAX_LENGTH_INFO": "خطأ. الحد الأقصى المسموح به للقائمة هو 100 حرف/رمز.",
+    "ADDRESS_LABEL": "القائمة",
+    "USAGES": "الاستخدامات",
+    "CHECKOUT_AT_BTCCOM": "انقر للحصول على المزيد من التفاصيل على موقعنا BTC.com",
+    "MORE_DETAILS": "المزيد من التفاصيل",
+    "NO_MORE_ADDRESSES": "لا توجد عناوين أخرى",
+    // address lookup search
+    "ADDRESS_LOOKUP_SEARCH_PLACEHOLDER": "البحث عن قائمة أو عنوان",
+    "ADDRESS_LOOKUP_CHECKONLY_USAGE": "العناوين المستخدمة فقط",
+    "ADDRESS_LOOKUP_CHECKONLY_LABELED": "العناوين المصنفة فقط",
+    "ADDRESS_LOOKUP_CHECKONLY_USAGE_SHORT": "العناوين المستخدمة",
+    "ADDRESS_LOOKUP_CHECKONLY_LABELED_SHORT": "العناوين المصنفة",
 
     // messages
     "MSG_GET_CONTACT_ADDR": "جار الحصول على عنوان جهة الاتصال...",
@@ -209,6 +266,11 @@
     "MSG_BAD_CLIPBOARD": "لم يتم العثور على عناوين صالحة في الحافظة",
     "MSG_CLIPBOARD_ADDRESS": "تم العثور على أحد العناوين في الحافظة لديك",
     "MSG_SEND_FAIL_UNKNOWN": "حدثت مشكلة اثناء إرسال المعاملة الخاصة بك",
+    "MSG_SEND_FAIL_FEE": "حدثت مشكلة اثناء إرسال معاملتك",
+    "MSG_SEND_FAIL_FEE_DETAILED": [
+        "لا يوجد لديك رصيد كاف لتسديد الرسوم. ",
+        " مطلوب تسديد {{ fee }} رسوم BTC."
+    ],
     // contacts list
     "CONTACTS_NONE": "لم يتم العثور على جهات اتصال",
     "CONTACTS_NO_WALLETS": "لا يوجد أحد من بين جهات الاتصال عندك لديه محفظة BTC",
@@ -266,11 +328,14 @@
     "SETTINGS_WALLET": "المحفظة",
     "SETTINGS_CURRENT_WALLET": "المحفظة الحالية",
     "SETTINGS_CHANGE_PIN": "تغيير رقم pin",
+    "SETTINGS_FORGOT_PIN": "نسيت الرمز السري",
     "SETTINGS_CHANGE_PASSWORD": "تغيير كلمة المرور",
     "SETTINGS_RECOMMENDED": "موصى به",
     "SETTINGS_NEWSLETTER": "أطلعني أولاً بأول على أخبار BTC.com",
     "SETTINGS_RESET_ACCOUNT": "إعادة ضبط المحفظة",
     "SETTINGS_WALLET_BACKUP": "نسخ احتياطي للمحفظة",
+    "SETTINGS_HELP": "مساعدة",
+    "SETTINGS_FAQ": "الأسئلة الشائعة",
     "SETTINGS_INFO": "معلومات",
     "SETTINGS_ABOUT": "عن",
     "SETTINGS_VERSION": "الإصدار",
@@ -352,8 +417,12 @@
     "SPANISH": "الإسبانية",
     "RUSSIAN": "الروسية",
     "CHINESE": "الصينية",
+    "SWAHILI": "سواحيلي",
+    "ARABIC": "عربي",
+    "HINDI": "هندي",
     "JAPANESE": "اليابانية",
     "KOREAN": "الكورية",
+    "PORTUGUESE": "البرتغالية",
 
     // regions
     "NETHERLANDS": "c",
@@ -401,13 +470,33 @@
         "",
         "يُرجى تهيئة تطبيق البريد لديك، أو يمكنك تخطي هذه الخطوة وحفظ النسخة الاحتياطية الخاصة بك فيما بعد، إلى الوقت الذي نصبح فيه ندعم تطبيقات أخرى"
     ],
+
+    // fees related
+    "TRANSACTION_FEES": "رسوم المعاملة",
     "TX_INFO_FEE": "الرسوم",
     "ESTIMATED_FEE": "القيمة التقديرية للرسوم",
+    "OPTIMAL_FEE": "المعاملة الأفضل",
+    "OPTIMAL_FEE_LONG": "رسوم المعاملة الأفضل",
+    "LOW_PRIORITY_FEE": "أولوية منخفضة",
+    "LOW_PRIORITY_FEE_LONG": "رسوم الأولوية المنخفضة",
+
+    "LOW_PRIORITY_NOTICE": "قد لا يتم تأكيد المعاملة لبضع ساعات",
+    "OPTIMAL_PRIORITY_NOTICE": "نوصي بتسديد رسوم الشبكة للحصول على تأكيد سريع",
 
     "ADVANCED_SEND_OPTIONS": "الإعدادات المتقدمة",
     "LOW_PRIORITY_LABEL": "رسوم بتكوين، أولوية منخفضة",
-    "LOW_PRIORITY_WARNING": "قد يؤدي اختيار رسوم الأولوية المنخفضة إلى بطء شديد في عمليات التأكيد!",
     "LOW_PRIORITY_SEND_WARNING": "أنت تستخدم رسوم أولوية منخفضة، وهذا قد يؤدي إلى بطء شديد في عمليات التأكيد!",
+
+    "PRIOBOOST": "الأولوية المعجلة",
+    "PRIOBOOST_LONG": "رسوم الأولوية المعجلة",
+    "PRIOBOOST_NOTICE": "أقصى سرعة للمعاملة مقابل أقل رسوم ممكنة الشبكة، يتم دفعها مباشرةً في التعدين الجماعي الخاص بنا",
+    "PRIOBOOST_CREDITS": "لديك {{ credits }} رصيد أولوية متبقي لهذا الشهر.",
+    "PRIOBOOST_NOT_POSSIBLE": "لا يمكنك التسريع. يُرجَى تجربة مبلغ مختلف",
+    "PRIOBOOST_NOT_POSSIBLE_ERR_TITLE": "لا يمكنك استخدام معجل المعاملة.",
+    "PRIOBOOST_TOO_LARGE": "أنت لا تعطي الأولوية المعجلة للمعاملات ذات الحجم الكبير جدا.",
+    "PRIOBOOST_ZERO_CONF": "أنت لا تعطي الأولوية المعجلة للمعاملات التي تنفق من المعاملات التي لم يتم تأكيدها.",
+    "PRIOBOOST_NO_CREDITS": "لقد استنفذت جميع أرصدتك لهذا الشهر.",
+    "PRIOBOOST_NO_CREDITS_SHORT": "ليس لديك أية أرصدة متبقية.",
 
     "QR_SCAN_OVERLAY": "مسح رمز QR",
     "MSG_BAD_ADDRESS_2": "لا يبدو أن عنوان بتكوين هذا صالح",
@@ -458,6 +547,7 @@
     "ENTER_ADDRESS_TITLE": "أدخل عنوان bitcoin",
     "CONTACTS_DISABLED": "تم تعطيل جهات الاتصال",
     "MSG_REQUIRE_CONTACTS_ACCESS": "يُرجى تمكين جهات الاتصال من قائمة الإعدادات لتتمكن من استخدام هذه الميزة",
+    "COPY_TO_CLIPBOARD": "نسخ إلى الحافظة",
     "SETTINGS_UPDATE_PHOTO": "تحديث الصورة",
     "SETTINGS_PROFILE_DESCRIPTION": "قم بتعيين صورة لملف التعريف، يراها الأشخاص بجهات الاتصال لديك، عند إرسالك أي شيء لهم.",
     "SETTINGS_BTC_DECIMALS": "عرض كسور BTC",
@@ -533,6 +623,14 @@
     // Buy BTC
     "BUYBTC": "شراء بتكوين",
     "BUYBTC_NAVTITLE": "شراء بتكوين",
+    "BUYBTC_PENDING_ORDERS": "الطلبات قيد الانتظار",
+    "BUYBTC_PENDING_ORDER": "طلب قيد الانتظار",
+    "BUYBTC_PENDING_ORDER_FROM": "طلب قيد الانتظار من {{ order.displayName }}",
+    "BUYBTC_PENDING_ORDER_SUBTITLE": "تم الشراء من {{ order.total }} {{ order.currency }} ({{ order.price }} {{ order.currency }} لكل BTC)",
+    "PURCHASED_AT": "تم الشراء من:",
+    "BUYBTC_PENDING_ORDER_PRICE": "{{ order.price }} {{ order.currency }} لكل BTC",
+    "BUYBTC_PENDING_ORDER_PRICE_LONG": "{{ order.total }} {{ order.currency }} ({{ order.price }} {{ order.currency }} لكل BTC",
+    "EST_DELIVERY": "التوصيل المتوقع:",
     "BUYBTC_GETSTARTED_HEAD": "الإعداد الأولي",
     "BUYBTC_GETSTARTED_BODY": "هيا نقوم بإعداد حساب التبادل الخاص بك قبل شرائك بتكوين",
     "BUYBTC_GETSTARTED_BUTTON": "الاستمرار",
@@ -553,6 +651,7 @@
     "BUYBTC_CHANGE_REGION": "تغيير المنطقة",
 
     "BUYBTC_CHOOSE_TITLE": "حدد طريقة شراء",
+    "BUYBTC_CHOOSE_SUBTITLE": "تتوافر لدينا طرق الشراء التالية في {{ region }} (<a {{ href }}>change</a>).",
 
     "BUYBTC_PROVIDERS": "الشركاء",
     "BUYBTC_NOPROVIDERS_REGION": "لا يوجد لدينا شركاء يقدمون الخدمة في منطقتك",
@@ -560,6 +659,8 @@
     "CURRENT_PRICE": "السعر الحالي",
     "BUYBTC_INCL_FEE": "شامل الرسوم",
     "BUYBTC_BUY": "الاستمرار",
+    "BUYBTC_VIA": "سوف يتم إكمال عملية الشراء باستخدام {{ broker }}",
+    "BUYBTC_BANK_TRANSFER_SLOW": "البتكوين التي تم شراؤها عن طريق تحويل بنكي يمكن أن تستغرق بضعة أيام عمل لإتمامها.",
 
     "MSG_BUYBTC_PIN_TO_ENCRYPT": "يُرجى منك إدخال رقم PIN الخاص بمحفظتك.",
     "MSG_BUYBTC_PIN_TO_DECRYPT_TITLE": "أدخل رقم PIN",
@@ -595,6 +696,7 @@
 
     "MSG_BUYBTC_CONFIRM_TITLE": "شراء بتكوين",
     "MSG_BUYBTC_CONFIRM_BODY": "هل أنت متأكد من أنك تريد شراء {{ qty }} BTC بسعر {{ currencySymbol }}{{ price }}؟",
+    "MSG_BUYBTC_ZERO_AMOUNT": "هل تريد شراء صفر بيتكوين، يُرجَى تحديد كمية أكبر من صفر.",
 
     "MSG_BUYBTC_BOUGHT_TITLE": "بتكوين المشتراة",
     "MSG_BUYBTC_BOUGHT_BODY": "لقد قمت لتوك بشراء {{ qty }} BTC بسعر {{ currencySymbol }}{{ price }}!",
@@ -625,7 +727,13 @@
         "إذا كنت تستمتع باستخدام BTC.com Wallet، فهل تمانع أن تقوم بتقييمه؟",
         "لن يستغرق الأمر أكثر من دقيقةٍ. شكراً لك لدعمك."
     ],
+    "APPRATE_FOOTER": "انقر فوق عدد النجوم التي تود منحها لنا على مقياس من 1-5.",
     "APPRATE_NO": "لا، شكراً",
     "APPRATE_LATER": "ذكرنيّ لاحقاً",
-    "APPRATE_RATE": "تقييم التطبيق الآن"
+    "APPRATE_RATE": "تقييم التطبيق الآن",
+    "APPRATE_BODY_GOOD_TITLE": "شكرا!",
+    "APPRATE_BODY_GOOD_BODY": "رجاء الاهتمام بالتعبير عن دعمك لـ BTC.com عن طريق إعطاء تقييم لنا على متجر التطبيقات (AppStore)",
+    "APPRATE_BODY_BAD": "مهلا. هل ستتفضل بترك تعليق لنا؟",
+    "APPRATE_FEEDBACK": "إرسال",
+    "APPRATE_SKIP": "تخطي"
 }

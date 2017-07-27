@@ -174,6 +174,7 @@
     "TX_INFO_SENT_TO": "को भेजें",
     "TX_INFO_RECEIVED_FROM": "से प्राप्त करें",
     "TX_INFO_MESSAGE_TITLE": "संदेश/संदर्भ",
+
     // Sending screens
     "QR": "QR",
     "CONTACTS": "संपर्क करना",
@@ -357,8 +358,12 @@
     "SPANISH": "स्पैनिश",
     "RUSSIAN": "रूसी",
     "CHINESE": "चीनी",
+    "SWAHILI": "स्वाहिली भाषा",
+    "ARABIC": "अरबी",
+    "HINDI": "हिंदी",
     "JAPANESE": "जापानी",
     "KOREAN": "कोरियाई",
+    "PORTUGUESE": "पुर्तगाली",
 
     // regions
     "NETHERLANDS": "नीदरलैंड्स",
@@ -411,7 +416,6 @@
 
     "ADVANCED_SEND_OPTIONS": "उन्नत सेटिंग",
     "LOW_PRIORITY_LABEL": "निम्न वरीयता bitcoin शुल्क",
-    "LOW_PRIORITY_WARNING": "निम्न वरीयता शुल्क का उपयोग करने के परिणामस्वरूप बहुत अधिक धीमा पुष्टिकरण समय हो जाता है!",
     "LOW_PRIORITY_SEND_WARNING": "आप निम्न वरीयता शुल्क का उपयोग कर रहे हैं, इसके परिणामस्वरूप बहुत अधिक धीमा पुष्टिकरण समय हो जाता है!",
 
     "QR_SCAN_OVERLAY": "QR कोड स्कैन करें",
