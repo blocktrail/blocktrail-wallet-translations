@@ -1,4 +1,5 @@
 {
+    "APPNAME": "BTC.com 钱包",
     // general
     "LOGOUT": "退出",
     "WARNING": "警告",
@@ -12,6 +13,8 @@
     "OK": "确定",
     "DONE": "完成",
     "CONFIRM": "确认",
+    "CLOSE": "关闭",
+    "APPSTORE": "App Store",
     "APPLY": "应用",
     "SYNC": "同步",
     "SYNC_NOW": "立即同步",
@@ -45,6 +48,7 @@
     "BALANCE_CONFIRMED": "已确认余额",
     "BALANCE_UNCONFIRMED": "未确认余额",
     "TRANSACTIONS": "交易",
+    "TRANSACTION": "交易",
     "WELCOME": "欢迎",
     "TWO_FACTOR_TOKEN": "2FA 令牌",
     "MENU_TRANSACTIONS": "交易",
@@ -59,7 +63,21 @@
     "AT": "在",
 
     // update notices
+    "UPDATE_AVAILABLE_NOTICE": "本 app 已推出更新版本可供下载。",
+    "UPDATE_AVAILABLE_NOTICE_BODY": "我们推荐您更新本 app 以使用最新功能和改进。",
+    "UNSUPPORTED_NOTICE": "您正在使用的钱包版本已停止支持。",
+    "UNSUPPORTED_NOTICE_BODY": "您需要更新本 app 以继续使用钱包。",
+    "DEPRECATED_NOTICE": "您正在使用旧版本的钱包",
+    "DEPRECATED_NOTICE_BODY": "我们<b>强烈</b>建议您更新本 app 以获取最佳体验！",
     "UPDATED_NOTICE": "您的钱包已升级",
+
+    // per version update messages
+    "GLIDERA_UPDATE": "我们与 Glidera 合作并整合其服务，您现可在美国所有州（除纽约州外）通过您的钱包轻松购买比特币！",
+    "UPDATE_NOTICE_030304": "全新“加速优先级”交易！以最高交易速度发送您的交易，同时尊享比特币网络接受的最低费率。这些交易将直接推送到BTC.com矿池。 从现在起，您每月可发送多达3次“加速优先级”交易，增加这一数字的更多方式即将推出！",
+
+    // invalid session
+    "INVALID_SESSION": "您的会话已不再有效",
+    "INVALID_SESSION_LOGOUT_NOW": "出于安全考虑，您的会话已过期。很抱歉给您带来不便。您现在将被注销，请稍后重新登录。",
 
     // datetime
     "TODAY": "今天",
@@ -178,6 +196,7 @@
     "TX_INFO_SENT_TO": "发送至",
     "TX_INFO_RECEIVED_FROM": "接收自",
     "TX_INFO_MESSAGE_TITLE": "消息/参考",
+
     // Sending screens
     "QR": "二维码",
     "CONTACTS": "联系人",
@@ -199,6 +218,31 @@
     "ESITIMATED_FEE": "矿工费",
     "SEND_BITCOIN_TITLE": "发送比特币",
     "MSG_INVALID_AMOUNT": "无效数额",
+    "FEE_STRATEGY": "收费策略",
+
+    //receive screen
+    "ADDRESS_REUSE_NOTICE_1": "您在此处生成的任何比特币地址都将持续有效。",
+    "ADDRESS_REUSE_NOTICE_2": "您可按需生成任意数量的地址。",
+    "MY_ADDRESSES": "我的地址",
+
+    // address lookup and labels
+    "ADDRESS_LOOKUP": "地址查询",
+    "EDIT_LABEL": "编辑标签",
+    "ENTER_NEW_LABEL": "为所选地址输入新标签。",
+    "DELETE_LABEL": "删除标签",
+    "CONFIRM_DELETE_LABEL_QUESTION": "您要删除所选标签吗？",
+    "LABEL_MAX_LENGTH_INFO": "错误。标签最大长度为 100 个字符。",
+    "ADDRESS_LABEL": "标签",
+    "USAGES": "用法",
+    "CHECKOUT_AT_BTCCOM": "点击前往 BTC.com 查看更多详情",
+    "MORE_DETAILS": "更多详情",
+    "NO_MORE_ADDRESSES": "没有更多地址",
+    // address lookup search
+    "ADDRESS_LOOKUP_SEARCH_PLACEHOLDER": "搜索标签或地址",
+    "ADDRESS_LOOKUP_CHECKONLY_USAGE": "仅已使用的地址",
+    "ADDRESS_LOOKUP_CHECKONLY_LABELED": "仅已创建标签的地址",
+    "ADDRESS_LOOKUP_CHECKONLY_USAGE_SHORT": "已使用的地址",
+    "ADDRESS_LOOKUP_CHECKONLY_LABELED_SHORT": "已创建标签的地址",
 
     // messages
     "MSG_GET_CONTACT_ADDR": "正在获取联系地址...",
@@ -216,6 +260,8 @@
     "MSG_BAD_CLIPBOARD": "剪贴板中未找到有效地址",
     "MSG_CLIPBOARD_ADDRESS": "在您的剪贴板中找到一个地址",
     "MSG_SEND_FAIL_UNKNOWN": "发送您的交易时出现问题",
+    "MSG_SEND_FAIL_FEE": "发送您的交易时出现问题。",
+    "MSG_SEND_FAIL_FEE_DETAILED": "您没有足够的余额以支付费用。需要支付金额为 {{ fee }} BTC 的费用。",
     // contacts list
     "CONTACTS_NONE": "未找到联系人",
     "CONTACTS_NO_WALLETS": "您的联系人都没有 BTC Wallet",
@@ -365,6 +411,12 @@
     "SPANISH": "西班牙语",
     "RUSSIAN": "俄语",
     "CHINESE": "中文",
+    "SWAHILI": "斯瓦希里语",
+    "ARABIC": "阿拉伯语",
+    "HINDI": "印地语",
+    "JAPANESE": "日语",
+    "KOREAN": "韩语",
+    "PORTUGUESE": "葡萄牙语",
 
     // regions
     "NETHERLANDS": "荷兰",
@@ -412,18 +464,29 @@
         "",
         "请配置您的邮件应用；您也可以跳过此步骤，在以后我们支持备选应用时再保存您的备份"
     ],
+
+    // fees related
+    "TRANSACTION_FEES": "交易费用",
     "TX_INFO_FEE": "费用",
     "ESTIMATED_FEE": "估计费用",
+    "OPTIMAL_FEE": "最优",
+    "OPTIMAL_FEE_LONG": "最优费用",
+    "LOW_PRIORITY_FEE": "低优先级",
+    "LOW_PRIORITY_FEE_LONG": "低优先级费用",
+
+    "LOW_PRIORITY_NOTICE": "交易可能在数小时后仍无法确认",
+    "OPTIMAL_PRIORITY_NOTICE": "支持快速确认的推荐网络费用",
 
     "ADVANCED_SEND_OPTIONS": "高级设置",
     "LOW_PRIORITY_LABEL": "低优先级比特币费用",
-    "LOW_PRIORITY_WARNING": "使用低优先级费用会导致确认时间明显要慢很多！",
     "LOW_PRIORITY_SEND_WARNING": "您正在使用低优先级费用，这会确认时间明显要慢很多！",
 
     "PRIOBOOST": "优先级升级",
+    "PRIOBOOST_LONG": "加速优先级费用",
     "PRIOBOOST_NOTICE": "使用最低手续费率，获得最快的确认速度。交易将被推送到 BTC.com 的加速确认队列。",
     "PRIOBOOST_CREDITS": "您本月还有 {{ credits }} 次机会",
     "PRIOBOOST_NOT_POSSIBLE": "当前交易不能用于加速。请尝试不同的金额。",
+    "PRIOBOOST_NOT_POSSIBLE_ERR_TITLE": "无法使用交易加速器。",
     "PRIOBOOST_TOO_LARGE": "当前交易体积过大，不适用于自动加速。",
     "PRIOBOOST_ZERO_CONF": "当前交易有未确认的输入，不适用于自动加速。",
     "PRIOBOOST_NO_CREDITS": "本月您当前没有可用的加速机会了。",
@@ -478,6 +541,7 @@
     "ENTER_ADDRESS_TITLE": "输入比特币地址",
     "CONTACTS_DISABLED": "已禁用联系人",
     "MSG_REQUIRE_CONTACTS_ACCESS": "请在“设置”菜单上启用“联系人”以使用此功能",
+    "COPY_TO_CLIPBOARD": "复制到剪贴板",
     "SETTINGS_UPDATE_PHOTO": "更新照片",
     "SETTINGS_PROFILE_DESCRIPTION": "设置在您向联系人发送时，您的联系人将看到的资料图片。",
     "SETTINGS_BTC_DECIMALS": "BTC 小数显示",
@@ -554,6 +618,14 @@
     // Buy BTC
     "BUYBTC": "购买比特币",
     "BUYBTC_NAVTITLE": "购买比特币",
+    "BUYBTC_PENDING_ORDERS": "待处理订单",
+    "BUYBTC_PENDING_ORDER": "待处理订单",
+    "BUYBTC_PENDING_ORDER_FROM": "来自 {{ order.displayName }} 的待处理订单",
+    "BUYBTC_PENDING_ORDER_SUBTITLE": "已购买 {{ order.total }} {{ order.currency }}（每 BTC {{ order.price }} {{ order.currency }}）",
+    "PURCHASED_AT": "已购买：",
+    "BUYBTC_PENDING_ORDER_PRICE": "每 BTC {{ order.price }} {{ order.currency }}",
+    "BUYBTC_PENDING_ORDER_PRICE_LONG": "{{ order.total }} {{ order.currency }}（每 BTC {{ order.price }} {{ order.currency }}）",
+    "EST_DELIVERY": "预计交付：",
     "BUYBTC_GETSTARTED_HEAD": "初始设置",
     "BUYBTC_GETSTARTED_BODY": "在您能够购买比特币之前，让我们先为您设置兑换账户",
     "BUYBTC_GETSTARTED_BUTTON": "继续",
@@ -574,6 +646,7 @@
     "BUYBTC_CHANGE_REGION": "更改地区",
 
     "BUYBTC_CHOOSE_TITLE": "选择购买方式",
+    "BUYBTC_CHOOSE_SUBTITLE": "我们已在 {{ region }} 推出以下购买方式（&lt;a {{ href }}>更改</a>）。",
 
     "BUYBTC_PROVIDERS": "合作伙伴",
     "BUYBTC_NOPROVIDERS_REGION": "在您所选地区我们没有提供服务的合作伙伴",
@@ -582,6 +655,7 @@
     "BUYBTC_INCL_FEE": "包含费用",
     "BUYBTC_BUY": "继续",
     "BUYBTC_VIA": "您的购买将使用 完成 {{ broker }}",
+    "BUYBTC_BANK_TRANSFER_SLOW": "通过银行转账购买的比特币需要数个工作日进行处理。",
 
     "MSG_BUYBTC_PIN_TO_ENCRYPT": "请输入您的钱包 PIN 码。",
     "MSG_BUYBTC_PIN_TO_DECRYPT_TITLE": "输入 PIN 码",
@@ -616,6 +690,7 @@
 
     "MSG_BUYBTC_CONFIRM_TITLE": "购买比特币",
     "MSG_BUYBTC_CONFIRM_BODY": "您确定想要以{{ currencySymbol }}{{ price }}购买{{ qty }}个比特币吗？",
+    "MSG_BUYBTC_ZERO_AMOUNT": "您要购买 0 BTC，请选择大于 0 的金额。",
 
     "MSG_BUYBTC_BOUGHT_TITLE": "已购买的比特币",
     "MSG_BUYBTC_BOUGHT_BODY": "您刚刚以{{ currencySymbol }}{{ price }}购买了{{ qty }}个比特币！",
@@ -648,7 +723,13 @@
         "",
         "不会超过一分钟。感谢您的支持。"
     ],
+    "APPRATE_FOOTER": "点按星级数字从 1-5 星中为我们评级。",
     "APPRATE_NO": "不，谢谢",
     "APPRATE_LATER": "稍后提醒",
-    "APPRATE_RATE": "立刻评价"
+    "APPRATE_RATE": "立刻评价",
+    "APPRATE_BODY_GOOD_TITLE": "谢谢！",
+    "APPRATE_BODY_GOOD_BODY": "请考虑在App Store中留下评论以支持BTC.com",
+    "APPRATE_BODY_BAD": "啊哦。您要考虑向我们留下反馈意见吗？",
+    "APPRATE_FEEDBACK": "发送",
+    "APPRATE_SKIP": "跳过"
 }

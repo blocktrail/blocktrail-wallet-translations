@@ -1,4 +1,5 @@
 {
+    "APPNAME": "Кошелек BTC.com",
     // general
     "LOGOUT": "выйти!",
     "WARNING": "Внимание",
@@ -12,6 +13,8 @@
     "OK": "ОК",
     "DONE": "готово",
     "CONFIRM": "подтвердить",
+    "CLOSE": "Закрыть",
+    "APPSTORE": "Магазин приложений",
     "APPLY": "применить",
     "SYNC": "синхронизировать",
     "SYNC_NOW": "синхронизировать сейчас",
@@ -45,6 +48,7 @@
     "BALANCE_CONFIRMED": "подтвержденный баланс",
     "BALANCE_UNCONFIRMED": "неподтвержденный баланс",
     "TRANSACTIONS": "транзакции",
+    "TRANSACTION": "Транзакция",
     "WELCOME": "добро пожаловать",
     "TWO_FACTOR_TOKEN": "токен 2FA",
     "MENU_TRANSACTIONS": "транзакции",
@@ -57,6 +61,32 @@
     "CHANGE": "изменить",
     "VIA": "через",
     "AT": "в",
+
+    // update notices
+    "UPDATE_AVAILABLE_NOTICE": "Для скачивания доступно новое обновление приложения.",
+    "UPDATE_AVAILABLE_NOTICE_BODY": "Мы рекомендуем вам обновить приложение, чтобы вы могли воспользоваться последними функциями и улучшениями.",
+    "UNSUPPORTED_NOTICE": "Вы используете версию кошелька, которая больше не поддерживается.",
+    "UNSUPPORTED_NOTICE_BODY": "Чтобы продолжить пользоваться им, вам придется обновить приложение!",
+    "DEPRECATED_NOTICE": "Вы используете старую версию кошелька",
+    "DEPRECATED_NOTICE_BODY": "Мы <b>настоятельно</b> рекомендуем вам обновить приложение для оптимальной работы!",
+    "UPDATED_NOTICE": "Ваш кошелек был обновлен.",
+
+    // per version update messages
+    "GLIDERA_UPDATE": "Теперь вы можете легко покупать биткоины изо всех штатов США (кроме Нью-Йорка) из вашего кошелька через нашего партнера Glidera!",
+    "UPDATE_NOTICE_030304": [
+        "Новые транзакции с ускоренным приоритетом!",
+        " ",
+        " Отправляйте транзакции с самой высокой скоростью, оплачивая наименьший возможный сбор, принимаемый биткоин-сетью. Эти транзакции отправляются напрямую в майнинг-пул BTC.com.",
+        " ",
+        " Сейчас вы можете отправлять до 3-х транзакций с ускоренным приоритетом каждый месяц, и скоро будут доступны способы увеличить это количество!"
+    ],
+
+    // invalid session
+    "INVALID_SESSION": "Ваша сессия более не действительна",
+    "INVALID_SESSION_LOGOUT_NOW": [
+        "Приносим свои извинения, но по причинам безопасности ваша сессия истекла.",
+        " Вы принудительно вышли из системы. Пожалуйста, войдите снова."
+    ],
 
     // datetime
     "TODAY": "Сегодня",
@@ -150,6 +180,7 @@
     // side menu
     "MY_WALLET": "мой кошелек",
     "SEND_FEEDBACK": "отправить отзыв",
+    "TELL_A_FRIEND": "Рассказать другу",
     // My Wallet screen
     "INTERNAL_TRANSACTION_TITLE": "отправлено себе",
     "SENT_TO_MANY_TITLE": "Отправлено многим",
@@ -170,6 +201,7 @@
     "TX_INFO_SENT_TO": "отправлено",
     "TX_INFO_RECEIVED_FROM": "получено от",
     "TX_INFO_MESSAGE_TITLE": "сообщение/референс",
+
     // Sending screens
     "QR": "QR",
     "CONTACTS": "контакты",
@@ -191,6 +223,31 @@
     "ESITIMATED_FEE": "Сбор сети:",
     "SEND_BITCOIN_TITLE": "отправить биткоины",
     "MSG_INVALID_AMOUNT": "Неверное количество",
+    "FEE_STRATEGY": "Стратегия сборов",
+
+    //receive screen
+    "ADDRESS_REUSE_NOTICE_1": "Любой биткоин-адрес, который вы создадите здесь, останется действительным.",
+    "ADDRESS_REUSE_NOTICE_2": "Вы можете создать их столько, сколько пожелаете.",
+    "MY_ADDRESSES": "Мои адреса",
+
+    // address lookup and labels
+    "ADDRESS_LOOKUP": "Просмотр адреса",
+    "EDIT_LABEL": "Изменить описание",
+    "ENTER_NEW_LABEL": "Введите новое описание для выбранного адреса.",
+    "DELETE_LABEL": "Удалить описание",
+    "CONFIRM_DELETE_LABEL_QUESTION": "Вы точно хотите удалить выбранное описание?",
+    "LABEL_MAX_LENGTH_INFO": "Ошибка. Максимальная длина описания – 100 символов.",
+    "ADDRESS_LABEL": "Описание",
+    "USAGES": "Использование",
+    "CHECKOUT_AT_BTCCOM": "Подробности смотрите на BTC.com",
+    "MORE_DETAILS": "Подробнее",
+    "NO_MORE_ADDRESSES": "Адресов больше нет",
+    // address lookup search
+    "ADDRESS_LOOKUP_SEARCH_PLACEHOLDER": "Поиск описания или адреса",
+    "ADDRESS_LOOKUP_CHECKONLY_USAGE": "Только использованные адреса",
+    "ADDRESS_LOOKUP_CHECKONLY_LABELED": "Только адреса с описанием",
+    "ADDRESS_LOOKUP_CHECKONLY_USAGE_SHORT": "Использованные адреса",
+    "ADDRESS_LOOKUP_CHECKONLY_LABELED_SHORT": "Адреса с описанием",
 
     // messages
     "MSG_GET_CONTACT_ADDR": "получение адреса контакта...",
@@ -208,6 +265,11 @@
     "MSG_BAD_CLIPBOARD": "в буфере обмена нет адресов",
     "MSG_CLIPBOARD_ADDRESS": "в буфере обмена найден адрес",
     "MSG_SEND_FAIL_UNKNOWN": "при отправки транзакции произошла ошибка",
+    "MSG_SEND_FAIL_FEE": "При отправки транзакции произошла ошибка",
+    "MSG_SEND_FAIL_FEE_DETAILED": [
+        "У вас недостаточно денег, чтобы оплатить сбор. ",
+        " Необходимо оплатить {{ fee }} BTC."
+    ],
     // contacts list
     "CONTACTS_NONE": "контакты не найдены",
     "CONTACTS_NO_WALLETS": "ни у кого из ваших контактов нет кошелька BTC.com",
@@ -218,6 +280,10 @@
     "CONTACTS_WALLETS_ONLY": "с кошельками",
     "CONTACTS_REFRESH": "обновить контакты",
     "CONTACTS_RESYNC": "синхронизировать контакты",
+    "MSG_INVITE_CONTACT": [
+        "Привет, скачай биткоин-кошелек от BTC.com!",
+        " Скачай его здесь: https://wallet.btc.com/"
+    ],
     "RECEIVE_BITCOIN_TITLE": "получить биткоины",
     "BITCOIN_ADDRESS_RECEIVE_HELP": "Для вас был создан новый биткоин-адрес. Используйте его для получения средств.",
     "WAITING_FOR_PAYMENT": "ожидание платежа",
@@ -261,11 +327,14 @@
     "SETTINGS_WALLET": "кошелек",
     "SETTINGS_CURRENT_WALLET": "текущий кошелек",
     "SETTINGS_CHANGE_PIN": "сменить ПИН",
+    "SETTINGS_FORGOT_PIN": "Забыли пин-код?",
     "SETTINGS_CHANGE_PASSWORD": "сменить пароль",
     "SETTINGS_RECOMMENDED": "рекомендовано",
     "SETTINGS_NEWSLETTER": "Отправляйте мне новости BTC.com",
-    "SETTINGS_RESET_ACCOUNT": "Выйти из кошелька",
+    "SETTINGS_RESET_ACCOUNT": "сбросить кошелек",
     "SETTINGS_WALLET_BACKUP": "резервная копия кошелька",
+    "SETTINGS_HELP": "Поддержка",
+    "SETTINGS_FAQ": "Частые вопросы",
     "SETTINGS_INFO": "информация",
     "SETTINGS_ABOUT": "о приложении",
     "SETTINGS_VERSION": "версия",
@@ -347,8 +416,12 @@
     "SPANISH": "Испанский",
     "RUSSIAN": "Русский",
     "CHINESE": "Китайский",
+    "SWAHILI": "Суахили",
+    "ARABIC": "Арабский",
+    "HINDI": "Хинди",
     "JAPANESE": "японский",
     "KOREAN": "корейский",
+    "PORTUGUESE": "португальский",
 
     // regions
     "NETHERLANDS": "Голландия",
@@ -395,13 +468,33 @@
         "",
         "Пожалуйста, настройте почтовое приложение, или же пропустите этот шаг и сохраните резервную копию позже, когда мы будем поддерживать альтернативные приложения"
     ],
+
+    // fees related
+    "TRANSACTION_FEES": "Сбор за транзакцию",
     "TX_INFO_FEE": "сбор",
     "ESTIMATED_FEE": "примерный сбор",
+    "OPTIMAL_FEE": "Оптимальный",
+    "OPTIMAL_FEE_LONG": "Оптимальный сбор",
+    "LOW_PRIORITY_FEE": "С низким приоритетом",
+    "LOW_PRIORITY_FEE_LONG": "Сбор с низким приоритетом",
+
+    "LOW_PRIORITY_NOTICE": "Транзакцию могут не подтверждать в течение нескольких часов",
+    "OPTIMAL_PRIORITY_NOTICE": "Рекомендуемый сбор для быстрого подтверждения",
 
     "ADVANCED_SEND_OPTIONS": "Дополнительные настройки",
     "LOW_PRIORITY_LABEL": "Низкий приоритет из-за комиссии",
-    "LOW_PRIORITY_WARNING": "Использование низкой комиссии может существенно ЗАМЕДЛИТЬ подтверждение транзакций!",
     "LOW_PRIORITY_SEND_WARNING": "Вы используете низкую комиссию – это может существенно ЗАМЕДЛИТЬ подтверждение транзакций!",
+
+    "PRIOBOOST": "С ускоренным приоритетом",
+    "PRIOBOOST_LONG": "Сбор с ускоренным приоритетом",
+    "PRIOBOOST_NOTICE": "Самая высокая скорость транзакции с самым низким сбором – отправляется напрямую в наш майнинг-пул.",
+    "PRIOBOOST_CREDITS": "В этом месяце осталось приоритетных кредитов: {{ credits }}.",
+    "PRIOBOOST_NOT_POSSIBLE": "Невозможно ускорить. Попробуйте другую сумму",
+    "PRIOBOOST_NOT_POSSIBLE_ERR_TITLE": "Не удалось использовать ускоритель транзакций.",
+    "PRIOBOOST_TOO_LARGE": "Мы не предоставляем ускорение транзакций для очень крупных транзакций.",
+    "PRIOBOOST_ZERO_CONF": "Мы не предоставляем ускорение транзакций для транзакций, которые тратят средства неподтвержденных транзакций.",
+    "PRIOBOOST_NO_CREDITS": "Вы использовали все кредиты на этот месяц.",
+    "PRIOBOOST_NO_CREDITS_SHORT": "У вас не осталось кредитов.",
 
     "QR_SCAN_OVERLAY": "отсканировать QR-код",
     "MSG_BAD_ADDRESS_2": "это не похоже на биткоин-адрес",
@@ -455,6 +548,7 @@
     "ENTER_ADDRESS_TITLE": "введите биткоин-адрес",
     "CONTACTS_DISABLED": "контакты отключены",
     "MSG_REQUIRE_CONTACTS_ACCESS": "Для использования этой функции нужно включить «Контакты» в меню настроек",
+    "COPY_TO_CLIPBOARD": "скопировано в буфер",
     "SETTINGS_UPDATE_PHOTO": "обновить фото",
     "SETTINGS_PROFILE_DESCRIPTION": "Установите фото своего профиля, чтобы ваши контакты видели его при отправке биткоинов.",
     "SETTINGS_BTC_DECIMALS": "показ дробной части BTC",
@@ -531,6 +625,14 @@
     // Buy BTC
     "BUYBTC": "Купить биткоины",
     "BUYBTC_NAVTITLE": "Купить биткоины",
+    "BUYBTC_PENDING_ORDERS": "Заказы в ожидании",
+    "BUYBTC_PENDING_ORDER": "заказ в ожидании",
+    "BUYBTC_PENDING_ORDER_FROM": "Заказ в ожидании от {{ order.displayName }}",
+    "BUYBTC_PENDING_ORDER_SUBTITLE": "Куплено {{ order.total }} {{ order.currency }} ({{ order.price }} {{ order.currency }} за BTC)",
+    "PURCHASED_AT": "Куплено:",
+    "BUYBTC_PENDING_ORDER_PRICE": "{{ order.price }} {{ order.currency }} за BTC",
+    "BUYBTC_PENDING_ORDER_PRICE_LONG": "{{ order.total }} {{ order.currency }} ({{ order.price }} {{ order.currency }} за BTC)",
+    "EST_DELIVERY": "Примерная доставка:",
     "BUYBTC_GETSTARTED_HEAD": "Начальная настройка",
     "BUYBTC_GETSTARTED_BODY": "Перед покупкой биткоинов необходимо настроить аккаунт",
     "BUYBTC_GETSTARTED_BUTTON": "Продолжить",
@@ -551,6 +653,7 @@
     "BUYBTC_CHANGE_REGION": "Сменить регион",
 
     "BUYBTC_CHOOSE_TITLE": "Выберите способ покупки",
+    "BUYBTC_CHOOSE_SUBTITLE": "В регионе {{ region }} доступны следующие способы покупки (<a {{ href }}>изменить</a>).",
 
     "BUYBTC_PROVIDERS": "Партнеры",
     "BUYBTC_NOPROVIDERS_REGION": "У нас нет партнеров, обслуживающих этот регион",
@@ -559,6 +662,7 @@
     "BUYBTC_INCL_FEE": "Включая комиссию",
     "BUYBTC_BUY": "Продолжить",
     "BUYBTC_VIA": "Вы совершите покупку при помощи {{ broker }}",
+    "BUYBTC_BANK_TRANSFER_SLOW": "Обработка биткоинов, купленных через банковский перевод, может занять несколько рабочих дней.",
 
     "MSG_BUYBTC_PIN_TO_ENCRYPT": "Пожалуйста, введите пин-код от своего кошелька.",
     "MSG_BUYBTC_PIN_TO_DECRYPT_TITLE": "Введите пин-код",
@@ -593,6 +697,7 @@
 
     "MSG_BUYBTC_CONFIRM_TITLE": "Купить биткоины",
     "MSG_BUYBTC_CONFIRM_BODY": "Вы точно хотите купить {{ qty }} BTC за {{ price }} {{ currencySymbol }}?",
+    "MSG_BUYBTC_ZERO_AMOUNT": "Вы хотите купить 0 BTC. Пожалуйста, укажите сумму больше нуля.",
 
     "MSG_BUYBTC_BOUGHT_TITLE": "Биткоины куплены",
     "MSG_BUYBTC_BOUGHT_BODY": "Вы купили {{ qty }} BTC за {{ price }} {{ currencySymbol }}!",
@@ -622,7 +727,13 @@
         "Если вам нравится использовать кошелек BTC.com, не могли бы уделить немного времени, чтобы оценить его?",
         "Это займет не больше минуты. Спасибо за вашу поддержку."
     ],
+    "APPRATE_FOOTER": "Нажмите число звезд от 1 до 5, которые вы хотите нам поставить",
     "APPRATE_NO": "Нет, спасибо",
     "APPRATE_LATER": "Напомнить мне позже",
-    "APPRATE_RATE": "Оценить его сейчас"
+    "APPRATE_RATE": "Оценить его сейчас",
+    "APPRATE_BODY_GOOD_TITLE": "Спасибо!",
+    "APPRATE_BODY_GOOD_BODY": "Пожалуйста, поддержите BTC.com, оставив нам отзыв в магазине приложений",
+    "APPRATE_BODY_BAD": "Ой. Не хотите оставить нам отзыв?",
+    "APPRATE_FEEDBACK": "Отправить",
+    "APPRATE_SKIP": "Пропустить"
 }

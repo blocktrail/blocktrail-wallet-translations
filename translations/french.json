@@ -1,4 +1,5 @@
 {
+    "APPNAME": "Portefeuille BTC.com",
     // general
     "LOGOUT": "Déconnexion",
     "WARNING": "Attention",
@@ -12,6 +13,8 @@
     "OK": "OK",
     "DONE": "Fini",
     "CONFIRM": "Confirmer",
+    "CLOSE": "Fermer",
+    "APPSTORE": "Appstore",
     "APPLY": "Appliquer",
     "SYNC": "Synchroniser",
     "SYNC_NOW": "Synchroniser",
@@ -45,6 +48,7 @@
     "BALANCE_CONFIRMED": "Solde confirmé",
     "BALANCE_UNCONFIRMED": "Solde non confirmé",
     "TRANSACTIONS": "Transactions",
+    "TRANSACTION": "Transaction",
     "WELCOME": "Bienvenue",
     "TWO_FACTOR_TOKEN": "Jeton 2FA",
     "MENU_TRANSACTIONS": "Transactions",
@@ -57,6 +61,32 @@
     "CHANGE": "changer",
     "VIA": "via",
     "AT": "à",
+
+    // update notices
+    "UPDATE_AVAILABLE_NOTICE": "Une nouvelle mise à jour de l'application est disponible et peut être téléchargée.",
+    "UPDATE_AVAILABLE_NOTICE_BODY": "Nous vous recommandons de mettre à jour l'application pour pouvoir profiter des dernières améliorations et fonctionnalités.",
+    "UNSUPPORTED_NOTICE": "Vous utilisez une version du portefeuille qui n'est plus supportée.",
+    "UNSUPPORTED_NOTICE_BODY": "Il vous faudra mettre l'application à jour pour continuer à l'utiliser !",
+    "DEPRECATED_NOTICE": "Vous utilisez une ancienne version du portefeuille",
+    "DEPRECATED_NOTICE_BODY": "Nous vous recommandons <b>fortement</b> de mettre l'application à jour pour une expérience optimale !",
+    "UPDATED_NOTICE": "Votre portefeuille a été mis à niveau.",
+
+    // per version update messages
+    "GLIDERA_UPDATE": "Vous pouvez désormais facilement acheter des bitcoins de tous les États américains (à l'exception de l'État de New York) directement depuis votre portefeuille grâce à l'intégration de Glidera sous forme de partenariat !",
+    "UPDATE_NOTICE_030304": [
+        "De nouvelles transactions en « Priorité accélérée » !",
+        " ",
+        " Envoyez vos transactions à la vitesse la plus élevée possible tout en profitant des taux de frais les plus bas acceptés par le réseau Bitcoin. Ces transactions sont conduites directement par la coopérative de mineurs de BTC.com.",
+        " ",
+        " Vous pouvez actuellement envoyer jusqu'à 3 transactions par mois en priorité accélérée et d'autres moyens d'augmenter ce nombre apparaîtront prochainement !"
+    ],
+
+    // invalid session
+    "INVALID_SESSION": "Votre session a expiré",
+    "INVALID_SESSION_LOGOUT_NOW": [
+        "Pour des raisons de sécurité, votre session a expiré. Nous nous excusons pour le désagrément.",
+        " Vous allez maintenant être déconnecté. Veuillez vous reconnecter une fois la déconnexion effectuée."
+    ],
 
     // datetime
     "TODAY": "Aujourd'hui",
@@ -154,6 +184,7 @@
     // side menu
     "MY_WALLET": "Mon portefeuille",
     "SEND_FEEDBACK": "Envoyer feedback",
+    "TELL_A_FRIEND": "Recommander à un ami",
     // My Wallet screen
     "INTERNAL_TRANSACTION_TITLE": "Envoyé à vous-même",
     "SENT_TO_MANY_TITLE": "Envoyé à plusieurs",
@@ -174,6 +205,7 @@
     "TX_INFO_SENT_TO": "Envoyé à",
     "TX_INFO_RECEIVED_FROM": "Reçu de",
     "TX_INFO_MESSAGE_TITLE": "Message/référence",
+
     // Sending screens
     "QR": "QR",
     "CONTACTS": "Contacts",
@@ -195,6 +227,31 @@
     "ESITIMATED_FEE": "Frais de réseau :",
     "SEND_BITCOIN_TITLE": "Envoyer bitcoin",
     "MSG_INVALID_AMOUNT": "Montant non valide",
+    "FEE_STRATEGY": "Stratégie de tarification",
+
+    //receive screen
+    "ADDRESS_REUSE_NOTICE_1": "Toute adresse Bitcoin créée ici restera valable.",
+    "ADDRESS_REUSE_NOTICE_2": "Vous pouvez en créer autant que vous le souhaitez.",
+    "MY_ADDRESSES": "Mes adresses",
+
+    // address lookup and labels
+    "ADDRESS_LOOKUP": "Recherche d'une adresse",
+    "EDIT_LABEL": "Modifier l'étiquette",
+    "ENTER_NEW_LABEL": "Veuillez saisir une nouvelle étiquette pour l'adresse sélectionnée.",
+    "DELETE_LABEL": "Supprimer l'étiquette",
+    "CONFIRM_DELETE_LABEL_QUESTION": "Souhaitez-vous supprimer l'étiquette sélectionnée ?",
+    "LABEL_MAX_LENGTH_INFO": "Erreur. La longueur maximale des étiquettes est limitée à 100 caractères.",
+    "ADDRESS_LABEL": "Étiquette",
+    "USAGES": "Utilisations",
+    "CHECKOUT_AT_BTCCOM": "Cliquez pour plus d'informations sur BTC.com",
+    "MORE_DETAILS": "Plus d'informations",
+    "NO_MORE_ADDRESSES": "Plus aucune adresse",
+    // address lookup search
+    "ADDRESS_LOOKUP_SEARCH_PLACEHOLDER": "Rechercher une étiquette ou une adresse",
+    "ADDRESS_LOOKUP_CHECKONLY_USAGE": "Uniquement les adresses utilisées",
+    "ADDRESS_LOOKUP_CHECKONLY_LABELED": "Uniquement les adresses comportant une étiquette",
+    "ADDRESS_LOOKUP_CHECKONLY_USAGE_SHORT": "Adresses utilisées",
+    "ADDRESS_LOOKUP_CHECKONLY_LABELED_SHORT": "Adresses comportant une étiquette",
 
     // messages
     "MSG_GET_CONTACT_ADDR": "Obtention de l'adresse du contact...",
@@ -212,6 +269,11 @@
     "MSG_BAD_CLIPBOARD": "Aucune adresse Bitcoin trouvée dans le presse-papier",
     "MSG_CLIPBOARD_ADDRESS": "Une adresse a été trouvée dans votre presse-papier",
     "MSG_SEND_FAIL_UNKNOWN": "Il y avait un problème d'envoi",
+    "MSG_SEND_FAIL_FEE": "Un problème s'est produit lors de l'envoi de votre transaction",
+    "MSG_SEND_FAIL_FEE_DETAILED": [
+        "Vous ne disposez pas de fonds suffisants pour payer les frais de transaction.",
+        " Des frais à hauteur de {{ fee }} BTC sont exigés."
+    ],
     // contacts list
     "CONTACTS_NONE": "Aucun contact trouvé",
     "CONTACTS_NO_WALLETS": "Aucun de vos contacts n'a de portefeuille BTC.com",
@@ -269,11 +331,14 @@
     "SETTINGS_WALLET": "Portefeuille",
     "SETTINGS_CURRENT_WALLET": "Portefeuille actuel",
     "SETTINGS_CHANGE_PIN": "Changer le code PIN",
+    "SETTINGS_FORGOT_PIN": "Code PIN oublié",
     "SETTINGS_CHANGE_PASSWORD": "Changer mot de passe",
     "SETTINGS_RECOMMENDED": "Recommandé",
     "SETTINGS_NEWSLETTER": "Tenez-moi informé avec des nouvelles de BTC.com",
     "SETTINGS_RESET_ACCOUNT": "Se déconnecter",
     "SETTINGS_WALLET_BACKUP": "Sauvegarde de portefeuille",
+    "SETTINGS_HELP": "Assistance",
+    "SETTINGS_FAQ": "Questions fréquemment posées",
     "SETTINGS_INFO": "Infos",
     "SETTINGS_ABOUT": "À propos",
     "SETTINGS_VERSION": "Version",
@@ -357,8 +422,12 @@
     "SPANISH": "Espagnol",
     "RUSSIAN": "Russe",
     "CHINESE": "Chinois",
+    "SWAHILI": "Swahili",
+    "ARABIC": "Arabe",
+    "HINDI": "Hindi",
     "JAPANESE": "Japonais",
     "KOREAN": "Coréen",
+    "PORTUGUESE": "Portugais",
 
     // regions
     "NETHERLANDS": "Les Pays-Bas",
@@ -405,13 +474,33 @@
         "",
         "Veuillez configurer votre application email, ou passer cette étape et enregistrer votre sauvegarde plus tard quand nous supporteront des app alternatives"
     ],
+
+    // fees related
+    "TRANSACTION_FEES": "Frais de transaction",
     "TX_INFO_FEE": "Frais",
     "ESTIMATED_FEE": "Frais estimés",
+    "OPTIMAL_FEE": "Optimal",
+    "OPTIMAL_FEE_LONG": "Montant optimal des frais",
+    "LOW_PRIORITY_FEE": "Priorité basse",
+    "LOW_PRIORITY_FEE_LONG": "Frais de priorité basse",
+
+    "LOW_PRIORITY_NOTICE": "Il se peut que la transaction nécessite plusieurs heures avant d'être confirmée",
+    "OPTIMAL_PRIORITY_NOTICE": "Frais de réseau recommandés pour une confirmation rapide",
 
     "ADVANCED_SEND_OPTIONS": "Paramètres avancés",
     "LOW_PRIORITY_LABEL": "Frais bitcoin de faible priorité",
-    "LOW_PRIORITY_WARNING": "Utiliser de faibles frais de priorité peut entraîner des temps de confirmation significativement PLUS LENTS !",
     "LOW_PRIORITY_SEND_WARNING": "Vous utilisez frais de faible priorité, cela peut entraîner des temps de confirmation significativement PLUS LENTS !",
+
+    "PRIOBOOST": "Priorité accélérée",
+    "PRIOBOOST_LONG": "Frais de priorité accélérée",
+    "PRIOBOOST_NOTICE": "Transaction à la vitesse la plus élevée et les frais de réseau les plus bas possible, conduite directement par notre coopérative de mineurs.",
+    "PRIOBOOST_CREDITS": "Il vous reste {{ credits }} de priorité ce mois-ci.",
+    "PRIOBOOST_NOT_POSSIBLE": "Accélération impossible. Veuillez essayer avec un autre montant",
+    "PRIOBOOST_NOT_POSSIBLE_ERR_TITLE": "L'accélérateur de transaction ne peut pas être utilisé.",
+    "PRIOBOOST_TOO_LARGE": "Les transactions en priorité accélérée ne sont pas proposées pour les sommes trop importantes.",
+    "PRIOBOOST_ZERO_CONF": "La priorité accélérée n'est pas proposée pour les transactions dont les sommes dépendent de transactions non confirmées.",
+    "PRIOBOOST_NO_CREDITS": "Vous avez utilisé tous vos crédits disponibles ce mois-ci.",
+    "PRIOBOOST_NO_CREDITS_SHORT": "Il ne vous reste plus aucun crédit.",
 
     "QR_SCAN_OVERLAY": "Scanner un code QR",
     "MSG_BAD_ADDRESS_2": "Adresse Bitcoin invalide",
@@ -462,6 +551,7 @@
     "ENTER_ADDRESS_TITLE": "Entrer une adresse bitcoin",
     "CONTACTS_DISABLED": "Contacts désactivés",
     "MSG_REQUIRE_CONTACTS_ACCESS": "Veuillez activer les 'Contacts' dans le menu des paramètres pour utiliser cette fonctionnalité",
+    "COPY_TO_CLIPBOARD": "Copier dans le presse-papiers",
     "SETTINGS_UPDATE_PHOTO": "Mettre à jour la photo",
     "SETTINGS_PROFILE_DESCRIPTION": "Ajoutez une photo de profil que vos contacts veront quand vous leur envoyez.",
     "SETTINGS_BTC_DECIMALS": "Affichage des décimales BTC",
@@ -538,6 +628,14 @@
     // Buy BTC
     "BUYBTC": "Acheter des Bitcoin",
     "BUYBTC_NAVTITLE": "Acheter des Bitcoin",
+    "BUYBTC_PENDING_ORDERS": "Commandes en cours",
+    "BUYBTC_PENDING_ORDER": "commande en cours",
+    "BUYBTC_PENDING_ORDER_FROM": "Commande en cours de {{ order.displayName }}",
+    "BUYBTC_PENDING_ORDER_SUBTITLE": "Effectuée sur {{ order.total }} {{ order.currency }} ({{ order.price }} {{ order.currency }} par BTC)",
+    "PURCHASED_AT": "Effectuée sur :",
+    "BUYBTC_PENDING_ORDER_PRICE": "{{ order.price }} {{ order.currency }} par BTC",
+    "BUYBTC_PENDING_ORDER_PRICE_LONG": "{{ order.total }} {{ order.currency }} ({{ order.price }} {{ order.currency }} par BTC)",
+    "EST_DELIVERY": "Délais de livraison estimés :",
     "BUYBTC_GETSTARTED_HEAD": "Configuration initiale",
     "BUYBTC_GETSTARTED_BODY": "Avant que vous puissiez acheter du Bitcoin, nous allons configurer votre compte d'échange",
     "BUYBTC_GETSTARTED_BUTTON": "Continuer",
@@ -558,6 +656,7 @@
     "BUYBTC_CHANGE_REGION": "Changer de région",
 
     "BUYBTC_CHOOSE_TITLE": "Sélectionnez une méthode d'achat",
+    "BUYBTC_CHOOSE_SUBTITLE": "Nous proposons les modes d'achat suivants en {{ region }} (<a {{ href }}>changer</a>).",
 
     "BUYBTC_PROVIDERS": "Partenaires dans {{ region }}",
     "BUYBTC_NOPROVIDERS_REGION": "Il n’y a aucun partenaire qui serve votre région",
@@ -566,6 +665,7 @@
     "BUYBTC_INCL_FEE": "Dont frais",
     "BUYBTC_BUY": "Continuer",
     "BUYBTC_VIA": "Votre achat s'effectuera en utilisant {{ broker }}",
+    "BUYBTC_BANK_TRANSFER_SLOW": "Les bitcoins achetés par virement bancaire peuvent nécessiter plusieurs jours avant d'être utilisables.",
 
     "MSG_BUYBTC_PIN_TO_ENCRYPT": "Veuillez saisir le code PIN de votre portefeuille.",
     "MSG_BUYBTC_PIN_TO_DECRYPT_TITLE": "Saisissez le code PIN",
@@ -601,6 +701,7 @@
 
     "MSG_BUYBTC_CONFIRM_TITLE": "Acheter des Bitcoin",
     "MSG_BUYBTC_CONFIRM_BODY": "Voulez-vous vraiment acheter {{ qty }} BTC pour {{ price }}{{ currencySymbol }} ?",
+    "MSG_BUYBTC_ZERO_AMOUNT": "Vous indiquez souhaiter acheter 0 BTC. Veuillez sélectionner un montant supérieur à zéro.",
 
     "MSG_BUYBTC_BOUGHT_TITLE": "Bitcoin achetés",
     "MSG_BUYBTC_BOUGHT_BODY": "Vous venez juste d'acheter {{ qty }} BTC pour {{ price }}{{ currencySymbol }} !",
@@ -631,7 +732,13 @@
         "Si vous appréciez le Portefeuille BTC.com, pourriez-vous prendre quelques instants pour l'évaluer ?",
         "Cela ne prendra pas plus d'une minute. Merci pour votre soutien."
     ],
+    "APPRATE_FOOTER": "Indiquez le nombre d'étoiles que vous nous accorderiez sur une échelle de 1 à 5",
     "APPRATE_NO": "Non, merci",
     "APPRATE_LATER": "Me le rappeler plus tard",
-    "APPRATE_RATE": "Évaluer maintenant"
+    "APPRATE_RATE": "Évaluer maintenant",
+    "APPRATE_BODY_GOOD_TITLE": "Merci !",
+    "APPRATE_BODY_GOOD_BODY": "Merci d'envisager de manifester votre soutien à BTC.com en nous évaluant sur l'AppStore",
+    "APPRATE_BODY_BAD": "Hum… Envisageriez-vous de nous laisser un commentaire ?",
+    "APPRATE_FEEDBACK": "Envoyer",
+    "APPRATE_SKIP": "Sauter"
 }
