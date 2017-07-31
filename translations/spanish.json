@@ -121,6 +121,7 @@
     "SETUP_WALLET_BACKUP_TEXT_APPEND": "Es importante guardar esta copia de seguridad de forma confidencial y almacenarla de forma segura fuera de línea. En caso de emergencia, este documento de copia de seguridad te permitirá acceder y recuperar los fondos que tengas almacenados en la cartera.",
     "BACKUP_EMAIL_PDF": "PDF de copia de seguridad del correo electrónico",
     "BACKUP_CREATE_PDF": "Descargar copia de seguridad de la cartera (PDF)",
+    "BACKUP_DOWNLOAD_ADDITIONAL_PAGE_PDF": "Descargar la página de copia de seguridad adicional (PDF)",
     "BACKUP_CHECKBOX": "He guardado mi copia de seguridad de forma segura",
     "SETUP_PHONE": "Configurar teléfono",
     "SETUP_SYNC_CONTACTS": "Sincronizar contactos",

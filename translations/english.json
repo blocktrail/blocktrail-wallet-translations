@@ -168,6 +168,7 @@
     "SETUP_WALLET_BACKUP_TEXT_APPEND": "It is important to keep this backup confidential and to store it securely offline. In case of emergency, this backup document lets you access and recover any funds stored on the wallet.",
     "BACKUP_EMAIL_PDF": "Email backup PDF",
     "BACKUP_CREATE_PDF": "Download wallet backup (PDF)",
+    "BACKUP_DOWNLOAD_ADDITIONAL_PAGE_PDF": "Download additional backup page (PDF)",
     "BACKUP_CHECKBOX": "I saved my backup securely",
     "SETUP_PHONE": "Setup phone",
     "SETUP_SYNC_CONTACTS": "Sync contacts",

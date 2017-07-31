@@ -106,6 +106,7 @@
     "SETUP_WALLET_BACKUP_TEXT_APPEND": "このバックアップを秘密にして、オフラインで安全に保管することが重要です。緊急の場合は、このバックアップドキュメントを使ってウォレットに保存されている任意の資金にアクセスし、任意の資金を回収することができます。",
     "BACKUP_EMAIL_PDF": "バックアップPDFを電子メールで送信する",
     "BACKUP_CREATE_PDF": "ウォレットのバックアップをダウンロードする",
+    "BACKUP_DOWNLOAD_ADDITIONAL_PAGE_PDF": "追加のバックアップ・ページをダウンロード (PDF)",
     "BACKUP_CHECKBOX": "私は自分のバックアップを安全に保存しました",
     "SETUP_PHONE": "電話を設定する",
     "SETUP_SYNC_CONTACTS": "連絡先を同期させる",
