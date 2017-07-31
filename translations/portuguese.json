@@ -112,6 +112,7 @@
     "SETUP_WALLET_BACKUP_TEXT_APPEND": "É importante manter a confidencialidade deste backup e armazená-lo de forma segura offline. Em caso de emergência, este documento de backup permite acessar e recuperar os fundos armazenados na sua carteira.",
     "BACKUP_EMAIL_PDF": "Enviar backup em PDF por e-mail",
     "BACKUP_CREATE_PDF": "Baixar o backup da carteira (PDF)",
+    "BACKUP_DOWNLOAD_ADDITIONAL_PAGE_PDF": "Faça o download de uma página de backup adicional (PDF)",
     "BACKUP_CHECKBOX": "Eu salvei meu backup de forma segura",
     "SETUP_PHONE": "Configurar o celular",
     "SETUP_SYNC_CONTACTS": "Sincronizar contatos",

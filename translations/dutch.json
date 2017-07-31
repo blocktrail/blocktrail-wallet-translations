@@ -121,6 +121,7 @@
     ],
     "BACKUP_EMAIL_PDF": "Email backup PDF",
     "BACKUP_CREATE_PDF": "Wallet backup opslaan (PDF)",
+    "BACKUP_DOWNLOAD_ADDITIONAL_PAGE_PDF": "Download bovenstaande backup pagina (PDF)",
     "BACKUP_CHECKBOX": "Ik heb de backup veilig opgeslagen",
     "SETUP_PHONE": "Telefoon instellen",
     "SETUP_SYNC_CONTACTS": "Contacten synchroniseren",

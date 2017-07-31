@@ -121,6 +121,7 @@
     "SETUP_WALLET_BACKUP_TEXT_APPEND": "Il est important de préserver la confidentialité de cette sauvegarde et de la conserver en toute sécurité en mode hors connexion. En cas d’urgence, ce document de sauvegarde vous permet d’accéder aux fonds stockés sur le portefeuille et de les récupérer.",
     "BACKUP_EMAIL_PDF": "Envoyer par email la sauvegarde PDF",
     "BACKUP_CREATE_PDF": "Ouvrir la sauvegarde PDF",
+    "BACKUP_DOWNLOAD_ADDITIONAL_PAGE_PDF": "Télécharger en outre page de sauvegarde (PDF)",
     "BACKUP_CHECKBOX": "J'ai mis ma sauvegarde en sécurité",
     "SETUP_PHONE": "Configurer le téléphone",
     "SETUP_SYNC_CONTACTS": "Synchroniser les contacts",

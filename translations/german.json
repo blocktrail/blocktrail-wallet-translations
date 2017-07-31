@@ -106,6 +106,7 @@
     "SETUP_WALLET_BACKUP_TEXT_APPEND": "Es ist wichtig, dass dieses Backup vertraulich und offline an einem sicheren Ort aufbewahrt wird. Im Notfall erlangen Sie mit diesem Backup-Dokument wieder Zugriff auf das im Wallet gespeicherte Geld.",
     "BACKUP_EMAIL_PDF": "Backup-PDF per E-Mail senden",
     "BACKUP_CREATE_PDF": "Wallet-Backup herunterladen",
+    "BACKUP_DOWNLOAD_ADDITIONAL_PAGE_PDF": "Zusätzliche Backup-Seite herunterladen (PDF)",
     "BACKUP_CHECKBOX": "Ich habe mein Backup sicher gespeichert",
     "SETUP_PHONE": "Telefon einrichten",
     "SETUP_SYNC_CONTACTS": "Kontakte synchronisieren",

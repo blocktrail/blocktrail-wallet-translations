@@ -112,6 +112,7 @@
     "SETUP_WALLET_BACKUP_TEXT_APPEND": "请将此备份保密并将其在线下安全地存储起来，这很重要。在发生紧急情况时，此备份文档可让您存取及恢复钱包上存储的任何资金。",
     "BACKUP_EMAIL_PDF": "通过电子邮件发送备份 PDF",
     "BACKUP_CREATE_PDF": "下载钱包备份 (PDF)",
+    "BACKUP_DOWNLOAD_ADDITIONAL_PAGE_PDF": "下载额外的备份頁 (PDF)",
     "BACKUP_CHECKBOX": "我安全地保存了我的备份",
     "SETUP_PHONE": "设置电话",
     "SETUP_SYNC_CONTACTS": "同步联系人",
