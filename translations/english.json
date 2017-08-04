@@ -122,6 +122,7 @@
     "YESTERDAY": "Yesterday",
 
     // launch & setup screens
+    "SETUP_NETWORK_CHOICE": "Wallet Type",
     "LAUNCH_NEW_ACCOUNT": "Create a new wallet",
     "LAUNCH_EXISTING_ACCOUNT": "Already have a wallet?",
     "SETUP_FORGOT_PASSWORD": "Reset your password",
