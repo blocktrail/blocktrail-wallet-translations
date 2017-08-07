@@ -222,8 +222,8 @@
     "WALLET_ACTION_PRE": "Get started by",
     "WALLET_ACTION_LINK": "Funding your wallet",
     "WALLET_NO_MORE_TXS": "No more transactions",
-    "TX_INFO_SENT": "Sent bitcoin",
-    "TX_INFO_RECEIVED": "Received bitcoin",
+    "TX_INFO_SENT": "Sent {{ network }}",
+    "TX_INFO_RECEIVED": "Received {{ network }}",
     "TX_INFO_HASH": "Transaction ID",
     "TX_INFO_TIME_SUBTITLE": "At time of transaction",
     "TX_INFO_TIME_SUBTITLE_2": "At current price",
@@ -239,7 +239,7 @@
     "QR": "QR",
     "CONTACTS": "Contacts",
     "BLUETOOTH": "Bluetooth",
-    "BITCOIN_ADDRESS": "Address",
+    "BITCOIN_ADDRESS": "{{ network }} Address",
     "SENDING": "Sending",
     "SEARCH_CONTACTS": "Search Contacts...",
     "SEND_TO": "Recipient address",
@@ -318,7 +318,7 @@
         "Get it here: https://wallet.btc.com/"
     ],
     "RECEIVE_BITCOIN_TITLE": "Receive bitcoin",
-    "BITCOIN_ADDRESS_RECEIVE_HELP": "A new bitcoin address has been created for you. Use this address to receive funds.",
+    "BITCOIN_ADDRESS_RECEIVE_HELP": "A new {{ network }} has been created for you. Use this address to receive funds.",
     "WAITING_FOR_PAYMENT": "Waiting for payment",
     "PAYMENT_RECEIVED": "Payment received",
     // Receiving Screens
