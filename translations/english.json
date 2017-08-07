@@ -29,7 +29,6 @@
     "WORKING": "Working",
     "VERIFYING": "Verifying",
     "SYNCING": "Syncing",
-    "SKIP_STEP": "Skip this step",
     "PLEASE_WAIT": "Please wait",
     "PLEASE_WAIT_2": "Just a sec",
     "NONE": "None",
@@ -121,6 +120,25 @@
     "TOMORROW": "Tomorrow",
     "YESTERDAY": "Yesterday",
 
+    // forgot password
+    "SETUP_FORGOT_PASS_INFO": "Please enter your email address to continue. ",
+    "SETUP_FORGOT_PASS_STEP2": "Please enter the encrypted recovery secret/mnemonic from your backup PDF.",
+    "SETUP_FORGOT_PASS_NEW_PASS": "Enter your new password, which will replace your old password.",
+    "ERS": "Encrypted Recovery Secret",
+    "RECOVERY_SECRET": "Recovery Secret",
+    "NEW_PASSWORD_PLACEHOLDER": "New password",
+    "NEW_PASSWORD_REPEAT_PLACEHOLDER": "Repeat new password",
+    "WALLET_VERSION": "Wallet version",
+
+    "INVALID_RECOVER_TOKEN": "Invalid recovery token",
+    "MSG_INVALID_RECOVER_TOKEN": "Your recovery session is not valid anymore, please request a new password reset e-mail",
+    "INVALID_WALLET_VERSION": "Invalid wallet version",
+    "MSG_INVALID_WALLET_VERSION": "Your wallet version is malformed, please contact support@btc.com",
+    "MSG_CORRUPTED_SECRET": "Your recovery secret appears to be corrupted, request a new reset link or contact support@btc.com",
+    "MSG_WRONG_ERS_WORD_LENGTH": "Please recheck the Encrypted Recovery Secret you've entered, it has the wrong amount of words.",
+    "BAD_TOKEN": "Wrong 2FA",
+    "RECOVERY_ERROR": "Recovery Error",
+    "MSG_PASSWORD_NOT_CHANGED": "Your password could not be changed. Please contact support@btc.com",
     // launch & setup screens
     "SETUP_NETWORK_CHOICE": "Wallet Type",
     "LAUNCH_NEW_ACCOUNT": "Create a new wallet",
