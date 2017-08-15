@@ -224,7 +224,7 @@
     "TWO_FACTOR_TOKEN_DESC": "Un jeton d'authentification à deux facteurs est requis pour envoyer des transactions.",
     "TO": "À",
     "SENDING_CONFIRM_TITLE": "Confirmez votre mot de passe",
-    "SENDING_CONFIRM_MSG": "Vous envoyez <b>{{ amount }}</b> BTC à <b>{{ recipientAddress }}</b>",
+    "SENDING_CONFIRM_MSG": "Vous envoyez <b>{{ amount }}</b> {{ network }} à <b>{{ recipientAddress }}</b>",
     "ESITIMATED_FEE": "Frais de réseau :",
     "SEND_BITCOIN_TITLE": "Envoyer bitcoin",
     "MSG_INVALID_AMOUNT": "Montant non valide",

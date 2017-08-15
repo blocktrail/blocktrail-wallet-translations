@@ -209,7 +209,7 @@
     "TWO_FACTOR_TOKEN_DESC": "取引を送信するには2要素認証トークンが必要です。",
     "TO": "へ",
     "SENDING_CONFIRM_TITLE": "パスワードを確認する",
-    "SENDING_CONFIRM_MSG": "あなたは送信していますस <b>{{ amount }}</b> BTC へ <b>{{ recipientAddress }}</b>",
+    "SENDING_CONFIRM_MSG": "あなたは送信していますस <b>{{ amount }}</b> {{ network }} へ <b>{{ recipientAddress }}</b>",
     "ESITIMATED_FEE": "ネットワーク手数料:",
     "SEND_BITCOIN_TITLE": "ビットコインを送信する",
     "MSG_INVALID_AMOUNT": "無効な金額",

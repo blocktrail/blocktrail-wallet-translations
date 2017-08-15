@@ -193,7 +193,7 @@
     "TWO_FACTOR_TOKEN_DESC": "ट्रांज़ेक्शन भेजने के लिए दोहरा प्रमाणीकरण टोकन की आवश्यकता है.",
     "TO": "से",
     "SENDING_CONFIRM_TITLE": "अपने पासवर्ड की पुष्टि करें",
-    "SENDING_CONFIRM_MSG": "आप भेज रहे हैं <b>{{ amount }}</b> BTC से <b>{{ recipientAddress }}</b>",
+    "SENDING_CONFIRM_MSG": "आप भेज रहे हैं <b>{{ amount }}</b> {{ network }} से <b>{{ recipientAddress }}</b>",
     "ESITIMATED_FEE": "नेटवर्क शुल्क:",
     "SEND_BITCOIN_TITLE": "bitcoin भेजें",
     "MSG_INVALID_AMOUNT": "अमान्य राशि",

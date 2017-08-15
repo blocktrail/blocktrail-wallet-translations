@@ -220,7 +220,7 @@
     "TWO_FACTOR_TOKEN_DESC": "Se requiere un token de autenticación de dos factores para enviar transacciones.",
     "TO": "A",
     "SENDING_CONFIRM_TITLE": "Confirmar la contraseña",
-    "SENDING_CONFIRM_MSG": "Estás enviando <b>{{ amount }}</b> BTC a <b>{{ recipientAddress }}</b>",
+    "SENDING_CONFIRM_MSG": "Estás enviando <b>{{ amount }}</b> {{ network }} a <b>{{ recipientAddress }}</b>",
     "ESITIMATED_FEE": "Cuota de la red:",
     "SEND_BITCOIN_TITLE": "Enviar bitcoin",
     "MSG_INVALID_AMOUNT": "Cantidad no válida",

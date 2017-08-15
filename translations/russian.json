@@ -220,7 +220,7 @@
     "TWO_FACTOR_TOKEN_DESC": "для отправки транзакций нужен токен двухфакторной аутентификации.",
     "TO": "кому",
     "SENDING_CONFIRM_TITLE": "Подтвердите пароль",
-    "SENDING_CONFIRM_MSG": "Вы отправляете <b>{{ amount }}</b> BTC кому <b>{{ recipientAddress }}</b>",
+    "SENDING_CONFIRM_MSG": "Вы отправляете <b>{{ amount }}</b> {{ network }} кому <b>{{ recipientAddress }}</b>",
     "ESITIMATED_FEE": "Сбор сети:",
     "SEND_BITCOIN_TITLE": "отправить биткоины",
     "MSG_INVALID_AMOUNT": "Неверное количество",

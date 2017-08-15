@@ -139,6 +139,19 @@
     "BAD_TOKEN": "Wrong 2FA",
     "RECOVERY_ERROR": "Recovery Error",
     "MSG_PASSWORD_NOT_CHANGED": "Your password could not be changed. Please contact support@btc.com",
+
+    // Mnemonic import
+    "SWEEP_TITLE": "Import External Wallet",
+    "SWEEP_INFO": "Import your {{ network }} from an external wallet into your BTC.com wallet",
+    "SWEEPING_CONFIRM_MSG": "You are about to send <b>{{ amount }} {{ network }}</b> (minus network fee of <b>{{ fee }} {{ network }}</b>) from your external wallet into your current BTC.com wallet.",
+    "SWEEP_SUPPORTED": "Supported wallets",
+    "BACKUP_MNEMONIC": "Backup Phrase",
+    "IMPORT_ERROR": "Import Error",
+    "INVALID_MNEMONIC": "Input is not a valid or supported backup phrase/mnemonic.",
+    "NO_BALANCES_FOUND": "No positive balances have been found.",
+    "TX_CANT_BE_PUSHED": "Transaction can not be pushed. An error occurred.",
+    "DISCOVERING_COINS": "Searching for positive balances, this might take a few minutes ...",
+
     // launch & setup screens
     "SETUP_NETWORK_CHOICE": "Wallet Type",
     "LAUNCH_NEW_ACCOUNT": "Create a new wallet",
@@ -271,7 +284,7 @@
     "TWO_FACTOR_TOKEN_DESC": "A two-factor authentication token is required to send transactions.",
     "TO": "To",
     "SENDING_CONFIRM_TITLE": "Confirm your password",
-    "SENDING_CONFIRM_MSG": "You are sending <b>{{ amount }}</b> BTC to <b>{{ recipientAddress }}</b>",
+    "SENDING_CONFIRM_MSG": "You are sending <b>{{ amount }}</b> {{ network }} to <b>{{ recipientAddress }}</b>",
     "ESITIMATED_FEE": "Network fee:",
     "SEND_BITCOIN_TITLE": "Send bitcoin",
     "MSG_INVALID_AMOUNT": "Invalid amount",
@@ -369,6 +382,8 @@
     "SETTINGS": "Settings",
     "SETTINGS_ACCOUNT": "Account",
     "SETTINGS_PROFILE": "Profile",
+    "SETTINGS_TOOLS": "Tools",
+    "SETTINGS_SECURITY": "Security",
     "SETTING_EMAIL": "Email",
     "SETTING_USERNAME": "Username",
     "SETTINGS_TAKE_PHOTO": "Take a photo",

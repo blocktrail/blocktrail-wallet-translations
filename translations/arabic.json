@@ -221,7 +221,7 @@
     "TWO_FACTOR_TOKEN_DESC": "مطلوب رمز المصادقة المميز ثنائي العامل لإرسال هذه المعاملات.",
     "TO": "إلى",
     "SENDING_CONFIRM_TITLE": "تأكيد كلمة المرور الخاصة بك",
-    "SENDING_CONFIRM_MSG": "أنت تقوم بإرسال <b>{{ amount }}</b> BTC to <b>{{ recipientAddress }}</b>",
+    "SENDING_CONFIRM_MSG": "أنت تقوم بإرسال <b>{{ amount }}</b> {{ network }} to <b>{{ recipientAddress }}</b>",
     "ESITIMATED_FEE": "رسوم الشبكة:",
     "SEND_BITCOIN_TITLE": "إرسال بتكوين",
     "MSG_INVALID_AMOUNT": "مبلغ غير صالح",

@@ -215,7 +215,7 @@
     "TWO_FACTOR_TOKEN_DESC": "需要提供双因素验证令牌才能发送交易。",
     "TO": "至",
     "SENDING_CONFIRM_TITLE": "确认您的密码",
-    "SENDING_CONFIRM_MSG": "您正在发送 <b>{{ amount }}</b> BTC 至 <b>{{ recipientAddress }}</b>",
+    "SENDING_CONFIRM_MSG": "您正在发送 <b>{{ amount }}</b> {{ network }} 至 <b>{{ recipientAddress }}</b>",
     "ESITIMATED_FEE": "矿工费",
     "SEND_BITCOIN_TITLE": "发送比特币",
     "MSG_INVALID_AMOUNT": "无效数额",

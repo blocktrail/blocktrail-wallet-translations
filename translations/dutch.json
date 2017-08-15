@@ -223,7 +223,7 @@
     "TWO_FACTOR_TOKEN_DESC": "Er is een two-factor authentication code nodig om de transactie te versturen",
     "TO": "Aan",
     "SENDING_CONFIRM_TITLE": "Wachtwoord bevestigen",
-    "SENDING_CONFIRM_MSG": "Verzenden <b>{{ amount }}</b> BTC aan <b>{{ recipientAddress }}</b>",
+    "SENDING_CONFIRM_MSG": "Verzenden <b>{{ amount }}</b> {{ network }} aan <b>{{ recipientAddress }}</b>",
     "ESITIMATED_FEE": "Transactiekosten:",
     "SEND_BITCOIN_TITLE": "Bitcoin versturen",
     "MSG_INVALID_AMOUNT": "Ongeldige hoeveelheid",

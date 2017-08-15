@@ -189,7 +189,7 @@
     "TWO_FACTOR_TOKEN_DESC": "Tokeni ya uhalalishaji ya vigezo viwili inahitaji kutumia miamala.",
     "TO": "Kwa",
     "SENDING_CONFIRM_TITLE": "Thibitisha nenosiri lako",
-    "SENDING_CONFIRM_MSG": "Inatumia <b>{{ amount }}</b> BTC kwa <b>{{ recipientAddress }}</b>",
+    "SENDING_CONFIRM_MSG": "Inatumia <b>{{ amount }}</b> {{ network }} kwa <b>{{ recipientAddress }}</b>",
     "ESITIMATED_FEE": "Ada ya mtandao:",
     "SEND_BITCOIN_TITLE": "Tumia sarafu mnemba",
     "MSG_INVALID_AMOUNT": "Kaisi kisicho halali",
