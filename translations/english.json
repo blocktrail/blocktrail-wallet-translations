@@ -145,6 +145,7 @@
     "SWEEP_INFO": "Import your {{ network }} from an external wallet into your BTC.com wallet",
     "SWEEPING_CONFIRM_MSG": "You are about to send <b>{{ amount }} {{ network }}</b> (minus network fee of <b>{{ fee }} {{ network }}</b>) from your external wallet into your current BTC.com wallet.",
     "SWEEP_SUPPORTED": "Supported wallets",
+    "SWEEP_COMPLETED": "Your {{ ticker }} has been send to your wallet.",
     "BACKUP_MNEMONIC": "Backup Phrase",
     "IMPORT_ERROR": "Import Error",
     "INVALID_MNEMONIC": "Input is not a valid or supported backup phrase/mnemonic.",
