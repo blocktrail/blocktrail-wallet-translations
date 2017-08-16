@@ -608,7 +608,7 @@
     "SETUP_COMPLETE_SUBTITLE_2": "Visit btc.com/faq for tips and tricks.",
     "MSG_USERNAME_WARNING": "*Signing up with a username gives you greater privacy and anonymity, but at a cost of being able to recover passwords and receive critical emails from us.",
     "MSG_BACKUP_DESCRIPTION": "Save your wallet backup and store it safely so you can recover your wallet if anything happens.",
-    "WALLET_YOUR_BITCOINS": "Your Bitcoin",
+    "WALLET_YOUR_BITCOINS": "Your {{ ticker }}",
     "TX_INFO_MORE_TITLE": "More info",
     "TX_INFO_MORE_LINK": "See on BTC.com",
     "AVAILABLE_BALANCE": "Available Balance",

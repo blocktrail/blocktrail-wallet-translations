@@ -508,7 +508,7 @@
     "SETUP_COMPLETE_SUBTITLE_2": "Visita btc.com/faq para obtener consejos y trucos.",
     "MSG_USERNAME_WARNING": "* El registro con un nombre de usuario te proporciona una mayor privacidad y anonimato, pero a cambio puedes recuperar contraseñas y recibir correos electrónicos importantes de nuestra parte.",
     "MSG_BACKUP_DESCRIPTION": "Guarda la copia de seguridad de tu cartera y almacénala de forma segura para que puedas recuperar tu cartera si ocurre algo.",
-    "WALLET_YOUR_BITCOINS": "Tus Bitcoin",
+    "WALLET_YOUR_BITCOINS": "Tus {{ ticker }}",
     "TX_INFO_MORE_TITLE": "Más información",
     "TX_INFO_MORE_LINK": "Ver en BTC.com",
     "AVAILABLE_BALANCE": "Saldo disponible",

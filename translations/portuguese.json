@@ -485,7 +485,7 @@
     "SETUP_COMPLETE_SUBTITLE_2": "Acesse btc.com/faq para obter dicas e macetes.",
     "MSG_USERNAME_WARNING": "*Cadastrar-se com um nome de usuário oferece maior privacidade e anonimato, mas você pode recuperar senhas e receber e-mails críticos nossos.",
     "MSG_BACKUP_DESCRIPTION": "Salve o backup da carteira e guarde-o com segurança para que você possa recuperar sua carteira se algo acontecer.",
-    "WALLET_YOUR_BITCOINS": "Suas Bitcoins",
+    "WALLET_YOUR_BITCOINS": "Suas {{ ticker }}",
     "TX_INFO_MORE_TITLE": "Mais informações",
     "TX_INFO_MORE_LINK": "Veja no BTC.com",
     "AVAILABLE_BALANCE": "Saldo disponível",

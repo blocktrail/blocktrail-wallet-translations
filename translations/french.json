@@ -543,7 +543,7 @@
     "SETUP_COMPLETE_SUBTITLE_2": "Visitez btc.com/faq pour les trucs et astuces.",
     "MSG_USERNAME_WARNING": "*S'inscrire avec un nom d'utilisateur renforce votre anonymat, mais vous ne pourrez pas récupérer vos mots de passe et recevoir des emails critiques de notre part.",
     "MSG_BACKUP_DESCRIPTION": "Enregistrez votre sauvegarde de portefeuille et conservez-la dans un endroit sûr pour récupérer votre portefeuille si quelque chose arrive.",
-    "WALLET_YOUR_BITCOINS": "Vos Bitcoin",
+    "WALLET_YOUR_BITCOINS": "Vos {{ ticker }}",
     "TX_INFO_MORE_TITLE": "Plus d'infos",
     "TX_INFO_MORE_LINK": "Voir sur BTC.com",
     "AVAILABLE_BALANCE": "Solde disponible",

@@ -494,7 +494,7 @@
     "SETUP_COMPLETE_SUBTITLE_2": "Besuchen Sie btc.com/faq für Tipps und Tricks.",
     "MSG_USERNAME_WARNING": "*Die Registrierung mit einem Benutzernamen gewährt Ihnen größere Privatsphäre und Anonymität, jedoch können Sie in diesem Fall keine Passwörter wiederherstellen und keine wichtigen E-Mails von uns empfangen.",
     "MSG_BACKUP_DESCRIPTION": "Speichern Sie Ihr Wallet-Backup und bewahren Sie es sicher auf, um Ihr Wallet gegebenenfalls wiederherstellen zu können.",
-    "WALLET_YOUR_BITCOINS": "Ihre Bitcoins",
+    "WALLET_YOUR_BITCOINS": "Ihre {{ ticker }}",
     "TX_INFO_MORE_TITLE": "Mehr Infos",
     "TX_INFO_MORE_LINK": "Auf BTC.com ansehen",
     "AVAILABLE_BALANCE": "Verfügbares Guthaben",
