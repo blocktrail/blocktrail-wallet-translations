@@ -216,7 +216,7 @@
     "FEE_STRATEGY": "手数料戦略",
 
     //receive screen
-    "ADDRESS_REUSE_NOTICE_1": "あなたがここで生成するすべてのBitcoinアドレスはずっと有効です。",
+    "ADDRESS_REUSE_NOTICE_1": "あなたがここで生成するすべての{{ network }}アドレスはずっと有効です。",
     "ADDRESS_REUSE_NOTICE_2": "好きなだけいくつでも生成できます。",
 
     // messages

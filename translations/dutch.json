@@ -230,7 +230,7 @@
     "FEE_STRATEGY": "Tariefstrategie",
 
     //receive screen
-    "ADDRESS_REUSE_NOTICE_1": "Enige Bitcoin-adressen die je hier genereert zullen geldig blijven.",
+    "ADDRESS_REUSE_NOTICE_1": "Alle {{ network }}-adressen die je hier genereert zullen geldig blijven.",
     "ADDRESS_REUSE_NOTICE_2": "Je kunt zoveel genereren als je maar wilt.",
     "MY_ADDRESSES": "Mijn adressen",
 

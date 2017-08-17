@@ -231,7 +231,7 @@
     "FEE_STRATEGY": "Stratégie de tarification",
 
     //receive screen
-    "ADDRESS_REUSE_NOTICE_1": "Toute adresse Bitcoin créée ici restera valable.",
+    "ADDRESS_REUSE_NOTICE_1": "Toute adresse {{ network }} créée ici restera valable.",
     "ADDRESS_REUSE_NOTICE_2": "Vous pouvez en créer autant que vous le souhaitez.",
     "MY_ADDRESSES": "Mes adresses",
 

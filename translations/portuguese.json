@@ -218,7 +218,7 @@
     "FEE_STRATEGY": "Estratégia de tarifa",
 
     //receive screen
-    "ADDRESS_REUSE_NOTICE_1": "Qualquer endereço de Bitcoin que você gerar aqui permanecerá válido.",
+    "ADDRESS_REUSE_NOTICE_1": "Qualquer endereço de {{ network }} que você gerar aqui permanecerá válido.",
     "ADDRESS_REUSE_NOTICE_2": "Você pode gerar tantos quanto quiser.",
     "MY_ADDRESSES": "Meus endereços",
 

@@ -228,7 +228,7 @@
     "FEE_STRATEGY": "استراتيجية مجانية",
 
     //receive screen
-    "ADDRESS_REUSE_NOTICE_1": "أي عنوان Bitcoin تقوم بإنشائه هنا سوف يظل صالحا.",
+    "ADDRESS_REUSE_NOTICE_1": "أي عنوان {{ network }} تقوم بإنشائه هنا سوف يظل صالحا.",
     "ADDRESS_REUSE_NOTICE_2": "يمكنك إنشاء عناوين بالقدر الذي تريد.",
     "MY_ADDRESSES": "عناويني",
 

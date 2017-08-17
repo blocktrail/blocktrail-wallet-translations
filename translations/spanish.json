@@ -227,7 +227,7 @@
     "FEE_STRATEGY": "Estrategia de comisiones",
 
     //receive screen
-    "ADDRESS_REUSE_NOTICE_1": "Cualquier dirección de Bitcoin que generes aquí permanecerá válida.",
+    "ADDRESS_REUSE_NOTICE_1": "Cualquier dirección de {{ network }} que generes aquí permanecerá válida.",
     "ADDRESS_REUSE_NOTICE_2": "Puedes generar tantas como quieras.",
     "MY_ADDRESSES": "Mis direcciones",
 
