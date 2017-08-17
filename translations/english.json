@@ -705,6 +705,8 @@
     "FOOTER_PRODUCT": "Products",
     "FOOTER_ANTMINER": "Antminer",
     "FOOTER_ANTPOOL": "Antpool",
+    "FOOTER_BTCCOM_POOL": "BTC.com Pool",
+    "FOOTER_BTCCOM_EXPLORER": "BTC.com Explorer",
     "FOOTER_HASHNEST": "Hashnest",
     "FOOTER_MINERLINK": "Minerlink",
     "FOOTER_COMPANY": "Company",
