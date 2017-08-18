@@ -60,6 +60,7 @@
     "CHANGE": "change",
     "VIA": "via",
     "AT": "at",
+    "SKIP_STEP": "Skip this step",
 
     // update notices
     "UPDATE_AVAILABLE_NOTICE": "There's a new update of the app available to download.",
