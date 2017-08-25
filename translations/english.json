@@ -150,7 +150,12 @@
     "MSG_WRONG_ERS_WORD_LENGTH": "Please recheck the Encrypted Recovery Secret you've entered, it has the wrong amount of words.",
     "BAD_TOKEN": "Wrong 2FA",
     "RECOVERY_ERROR": "Recovery Error",
-    "MSG_PASSWORD_NOT_CHANGED": "Your password could not be changed. Please contact support@btc.com",
+    "MSG_REQUEST_RECOVERY_SECRET_FAILED": [
+        "Failed to retrieve the recovery secret from the server,",
+        "Most likely your recovery link expired, please request a new recovery link!",
+        "",
+        "If this error persists, please contact support@btc.com"
+    ],
 
     // Mnemonic import
     "SWEEP_TITLE": "Import External Wallet",
