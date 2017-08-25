@@ -620,8 +620,8 @@
     "NAVBAR_TOOLS": "Инструменты",
     "NAVBAR_APPLICATIONS": "Приложения",
     "NAVBAR_SEARCH_PLACEHOLDER": "Адрес/высота блока/хэш...",
-    "NAVBAR_SIGNUP": "разработчик",
-    "NAVBAR_LOGIN": "разработчик",
+    "NAVBAR_SIGNUP": "Создать кошелек",
+    "NAVBAR_LOGIN": "Вход",
 
     // Buy BTC
     "BUYBTC": "Купить биткоины",
