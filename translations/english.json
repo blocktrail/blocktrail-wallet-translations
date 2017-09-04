@@ -61,6 +61,7 @@
     "VIA": "via",
     "AT": "at",
     "SKIP_STEP": "Skip this step",
+    "READ_MORE": "Read more",
 
     // update notices
     "UPDATE_AVAILABLE_NOTICE": "There's a new update of the app available to download.",
@@ -118,6 +119,11 @@
         "Important Announcement!",
         "",
         "BTC.com's web wallet now has a tool to allow you to withdraw your Bitcoin Cash. Read more about this in our <a target='_blank' href='https://blog.btc.com/your-bitcoin-cash-is-safe-with-btc-com-39b271da5692'>blog post</a>."
+    ],
+
+    "BCC_SWEEP_NOTICE_TITLE": "Import your Bitcoin Cash",
+    "BCC_SWEEP_NOTICE_BODY": [
+        "It's easy to <a href='https://blog.btc.com/how-to-recover-bitcoin-cash-from-other-wallets-fbc847026ab6' target='_blank'>import your Bitcoin Cash</a> from your other Bitcoin wallets using our dedicated recovery tool."
     ],
 
     // invalid session
