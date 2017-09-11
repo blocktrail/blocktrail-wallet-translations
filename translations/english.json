@@ -133,6 +133,13 @@
         "You will now be logged out, please log back in afterwards."
     ],
 
+    "LOST_LOCK": "Wallet is open in another window.",
+    "LOST_LOCK_BODY": [
+        "You opened the wallet in another tab/window of your browser,",
+        "Click \"Use Here\" to continue working in this window."
+    ],
+    "LOST_LOCK_OPEN_HERE": "Use Here",
+
     // datetime
     "TODAY": "Today",
     "TOMORROW": "Tomorrow",
