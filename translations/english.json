@@ -74,6 +74,10 @@
 
     // per version update messages
     "GLIDERA_UPDATE": "You can now easily buy bitcoin from all US states (except New York) from within your wallet through our partnership integration of Glidera!",
+    "UPDATE_NOTICE_040300": [
+        "You can now easily switch between Bitcoin (BTC) and Bitcoin Cash (BCC) using the navigation on the left"
+    ],
+
     "UPDATE_NOTICE_030304": [
         "New \"Accelerated priority\" transactions!",
         "",
