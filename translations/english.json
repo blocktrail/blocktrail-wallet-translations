@@ -75,7 +75,7 @@
     // per version update messages
     "GLIDERA_UPDATE": "You can now easily buy bitcoin from all US states (except New York) from within your wallet through our partnership integration of Glidera!",
     "UPDATE_NOTICE_040300": [
-        "You can now easily switch between Bitcoin (BTC) and Bitcoin Cash (BCC) using the navigation on the left"
+        "You can now easily switch between Bitcoin (BTC) and Bitcoin Cash (BCC) using the navigation on the left."
     ],
 
     "UPDATE_NOTICE_030304": [
@@ -813,7 +813,7 @@
 
     "MSG_BETTER_LANGUAGE_TITLE": "New language available",
     "MSG_BETTER_LANGUAGE": [
-        "We just addded a new language to the app and detected that you might be interested in switch to this new language!",
+        "We just addded a new language to the app and detected that you might be interested in switching to this new language!",
         "Would you like to switch your language from {{ oldLanguage }} to {{ newLanguage }}?"
     ],
 
