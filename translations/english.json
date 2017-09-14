@@ -62,6 +62,9 @@
     "AT": "at",
     "SKIP_STEP": "Skip this step",
     "READ_MORE": "Read more",
+    "IMPORTANT": "Important",
+    "YES": "Yes",
+    "NO": "No",
 
     // update notices
     "UPDATE_AVAILABLE_NOTICE": "There's a new update of the app available to download.",
@@ -222,9 +225,14 @@
     "SETUP_WALLET_BACKUP_TEXT": "Before you start using your new wallet, please",
     "SETUP_WALLET_BACKUP_TEXT_BOLD": "Download the below backup document",
     "SETUP_WALLET_BACKUP_TEXT_APPEND": "It is important to keep this backup confidential and to store it securely offline. In case of emergency, this backup document lets you access and recover any funds stored on the wallet.",
+    "SETUP_WALLET_BACKUP_WILL_BE_REMOVED": "The backup PDF is needed in case of password loss. It is very important that you save your backup PDF before continuing.",
     "BACKUP_EMAIL_PDF": "Email backup PDF",
-    "BACKUP_CREATE_PDF": "Download wallet backup (PDF)",
-    "BACKUP_DOWNLOAD_ADDITIONAL_PAGE_PDF": "Download additional backup page (PDF)",
+    "BACKUP_OPEN_PDF": "Open wallet backup (PDF)",
+    "BACKUP_OPTION_KEEP_ON_PHONE": "Do you want to also keep your backup PDF in a directory on your phone?",
+    "BACKUP_EXPORT_PDF_IOS_INFO": "You are only opening your backup PDF! Save your backup PDF to iCloud, iBooks, e-mail and more in the next step.",
+    "BACKUP_EXPORT_PDF_ANDROID_INFO": "You are only opening your backup PDF! Save your backup PDF in the next step.",
+    "BACKUP_CREATE_PDF": "Save wallet backup (PDF)",
+    "BACKUP_DOWNLOAD_ADDITIONAL_PAGE_PDF": "Save additional backup page (PDF)",
     "BACKUP_CHECKBOX": "I saved my backup securely",
     "SETUP_PHONE": "Setup phone",
     "SETUP_SYNC_CONTACTS": "Sync contacts",
@@ -580,7 +588,7 @@
     "MSG_EMAIL_NOT_SETUP": [
         "You don't have a default mail account configured on this phone.",
         "",
-        "Please configure your mail app, or you can skip this step and save your backup later when we support alternative apps"
+        "Please configure your mail app, or choose another option by opening your backup PDF and then saving it."
     ],
 
     // fees related
@@ -625,9 +633,18 @@
     "SETTINGS_DISPLAY": "Display",
     "SETTINGS_PRIVACY": "Privacy",
     "SETTINGS_USAGE_DATA": "Send usage data",
+    "SETTINGS_PIN_ON_OPEN": "Ask for PIN when opening wallet",
     "MSG_BACKUP_SAVED_ALREADY": [
-        "Your backup has already been saved. ",
+        "Your backup has already been saved.",
         "The backup data is no longer stored on this phone."
+    ],
+    "MSG_BACKUP_SAVED_PERSISTENT_IOS": [
+        "Your backup has already been saved.",
+        "The backup PDF is still available via iTunes File Sharing."
+    ],
+    "MSG_BACKUP_SAVED_PERSISTENT_ANDROID": [
+        "Your backup has already been saved.",
+        "The backup PDF is still available on your phone filesystem."
     ],
     "ENABLE": "Enable",
     "DISABLE": "Disable",
@@ -672,6 +689,7 @@
         "You have not saved your backup sheet. If you log out this data will be lost and cannot be created again.",
         "Are you sure you wish to continue?"
     ],
+    "MSG_BACKUP_SAVE_NOW": "You should save your wallet backup document. Save it now?",
     "MSG_PHONE_CODE_SENT": "A code has been sent to your phone. Please enter it below to confirm your number.",
     "MSG_ENABLE_CONTACTS": [
         "This will enable contacts syncing to discover contacts on your device with a wallet. ",
