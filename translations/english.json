@@ -173,6 +173,8 @@
         "",
         "If this error persists, please contact support@btc.com"
     ],
+    "MSG_CHANGE_PASSWORD_UNKNOWN_ERROR": "We've failed to set your password for unknown reasons, please contact support@btc.com",
+    "MSG_RECOVERY_DECRYPT_FAILED": "We've failed to decrypt your wallet using the recovery secret, please contact support@btc.com",
 
     // Mnemonic import
     "SWEEP_TITLE": "Import External Wallet",
