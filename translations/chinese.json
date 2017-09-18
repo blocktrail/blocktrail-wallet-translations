@@ -647,7 +647,7 @@
     "BUYBTC_CHANGE_REGION": "更改地区",
 
     "BUYBTC_CHOOSE_TITLE": "选择购买方式",
-    "BUYBTC_CHOOSE_SUBTITLE": "我们已在 {{ region }} 推出以下购买方式（&lt;a {{ href }}>更改</a>）。",
+    "BUYBTC_CHOOSE_SUBTITLE": "我们已在 {{ region }} 推出以下购买方式（<a {{ href }}>更改</a>）。",
 
     "BUYBTC_PROVIDERS": "合作伙伴",
     "BUYBTC_NOPROVIDERS_REGION": "在您所选地区我们没有提供服务的合作伙伴",
