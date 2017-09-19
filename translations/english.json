@@ -848,5 +848,17 @@
     "APPRATE_BODY_GOOD_BODY": "Please consider showing your support for BTC.com by leaving us a review on the AppStore",
     "APPRATE_BODY_BAD": "Uh oh. Would you consider leaving us feedback?",
     "APPRATE_FEEDBACK": "Send",
-    "APPRATE_SKIP": "Skip"
+    "APPRATE_SKIP": "Skip",
+
+    "LANDING_POWERFUL": "Powerful Bitcoin and Bitcoin Cash wallet",
+    "LANDING_SEND_RECEIVE": "Send, receive and store your funds securely with BTC.com’s wallet.",
+    "LANDING_STAY_IN_CONTROL": "Stay In Control",
+    "LANDING_EMPOWERS": "Bitcoin empowers you to send and receive payments without trust or permission from nay third-party.",
+    "LANDING_NEVER_ACCESS": "BTC.com never has access to you Bitcoin and Bitcoin Cash, staying true to Bitcoin's core values, and giving you the security, privacy and power to own your wealth.",
+    "LANDING_YOUR_BTC": "Your Bitcoin. Your Control.",
+    "LANDING_ONE_WALLET": "One Wallet For Your Digital Life",
+    "LANDING_SEND_RECEIVE_EASILY": "Send and Receive Bitcoin easily and securely",
+    "LANDING_FULL_CONTROL": "Maintain full control over your Bitcoin private keys",
+    "LANDING_PAY_QR": "Pay friends without QR codes or long addresses",
+    "LANDING_CREATE_WALLET": "Create your BTC.com Wallet"
 }
