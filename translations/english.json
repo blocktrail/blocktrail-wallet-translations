@@ -196,7 +196,9 @@
     "IMPORT_ERROR": "Import Error",
     "INVALID_MNEMONIC": "Input is not a valid or supported backup phrase/mnemonic.",
     "NO_BALANCES_FOUND": "No positive balances have been found.",
+    "SOME_TRANSACTIONS_FAILED": "Some transactions may not have been properly created. Please consider re-running the tool.",
     "TX_CANT_BE_PUSHED": "Transaction can not be pushed. An error occurred.",
+    "TX_CANT_BE_PUSHED_MULTIPLE": "{{ amount }} of the transactions can not be pushed. An error occurred.",
     "DISCOVERING_COINS": "Searching for positive balances, this might take a few minutes ...",
 
     // launch & setup screens
