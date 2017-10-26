@@ -896,5 +896,23 @@
     "MAKE_DEFAULT_BROWSER_WALLET": "Make BTC.com your default wallet",
     "MAKE_DEFAULT_BROWSER_WALLET_DETAILS": "You can set your BTC.com wallet as the default for Bitcoin payments in most browsers. Do you want to enable this feature?",
     "MAKE_DEFAULT_BROWSER_WALLET_DETAILS_CHROME": "On Google Chrome, if you press Yes and then abort, you have to wait a bit to see the browser popup again.",
-    "DO_THIS_LATER_IN_SETTINGS": "You can also set this up later in the Settings."
+    "DO_THIS_LATER_IN_SETTINGS": "You can also set this up later in the Settings.",
+
+    // security related
+    "EMAIL_VERIFY_SUCCESS": "Email successfully verified",
+    "EMAIL_VERIFY_FAILURE": "Email verification failed",
+    "EMAIL_VERIFY_ALREADY": "Email already verified",
+    "EMAIL_VERIFY": "Verify your new email address",
+    "MSG_EMAIL_CHANGE": "Your email address will be updated once you click the verify link in your email inbox.",
+    "MSG_EMAIL_VERIFY": "We've sent you a verification email to your email inbox.",
+    "MSG_ERROR_TRY_AGAIN_LATER": "Something went wrong, please try again later.",
+    "MSG_ERROR_SENDING_MAIL": "We've failed sending you a verification email to your email inbox. Please try again later.",
+    "WALLET_SECURITY_SCORE": "Wallet Security Score",
+    "CHECK_YOUR_INBOX": "Check your inbox",
+
+    "EMAIL_VERIFIED": "Your email is verified",
+    "EMAIL_NOT_VERIFIED": "Your email is not verified",
+    "IMPROVE_PASSWORD": "Improve your password",
+    "2FA_ENABLED": "2FA is enabled",
+    "2FA_NOT_ENABLED": "2FA is not enabled yet"
 }
