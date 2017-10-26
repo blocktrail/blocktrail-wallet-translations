@@ -887,5 +887,13 @@
     "LANDING_SEND_RECEIVE_EASILY": "Send and receive bitcoin easily and securely",
     "LANDING_FULL_CONTROL": "Maintain full control over your bitcoin private keys",
     "LANDING_PAY_QR": "Pay friends without QR codes or long addresses",
-    "LANDING_CREATE_WALLET": "Create your BTC.com Wallet"
+    "LANDING_CREATE_WALLET": "Create your BTC.com Wallet",
+
+    // Register bitcoin: URI related
+    "SET_BROWSER_DEFAULT_WALLET": "Use wallet for Bitcoin links",
+    "BROWSER_SECURITY_ERROR": "Your browser security settings have blocked this request.",
+    "MAKE_DEFAULT_BROWSER_WALLET": "Make BTC.com your default wallet",
+    "MAKE_DEFAULT_BROWSER_WALLET_DETAILS": "You can set your BTC.com wallet as the default for Bitcoin payments in most browsers. Do you want to enable this feature?",
+    "MAKE_DEFAULT_BROWSER_WALLET_DETAILS_CHROME": "On Google Chrome, if you press Yes and then abort, you have to wait a bit to see the browser popup again.",
+    "DO_THIS_LATER_IN_SETTINGS": "You can also set this up later in the Settings."
 }
