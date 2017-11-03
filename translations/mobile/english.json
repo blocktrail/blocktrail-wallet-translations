@@ -20,7 +20,7 @@
     "TX_INFO_HASH": "Transaction hash",
     "BITCOIN_ADDRESS": "Bitcoin address",
     "SEND_TO": "Send to",
-    "WALLET_PIN": "Wallet PIN code",
+    "WALLET_PIN": "Enter PIN",
     "TRANSACTION_SEND_SUCCESS": "Your transaction has been sent",
     "MSG_MISSING_AMOUNT": "Please enter an amount in Bitcoin",
     "MSG_INSUFFICIENT_FUNDS": "You do not have enough funds for this transaction",
