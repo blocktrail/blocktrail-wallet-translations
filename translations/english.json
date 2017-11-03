@@ -236,6 +236,7 @@
     "BACKUP_EXPORT_PDF_IOS_INFO": "You are only opening your backup PDF! Save your backup PDF to iCloud, iBooks, e-mail and more in the next step.",
     "BACKUP_EXPORT_PDF_ANDROID_INFO": "You are only opening your backup PDF! Save your backup PDF in the next step.",
     "BACKUP_CREATE_PDF": "Save wallet backup (PDF)",
+    "BACKUP_CANT_OPEN": "Your device has no application to open PDF files. Please install a PDF reader and try again.",
     "BACKUP_DOWNLOAD_ADDITIONAL_PAGE_PDF": "Save additional backup page (PDF)",
     "BACKUP_CHECKBOX": "I saved my backup securely",
     "SETUP_PHONE": "Setup phone",
