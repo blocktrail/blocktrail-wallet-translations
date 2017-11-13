@@ -540,7 +540,7 @@
     "AVAILABLE_BALANCE": "Beschikbaar saldo",
     "AMOUNT_PLACEHOLDER": "Bedrag",
     "RECIPIENT_PLACEHOLDER": "Versturen aan",
-    "ENTER_ADDRESS_TITLE": "Voer een bitcoin adres in",
+    "ENTER_ADDRESS_TITLE": "Voer een {{ network }} adres in",
     "CONTACTS_DISABLED": "Contacten uitgeschakeld",
     "MSG_REQUIRE_CONTACTS_ACCESS": "Schakel eerst de “Contacten” in in het instellingen menu om deze feature te kunnen gebruiken",
     "COPY_TO_CLIPBOARD": "Kopiëren naar klembord",

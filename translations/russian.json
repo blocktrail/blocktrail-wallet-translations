@@ -547,7 +547,7 @@
     "AVAILABLE_BALANCE": "Доступный баланс",
     "AMOUNT_PLACEHOLDER": "количество",
     "RECIPIENT_PLACEHOLDER": "отправить",
-    "ENTER_ADDRESS_TITLE": "введите биткоин-адрес",
+    "ENTER_ADDRESS_TITLE": "введите {{ network }}-адрес",
     "CONTACTS_DISABLED": "контакты отключены",
     "MSG_REQUIRE_CONTACTS_ACCESS": "Для использования этой функции нужно включить «Контакты» в меню настроек",
     "COPY_TO_CLIPBOARD": "скопировано в буфер",

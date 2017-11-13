@@ -501,7 +501,7 @@
     "AVAILABLE_BALANCE": "Verfügbares Guthaben",
     "AMOUNT_PLACEHOLDER": "Betrag",
     "RECIPIENT_PLACEHOLDER": "Senden an",
-    "ENTER_ADDRESS_TITLE": "Bitcoin-Adresse eingeben",
+    "ENTER_ADDRESS_TITLE": "{{ network }}-Adresse eingeben",
     "CONTACTS_DISABLED": "Kontakte deaktiviert",
     "MSG_REQUIRE_CONTACTS_ACCESS": "Bitte aktivieren Sie „Kontakte“ im Einstellungsmenü, um diese Funktion zu verwenden",
     "SETTINGS_UPDATE_PHOTO": "Foto aktualisieren",
