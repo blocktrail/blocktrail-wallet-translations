@@ -499,7 +499,7 @@
     "AVAILABLE_BALANCE": "利用可能な残高",
     "AMOUNT_PLACEHOLDER": "金額",
     "RECIPIENT_PLACEHOLDER": "以下へ送信する",
-    "ENTER_ADDRESS_TITLE": "ビットコインアドレスを入力する",
+    "ENTER_ADDRESS_TITLE": "{{ network }} ンアドレスを入力する",
     "CONTACTS_DISABLED": "連絡先が無効です",
     "MSG_REQUIRE_CONTACTS_ACCESS": "この機能を使用するには設定メニューの「連絡先」を有効にしてください",
     "SETTINGS_UPDATE_PHOTO": "写真をアップデートする",

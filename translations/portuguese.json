@@ -492,7 +492,7 @@
     "AVAILABLE_BALANCE": "Saldo disponível",
     "AMOUNT_PLACEHOLDER": "Quantia",
     "RECIPIENT_PLACEHOLDER": "Enviar para",
-    "ENTER_ADDRESS_TITLE": "Digite um endereço Bitcoin",
+    "ENTER_ADDRESS_TITLE": "Digite um endereço {{ network }}",
     "CONTACTS_DISABLED": "Contatos desabilitados",
     "MSG_REQUIRE_CONTACTS_ACCESS": "Ative 'Contatos' no menu de configurações para usar esse recurso",
     "COPY_TO_CLIPBOARD": "Copiar para área de transferência",

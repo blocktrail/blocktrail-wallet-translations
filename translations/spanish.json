@@ -515,7 +515,7 @@
     "AVAILABLE_BALANCE": "Saldo disponible",
     "AMOUNT_PLACEHOLDER": "Cantidad",
     "RECIPIENT_PLACEHOLDER": "Enviar a",
-    "ENTER_ADDRESS_TITLE": "Introducir una dirección bitcoin",
+    "ENTER_ADDRESS_TITLE": "Introducir una dirección {{ network }}",
     "CONTACTS_DISABLED": "Contactos desactivados",
     "MSG_REQUIRE_CONTACTS_ACCESS": "Por favor, activa 'Contactos' en el menú de configuración para utilizar esta función",
     "COPY_TO_CLIPBOARD": "Copiar al portapapeles",

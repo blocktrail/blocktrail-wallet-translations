@@ -18,7 +18,6 @@
     ],
     "WALLET_NO_TXS": "No transactions",
     "TX_INFO_HASH": "Transaction hash",
-    "BITCOIN_ADDRESS": "Bitcoin address",
     "SEND_TO": "Send to",
     "WALLET_PIN": "Enter PIN",
     "TRANSACTION_SEND_SUCCESS": "Your transaction has been sent",

@@ -546,7 +546,7 @@
     "AVAILABLE_BALANCE": "الرصيد المتاح",
     "AMOUNT_PLACEHOLDER": "المبلغ",
     "RECIPIENT_PLACEHOLDER": "إرسال إلى",
-    "ENTER_ADDRESS_TITLE": "أدخل عنوان bitcoin",
+    "ENTER_ADDRESS_TITLE": "أدخل عنوان {{ network }}",
     "CONTACTS_DISABLED": "تم تعطيل جهات الاتصال",
     "MSG_REQUIRE_CONTACTS_ACCESS": "يُرجى تمكين جهات الاتصال من قائمة الإعدادات لتتمكن من استخدام هذه الميزة",
     "COPY_TO_CLIPBOARD": "نسخ إلى الحافظة",

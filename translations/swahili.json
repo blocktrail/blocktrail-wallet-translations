@@ -453,7 +453,7 @@
     "AVAILABLE_BALANCE": "Salio Linalopatikana",
     "AMOUNT_PLACEHOLDER": "Kiasi",
     "RECIPIENT_PLACEHOLDER": "Tuma kwa",
-    "ENTER_ADDRESS_TITLE": "Ingiza anwani ya safaru mnemba",
+    "ENTER_ADDRESS_TITLE": "Ingiza anwani ya {{ network }} mnemba",
     "CONTACTS_DISABLED": "Anwani zimelemazwa",
     "MSG_REQUIRE_CONTACTS_ACCESS": "Tafadhali wezesha 'Anwani' kwenye menyu ya mipangilio iweze kutumia kipengele hiki",
     "SETTINGS_UPDATE_PHOTO": "Sasisha Picha",
