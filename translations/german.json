@@ -217,7 +217,7 @@
     "FEE_STRATEGY": "Gebührenstrategie",
 
     //receive screen
-    "ADDRESS_REUSE_NOTICE_1": "Alle Bitcoin-Adressen, die Sie hier erzeugen, behalten ihre Gültigkeit.",
+    "ADDRESS_REUSE_NOTICE_1": "Alle {{ network }}-Adressen, die Sie hier erzeugen, behalten ihre Gültigkeit.",
     "ADDRESS_REUSE_NOTICE_2": "Sie können beliebig viele erzeugen.",
 
     // messages

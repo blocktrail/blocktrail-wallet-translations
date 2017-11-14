@@ -223,7 +223,7 @@
     "FEE_STRATEGY": "收费策略",
 
     //receive screen
-    "ADDRESS_REUSE_NOTICE_1": "您在此处生成的任何比特币地址都将持续有效。",
+    "ADDRESS_REUSE_NOTICE_1": "您在此处生成的任何比{{ network }}地址都将持续有效。",
     "ADDRESS_REUSE_NOTICE_2": "您可按需生成任意数量的地址。",
     "MY_ADDRESSES": "我的地址",
 
