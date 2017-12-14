@@ -405,8 +405,8 @@
     "CONTACTS_REFRESH": "Refresh contacts",
     "CONTACTS_RESYNC": "Re-sync contacts",
     "MSG_INVITE_CONTACT": [
-        "Hi, get the BTC.com Wallet app for Bitcoin!",
-        "Get it here: https://wallet.btc.com/"
+        "I'm using the secure #bitcoin and #bitcoincash wallet from BTC.com.",
+        "Create your wallet today! -> https://wallet.btc.com"
     ],
     "RECEIVE_BITCOIN_TITLE": "Receive bitcoin",
     "BITCOIN_ADDRESS_RECEIVE_HELP": "A new {{ network }} has been created for you. Use this address to receive funds.",
