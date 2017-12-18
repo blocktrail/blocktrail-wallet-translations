@@ -773,6 +773,9 @@
 
     // Buy BTC
     "BUYBTC": "Buy Bitcoin",
+    "BUYBTC_ERROR": "Unfortunately, buying {{ network }} is not available right now, please try again shortly!",
+    "BUYBTC_HIGH_AMOUNT_ERROR": "Unfortunately, buying more than {{ limit }} (including fees) is not possible.",
+    "BUYBTC_LOW_AMOUNT_ERROR": "Unfortunately, buying less than {{ limit }} is not possible.",
     "BUYBTC_NAVTITLE": "Buy Bitcoin",
     "BUYBTC_PENDING_ORDERS": "Pending Orders",
     "BUYBTC_PENDING_ORDER": "pending order",
@@ -791,6 +794,10 @@
 
     "BUYBTC_BUYING": "Buying Bitcoin...",
 
+    "BUYBTC_CREDIT_CARDS": "Buy with Credit Card",
+    "BUYBTC_BANK_WIRE": "Buy with Bank Wire",
+    "BUYBTC_US_ONLY": "only in US",
+
     "BUYBTC_CHOOSE_REGION_TITLE": "Select your region",
     "BUYBTC_CHOOSE_REGION_BODY": "Select your region for available purchase methods",
     "BUYBTC_FUNDING_METHOD": "Funding Method",
@@ -807,11 +814,14 @@
     "BUYBTC_PROVIDERS": "Partners in {{ region }}",
     "BUYBTC_NOPROVIDERS_REGION": "There are no partners that service your region",
 
+    "ORDER_ID": "Order ID",
+    "PRIVACY_POLICY" : "Privacy policy",
     "CURRENT_PRICE": "Current price",
     "BUYBTC_INCL_FEE": "Including fee",
     "BUYBTC_BUY": "Continue",
     "BUYBTC_VIA": "Your purchase will complete using {{ broker }}",
     "BUYBTC_BANK_TRANSFER_SLOW": "Bitcoin purchased via bank transfer can take several business days to settle.",
+    "BUYBTC_SIMPLEX_TOS": "I accept the <a href=\"https://www.simplex.com/terms-of-use/\">terms of use</a> and <a href=\"https://www.simplex.com/privacy-policy/\">privacy policy</a>.",
 
     "MSG_BUYBTC_PIN_TO_ENCRYPT": "Please enter your wallet PIN code.",
     "MSG_BUYBTC_PIN_TO_DECRYPT_TITLE": "Enter PIN",
@@ -841,6 +851,12 @@
 
     "MSG_BUYBTC_GLIDERA_2FA_TITLE": "Two-Factor Authentication",
     "MSG_BUYBTC_GLIDERA_2FA_BODY": "A Glidera Two-factor {{ mode }} authentication code is required!",
+
+    "MSG_SIMPLEX_REDIRECT": [
+        "You are being redirected to Simplex to complete the purchase. Save this order id for further reference.",
+        "",
+        "Your personal order id: {{ orderId }}"
+    ],
 
     "MSG_BUYBTC_FIAT_USD_ONLY_TITLE": "Careful!",
     "MSG_BUYBTC_FIAT_USD_ONLY": "Your default currency is set to {{ yourCurrency }}, but when buy bitcoin values are denominated in {{ currency }}",
