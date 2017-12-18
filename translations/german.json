@@ -577,7 +577,7 @@
     "NAVBAR_LOGIN": "Anmelden",
 
     // Buy BTC
-    "BUYBTC": "Bitcoins kaufen",
+    "BUYBTC": "Kaufen",
     "BUYBTC_NAVTITLE": "Bitcoins kaufen",
     "BUYBTC_PENDING_ORDERS": "Ausstehende Orders",
     "BUYBTC_PENDING_ORDER": "Ausstehende Order von {{ order.displayName }}",
@@ -589,7 +589,7 @@
     "TX_INFO_BUYBTC": "Bitcoins gekauft",
     "TX_INFO_BUYBTC_DETAILS": "{{ qty }} BTC gekauft für {{ price }} {{ currency }} pro BTC.",
 
-    "BUYBTC_BUYING": "Bitcoins werden gekauft…",
+    "BUYBTC_BUYING": "{{ network }} werden gekauft…",
 
     "BUYBTC_CHOOSE_REGION_TITLE": "Wählen Sie Ihre Region",
     "BUYBTC_CHOOSE_REGION_BODY": "Wählen Sie Ihre Region, um verfügbare Kaufmethoden anzuzeigen",
@@ -645,7 +645,7 @@
     "MSG_BUYBTC_FIAT_USD_ONLY_TITLE": "Vorsicht!",
     "MSG_BUYBTC_FIAT_USD_ONLY": "Ihre Standardwährung ist auf {{ yourCurrency }} eingestellt, die Werte beim Bitcoin-Kauf werden jedoch in {{ currency }} angegeben",
 
-    "MSG_BUYBTC_CONFIRM_TITLE": "Bitcoins kaufen",
+    "MSG_BUYBTC_CONFIRM_TITLE": "{{ network }} kaufen",
     "MSG_BUYBTC_CONFIRM_BODY": "Wollen Sie wirklich {{ qty }} BTC für {{ price }} {{ currencySymbol }} kaufen?",
 
     "MSG_BUYBTC_BOUGHT_TITLE": "Bitcoins gekauft",

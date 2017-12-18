@@ -628,7 +628,7 @@
     "NAVBAR_LOGIN": "S'inscrire",
 
     // Buy BTC
-    "BUYBTC": "Acheter des Bitcoin",
+    "BUYBTC": "Acheter",
     "BUYBTC_NAVTITLE": "Acheter des Bitcoin",
     "BUYBTC_PENDING_ORDERS": "Commandes en cours",
     "BUYBTC_PENDING_ORDER": "commande en cours",
@@ -645,7 +645,7 @@
     "TX_INFO_BUYBTC": "Bitcoin achetés",
     "TX_INFO_BUYBTC_DETAILS": "{{ qty }} BTC acheté(s) à {{ price }} {{ currency }} par BTC.",
 
-    "BUYBTC_BUYING": "Achat de Bitcoin en cours...",
+    "BUYBTC_BUYING": "Achat de {{ network }} en cours...",
 
     "BUYBTC_CHOOSE_REGION_TITLE": "Sélectionnez votre région",
     "BUYBTC_CHOOSE_REGION_BODY": "Sélectionnez votre région pour connaître les méthodes d'achat disponibles",
@@ -701,7 +701,7 @@
     "MSG_BUYBTC_FIAT_USD_ONLY_TITLE": "Attention !",
     "MSG_BUYBTC_FIAT_USD_ONLY": "Votre devise par défaut est défini à {{ yourCurrency }}, mais quand vous achetez du bitcoin les valeurs sont libellés en {{ currency }}",
 
-    "MSG_BUYBTC_CONFIRM_TITLE": "Acheter des Bitcoin",
+    "MSG_BUYBTC_CONFIRM_TITLE": "Acheter des {{ network }}",
     "MSG_BUYBTC_CONFIRM_BODY": "Voulez-vous vraiment acheter {{ qty }} BTC pour {{ price }}{{ currencySymbol }} ?",
     "MSG_BUYBTC_ZERO_AMOUNT": "Vous indiquez souhaiter acheter 0 BTC. Veuillez sélectionner un montant supérieur à zéro.",
 

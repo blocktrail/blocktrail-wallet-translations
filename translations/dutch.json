@@ -615,7 +615,7 @@
     "NAVBAR_LOGIN": "Inloggen",
 
     // Buy BTC
-    "BUYBTC": "Bitcoin kopen",
+    "BUYBTC": "Kopen",
     "BUYBTC_NAVTITLE": "Bitcoin kopen",
     "BUYBTC_PENDING_ORDERS": "Opdrachten in Afwachting",
     "BUYBTC_PENDING_ORDER": "opdrachten in afwachting",
@@ -632,7 +632,7 @@
     "TX_INFO_BUYBTC": "Bitcoin gekocht",
     "TX_INFO_BUYBTC_DETAILS": "{{ qty }} BTC gekocht voor {{ price }} {{ currency }} per BTC.",
 
-    "BUYBTC_BUYING": "Bitcoin kopen…",
+    "BUYBTC_BUYING": "{{ network }} kopen…",
 
     "BUYBTC_CHOOSE_REGION_TITLE": "Kies je regio",
     "BUYBTC_CHOOSE_REGION_BODY": "Kies je regio voor beschikbare aankoop methodes",
@@ -686,7 +686,7 @@
     "MSG_BUYBTC_FIAT_USD_ONLY_TITLE": "Voorzichtig!",
     "MSG_BUYBTC_FIAT_USD_ONLY": "Je default valuta staat op {{ yourCurrency }}, maar bij het kopen van bitcoin is de prijs uitgedrukt in {{ currency }}",
 
-    "MSG_BUYBTC_CONFIRM_TITLE": "Bitcoin kopen",
+    "MSG_BUYBTC_CONFIRM_TITLE": "{{ network }} kopen",
     "MSG_BUYBTC_CONFIRM_BODY": "Weet je zeker dat je {{ qty }} BTC wilt kopen voor {{ currencySymbol }}{{ price }}?",
     "MSG_BUYBTC_ZERO_AMOUNT": "Je wilt 0 BTC kopen, selecteer alsjeblieft een hoeveelheid meer dan nul.",
 

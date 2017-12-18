@@ -625,7 +625,7 @@
     "NAVBAR_LOGIN": "Войти",
 
     // Buy BTC
-    "BUYBTC": "Купить биткоины",
+    "BUYBTC": "Купить",
     "BUYBTC_NAVTITLE": "Купить биткоины",
     "BUYBTC_PENDING_ORDERS": "Заказы в ожидании",
     "BUYBTC_PENDING_ORDER": "заказ в ожидании",
@@ -642,7 +642,7 @@
     "TX_INFO_BUYBTC": "Купленные биткоины",
     "TX_INFO_BUYBTC_DETAILS": "{{ qty }} BTC куплено по {{ price }} {{ currency }} за BTC.",
 
-    "BUYBTC_BUYING": "Покупка биткоинов...",
+    "BUYBTC_BUYING": "Покупка {{ network }}...",
 
     "BUYBTC_CHOOSE_REGION_TITLE": "Выберите регион",
     "BUYBTC_CHOOSE_REGION_BODY": "Выберите регион, чтобы посмотреть доступные способы покупки",
