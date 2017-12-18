@@ -586,7 +586,7 @@
     "NAVBAR_LOGIN": "Registrarse",
 
     // Buy BTC
-    "BUYBTC": "Comprar Bitcoin",
+    "BUYBTC": "Comprar",
     "BUYBTC_NAVTITLE": "Comprar Bitcoin",
     "BUYBTC_PENDING_ORDERS": "Pedidos pendientes",
     "BUYBTC_PENDING_ORDER": "pedido pendiente",
@@ -603,7 +603,7 @@
     "TX_INFO_BUYBTC": "Bitcoin comprados",
     "TX_INFO_BUYBTC_DETAILS": "{{ qty }} BTC comprados a {{ price }} {{ currency }} por BTC.",
 
-    "BUYBTC_BUYING": "Comprando Bitcoin...",
+    "BUYBTC_BUYING": "Comprando {{ network }}...",
 
     "BUYBTC_CHOOSE_REGION_TITLE": "Selecciona tu región",
     "BUYBTC_CHOOSE_REGION_BODY": "Selecciona tu región para los métodos de compra disponibles",

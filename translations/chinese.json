@@ -637,7 +637,7 @@
     "TX_INFO_BUYBTC": "已购买的比特币",
     "TX_INFO_BUYBTC_DETAILS": "以{{ price }} {{ currency }}每个比特币的价格购买的{{ qty }}个比特币。",
 
-    "BUYBTC_BUYING": "正在购买比特币……",
+    "BUYBTC_BUYING": "正在购买 {{ network }}…",
 
     "BUYBTC_CHOOSE_REGION_TITLE": "选择您的地区",
     "BUYBTC_CHOOSE_REGION_BODY": "选择您的地区以获取可选的购买方式",
@@ -692,7 +692,7 @@
     "MSG_BUYBTC_FIAT_USD_ONLY_TITLE": "小心！",
     "MSG_BUYBTC_FIAT_USD_ONLY": "您的默认货币设置的是 {{ yourCurrency }}，但是当购买比特币时价值是以{{ currency }} 显示的",
 
-    "MSG_BUYBTC_CONFIRM_TITLE": "购买比特币",
+    "MSG_BUYBTC_CONFIRM_TITLE": "购买{{ network }}",
     "MSG_BUYBTC_CONFIRM_BODY": "您确定想要以{{ currencySymbol }}{{ price }}购买{{ qty }}个比特币吗？",
     "MSG_BUYBTC_ZERO_AMOUNT": "您要购买 0 BTC，请选择大于 0 的金额。",
 

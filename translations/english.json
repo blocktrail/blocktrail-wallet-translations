@@ -244,6 +244,7 @@
     "SETUP_PROFILE_PIC": "Set Profile Picture",
     "SETUP_COMPLETE": "Go to My Wallet",
     "TERMS_OF_SERVICE": "The terms of service",
+    "TERMS_OF_USE": "Terms of use",
     "SETUP_TERMS_OF_SERVICE_TEXT": "I agree to the <a target='_blank' href='https://btc.com/legal'>terms of service</a>",
     "SETUP_TERMS_OF_SERVICE_TEXT_MOBILE": "I agree to the terms of service",
     "SETUP_DOWNLOAD_MOBILE_TITLE": "BTC.com Wallet for {{ platform }}",
@@ -772,11 +773,13 @@
     "NAVBAR_LOGIN": "Sign In",
 
     // Buy BTC
-    "BUYBTC": "Buy Bitcoin",
+    "BUYBTC": "Buy",
     "BUYBTC_ERROR": "Unfortunately, buying {{ network }} is not available right now, please try again shortly!",
     "BUYBTC_HIGH_AMOUNT_ERROR": "Unfortunately, buying more than {{ limit }} (including fees) is not possible.",
     "BUYBTC_LOW_AMOUNT_ERROR": "Unfortunately, buying less than {{ limit }} is not possible.",
-    "BUYBTC_NAVTITLE": "Buy Bitcoin",
+    "BUYBTC_NAVTITLE": "Buy",
+
+    // Glidera specific
     "BUYBTC_PENDING_ORDERS": "Pending Orders",
     "BUYBTC_PENDING_ORDER": "pending order",
     "BUYBTC_PENDING_ORDER_FROM": "Pending Order from {{ order.displayName }}",
@@ -787,12 +790,14 @@
     "EST_DELIVERY": "Estimated delivery:",
     "BUYBTC_GETSTARTED_HEAD": "Initial Setup",
     "BUYBTC_GETSTARTED_BODY": "Before you can buy Bitcoin, let's setup your exchange account",
+    // ------
+
     "BUYBTC_GETSTARTED_BUTTON": "Continue",
     "TX_INFO_BUYBTC_FROM": "Bitcoin Purchased from",
     "TX_INFO_BUYBTC": "Bitcoin Purchased",
     "TX_INFO_BUYBTC_DETAILS": "{{ qty }} BTC Purchased at {{ price }} {{ currency }} per BTC.",
 
-    "BUYBTC_BUYING": "Buying Bitcoin...",
+    "BUYBTC_BUYING": "Buying {{ network }} ...",
 
     "BUYBTC_CREDIT_CARDS": "Buy with Credit Card",
     "BUYBTC_BANK_WIRE": "Buy with Bank Wire",
@@ -816,6 +821,7 @@
 
     "ORDER_ID": "Order ID",
     "PRIVACY_POLICY" : "Privacy policy",
+    "QUOTE_ID": "Quote ID",
     "CURRENT_PRICE": "Current price",
     "BUYBTC_INCL_FEE": "Including fee",
     "BUYBTC_BUY": "Continue",
@@ -861,7 +867,7 @@
     "MSG_BUYBTC_FIAT_USD_ONLY_TITLE": "Careful!",
     "MSG_BUYBTC_FIAT_USD_ONLY": "Your default currency is set to {{ yourCurrency }}, but when buy bitcoin values are denominated in {{ currency }}",
 
-    "MSG_BUYBTC_CONFIRM_TITLE": "Buy bitcoin",
+    "MSG_BUYBTC_CONFIRM_TITLE": "Buy {{ network }}",
     "MSG_BUYBTC_CONFIRM_BODY": "Are you sure you want to buy {{ qty }} BTC for {{ currencySymbol }}{{ price }}?",
     "MSG_BUYBTC_ZERO_AMOUNT": "You want to buy 0 BTC, please select an amount greater than zero.",
 

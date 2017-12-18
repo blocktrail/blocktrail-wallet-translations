@@ -575,7 +575,7 @@
     "NAVBAR_LOGIN": "サインイン",
 
     // Buy BTC
-    "BUYBTC": "ビットコインを購入する",
+    "BUYBTC": "購入",
     "BUYBTC_NAVTITLE": "ビットコインを購入する",
     "BUYBTC_PENDING_ORDERS": "保留中の注文",
     "BUYBTC_PENDING_ORDER": "{{ order.displayName }}からの保留中の注文",
@@ -587,7 +587,7 @@
     "TX_INFO_BUYBTC": "ビットコインを購入しました",
     "TX_INFO_BUYBTC_DETAILS": "{{ qty }} BTCをBTCあたり{{ price }} {{ currency }}で購入しました。",
 
-    "BUYBTC_BUYING": "ビットコインを購入中...",
+    "BUYBTC_BUYING": "{{ network }}を購入中...",
 
     "BUYBTC_CHOOSE_REGION_TITLE": "地域を選択する",
     "BUYBTC_CHOOSE_REGION_BODY": "利用可能な購入方法を調べるために地域を選択する",
@@ -642,7 +642,7 @@
     "MSG_BUYBTC_FIAT_USD_ONLY_TITLE": "ご注意ください！",
     "MSG_BUYBTC_FIAT_USD_ONLY": "あなたのデフォルト通貨は{{ yourCurrency }}に設定されていますが、ビットコインを購入するときは、価値が{{ currency }}建てになります。",
 
-    "MSG_BUYBTC_CONFIRM_TITLE": "ビットコインを購入する",
+    "MSG_BUYBTC_CONFIRM_TITLE": " {{network }} を購入する",
     "MSG_BUYBTC_CONFIRM_BODY": "{{ currencySymbol }}{{ price }}で{{ qty }} BTCを購入しますか?",
 
     "MSG_BUYBTC_BOUGHT_TITLE": "ビットコインを購入しました",

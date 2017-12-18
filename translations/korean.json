@@ -569,7 +569,7 @@
     "NAVBAR_LOGIN": "로그인",
 
     // Buy BTC
-    "BUYBTC": "비트코인 구매",
+    "BUYBTC": "구매",
     "BUYBTC_NAVTITLE": "비트코인 구매",
     "BUYBTC_PENDING_ORDERS": "대기 중인 주문",
     "BUYBTC_PENDING_ORDER": "{{ order.displayName }}의 대기 중인 주문",
@@ -581,7 +581,7 @@
     "TX_INFO_BUYBTC": "구매한 비트코인",
     "TX_INFO_BUYBTC_DETAILS": "BTC당 {{ order.price }}{{ order.currency }}에 {{ qty }} BTC 구매",
 
-    "BUYBTC_BUYING": "비트코인 구매 중...",
+    "BUYBTC_BUYING": "{{ network }} 구매 중...",
 
     "BUYBTC_CHOOSE_REGION_TITLE": "지역 선택",
     "BUYBTC_CHOOSE_REGION_BODY": "지역을 선택하면, 이용 가능한 구매 방식이 표시됩니다",
@@ -637,7 +637,7 @@
     "MSG_BUYBTC_FIAT_USD_ONLY_TITLE": "주의하세요!",
     "MSG_BUYBTC_FIAT_USD_ONLY": "기본 통화는 {{ yourCurrency }}(으)로 설정되어 있지만, 비트코인 구매 시 금액은 {{ currency }}(으)로 표시됩니다.",
 
-    "MSG_BUYBTC_CONFIRM_TITLE": "비트코인 구매",
+    "MSG_BUYBTC_CONFIRM_TITLE": "{{ network }} 구매",
     "MSG_BUYBTC_CONFIRM_BODY": "{{ currencySymbol }}{{ price }}에 {{ qty }} BTC를 구매하시겠습니까?",
 
     "MSG_BUYBTC_BOUGHT_TITLE": "구매한 비트코인",
