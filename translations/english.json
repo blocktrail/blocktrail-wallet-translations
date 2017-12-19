@@ -500,6 +500,7 @@
     "SETTINGS_2FA_DONE": "Successfully set up two-factor authentication!",
     "SETTINGS_2FA_DISABLE_BODY": "Enter a token from your smartphone app to disable two-factor authentication.",
     "SETTINGS_2FA_DISABLE_2FA": "Disable 2FA",
+    "SETTINGS_2FA_DISABLE_DONE": "Successfully disabled two-factor authentication!",
     "SETTINGS_2FA_HELP": "Secure your account using multi-device authentication",
     "SETTINGS_CURRENT_PIN": "Current PIN",
     "SETTINGS_NEW_PIN": "New PIN",
