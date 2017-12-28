@@ -606,11 +606,14 @@
     "ESTIMATED_FEE": "Estimated fee",
     "OPTIMAL_FEE": "Optimal",
     "OPTIMAL_FEE_LONG": "Optimal fee",
+    "HIGH_PRIORITY_FEE": "High Priority",
+    "HIGH_PRIORITY_LONG": "High Priority fee",
     "LOW_PRIORITY_FEE": "Low priority",
     "LOW_PRIORITY_FEE_LONG": "Low priority fee",
 
     "LOW_PRIORITY_NOTICE": "Transaction may not confirm for several hours",
     "OPTIMAL_PRIORITY_NOTICE": "Recommended network fee for fast confirmation",
+    "HIGH_PRIORITY_FEE_NOTICE": "Network fee for the quickest confirmation",
 
     "ADVANCED_SEND_OPTIONS": "Advanced settings",
     "LOW_PRIORITY_LABEL": "Low priority bitcoin fee",
