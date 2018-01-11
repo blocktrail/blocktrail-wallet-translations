@@ -354,7 +354,7 @@
     "ADDRESS_REUSE_NOTICE_2": "You can generate as many as you like.",
     "MY_ADDRESSES": "My addresses",
     "BITCOIN_CASH_ADDRESS_FORMAT_HELP_1": "You can also",
-    "BITCOIN_CASH_ADDRESS_FORMAT_HELP_LINK_OLD": "generate a old legacy address",
+    "BITCOIN_CASH_ADDRESS_FORMAT_HELP_LINK_OLD": "generate an old legacy address",
     "BITCOIN_CASH_ADDRESS_FORMAT_HELP_LINK_NEW": "generate a new Bitcoin Cash address",
     "BITCOIN_CASH_NEW_ADDRESS_FORMAT_ALERT_TITLE": "New Bitcoin Cash Address Format",
     "BITCOIN_CASH_NEW_ADDRESS_FORMAT_ALERT_BODY": "On 14th of January 2017, services using Bitcoin Cash network will begin to adopt the new address format used below. If you would like, you can still generate legacy format addresses.",
