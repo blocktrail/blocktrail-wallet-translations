@@ -354,8 +354,8 @@
     "ADDRESS_REUSE_NOTICE_2": "You can generate as many as you like.",
     "MY_ADDRESSES": "My addresses",
     "BITCOIN_CASH_ADDRESS_FORMAT_HELP_1": "You can also",
-    "BITCOIN_CASH_ADDRESS_FORMAT_HELP_LINK_OLD": "generate an old legacy address",
-    "BITCOIN_CASH_ADDRESS_FORMAT_HELP_LINK_NEW": "generate a new Bitcoin Cash address",
+    "BITCOIN_CASH_ADDRESS_FORMAT_HELP_LINK_OLD": "use the legacy address format",
+    "BITCOIN_CASH_ADDRESS_FORMAT_HELP_LINK_NEW": "use the new BCH address format",
     "BITCOIN_CASH_NEW_ADDRESS_FORMAT_ALERT_TITLE": "New Bitcoin Cash Address Format",
     "BITCOIN_CASH_NEW_ADDRESS_FORMAT_ALERT_BODY": "On 14th of January 2017, services using Bitcoin Cash network will begin to adopt the new address format used below. If you would like, you can still generate legacy format addresses.",
 
@@ -415,7 +415,7 @@
         "Get it here: https://wallet.btc.com/"
     ],
     "RECEIVE_BITCOIN_TITLE": "Receive bitcoin",
-    "BITCOIN_ADDRESS_RECEIVE_HELP": "A new {{ network }} has been created for you. Use this address to receive funds.",
+    "BITCOIN_ADDRESS_RECEIVE_HELP": "A new {{ network }} address has been created for you. Use this address to receive funds.",
     "WAITING_FOR_PAYMENT": "Waiting for payment",
     "PAYMENT_RECEIVED": "Payment received",
     // Receiving Screens
