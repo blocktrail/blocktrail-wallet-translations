@@ -543,6 +543,7 @@
 
     // Buy BTC
     "BUYBTC": "ख़रीदें",
+    "BUYBTC_NETWORK": "{{ network }} ख़रीदें",
     "BUYBTC_NAVTITLE": "Bitcoin ख़रीदें",
     "BUYBTC_GETSTARTED_HEAD": "शुरुआती सेटअप",
     "BUYBTC_GETSTARTED_BODY": "इससे पहले कि आप Bitcoin ख़रीद सकें, चलिए आपका एक्सचेंज खाता सेटअप करते हैं",

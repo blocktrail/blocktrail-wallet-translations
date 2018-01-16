@@ -629,6 +629,7 @@
 
     // Buy BTC
     "BUYBTC": "Acheter",
+    "BUYBTC_NETWORK": "Acheter des {{ network }}",
     "BUYBTC_NAVTITLE": "Acheter des Bitcoin",
     "BUYBTC_PENDING_ORDERS": "Commandes en cours",
     "BUYBTC_PENDING_ORDER": "commande en cours",

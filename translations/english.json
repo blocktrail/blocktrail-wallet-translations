@@ -774,6 +774,7 @@
 
     // Buy BTC
     "BUYBTC": "Buy",
+    "BUYBTC_NETWORK": "Buy {{ network }}",
     "BUYBTC_ERROR": "Unfortunately, buying {{ network }} is not available right now, please try again shortly!",
     "BUYBTC_HIGH_AMOUNT_ERROR": "Unfortunately, buying more than {{ limit }} (including fees) is not possible.",
     "BUYBTC_LOW_AMOUNT_ERROR": "Unfortunately, buying less than {{ limit }} is not possible.",

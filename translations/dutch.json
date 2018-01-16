@@ -616,6 +616,7 @@
 
     // Buy BTC
     "BUYBTC": "Kopen",
+    "BUYBTC_NETWORK": "Kopen {{ network }}",
     "BUYBTC_NAVTITLE": "Bitcoin kopen",
     "BUYBTC_PENDING_ORDERS": "Opdrachten in Afwachting",
     "BUYBTC_PENDING_ORDER": "opdrachten in afwachting",

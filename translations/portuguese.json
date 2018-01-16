@@ -557,6 +557,7 @@
 
     // Buy BTC
     "BUYBTC": "Comprar",
+    "BUYBTC_NETWORK": "Comprar {{ network }}",
     "BUYBTC_NAVTITLE": "Comprar Bitcoin",
     "BUYBTC_PENDING_ORDERS": "Pedidos pendentes",
     "BUYBTC_PENDING_ORDER": "pedido pendente",

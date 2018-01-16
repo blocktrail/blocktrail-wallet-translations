@@ -624,6 +624,7 @@
 
     // Buy BTC
     "BUYBTC": "شراء بتكوين",
+    "BUYBTC_NETWORK": "شراء {{ network }}",
     "BUYBTC_NAVTITLE": "شراء بتكوين",
     "BUYBTC_PENDING_ORDERS": "الطلبات قيد الانتظار",
     "BUYBTC_PENDING_ORDER": "طلب قيد الانتظار",
@@ -639,8 +640,6 @@
     "TX_INFO_BUYBTC_FROM": "تم شراء بتكوين من",
     "TX_INFO_BUYBTC": "بتكوين الذي تم شراؤه",
     "TX_INFO_BUYBTC_DETAILS": "تم شراء {{ qty }} BTC بسعر {{ price }} {{ currency }} لكل BTC.",
-
-    "BUYBTC_BUYING": "شراء {{ network }}...",
 
     "BUYBTC_CHOOSE_REGION_TITLE": "حدد منطقتك",
     "BUYBTC_CHOOSE_REGION_BODY": "حدد منطقتك لمعرفة طرق الشراء المتاحة لديك",
@@ -696,7 +695,6 @@
     "MSG_BUYBTC_FIAT_USD_ONLY_TITLE": "توخ الحذر!",
     "MSG_BUYBTC_FIAT_USD_ONLY": "تم إعداد العملة الحالية الخاصة بك لتكون {{ yourCurrency }}، ولكن عند شراء بتكوين، فإن القيم يتم حسابها بـ {{ currency }}",
 
-    "MSG_BUYBTC_CONFIRM_TITLE": "شراء {{ network }}",
     "MSG_BUYBTC_CONFIRM_BODY": "هل أنت متأكد من أنك تريد شراء {{ qty }} BTC بسعر {{ currencySymbol }}{{ price }}؟",
     "MSG_BUYBTC_ZERO_AMOUNT": "هل تريد شراء صفر بيتكوين، يُرجَى تحديد كمية أكبر من صفر.",
 
