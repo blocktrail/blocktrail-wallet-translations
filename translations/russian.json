@@ -626,6 +626,7 @@
 
     // Buy BTC
     "BUYBTC": "Купить",
+    "BUYBTC_NETWORK": "Купить {{ network }}",
     "BUYBTC_NAVTITLE": "Купить биткоины",
     "BUYBTC_PENDING_ORDERS": "Заказы в ожидании",
     "BUYBTC_PENDING_ORDER": "заказ в ожидании",

@@ -576,6 +576,7 @@
 
     // Buy BTC
     "BUYBTC": "購入",
+    "BUYBTC_NETWORK": "{{ network }}を購入する",
     "BUYBTC_NAVTITLE": "ビットコインを購入する",
     "BUYBTC_PENDING_ORDERS": "保留中の注文",
     "BUYBTC_PENDING_ORDER": "{{ order.displayName }}からの保留中の注文",
@@ -642,7 +643,7 @@
     "MSG_BUYBTC_FIAT_USD_ONLY_TITLE": "ご注意ください！",
     "MSG_BUYBTC_FIAT_USD_ONLY": "あなたのデフォルト通貨は{{ yourCurrency }}に設定されていますが、ビットコインを購入するときは、価値が{{ currency }}建てになります。",
 
-    "MSG_BUYBTC_CONFIRM_TITLE": " {{network }} を購入する",
+    "MSG_BUYBTC_CONFIRM_TITLE": " {{ network }} を購入する",
     "MSG_BUYBTC_CONFIRM_BODY": "{{ currencySymbol }}{{ price }}で{{ qty }} BTCを購入しますか?",
 
     "MSG_BUYBTC_BOUGHT_TITLE": "ビットコインを購入しました",

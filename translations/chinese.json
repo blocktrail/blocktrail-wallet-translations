@@ -620,7 +620,8 @@
     "NAVBAR_LOGIN": "登录",
 
     // Buy BTC
-    "BUYBTC": "购买比特币",
+    "BUYBTC": "购",
+    "BUYBTC_NETWORK": "购买 {{ network }}",
     "BUYBTC_NAVTITLE": "购买比特币",
     "BUYBTC_PENDING_ORDERS": "待处理订单",
     "BUYBTC_PENDING_ORDER": "待处理订单",

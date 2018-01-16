@@ -570,6 +570,7 @@
 
     // Buy BTC
     "BUYBTC": "구매",
+    "BUYBTC_NETWORK": "{{ network }} 구매",
     "BUYBTC_NAVTITLE": "비트코인 구매",
     "BUYBTC_PENDING_ORDERS": "대기 중인 주문",
     "BUYBTC_PENDING_ORDER": "{{ order.displayName }}의 대기 중인 주문",
