@@ -3,6 +3,7 @@
     // general
     "LOGOUT": "退出",
     "WARNING": "警告",
+    "SELECT": "选择",
     "SEND": "发送",
     "RECEIVE": "接收",
     "BACK": "返回",
@@ -29,9 +30,9 @@
     "WORKING": "正在工作",
     "VERIFYING": "正在验证",
     "SYNCING": "正在同步",
-    "SKIP_STEP": "跳过此步骤",
     "PLEASE_WAIT": "请稍候",
     "PLEASE_WAIT_2": "稍候",
+    "PLEASE_WAIT_SECONDS": "请等待 {{ seconds }} 秒",
     "NONE": "无",
     "TAKEN": "已占用",
     "SEARCH": "搜索",
@@ -61,6 +62,11 @@
     "CHANGE": "修改",
     "VIA": "通过",
     "AT": "在",
+    "SKIP_STEP": "跳过此步骤",
+    "READ_MORE": "阅读更多",
+    "IMPORTANT": "重要",
+    "YES": "是",
+    "NO": "否",
 
     // update notices
     "UPDATE_AVAILABLE_NOTICE": "本 app 已推出更新版本可供下载。",
@@ -73,18 +79,105 @@
 
     // per version update messages
     "GLIDERA_UPDATE": "我们与 Glidera 合作并整合其服务，您现可在美国所有州（除纽约州外）通过您的钱包轻松购买比特币！",
+    "UPDATE_NOTICE_040300": "现在，您可使用左侧导航栏在比特币 (BTC) 和比特币现金 (BCH) 间轻松切换。",
+
     "UPDATE_NOTICE_030304": "全新“加速优先级”交易！以最高交易速度发送您的交易，同时尊享比特币网络接受的最低费率。这些交易将直接推送到BTC.com矿池。 从现在起，您每月可发送多达3次“加速优先级”交易，增加这一数字的更多方式即将推出！",
+
+    "UPDATE_NOTICE_BCC_MOBILE": [
+        "现在，您可随时前往“设置”并使用“注销”按钮在比特币和比特币现金间切换。我们正在开发让两种代币切换更加顺畅的方式，但目前的方法至少能让您在 app 内访问两种代币！",
+        "",
+        "为确保您始终了解您正在使用的是比特币钱包还是比特币现金钱包，我们已将比特币钱包设置为蓝色，而将比特币现金钱包设置为绿色！",
+        "",
+        "请确保您不会将比特币发送到比特币现金钱包，或将比特币现金发送到比特币钱包！"
+    ],
+
+    "UPDATE_NOTICE_BTC_030500": [
+        "欢迎来到 BTC.com 比特币钱包！",
+        "",
+        "您可随时点击菜单底部的链接在比特币和比特币现金间切换。",
+        "",
+        "为确保您始终了解您正在使用的是比特币钱包还是比特币现金钱包，我们已将比特币钱包设置为蓝色，而将比特币现金钱包设置为绿色！",
+        "",
+        "请确保您不会将比特币发送到比特币现金钱包，或将比特币现金发送到比特币钱包！"
+    ],
+
+    "UPDATE_NOTICE_BCC_030500": [
+        "欢迎来到 BTC.com 比特币现金钱包！",
+        "",
+        "您可随时点击菜单底部的链接在比特币和比特币现金间切换。",
+        "",
+        "为确保您始终了解您正在使用的是比特币钱包还是比特币现金钱包，我们已将比特币钱包设置为蓝色，而将比特币现金钱包设置为绿色！",
+        "",
+        "请确保您不会将比特币发送到比特币现金钱包，或将比特币现金发送到比特币钱包！"
+    ],
+
+    "UPDATE_NOTICE_030407": [
+        "重要公告！",
+        "",
+        "BTC.com 的网络钱包现已提供新工具，供您提取您的比特币现金。请阅读我们的<a target='_blank' href='https://blog.btc.com/your-bitcoin-cash-is-safe-with-btc-com-39b271da5692'>博客文章</a>了解更多相关信息。"
+    ],
+
+    "BCC_SWEEP_NOTICE_TITLE": "导入您的比特币现金",
+    "BCC_SWEEP_NOTICE_BODY": "使用我们的专用恢复工具，您可轻松地从其他比特币钱包中<a href='https://blog.btc.com/how-to-recover-bitcoin-cash-from-other-wallets-fbc847026ab6' target='_blank'>导入您的比特币现金</a>。",
 
     // invalid session
     "INVALID_SESSION": "您的会话已不再有效",
     "INVALID_SESSION_LOGOUT_NOW": "出于安全考虑，您的会话已过期。很抱歉给您带来不便。您现在将被注销，请稍后重新登录。",
+
+    "LOST_LOCK": "钱包将在另一窗口中打开。",
+    "LOST_LOCK_BODY": "您已在浏览器的另一标签页/窗口中打开钱包，请点击“在此使用”以继续在该窗口中操作。",
+    "LOST_LOCK_OPEN_HERE": "在此使用",
 
     // datetime
     "TODAY": "今天",
     "TOMORROW": "明天",
     "YESTERDAY": "昨天",
 
+    // forgot password
+    "SETUP_FORGOT_PASS_INFO": "请输入您的电子邮件地址以继续。",
+    "SETUP_FORGOT_PASS_STEP2": "请输入您的备份 PDF 中标注的已加密恢复密钥/助记符。",
+    "SETUP_FORGOT_PASS_NEW_PASS": "请输入您的新密码，这将取代您的旧密码。",
+    "ERS": "已加密恢复密钥",
+    "RECOVERY_SECRET": "恢复密钥",
+    "NEW_PASSWORD_PLACEHOLDER": "新密码",
+    "NEW_PASSWORD_REPEAT_PLACEHOLDER": "重复输入新密码",
+    "WALLET_VERSION": "钱包版本",
+
+    "INVALID_RECOVER_TOKEN": "恢复令牌无效",
+    "MSG_INVALID_RECOVER_TOKEN": "您的恢复会话不再有效，请申请新密码重置邮件。",
+    "INVALID_WALLET_VERSION": "钱包版本无效",
+    "MSG_INVALID_WALLET_VERSION": "您的钱包版本不正确，请联系 support@btc.com",
+    "MSG_CORRUPTED_SECRET": "您的恢复密钥似乎已损坏，请申请新的重置链接或联系 support@btc.com",
+    "MSG_WRONG_ERS_WORD_LENGTH": "请再次检查您输入的已加密恢复密钥，其字数不正确。",
+    "BAD_TOKEN": "2FA 错误",
+    "RECOVERY_ERROR": "恢复错误",
+    "MSG_REQUEST_RECOVERY_SECRET_FAILED": "无法从服务器检索恢复密钥，您的恢复链接很可能已过期。请申请新的恢复链接！如果此错误持续发生，请联系 support@btc.com",
+    "MSG_CHANGE_PASSWORD_UNKNOWN_ERROR": "由于未知原因，我们无法设置您的密码。请联系 support@btc.com。",
+    "MSG_RECOVERY_DECRYPT_FAILED": "我们无法使用恢复密钥解密您的钱包。请确保您已输入正确的已加密恢复密钥，如仍无法正常解密，请联系 support@btc.com",
+    "MSG_RECOVERY_V2_UPGRADED": "您的备份 PDF 适用于版本 2 的钱包，但您的钱包已升级至版本 3。请联系 support@btc.com",
+
+    // Mnemonic import
+    "SWEEP_TITLE": "导入外部钱包",
+    "SWEEP_INFO": "从外部钱包将您的 {{ network }} 导入到您的 BTC.com 钱包",
+    "SWEEPING_CONFIRM_MSG": "您即将从您的外部钱包将 <b>{{ amount }} {{ network }}</b>（扣除 <b>{{ fee }} {{ network }}</b> 的网络费用）发送到您当前的 BTC.com 钱包。",
+    "SWEEP_SUPPORTED": "支持的钱包",
+    "SWEEP_WIF": "简单私钥",
+    "SWEEP_BIP44": "BIP44 兼容钱包",
+    "SWEEP_WIF_INPUT": "WIF 私钥格式（可为多个）",
+    "SWEEP_WIF_SUBTITLE": "WIF 私钥格式",
+    "SWEEP_WIF_PLACEHOLDER": "WFI 私钥格式的逗号分隔列表",
+    "SWEEP_COMPLETED": "您的 {{ ticker }} 已发送到您的钱包。",
+    "BACKUP_MNEMONIC": "备份短语",
+    "IMPORT_ERROR": "导入错误",
+    "INVALID_MNEMONIC": "未输入有效或受支持的备份短语/助记符。",
+    "NO_BALANCES_FOUND": "未找到正数余额。",
+    "SOME_TRANSACTIONS_FAILED": "部分交易可能未正确创建。请考虑重新运行该工具。",
+    "TX_CANT_BE_PUSHED": "无法推送交易。发生错误。",
+    "TX_CANT_BE_PUSHED_MULTIPLE": "无法推送交易的 {{ amount }}。发生错误。",
+    "DISCOVERING_COINS": "正在寻找正数余额，这可能需要几分钟时间 ... ",
+
     // launch & setup screens
+    "SETUP_NETWORK_CHOICE": "钱包类型",
     "LAUNCH_NEW_ACCOUNT": "创建新账户",
     "LAUNCH_EXISTING_ACCOUNT": "已有账户？",
     "SETUP_FORGOT_PASSWORD": "重置您的密码",
@@ -110,14 +203,21 @@
     "SETUP_WALLET_BACKUP_TEXT": "在开始使用您的新钱包之前，请",
     "SETUP_WALLET_BACKUP_TEXT_BOLD": "下载以下备份文档",
     "SETUP_WALLET_BACKUP_TEXT_APPEND": "请将此备份保密并将其在线下安全地存储起来，这很重要。在发生紧急情况时，此备份文档可让您存取及恢复钱包上存储的任何资金。",
+    "SETUP_WALLET_BACKUP_WILL_BE_REMOVED": "密码丢失时需要使用备份 PDF。在继续操作前保存您的备份 PDF 非常重要。",
     "BACKUP_EMAIL_PDF": "通过电子邮件发送备份 PDF",
+    "BACKUP_OPEN_PDF": "打开钱包备份 (PDF)",
+    "BACKUP_OPTION_KEEP_ON_PHONE": "您是否还需要将备份 PDF 保存到您手机的文件夹中？",
+    "BACKUP_EXPORT_PDF_IOS_INFO": "您现在只是打开您的备份 PDF！在下一步中您可将 PDF 保存到 iCloud、iBooks、电子邮件或更多位置。",
+    "BACKUP_EXPORT_PDF_ANDROID_INFO": "您现在只是打开您的备份 PDF！在下一步中请保存您的备份 PDF。",
     "BACKUP_CREATE_PDF": "下载钱包备份 (PDF)",
+    "BACKUP_CANT_OPEN": "您的设备未安装用于打开 PDF 文件的应用程序。请安装 PDF 阅读器并重试。",
     "BACKUP_DOWNLOAD_ADDITIONAL_PAGE_PDF": "下载额外的备份頁 (PDF)",
     "BACKUP_CHECKBOX": "我安全地保存了我的备份",
     "SETUP_PHONE": "设置电话",
     "SETUP_SYNC_CONTACTS": "同步联系人",
     "SETUP_PROFILE_PIC": "设置资料图片",
     "SETUP_COMPLETE": "转到我的钱包",
+    "TERMS_OF_SERVICE": "服务条款",
     "SETUP_TERMS_OF_SERVICE_TEXT": "我同意<a target='_blank' href='https://btc.com/legal'>服务条款</a>",
     "SETUP_TERMS_OF_SERVICE_TEXT_MOBILE": "我同意服务条款",
     "SETUP_DOWNLOAD_MOBILE_TITLE": "面向 的 BTC.com 钱包 {{ platform }}",
@@ -138,6 +238,7 @@
     "MSG_BAD_NETWORK": "没有网络连接",
     "MSG_BAD_LOGIN": "登录信息不正确",
     "MSG_BAD_LOGIN_UNKNOWN": "因未知原因导致登录失败",
+    "MSG_FAILED_UNKNOWN": "由于未知原因，操作失败",
     "MSG_INCORRECT_PASSWORD": "密码不正确",
     "MSG_INCORRECT_PASSWORD_CAPS_ON": "注意：在键入密码时您打开了大写锁定键！",
     "MSG_MISSING_LOGIN": "请输入您的登录详细信息",
@@ -226,9 +327,15 @@
     "ADDRESS_REUSE_NOTICE_1": "您在此处生成的任何比{{ network }}地址都将持续有效。",
     "ADDRESS_REUSE_NOTICE_2": "您可按需生成任意数量的地址。",
     "MY_ADDRESSES": "我的地址",
+    "BITCOIN_CASH_ADDRESS_FORMAT_HELP_1": "您还可以",
+    "BITCOIN_CASH_ADDRESS_FORMAT_HELP_LINK_OLD": "使用传统地址格式",
+    "BITCOIN_CASH_ADDRESS_FORMAT_HELP_LINK_NEW": "使用新的 BCH 地址格式",
+    "BITCOIN_CASH_NEW_ADDRESS_FORMAT_ALERT_TITLE": "新比特币现金地址格式",
+    "BITCOIN_CASH_NEW_ADDRESS_FORMAT_ALERT_BODY": "自 2018 年 1 月 14 日起，使用比特币现金网络的服务将采用以下新地址格式。如您愿意，您可继续生成传统格式的地址。",
 
     // address lookup and labels
     "ADDRESS_LOOKUP": "地址查询",
+    "ADDRESS_LOOKUP_FORMAT_BITCOIN_CASH": "传统地址格式",
     "EDIT_LABEL": "编辑标签",
     "ENTER_NEW_LABEL": "为所选地址输入新标签。",
     "DELETE_LABEL": "删除标签",
@@ -279,7 +386,7 @@
         "可在这儿下载：https://btc.com/download"
     ],
     "RECEIVE_BITCOIN_TITLE": "接收比特币",
-    "BITCOIN_ADDRESS_RECEIVE_HELP": "已为您创建了一个新的比特币地址。请使用此地址接收资金。",
+    "BITCOIN_ADDRESS_RECEIVE_HELP": "已为您创建了一个新的 {{ network }} 地址。请使用此地址接收资金。",
     "WAITING_FOR_PAYMENT": "等待支付",
     "PAYMENT_RECEIVED": "已收到付款",
     // Receiving Screens
@@ -311,6 +418,8 @@
     "SETTINGS": "设置",
     "SETTINGS_ACCOUNT": "账户",
     "SETTINGS_PROFILE": "资料",
+    "SETTINGS_TOOLS": "工具",
+    "SETTINGS_SECURITY": "安全",
     "SETTING_EMAIL": "电子邮箱",
     "SETTING_USERNAME": "用户名",
     "SETTINGS_TAKE_PHOTO": "拍摄照片",
@@ -368,6 +477,7 @@
     "SETTINGS_2FA_DONE": "已成功设置了双因素验证！",
     "SETTINGS_2FA_DISABLE_BODY": "通过您的智能手机应用输入令牌以禁用双因素验证。",
     "SETTINGS_2FA_DISABLE_2FA": "禁用 2FA",
+    "SETTINGS_2FA_DISABLE_DONE": "已成功禁用双重认证！",
     "SETTINGS_2FA_HELP": "使用多设备验证保护您的账户",
     "SETTINGS_CURRENT_PIN": "当前的 PIN",
     "SETTINGS_NEW_PIN": "新 PIN",
@@ -473,11 +583,14 @@
     "ESTIMATED_FEE": "估计费用",
     "OPTIMAL_FEE": "最优",
     "OPTIMAL_FEE_LONG": "最优费用",
+    "HIGH_PRIORITY_FEE": "高优先级",
+    "HIGH_PRIORITY_LONG": "高优先级费用",
     "LOW_PRIORITY_FEE": "低优先级",
     "LOW_PRIORITY_FEE_LONG": "低优先级费用",
 
     "LOW_PRIORITY_NOTICE": "交易可能在数小时后仍无法确认",
     "OPTIMAL_PRIORITY_NOTICE": "支持快速确认的推荐网络费用",
+    "HIGH_PRIORITY_FEE_NOTICE": "最快确认的网络费用",
 
     "ADVANCED_SEND_OPTIONS": "高级设置",
     "LOW_PRIORITY_LABEL": "低优先级比特币费用",
@@ -509,9 +622,18 @@
     "SETTINGS_DISPLAY": "显示",
     "SETTINGS_PRIVACY": "隐私",
     "SETTINGS_USAGE_DATA": "发送使用数据",
+    "SETTINGS_PIN_ON_OPEN": "打开钱包时需要输入 PIN 码",
     "MSG_BACKUP_SAVED_ALREADY": [
         "已保存您的备份。 ",
         "备份数据不再存储在此手机上。"
+    ],
+    "MSG_BACKUP_SAVED_PERSISTENT_IOS": [
+        "您的备份已保存。",
+        "备份 PDF 仍可通过 iTunes 文件共享获取。"
+    ],
+    "MSG_BACKUP_SAVED_PERSISTENT_ANDROID": [
+        "您的备份已保存。",
+        "备份 PDF 仍可通过您电话的文件系统获取。"
     ],
     "ENABLE": "启用",
     "DISABLE": "禁用",
@@ -556,6 +678,7 @@
         "您没有保存您的备份表。如果您注销，此数据将丢失，并且无法重新创建。",
         "您确定要继续吗？"
     ],
+    "MSG_BACKUP_SAVE_NOW": "您应保存您的钱包备份文档。立即保存吗？",
     "MSG_PHONE_CODE_SENT": "代码已发送到您的手机。请在下面输入该代码以确认您的号码。",
     "MSG_ENABLE_CONTACTS": [
         "这将启用联系人同步以发现您设备上有钱包的联系人。 ",
@@ -622,7 +745,12 @@
     // Buy BTC
     "BUYBTC": "购",
     "BUYBTC_NETWORK": "购买 {{ network }}",
+    "BUYBTC_ERROR": "很遗憾，目前无法购买 {{ network }}，请稍后重试！",
+    "BUYBTC_HIGH_AMOUNT_ERROR": "很遗憾，购买金额不得超过 {{ limit }}（含其他费用）。",
+    "BUYBTC_LOW_AMOUNT_ERROR": "很遗憾，购买金额不得低于 {{ limit }}（含其他费用）。",
     "BUYBTC_NAVTITLE": "购买比特币",
+
+    // Glidera specific
     "BUYBTC_PENDING_ORDERS": "待处理订单",
     "BUYBTC_PENDING_ORDER": "待处理订单",
     "BUYBTC_PENDING_ORDER_FROM": "来自 {{ order.displayName }} 的待处理订单",
@@ -633,12 +761,18 @@
     "EST_DELIVERY": "预计交付：",
     "BUYBTC_GETSTARTED_HEAD": "初始设置",
     "BUYBTC_GETSTARTED_BODY": "在您能够购买比特币之前，让我们先为您设置兑换账户",
+
+    // ------
     "BUYBTC_GETSTARTED_BUTTON": "继续",
     "TX_INFO_BUYBTC_FROM": "从 购买的比特币",
     "TX_INFO_BUYBTC": "已购买的比特币",
     "TX_INFO_BUYBTC_DETAILS": "以{{ price }} {{ currency }}每个比特币的价格购买的{{ qty }}个比特币。",
 
     "BUYBTC_BUYING": "正在购买 {{ network }}…",
+
+    "BUYBTC_CREDIT_CARDS": "使用信用卡购买",
+    "BUYBTC_BANK_WIRE": "使用银行电汇购买",
+    "BUYBTC_US_ONLY": "仅适用于美国",
 
     "BUYBTC_CHOOSE_REGION_TITLE": "选择您的地区",
     "BUYBTC_CHOOSE_REGION_BODY": "选择您的地区以获取可选的购买方式",
@@ -656,11 +790,14 @@
     "BUYBTC_PROVIDERS": "合作伙伴",
     "BUYBTC_NOPROVIDERS_REGION": "在您所选地区我们没有提供服务的合作伙伴",
 
+    "ORDER_ID": "订单 ID",
+    "PRIVACY_POLICY": "隐私权政策",
     "CURRENT_PRICE": "当前价格",
     "BUYBTC_INCL_FEE": "包含费用",
     "BUYBTC_BUY": "继续",
     "BUYBTC_VIA": "您的购买将使用 完成 {{ broker }}",
     "BUYBTC_BANK_TRANSFER_SLOW": "通过银行转账购买的比特币需要数个工作日进行处理。",
+    "BUYBTC_SIMPLEX_TOS": "我接受<a href=\"https://www.simplex.com/terms-of-use/\">服务条款</a>和<a href=\"https://www.simplex.com/privacy-policy/\">隐私权政策</a>。",
 
     "MSG_BUYBTC_PIN_TO_ENCRYPT": "请输入您的钱包 PIN 码。",
     "MSG_BUYBTC_PIN_TO_DECRYPT_TITLE": "输入 PIN 码",
@@ -689,6 +826,12 @@
 
     "MSG_BUYBTC_GLIDERA_2FA_TITLE": "双因素认证",
     "MSG_BUYBTC_GLIDERA_2FA_BODY": "需要 Glidera 双因素{{ mode }}认证码！",
+
+    "MSG_SIMPLEX_REDIRECT": [
+        "您正被重定向至 Simplex 以完成购买。保存此订单 ID 以供后续参考。",
+        "",
+        "您的个人订单 ID：{{ orderId }}"
+    ],
 
     "MSG_BUYBTC_FIAT_USD_ONLY_TITLE": "小心！",
     "MSG_BUYBTC_FIAT_USD_ONLY": "您的默认货币设置的是 {{ yourCurrency }}，但是当购买比特币时价值是以{{ currency }} 显示的",
@@ -736,5 +879,43 @@
     "APPRATE_BODY_GOOD_BODY": "请考虑在App Store中留下评论以支持BTC.com",
     "APPRATE_BODY_BAD": "啊哦。您要考虑向我们留下反馈意见吗？",
     "APPRATE_FEEDBACK": "发送",
-    "APPRATE_SKIP": "跳过"
+    "APPRATE_SKIP": "跳过",
+
+    "LANDING_POWERFUL": "强大的比特币和比特币现金钱包",
+    "LANDING_SEND_RECEIVE": "使用 BTC.com 钱包安全地发送、接收和存储您的资金。",
+    "LANDING_STAY_IN_CONTROL": "时刻掌控",
+    "LANDING_EMPOWERS": "比特币允许您在没有任何第三方信任或许可的情况下发送和接收付款。",
+    "LANDING_NEVER_ACCESS": "BTC.com 绝不会访问您的比特币和比特币现金，忠于比特币的核心价值，为您带来财富的安全性、隐私性和掌控力。",
+    "LANDING_YOUR_BTC": "您的比特币。您来掌控。",
+    "LANDING_ONE_WALLET": "您的钱包，您的数字生活",
+    "LANDING_SEND_RECEIVE_EASILY": "轻松、安全的发送和接收比特币",
+    "LANDING_FULL_CONTROL": "持续全面掌控您的比特币私钥",
+    "LANDING_PAY_QR": "无需 QR 码或长地址即可向好友付款",
+    "LANDING_CREATE_WALLET": "创建您的 BTC.com 钱包",
+
+    // Register bitcoin: URI related
+    "SET_BROWSER_DEFAULT_WALLET": "为比特币链接使用钱包",
+    "BROWSER_SECURITY_ERROR": "您的浏览器安全设置已阻止该请求。",
+    "MAKE_DEFAULT_BROWSER_WALLET": "将 BTC.com 设置为您的默认钱包",
+    "MAKE_DEFAULT_BROWSER_WALLET_DETAILS": "您可在大多数浏览器中将 BTC.com 钱包设置为默认钱包。您是否要启用此功能？",
+    "MAKE_DEFAULT_BROWSER_WALLET_DETAILS_CHROME": "在 Google Chrome 上，如果您按下“是”并中止操作，则您需稍等方可再次看到浏览器弹窗。",
+    "DO_THIS_LATER_IN_SETTINGS": "您也可稍后前往“设置”进行相关设置。",
+
+    // security related
+    "EMAIL_VERIFY_SUCCESS": "电子邮件已成功验证",
+    "EMAIL_VERIFY_FAILURE": "电子邮件验证失败",
+    "EMAIL_VERIFY_ALREADY": "电子邮件已验证",
+    "EMAIL_VERIFY": "请验证您的新电子邮件地址",
+    "MSG_EMAIL_CHANGE": "在您点击电子邮件收件箱中的验证链接后，您电子邮件地址将被更新。",
+    "MSG_EMAIL_VERIFY": "我们已向您的电子邮件收件箱发送验证邮件。",
+    "MSG_ERROR_TRY_AGAIN_LATER": "出现错误，请稍后重试。",
+    "MSG_ERROR_SENDING_MAIL": "我们无法向您的电子邮件收件箱发送验证邮件。请稍后重试。",
+    "WALLET_SECURITY_SCORE": "钱包安全评分",
+    "CHECK_YOUR_INBOX": "检查您的收件箱",
+
+    "EMAIL_VERIFIED": "您的电子邮件已验证",
+    "EMAIL_NOT_VERIFIED": "您的电子邮件未验证",
+    "IMPROVE_PASSWORD": "改进您的密码安全性",
+    "2FA_ENABLED": "2FA 已启用",
+    "2FA_NOT_ENABLED": "2FA 尚未启用"
 }

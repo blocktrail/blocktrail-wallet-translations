@@ -79,9 +79,7 @@
 
     // per version update messages
     "GLIDERA_UPDATE": "You can now easily buy bitcoin from all US states (except New York) from within your wallet through our partnership integration of Glidera!",
-    "UPDATE_NOTICE_040300": [
-        "You can now easily switch between Bitcoin (BTC) and Bitcoin Cash (BCC) using the navigation on the left."
-    ],
+    "UPDATE_NOTICE_040300": "You can now easily switch between Bitcoin (BTC) and Bitcoin Cash (BCH) using the navigation on the left.",
 
     "UPDATE_NOTICE_030304": [
         "New \"Accelerated priority\" transactions!",
@@ -96,10 +94,9 @@
         "We're working on a smoother way of switching between the 2 coins, but this will at least allow you to access both coins with the app!",
         "",
         "To make sure you can always know if you are using the Bitcoin or BitcoinCash wallet, ",
-        "we made the Bitcoin wallet BLUE and the BitcoinCash Wallet ORANGE!",
+        "we made the Bitcoin wallet BLUE and the BitcoinCash Wallet GREEN!",
         "",
         "Make sure you never send Bitcoin to a BitcoinCash wallet or BitcoinCash to a Bitcoin wallet!"
-
     ],
 
     "UPDATE_NOTICE_BTC_030500": [
@@ -108,7 +105,7 @@
         "You can switch between Bitcoin and BitcoinCash anytime, by clicking on the link in the bottom of the menu.",
         "",
         "To make sure you can always know if you are using the Bitcoin or BitcoinCash wallet, ",
-        "we made the Bitcoin wallet BLUE and the BitcoinCash Wallet ORANGE!",
+        "we made the Bitcoin wallet BLUE and the BitcoinCash Wallet GREEN!",
         "",
         "Make sure you never send Bitcoin to a BitcoinCash wallet or BitcoinCash to a Bitcoin wallet!"
     ],
@@ -119,7 +116,7 @@
         "You can switch between Bitcoin and BitcoinCash anytime, by clicking on the link in the bottom of the menu.",
         "",
         "To make sure you can always know if you are using the Bitcoin or BitcoinCash wallet, ",
-        "we made the Bitcoin wallet BLUE and the BitcoinCash Wallet ORANGE!",
+        "we made the Bitcoin wallet BLUE and the BitcoinCash Wallet GREEN!",
         "",
         "Make sure you never send Bitcoin to a BitcoinCash wallet or BitcoinCash to a Bitcoin wallet!"
     ],
@@ -131,9 +128,7 @@
     ],
 
     "BCC_SWEEP_NOTICE_TITLE": "Import your Bitcoin Cash",
-    "BCC_SWEEP_NOTICE_BODY": [
-        "It's easy to <a href='https://blog.btc.com/how-to-recover-bitcoin-cash-from-other-wallets-fbc847026ab6' target='_blank'>import your Bitcoin Cash</a> from your other Bitcoin wallets using our dedicated recovery tool."
-    ],
+    "BCC_SWEEP_NOTICE_BODY": "It's easy to <a href='https://blog.btc.com/how-to-recover-bitcoin-cash-from-other-wallets-fbc847026ab6' target='_blank'>import your Bitcoin Cash</a> from your other Bitcoin wallets using our dedicated recovery tool.",
 
     // invalid session
     "INVALID_SESSION": "Your session is no longer valid",
@@ -791,8 +786,8 @@
     "EST_DELIVERY": "Estimated delivery:",
     "BUYBTC_GETSTARTED_HEAD": "Initial Setup",
     "BUYBTC_GETSTARTED_BODY": "Before you can buy Bitcoin, let's setup your exchange account",
-    // ------
 
+    // ------
     "BUYBTC_GETSTARTED_BUTTON": "Continue",
     "TX_INFO_BUYBTC_FROM": "Bitcoin Purchased from",
     "TX_INFO_BUYBTC": "Bitcoin Purchased",
@@ -821,7 +816,7 @@
     "BUYBTC_NOPROVIDERS_REGION": "There are no partners that service your region",
 
     "ORDER_ID": "Order ID",
-    "PRIVACY_POLICY" : "Privacy policy",
+    "PRIVACY_POLICY": "Privacy policy",
     "QUOTE_ID": "Quote ID",
     "CURRENT_PRICE": "Current price",
     "BUYBTC_INCL_FEE": "Including fee",

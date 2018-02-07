@@ -3,6 +3,7 @@
     // general
     "LOGOUT": "تسجيل الدخول",
     "WARNING": "تحذير",
+    "SELECT": "تحديد",
     "SEND": "إرسال",
     "RECEIVE": "استلام",
     "BACK": "العودة",
@@ -29,9 +30,9 @@
     "WORKING": "العمل",
     "VERIFYING": "التحقق",
     "SYNCING": "المزامنة ",
-    "SKIP_STEP": "تخطي هذه الخطوة",
     "PLEASE_WAIT": "يُرجى الانتظار",
     "PLEASE_WAIT_2": "لحظة من فضلك",
+    "PLEASE_WAIT_SECONDS": "يرجى الانتظار {{ seconds }} ثوانٍ",
     "NONE": "لا شيء",
     "TAKEN": "محجوز",
     "SEARCH": "البحث",
@@ -61,6 +62,11 @@
     "CHANGE": "تغيير",
     "VIA": "عبر",
     "AT": "عند",
+    "SKIP_STEP": "تخطي هذه الخطوة",
+    "READ_MORE": "اقرأ المزيد",
+    "IMPORTANT": "مهم",
+    "YES": "نعم",
+    "NO": "لا",
 
     // update notices
     "UPDATE_AVAILABLE_NOTICE": "يوجد تحديث جديد للتطبيق متوفر للتنزيل.",
@@ -73,6 +79,8 @@
 
     // per version update messages
     "GLIDERA_UPDATE": "يمكنك الآن شراء البيتكوين بسهولة من جميع الولايات المتحدة الأمريكية (عدا نيويورك) عن طريق حافظتك من خلال تكامل شراكات غليديرا (Glidera)!",
+    "UPDATE_NOTICE_040300": "يمكنك الآن التبديل بسهولة بين بيتكوين (BTC) وبيتكوين كاش (BCH) باستخدام زر التصفح الموجود في الجهة اليسرى.",
+
     "UPDATE_NOTICE_030304": [
         "معاملات عن طريق \"الأولية المعجلة\" الجديدة!",
         " ",
@@ -81,16 +89,114 @@
         " الآن، يمكنك إرسال حتى 3 معاملات بأولوية معجلة كل شهر، مع توافر طرق آكثر لزيادة هذه الكمية قريبا!"
     ],
 
+    "UPDATE_NOTICE_BCC_MOBILE": [
+        "يمكنك الآن التبديل بين بيتكوين وبيتكوين كاش في أي وقت، من خلال الانتقال إلى الإعدادات واستخدام زر تسجيل الخروج.",
+        "",
+        "نحن نعمل على طريقة أكثر سلاسةً للتبديل بين العملتين، لكن هذا سيتيح لك على الأقل الوصول إلى كلٍ من العملتين بواسطة التطبيق!",
+        "",
+        "للتأكد من أنه يمكنك دائماً معرفة إذا كنت تستخدم محفظة بيتكوين أو بيتكوين كاش،",
+        "قمنا بجعل لون محفظة بيتكوين زرقاء ومحفظة بيتكوين كاش خضراء!",
+        "",
+        "تأكد من أنك لا تقوم بإرسال بيتكوين إلى محفظة بيتكوين كاش أو بيتكوين كاش إلى محفظة بيتكوين!"
+    ],
+
+    "UPDATE_NOTICE_BTC_030500": [
+        "مرحباً بك في محفظة بيتكوين BTC.com!",
+        "",
+        "يمكنك الآن التبديل بين بيتكوين وبيتكوين كاش في أي وقت، من خلال النقر على الرابط في الموجود في الجزء السفلي من القائمة.",
+        "",
+        "للتأكد من أنه يمكنك دائماً معرفة إذا كنت تستخدم محفظة بيتكوين أو بيتكوين كاش،",
+        "قمنا بجعل لون محفظة بيتكوين زرقاء ومحفظة بيتكوين كاش خضراء!",
+        "",
+        "تأكد من أنك لا تقوم بإرسال بيتكوين إلى محفظة بيتكوين كاش أو بيتكوين كاش إلى محفظة بيتكوين!"
+    ],
+
+    "UPDATE_NOTICE_BCC_030500": [
+        "مرحباً بك في محفظة بيتكوين BTC.com!",
+        "",
+        "يمكنك الآن التبديل بين بيتكوين وبيتكوين كاش في أي وقت، من خلال النقر على الرابط في الموجود في الجزء السفلي من القائمة.",
+        "",
+        "للتأكد من أنه يمكنك دائماً معرفة إذا كنت تستخدم محفظة بيتكوين أو بيتكوين كاش،",
+        "قمنا بجعل لون محفظة بيتكوين زرقاء ومحفظة بيتكوين كاش خضراء!",
+        "",
+        "تأكد من أنك لا تقوم بإرسال بيتكوين إلى محفظة بيتكوين كاش أو بيتكوين كاش إلى محفظة بيتكوين!"
+    ],
+
+    "UPDATE_NOTICE_030407": [
+        "إعلان مهم!",
+        "",
+        "لدى محفظة موقع BTC.com الآن أداة تتيح لك سحب بيتكوين كاش الخاص بك. اقرأ المزيد حول هذا الموضوع في مدونتنا <a target='_blank' href='https://blog.btc.com/your-bitcoin-cash-is-safe-with-btc-com-39b271da5692'>blog post</a>."
+    ],
+
+    "BCC_SWEEP_NOTICE_TITLE": "استيراد بيتكوين كاش الخاص بك",
+    "BCC_SWEEP_NOTICE_BODY": "من السهل <a href='https://blog.btc.com/how-to-recover-bitcoin-cash-from-other-wallets-fbc847026ab6' target='_blank'> استيراد بيتكوين كاش الخاص بك </a> من محافظ بيتكوين الأخرى باستخدام أداة الاسترداد المخصّصة الخاصة بنا.",
+
     // invalid session
     "INVALID_SESSION": "لم تعد جلستك صالحة",
     "INVALID_SESSION_LOGOUT_NOW": "نتعتذر عن الإزعاج، لقد انتهت صلاحية جلستك لأسباب أمنية. وسوف يتم تسجيل خروجك، يُرجَى تسجيل الدخول مرة أخرى.",
+
+    "LOST_LOCK": "المحفظة مفتوحة في نافذةٍ أخرى.",
+    "LOST_LOCK_BODY": [
+        "لقد قمت بفتح المحفظة في علامة تبويب/نافذة أخرى في متصفحك،",
+        "انقر على \" استخدم هنا \" لمتابعة العمل في هذه النافذة."
+    ],
+    "LOST_LOCK_OPEN_HERE": "استخدم هنا",
 
     // datetime
     "TODAY": "اليوم",
     "TOMORROW": "غداً",
     "YESTERDAY": "أمس",
 
+    // forgot password
+    "SETUP_FORGOT_PASS_INFO": "يرجى إدخال عنوان البريد الإلكتروني للمتابعة.",
+    "SETUP_FORGOT_PASS_STEP2": "يرجى إدخال رمز الاسترداد المشفر/الرمز المختصر من ملف PDF الاحتياطي الخاص بك.",
+    "SETUP_FORGOT_PASS_NEW_PASS": "أدخل كلمة المرور الجديدة الخاصة بك التي ستحل محل كلمة المرور القديمة الخاصة بك.",
+    "ERS": "رمز الاسترداد المشفر",
+    "RECOVERY_SECRET": "رمز الاسترداد",
+    "NEW_PASSWORD_PLACEHOLDER": "كلمة المرور الجديدة",
+    "NEW_PASSWORD_REPEAT_PLACEHOLDER": "إعادة إدخال كلمة المرور الجديدة",
+    "WALLET_VERSION": "إصدار المحفظة",
+
+    "INVALID_RECOVER_TOKEN": "رمز الاسترداد غير صالح",
+    "MSG_INVALID_RECOVER_TOKEN": "لم تعد مهلة الاسترداد الخاصة بك صالحة بعد الآن، يرجى طلب رسالة بريد إلكتروني جديدة لإعادة تعيين كلمة المرور",
+    "INVALID_WALLET_VERSION": "إصدار المحفظة غير صحيح",
+    "MSG_INVALID_WALLET_VERSION": "إصدار محفظتك غير صحيح، يرجى الاتصال بـ support@btc.com",
+    "MSG_CORRUPTED_SECRET": "يبدو أن رمز الاسترداد الخاص تالف، قُم بطلب رابط جديد لإعادة التعيين أو اتصل بـ support@btc.com",
+    "MSG_WRONG_ERS_WORD_LENGTH": "يرجى إعادة فحص رمز الاسترداد المشفر الذي قمت بإدخاله، إنه يحتوي على قدر خاطئ من الكلمات.",
+    "BAD_TOKEN": "2FA غير صحيحة",
+    "RECOVERY_ERROR": "خطأ في الاسترداد",
+    "MSG_REQUEST_RECOVERY_SECRET_FAILED": [
+        "فشل استرجاع رمز الاسترداد من الخادم،",
+        "على الأرجح انتهت صلاحية رابط الاسترداد الخاص بك، يرجى طلب رابط جديد للاسترداد!",
+        "",
+        "إذا استمر هذا الخطأ، يرجى الاتصال بـ support@btc.com"
+    ],
+    "MSG_CHANGE_PASSWORD_UNKNOWN_ERROR": "لقد فشلنا في تعيين كلمة المرور الخاصة بك لأسبابٍ غير معروفة، يرجى الاتصال بـ support@btc.com",
+    "MSG_RECOVERY_DECRYPT_FAILED": "لقد فشلنا في فكّ تشفير محفظتك باستخدام رمز الاسترداد. تأكد من إدخال رمز الاسترداد المشفر بشكلٍ صحيح وإذا كان لا يعمل بشكلٍ صحيح، يرجى الاتصال بـ support@btc.com",
+    "MSG_RECOVERY_V2_UPGRADED": "ملف PDF الاحتياطي الخاص بك للمحفظة ذات الإصدار 2، لكن محفظتك تمت ترقيتها إلى الإصدار 3، يرجى الاتصال بـ support@btc.com",
+
+    // Mnemonic import
+    "SWEEP_TITLE": "استيراد محفظة خارجية",
+    "SWEEP_INFO": "قُم باستيراد {{ network }} الخاصة بك من محفظة خارجية إلى محفظة BTC.com الخاصة بك",
+    "SWEEPING_CONFIRM_MSG": "أنت على وشك إرسال <b>{{ amount }} {{ network }}</b> (ناقِص رسوم الشبكة <b>{{ fee }} {{ network }}</b>) من محفظتك الخارجية إلى محفظة BTC.com الحالية الخاصة بك.",
+    "SWEEP_SUPPORTED": "محافظ مدعومة",
+    "SWEEP_WIF": "مفتاح خاص بسيط",
+    "SWEEP_BIP44": "محفظة متوافقة BIP44",
+    "SWEEP_WIF_INPUT": "تنسيق WIF للمفتاح الخاص (يمكن أن يكون متعدداً)",
+    "SWEEP_WIF_SUBTITLE": "تنسيق WIF للمفتاح الخاص",
+    "SWEEP_WIF_PLACEHOLDER": "قائمة مفصولة بفواصل من المفاتيح الخاصة ذات تنسيق WIF",
+    "SWEEP_COMPLETED": "لقد تم إرسال {{ ticker }} إلى محفظتك.",
+    "BACKUP_MNEMONIC": "العبارة الاحتياطية",
+    "IMPORT_ERROR": "خطأ في الاستيراد",
+    "INVALID_MNEMONIC": "الإدخال ليس عبارة احتياطية/رمز مختصر صالح أو مدعوم.",
+    "NO_BALANCES_FOUND": "لم يتم العثور على أرصدة حقيقية.",
+    "SOME_TRANSACTIONS_FAILED": "قد تكون بعض المعاملات لم يتم إنشاؤها بشكلٍ صحيح. يرجى التفكير في إعادة تشغيل الأداة.",
+    "TX_CANT_BE_PUSHED": "لا يمكن دفع المعاملة. حدث خطأ ما.",
+    "TX_CANT_BE_PUSHED_MULTIPLE": "{{ amount }} من المعاملات لا يمكن دفعها. حدث خطأ ما.",
+    "DISCOVERING_COINS": "جارٍ البحث عن أرصدة حقيقية، قد يستغرق ذلك بضع دقائق ...",
+
     // launch & setup screens
+    "SETUP_NETWORK_CHOICE": "نوع المحفظة",
     "LAUNCH_NEW_ACCOUNT": "إنشاء محفظة جديدة",
     "LAUNCH_EXISTING_ACCOUNT": "هل لديك محفظة بالفعل؟",
     "SETUP_FORGOT_PASSWORD": "إعادة تعيين كلمة المرور الخاصة بك",
@@ -116,14 +222,21 @@
     "SETUP_WALLET_BACKUP_TEXT": "قبل البدء في استخدام المحفظة الجديدة الخاصة بك، يُرجى منك",
     "SETUP_WALLET_BACKUP_TEXT_BOLD": "تنزيل مستند النسخ الاحتياطي أدناه",
     "SETUP_WALLET_BACKUP_TEXT_APPEND": "إنه لمن الأهمية بمكان الحفاظ على سرية هذه النسخة الاحتياطية وحفظها محلياً لديك على نحوٍ آمنٍ. في حالة الطوارئ، تُمَكِّنُكَ وثيقة النسخ الاحتياطي هذه من الوصول إلى أية مبالغ محفوظة في محفظتك واستعادتها.",
+    "SETUP_WALLET_BACKUP_WILL_BE_REMOVED": "ملف PDF الاحتياطي مطلوب في حالة فقدان كلمة المرور. من المهم جداً أن تقوم بحفظ  ملف PDF الاحتياطي قبل المتابعة.",
     "BACKUP_EMAIL_PDF": "إرسال ملف PDF الخاص بالنسخة الاحتياطية بالبريد الإلكتروني",
+    "BACKUP_OPEN_PDF": "فتح ملف (PDF) الاحتياطي الخاص بالمحفظة",
+    "BACKUP_OPTION_KEEP_ON_PHONE": "هل تريد أيضاً الاحتفاظ بملف PDF الاحتياطي في مجلد على هاتفك؟",
+    "BACKUP_EXPORT_PDF_IOS_INFO": "أنت فقط تقوم بفتح ملف PDF الاحتياطي الخاص بك! قُم بحفظ ملف PDF الاحتياطي الخاص بك على iCloud، iBooks، البريد الإلكتروني والمزيد في الخطوة التالية.",
+    "BACKUP_EXPORT_PDF_ANDROID_INFO": "أنت فقط تقوم بفتح ملف PDF الاحتياطي الخاص بك! قُم بحفظ ملف PDF الاحتياطي الخاص بك في الخطوة التالية.",
     "BACKUP_CREATE_PDF": "تنزيل النسخ الاحتياطي للمحفظة (PDF)",
+    "BACKUP_CANT_OPEN": "ليس لدى جهازك أي تطبيق لفتح ملفات PDF. يرجى تثبيت قارئ PDF وإعادة المحاولة.",
     "BACKUP_DOWNLOAD_ADDITIONAL_PAGE_PDF": "(PDF) تنزيل صفحة احتياطية إضافية",
     "BACKUP_CHECKBOX": "لقد قمت بحفظ النسخة الاحتياطية الخاصة بي بشكلٍ آمن",
     "SETUP_PHONE": "إعداد الهاتف",
     "SETUP_SYNC_CONTACTS": "مزامنة جهات الاتصال",
     "SETUP_PROFILE_PIC": "تحديد صورة ملف التعريف",
     "SETUP_COMPLETE": "الانتقال إلى محفظتي",
+    "TERMS_OF_SERVICE": "شروط الخدمة",
     "SETUP_TERMS_OF_SERVICE_TEXT": "أوافق على <a target='_blank' href='https://btc.com/legal'>شروط الخدمة</a>",
     "SETUP_TERMS_OF_SERVICE_TEXT_MOBILE": "أوافق على <a target='_blank' href='https://btc.com/legal'>شروط الخدمة",
     "SETUP_DOWNLOAD_MOBILE_TITLE": "حافظة BTC.com لـ {{ platform }}",
@@ -144,6 +257,7 @@
     "MSG_BAD_NETWORK": "لا يوجد اتصال شبكي",
     "MSG_BAD_LOGIN": "بيانات تسجيل دخول غير صحيحة",
     "MSG_BAD_LOGIN_UNKNOWN": "فشلت عملية تسجيل الدخول لسبب غير معروف",
+    "MSG_FAILED_UNKNOWN": "فشل لأسبابٍ غير معروفة",
     "MSG_INCORRECT_PASSWORD": "كلمة المرور غير صحيحة",
     "MSG_INCORRECT_PASSWORD_CAPS_ON": "تحذير: كان زر الأحرف الكبيرة مُشَغَّلْ أثناء كتابة كلمة المرور!",
     "MSG_MISSING_LOGIN": "يُرجى إدخال بيانات تسجيل دخول الخاصة بك",
@@ -232,9 +346,15 @@
     "ADDRESS_REUSE_NOTICE_1": "أي عنوان {{ network }} تقوم بإنشائه هنا سوف يظل صالحا.",
     "ADDRESS_REUSE_NOTICE_2": "يمكنك إنشاء عناوين بالقدر الذي تريد.",
     "MY_ADDRESSES": "عناويني",
+    "BITCOIN_CASH_ADDRESS_FORMAT_HELP_1": "يمكنك أيضاً",
+    "BITCOIN_CASH_ADDRESS_FORMAT_HELP_LINK_OLD": "استخدام التنسيق القديم للعنوان",
+    "BITCOIN_CASH_ADDRESS_FORMAT_HELP_LINK_NEW": "استخدام التنسيق الجديد لعنوان BCH بيتكوين كاش",
+    "BITCOIN_CASH_NEW_ADDRESS_FORMAT_ALERT_TITLE": "التنسيق الجديد لعنوان بيتكوين كاش",
+    "BITCOIN_CASH_NEW_ADDRESS_FORMAT_ALERT_BODY": "في 14 يناير 2018، ستبدأ الخدمات التي تستخدم شبكة بيتكوين كاش في اعتماد التنسيق الجديد للعنوان المستخدم أدناه. إذا كنت ترغب في ذلك، فما زال بإمكانك إنشاء عناوين ذات تنسيق قديم.",
 
     // address lookup and labels
     "ADDRESS_LOOKUP": "البحث عن عنوان",
+    "ADDRESS_LOOKUP_FORMAT_BITCOIN_CASH": "التنسيق القديم للعنوان",
     "EDIT_LABEL": "تحرير القائمة",
     "ENTER_NEW_LABEL": "أدخِل قائمة جديدة للعنوان الذي قمت بتحديده.",
     "DELETE_LABEL": "حذف القائمة",
@@ -320,6 +440,8 @@
     "SETTINGS": "الإعدادات",
     "SETTINGS_ACCOUNT": "الحساب",
     "SETTINGS_PROFILE": "ملف التعريف",
+    "SETTINGS_TOOLS": "الأدوات",
+    "SETTINGS_SECURITY": "الأمان",
     "SETTING_EMAIL": "البريد الإلكتروني",
     "SETTING_USERNAME": "اسم المستخدم",
     "SETTINGS_TAKE_PHOTO": "التقط صورة",
@@ -377,6 +499,7 @@
     "SETTINGS_2FA_DONE": "تم إعداد المصادقة ثنائية العامل بنجاح!",
     "SETTINGS_2FA_DISABLE_BODY": "أدخل رمز مميز من تطبيق الهاتف الذكي لديك لتعطيل المصادقة ثنائية العامل.",
     "SETTINGS_2FA_DISABLE_2FA": "تعطيل 2FA",
+    "SETTINGS_2FA_DISABLE_DONE": "تم تعطيل المصادقة الثنائية بنجاح.",
     "SETTINGS_2FA_HELP": "أمِّنْ حسابك باستخدام المصادقة متعددة العوامل",
     "SETTINGS_CURRENT_PIN": "رقم PIN الحالي",
     "SETTINGS_NEW_PIN": "رقم PIN الجديد",
@@ -479,11 +602,14 @@
     "ESTIMATED_FEE": "القيمة التقديرية للرسوم",
     "OPTIMAL_FEE": "المعاملة الأفضل",
     "OPTIMAL_FEE_LONG": "رسوم المعاملة الأفضل",
+    "HIGH_PRIORITY_FEE": "أولوية عالية",
+    "HIGH_PRIORITY_LONG": "رسوم ذات أولوية عالية",
     "LOW_PRIORITY_FEE": "أولوية منخفضة",
     "LOW_PRIORITY_FEE_LONG": "رسوم الأولوية المنخفضة",
 
     "LOW_PRIORITY_NOTICE": "قد لا يتم تأكيد المعاملة لبضع ساعات",
     "OPTIMAL_PRIORITY_NOTICE": "نوصي بتسديد رسوم الشبكة للحصول على تأكيد سريع",
+    "HIGH_PRIORITY_FEE_NOTICE": "رسوم الشبكة للحصول على أسرع تأكيد",
 
     "ADVANCED_SEND_OPTIONS": "الإعدادات المتقدمة",
     "LOW_PRIORITY_LABEL": "رسوم بتكوين، أولوية منخفضة",
@@ -515,9 +641,18 @@
     "SETTINGS_DISPLAY": "عرض",
     "SETTINGS_PRIVACY": "الخصوصية",
     "SETTINGS_USAGE_DATA": "إرسال بيانات الاستخدام",
+    "SETTINGS_PIN_ON_OPEN": "اطلب رقم التعريف الشخصي PIN عند فتح المحفظة",
     "MSG_BACKUP_SAVED_ALREADY": [
         "تم حفظ النسخة الاحتياطية الخاصة بك بالفعل. ",
         "لم تعد بيانات النسخ الاحتياطي تُخَزَّن على هذا الهاتف."
+    ],
+    "MSG_BACKUP_SAVED_PERSISTENT_IOS": [
+        "لقد تم بالفعل حفظ النسخة الاحتياطية الخاصة بك.",
+        "الملف الاحتياطي PDF لا يزال متاحاً عبر مشاركة الملفات من iTunes."
+    ],
+    "MSG_BACKUP_SAVED_PERSISTENT_ANDROID": [
+        "لقد تم بالفعل حفظ النسخة الاحتياطية الخاصة بك.",
+        "الملف الاحتياطي PDF لا يزال متاحاً في ملفات النظام الموجودة على هاتفك."
     ],
     "ENABLE": "تمكين",
     "DISABLE": "تعطيل",
@@ -562,6 +697,7 @@
         "أنت لم تحفظ ورقة النسخ الاحتياطي الخاصة بك. إذا قمت بتسجيل الخروج فستفقد البيانات لديك، ولن تتمكن من إنشائها مرة أخرى.",
         "هل أنت متأكد من رغبتك في الاستمرار؟"
     ],
+    "MSG_BACKUP_SAVE_NOW": "يجب حفظ مستند النسخ الاحتياطي الخاص بمحفظتك. هل تريد حفظه الآن؟",
     "MSG_PHONE_CODE_SENT": "تم إرسال رمز إلى هاتفك. أدخل هذا الرمز أدناه من فضلك، وقم بتأكيد رقم هاتفك.",
     "MSG_ENABLE_CONTACTS": [
         "سيُمكن هذا الإجراء ميزة مزامنة جهات الاتصال من اكتشاف جهات الاتصال المسجلة على جهازك الذي عليه محفظة. ",
@@ -594,6 +730,8 @@
     "FOOTER_PRODUCT": "المنتجات",
     "FOOTER_ANTMINER": "Antminer",
     "FOOTER_ANTPOOL": "Antpool",
+    "FOOTER_BTCCOM_POOL": "BTC.com Pool",
+    "FOOTER_BTCCOM_EXPLORER": "BTC.com Explorer",
     "FOOTER_HASHNEST": "Hashnest",
     "FOOTER_MINERLINK": "Minerlink",
     "FOOTER_COMPANY": "الشركة",
@@ -623,9 +761,14 @@
     "NAVBAR_LOGIN": "تسجيل الدخول",
 
     // Buy BTC
-    "BUYBTC": "شراء بتكوين",
+    "BUYBTC": "شراء",
     "BUYBTC_NETWORK": "شراء {{ network }}",
+    "BUYBTC_ERROR": "للأسف، شراء {{ network }} غير متاح الآن، يرجى إعادة المحاولة بعد قليل.",
+    "BUYBTC_HIGH_AMOUNT_ERROR": "للأسف، لا يمكن شراء أكثر من {{ limit }} (بما في ذلك الرسوم).",
+    "BUYBTC_LOW_AMOUNT_ERROR": "للأسف، لا يمكن شراء أقل من {{ limit }}.",
     "BUYBTC_NAVTITLE": "شراء بتكوين",
+
+    // Glidera specific
     "BUYBTC_PENDING_ORDERS": "الطلبات قيد الانتظار",
     "BUYBTC_PENDING_ORDER": "طلب قيد الانتظار",
     "BUYBTC_PENDING_ORDER_FROM": "طلب قيد الانتظار من {{ order.displayName }}",
@@ -636,10 +779,16 @@
     "EST_DELIVERY": "التوصيل المتوقع:",
     "BUYBTC_GETSTARTED_HEAD": "الإعداد الأولي",
     "BUYBTC_GETSTARTED_BODY": "هيا نقوم بإعداد حساب التبادل الخاص بك قبل شرائك بتكوين",
+
+    // ------
     "BUYBTC_GETSTARTED_BUTTON": "الاستمرار",
     "TX_INFO_BUYBTC_FROM": "تم شراء بتكوين من",
     "TX_INFO_BUYBTC": "بتكوين الذي تم شراؤه",
     "TX_INFO_BUYBTC_DETAILS": "تم شراء {{ qty }} BTC بسعر {{ price }} {{ currency }} لكل BTC.",
+
+    "BUYBTC_CREDIT_CARDS": "شراء بواسطة بطاقة الائتمان",
+    "BUYBTC_BANK_WIRE": "شراء بواسطة المصرف",
+    "BUYBTC_US_ONLY": "فقط في الولايات المتحدة",
 
     "BUYBTC_CHOOSE_REGION_TITLE": "حدد منطقتك",
     "BUYBTC_CHOOSE_REGION_BODY": "حدد منطقتك لمعرفة طرق الشراء المتاحة لديك",
@@ -657,11 +806,14 @@
     "BUYBTC_PROVIDERS": "الشركاء",
     "BUYBTC_NOPROVIDERS_REGION": "لا يوجد لدينا شركاء يقدمون الخدمة في منطقتك",
 
+    "ORDER_ID": "مُعرف الطلب",
+    "PRIVACY_POLICY": "سياسة الخصوصية",
     "CURRENT_PRICE": "السعر الحالي",
     "BUYBTC_INCL_FEE": "شامل الرسوم",
     "BUYBTC_BUY": "الاستمرار",
     "BUYBTC_VIA": "سوف يتم إكمال عملية الشراء باستخدام {{ broker }}",
     "BUYBTC_BANK_TRANSFER_SLOW": "البتكوين التي تم شراؤها عن طريق تحويل بنكي يمكن أن تستغرق بضعة أيام عمل لإتمامها.",
+    "BUYBTC_SIMPLEX_TOS": "أوافق على <a href=\"https://www.simplex.com/terms-of-use/\"> شروط الاستخدام </a> و<a href=\"https://www.simplex.com/privacy-policy/\">سياسة الخصوصية</a>.",
 
     "MSG_BUYBTC_PIN_TO_ENCRYPT": "يُرجى منك إدخال رقم PIN الخاص بمحفظتك.",
     "MSG_BUYBTC_PIN_TO_DECRYPT_TITLE": "أدخل رقم PIN",
@@ -692,9 +844,15 @@
     "MSG_BUYBTC_GLIDERA_2FA_TITLE": "مصادقة ثنائية العامل",
     "MSG_BUYBTC_GLIDERA_2FA_BODY": "مطلوب رمز مصادقة {{ mode }} ثنائي العامل من Glidera!",
 
+    "MSG_SIMPLEX_REDIRECT": [
+        "يتم إعادة توجيهك إلى Simplex لإتمام عملية الشراء، احفظ مُعرف الطلب هذا للرجوع إليه بشكلٍ أفضل.",
+        "",
+        "",
+        "معرف الطلب الشخصي الخاص بك: {{ orderId }}"
+    ],
+
     "MSG_BUYBTC_FIAT_USD_ONLY_TITLE": "توخ الحذر!",
     "MSG_BUYBTC_FIAT_USD_ONLY": "تم إعداد العملة الحالية الخاصة بك لتكون {{ yourCurrency }}، ولكن عند شراء بتكوين، فإن القيم يتم حسابها بـ {{ currency }}",
-
     "MSG_BUYBTC_CONFIRM_BODY": "هل أنت متأكد من أنك تريد شراء {{ qty }} BTC بسعر {{ currencySymbol }}{{ price }}؟",
     "MSG_BUYBTC_ZERO_AMOUNT": "هل تريد شراء صفر بيتكوين، يُرجَى تحديد كمية أكبر من صفر.",
 
@@ -735,5 +893,43 @@
     "APPRATE_BODY_GOOD_BODY": "رجاء الاهتمام بالتعبير عن دعمك لـ BTC.com عن طريق إعطاء تقييم لنا على متجر التطبيقات (AppStore)",
     "APPRATE_BODY_BAD": "مهلا. هل ستتفضل بترك تعليق لنا؟",
     "APPRATE_FEEDBACK": "إرسال",
-    "APPRATE_SKIP": "تخطي"
+    "APPRATE_SKIP": "تخطي",
+
+    "LANDING_POWERFUL": "محفظة بيتكوين و بيتكوين كاش قوية",
+    "LANDING_SEND_RECEIVE": "إرسال واستقبال وتخزين أموالك بشكلٍ آمن بواسطة محفظة BTC.com.",
+    "LANDING_STAY_IN_CONTROL": "كن مسيطراً",
+    "LANDING_EMPOWERS": "تمكنك بيتكوين من إرسال واستقبال المدفوعات بدون تفويض أو إذن من أي طرف ثالث.",
+    "LANDING_NEVER_ACCESS": "ليس لدى BTC.com أبداً إمكانية الوصول إلى بيتكوين الخاص بك و بيتكوين كاش الخاص بك، وفي للقيم الأساسية لبيتكوين، وتمنحك الأمن والخصوصية والقوة لامتلاك ثروتك.",
+    "LANDING_YOUR_BTC": "بيتكوين الخاص بك. قوتك.",
+    "LANDING_ONE_WALLET": "محفظة واحدة لحياتك الرقمية",
+    "LANDING_SEND_RECEIVE_EASILY": "إرسال واستقبال بيتكوين بسهولةٍ وأمان",
+    "LANDING_FULL_CONTROL": "حافظ على السيطرة الكاملة على المفاتيح الخاصة ببيتكوين الخاص بك",
+    "LANDING_PAY_QR": "ادفع للأصدقاء بدون رموز QR أو عناوين طويلة",
+    "LANDING_CREATE_WALLET": "أنشئ محفظة BTC.com الخاصة بك",
+
+    // Register bitcoin: URI related
+    "SET_BROWSER_DEFAULT_WALLET": "استخدم المحفظة من أجل روابط بيتكوين",
+    "BROWSER_SECURITY_ERROR": "لقد قامت إعدادات الأمان بمتصفحك بحظر هذا الطلب.",
+    "MAKE_DEFAULT_BROWSER_WALLET": "اجعل BTC.com محفظتك الافتراضية",
+    "MAKE_DEFAULT_BROWSER_WALLET_DETAILS": "يمكنك تعيين محفظة BTC.com الخاصة بك كمحفظة افتراضية لمدفوعات بيتكوين في معظم المتصفحات. هل تريد تمكين هذه الميزة؟",
+    "MAKE_DEFAULT_BROWSER_WALLET_DETAILS_CHROME": "على Google Chrome، إذا ضغطت على نعم ثم غادرت، فيجب عليك الانتظار قليلاً لرؤية النافذة المنبثقة الخاصة بالمتصفح مرةً أخرى.",
+    "DO_THIS_LATER_IN_SETTINGS": "يمكنك أيضاً تعيين هذا لاحقاً في الإعدادات.",
+
+    // security related
+    "EMAIL_VERIFY_SUCCESS": "تم تأكيد البريد الإلكتروني بنجاح",
+    "EMAIL_VERIFY_FAILURE": "فشل التحقق من البريد الإلكتروني",
+    "EMAIL_VERIFY_ALREADY": "تم تأكيد البريد الإلكتروني بالفعل",
+    "EMAIL_VERIFY": "تأكيد عنوان بريدك الإلكتروني الجديد",
+    "MSG_EMAIL_CHANGE": "سيتم تحديث عنوان بريدك الإلكتروني بعد النقر على رابط التأكيد في بريدك الوارد.",
+    "MSG_EMAIL_VERIFY": "لقد أرسلنا إليك رسالة تأكيد إلى بريدك الوارد.",
+    "MSG_ERROR_TRY_AGAIN_LATER": "حدث خطأ ما، يرجى إعادة المحاولة فى وقتٍ لاحق.",
+    "MSG_ERROR_SENDING_MAIL": "لقد فشلنا في إرسال رسالة تأكيد إلى بريدك الوارد. يرجى إعادة المحاولة في وقتٍ لاحق.",
+    "WALLET_SECURITY_SCORE": "نقاط أمان المحفظة",
+    "CHECK_YOUR_INBOX": "تحقق من بريدك الوارد",
+
+    "EMAIL_VERIFIED": "تم تأكيد بريدك الإلكتروني",
+    "EMAIL_NOT_VERIFIED": "لم يتم تأكيد بريدك الإلكتروني",
+    "IMPROVE_PASSWORD": "تحسين كلمة المرور الخاصة بك",
+    "2FA_ENABLED": "تم تمكين 2FA",
+    "2FA_NOT_ENABLED": "لم يتم تمكين 2FA بعد"
 }

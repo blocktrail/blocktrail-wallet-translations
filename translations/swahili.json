@@ -26,7 +26,6 @@
     "WORKING": "Inafanya kazi",
     "VERIFYING": "Inathibitisha",
     "SYNCING": "Inalandanisha",
-    "SKIP_STEP": "Ruka hatua hiyo",
     "PLEASE_WAIT": "Tafadhali subiri",
     "PLEASE_WAIT_2": "Subiri kwa muda mfupi",
     "NONE": "Hamna",
@@ -57,13 +56,12 @@
     "CHANGE": "badilisha",
     "VIA": "kupitia",
     "AT": "katika",
+    "SKIP_STEP": "Ruka hatua hiyo",
 
     // datetime
     "TODAY": "Leo",
     "TOMORROW": "Kesho",
     "YESTERDAY": "Jana",
-
-    // launch & setup screens
     "LAUNCH_NEW_ACCOUNT": "Unda pochi lipya",
     "LAUNCH_EXISTING_ACCOUNT": "Tayari una pochi?",
     "SETUP_FORGOT_PASSWORD": "Weka nenosiri upya",
@@ -529,6 +527,8 @@
     "BUYBTC_NAVTITLE": "Nunua Sarafu Mnemba",
     "BUYBTC_GETSTARTED_HEAD": "Usanidi wa Mwanzo",
     "BUYBTC_GETSTARTED_BODY": "Kabla ya uweze kununua Sarafu Mnemba, wacha tusanidi akaunti yako ya ubadilishanaji",
+
+    // ------
     "BUYBTC_GETSTARTED_BUTTON": "Endelea",
     "TX_INFO_BUYBTC_FROM": "Sarafu Mnemba Zimenunuliwa Kutoka",
     "TX_INFO_BUYBTC": "Sarafu Mnemba Zimenunuliwa",
@@ -550,7 +550,6 @@
 
     "BUYBTC_PROVIDERS": "Wabia katika {{ region }}",
     "BUYBTC_NOPROVIDERS_REGION": "Hakua wabia wanaohudumia eneo lako",
-
     "CURRENT_PRICE": "Bei ya sasa",
     "BUYBTC_INCL_FEE": "Inajumuisha ada",
     "BUYBTC_BUY": "Endelea",

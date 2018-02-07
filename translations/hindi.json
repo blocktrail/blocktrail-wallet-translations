@@ -2,6 +2,7 @@
     // general
     "LOGOUT": "लॉगआउट करें",
     "WARNING": "चेतावनी",
+    "SELECT": "चुनें",
     "SEND": "भेजें",
     "RECEIVE": "प्राप्त करें",
     "BACK": "पिछला",
@@ -26,9 +27,9 @@
     "WORKING": "काम कर रहा है",
     "VERIFYING": "सत्यापित कर रहा है",
     "SYNCING": "सिंक कर रहा है",
-    "SKIP_STEP": "इस चरण को छोड़कर आगे बढ़ें",
     "PLEASE_WAIT": "कृपया प्रतीक्षा करें",
     "PLEASE_WAIT_2": "बस एक सेकंड",
+    "PLEASE_WAIT_SECONDS": "कृपया {{ seconds }} सेकंड प्रतीक्षा करें",
     "NONE": "कोई नहीं",
     "TAKEN": "लिया गया",
     "SEARCH": "खोज",
@@ -57,13 +58,116 @@
     "CHANGE": "बदलें",
     "VIA": "के माध्यम से",
     "AT": "समय",
+    "SKIP_STEP": "इस चरण को छोड़कर आगे बढ़ें",
+    "READ_MORE": "अधिक पढ़ें",
+    "IMPORTANT": "महत्वपूर्ण",
+    "YES": "हाँ",
+    "NO": "नहीं",
+    "UPDATE_NOTICE_040300": "अब आप आसानी से बाईं ओर नेविगेशन का उपयोग करके Bitcoin (BTC) और Bitcoin Cash (BCH) के बीच स्विच कर सकते हैं।",
+
+    "UPDATE_NOTICE_BCC_MOBILE": [
+        "अब आप सेटिंग पर जाकर और लॉगआउट बटन का उपयोग करके Bitcoin और BitcoinCash के बीच स्विच कर सकते हैं।",
+        "हम 2 कॉइन के बीच स्विच करने के सरल तरीके पर काम कर रहे हैं लेकिन यह आपको कम से कम ऐप के द्वारा दोनों कॉइन को एक्सेस करने देगा!",
+        "",
+        "यह सुनिश्चित करने के लिए आप हमेशा जान सके कि आप Bitcoin या BitcoinCash वॉलेट का उपयोग कर रहे हैं, ",
+        "हमनें Bitcoin वॉलेट को नीला और BitcoinCash वॉलेट को हरा बनाया है!",
+        "",
+        "सुनिश्चित करें कि आप कभी भी Bitcoin से एक BitcoinCash वॉलेट में या BitcoinCash से Bitcoin वॉलेट में कॉइन न भेजें!"
+    ],
+
+    "UPDATE_NOTICE_BTC_030500": [
+        "BTC.com Bitcoin वॉलेट में आपका स्वागत है!",
+        "",
+        "आप किसी भी समय मेनू के निचले भाग में लिंक पर क्लिक करके Bitcoin और BitcoinCash के बीच स्विच कर सकते हैं।",
+        "",
+        "यह सुनिश्चित करने के लिए आप हमेशा जान सके कि आप Bitcoin या BitcoinCash वॉलेट का उपयोग कर रहे हैं, ",
+        "हमनें Bitcoin वॉलेट को नीला और BitcoinCash वॉलेट को हरा बनाया है!",
+        "",
+        "सुनिश्चित करें कि आप कभी भी Bitcoin से एक BitcoinCash वॉलेट में या BitcoinCash से Bitcoin वॉलेट में कॉइन न भेजें!"
+    ],
+
+    "UPDATE_NOTICE_BCC_030500": [
+        "BTC.com BitcoinCash वॉलेट में आपका स्वागत है!",
+        "",
+        "आप किसी भी समय मेनू के निचले भाग में लिंक पर क्लिक करके Bitcoin और BitcoinCash के बीच स्विच कर सकते हैं।",
+        "",
+        "यह सुनिश्चित करने के लिए आप हमेशा जान सके कि आप Bitcoin या BitcoinCash वॉलेट का उपयोग कर रहे हैं, ",
+        "हमनें Bitcoin वॉलेट को नीला और BitcoinCash वॉलेट को हरा बनाया है!",
+        "",
+        "सुनिश्चित करें कि आप कभी भी Bitcoin से एक BitcoinCash वॉलेट में या BitcoinCash से Bitcoin वॉलेट में कॉइन न भेजें!"
+    ],
+
+    "UPDATE_NOTICE_030407": [
+        "महत्वपूर्ण घोषणा!",
+        "",
+        "BTC.com के वेब वॉलेट में एक ऐसा टूल है जो आपको अपने Bitcoin Cash से कॉइन निकालने देता है। हमारी इस <a target='_blank' href='https://blog.btc.com/your-bitcoin-cash-is-safe-with-btc-com-39b271da5692'>ब्लॉग पोस्ट</a> के बारे में अधिक पढ़ें।"
+    ],
+
+    "BCC_SWEEP_NOTICE_TITLE": "Bitcoin Cash को आयात करना",
+    "BCC_SWEEP_NOTICE_BODY": "हमारे समर्पित रिकवरी टूल का उपयोग करके आप आसानी से अपने अन्य Bitcoin वॉलेट से <a href='https://blog.btc.com/how-to-recover-bitcoin-cash-from-other-wallets-fbc847026ab6' target='_blank'>अपने Bitcoin Cash में आयात</a> कर सकते हैं।",
+
+    "LOST_LOCK": "वॉलेट दूसरी विंडो में खुला हुआ है।",
+    "LOST_LOCK_BODY": [
+        "आपने अपने ब्राउज़र के अन्य टैब/विंडो में वॉलेट खोला है, इस विंडो में कार्य करना जारी रखने के लिए",
+        "''यहाँ उपयोग करें'' क्लिक करें।"
+    ],
+    "LOST_LOCK_OPEN_HERE": "यहाँ उपयोग करें",
 
     // datetime
     "TODAY": "आज",
     "TOMORROW": "आने वाला कल",
     "YESTERDAY": "बीता हुआ कल",
 
+    // forgot password
+    "SETUP_FORGOT_PASS_INFO": "जारी रखने के लिए कृपया अपना ईमेल पता दर्ज करें। ",
+    "SETUP_FORGOT_PASS_STEP2": "अपने बैकअप PDF से एन्क्रिप्ट किया गया सीक्रेट/संकेत शब्द दर्ज करें।",
+    "SETUP_FORGOT_PASS_NEW_PASS": "अपना पासवर्ड दर्ज करें, जो कि आपके पुराने पासवर्ड की जगह ले लेगा।",
+    "ERS": "एन्क्रिप्ट किये गए रिकवरी सीक्रेट/एन्क्रिप्ट किया गया रिकवरी सीक्रेट",
+    "RECOVERY_SECRET": "रिकवरी सीक्रेट",
+    "NEW_PASSWORD_PLACEHOLDER": "नया पासवर्ड",
+    "NEW_PASSWORD_REPEAT_PLACEHOLDER": "नया पासवर्ड दोहराएँ",
+    "WALLET_VERSION": "वॉलेट वर्ज़न",
+
+    "INVALID_RECOVER_TOKEN": "अमान्य रिकवरी टोकन",
+    "MSG_INVALID_RECOVER_TOKEN": "आपका रिकवरी सत्र अब मान्य नहीं है, कृपया एक नए पासवर्ड रीसेट ई-मेल का अनुरोध करें",
+    "INVALID_WALLET_VERSION": "अमान्य वॉलेट वर्ज़न",
+    "MSG_INVALID_WALLET_VERSION": "आपके वॉलेट वर्ज़न में गड़बड़ी है, कृपया support@btc.com पर संपर्क करें",
+    "MSG_CORRUPTED_SECRET": "लगता है कि आपका रिकवरी सीक्रेट अनुपयोगी हो गया है, एक नए रीसेट लिंक का अनुरोध करें या support@btc.com पर संपर्क करें",
+    "MSG_WRONG_ERS_WORD_LENGTH": "कृपया आपके द्वारा दर्ज किए गए एन्क्रिप्ट किये गए रिकवरी सीक्रेट की फिर से जाँच करें, इसमें शामिल शब्दों की संख्या गलत है।",
+    "BAD_TOKEN": "गलत 2FA",
+    "RECOVERY_ERROR": "रिकवरी गड़बड़ी",
+    "MSG_REQUEST_RECOVERY_SECRET_FAILED": [
+        "सर्वर से रिकवरी सीक्रेट पुर्नप्राप्त करने में विफल रहे, ",
+        "पूरी संभावना है कि आपका रिकवरी लिंक समाप्त हो गया है, कृपया एक नए रिकवरी लिंक का अनुरोध करें!",
+        "",
+        "यदि गड़बड़ी बनी रहती है, तो कृपया support@btc.com से संपर्क करें"
+    ],
+    "MSG_CHANGE_PASSWORD_UNKNOWN_ERROR": "अज्ञात कारणों से हम आपका पासवर्ड सेट करने में विफल रहे, कृपया support@btc.com से संपर्क करें",
+    "MSG_RECOVERY_DECRYPT_FAILED": "हम रिकवरी सीक्रेट का उपयोग करके आपके वॉलेट को डिक्रिप्ट करने में विफल रहे। सुनिश्चित करें कि आपने अपना एन्क्रिप्ट किया गया रिकवरी सीक्रेट सही डाला है और यदि अभी भी काम नहीं कर रहा है तो, कृपया support@btc.com से संपर्क करें",
+    "MSG_RECOVERY_V2_UPGRADED": "आपकी बैकअप PDF वर्ज़न 2 वॉलेट के लिए है, जबकि आपने वॉलेट को वर्ज़न 3 पर अपग्रेड किया है, कृपया support@btc.com से संपर्क करें",
+
+    // Mnemonic import
+    "SWEEP_TITLE": "बाहरी वॉलेट आयात करना",
+    "SWEEP_INFO": "किसी बाहरी वॉलेट से अपने BTC.com वॉलेट में अपना {{ network }} आयात करें",
+    "SWEEPING_CONFIRM_MSG": "आप अपने वर्तमान BTC.com वॉलेट में एक बाहरी वॉलेट से <b>{{ amount }} {{ network }}</b> (<b>{{ fee }} {{ network }}</b> का नेटवर्क शुल्क घटाकर) भेजने वाले हैं।",
+    "SWEEP_SUPPORTED": "समर्थित वॉलेट",
+    "SWEEP_WIF": "आसान गोपनीय कुंजी",
+    "SWEEP_BIP44": "BIP44 संगत वॉलेट",
+    "SWEEP_WIF_INPUT": "गोपनीय कुंजी का WIF फ़ॉर्मेट (कई हो सकते हैं)",
+    "SWEEP_WIF_SUBTITLE": "किसी गोपनीय कुंजी का WIF फ़ॉर्मेट",
+    "SWEEP_WIF_PLACEHOLDER": "WIF फ़ॉर्मेट गोपनीय कुंजियों की कॉमा विभक्त सूची",
+    "SWEEP_COMPLETED": "आपका {{ ticker }} आपके वॉलेट में भेज दिया गया है।",
+    "BACKUP_MNEMONIC": "बैकअप वाक्यांश",
+    "IMPORT_ERROR": "आयात गड़बड़ी",
+    "INVALID_MNEMONIC": "इनपुट एक मान्य या समर्थित बैकअप वाक्यांश/संकेत शब्द नहीं है।",
+    "NO_BALANCES_FOUND": "कोई धनात्मक बैलेंस नहीं मिला।",
+    "SOME_TRANSACTIONS_FAILED": "हो सकता है कि कुछ लेन-देन ठीक से बनाए नहीं गए हैं। कृपया टूल को फिर से चलाने के बारे में विचार करें।",
+    "TX_CANT_BE_PUSHED": "लेन-देन को रोका नहीं जा सकता। एक गड़बड़ी हुई है।",
+    "TX_CANT_BE_PUSHED_MULTIPLE": "{{ amount }} के लेन-देन को रोका नहीं जा सकता। एक गड़बड़ी हुई है।",
+    "DISCOVERING_COINS": "धनात्मक बैलेंस खोज रहा है, इसमें कुछ समय लग सकता है...",
+
     // launch & setup screens
+    "SETUP_NETWORK_CHOICE": "वॉलेट प्रकार",
     "LAUNCH_NEW_ACCOUNT": "कोई नया वॉलेट बनाएं",
     "LAUNCH_EXISTING_ACCOUNT": "क्या आपके पास पहले से कोई वॉलेट है?",
     "SETUP_FORGOT_PASSWORD": "अपना पासवर्ड रीसेट करें",
@@ -89,14 +193,21 @@
     "SETUP_WALLET_BACKUP_TEXT": "अपना नया वॉलेट प्रारंभ करने से पहले, कृपया",
     "SETUP_WALLET_BACKUP_TEXT_BOLD": "नीचे दिया गया बैलेट दस्तावेज़ डाउनलोड करें",
     "SETUP_WALLET_BACKUP_TEXT_APPEND": "इस बैकअप को गोपनीय रखना और सुरक्षित ऑफ़लाइन सहेजना जरूरी है. आपातकालीन मामले में, इस बैकअप दस्तावेज़ से आप वॉलेट पर संग्रहित किन्हीं निधियों पर पहुंच बना सकेंगे तथा उसकी पुनर्प्राप्ति कर सकेंगे.",
+    "SETUP_WALLET_BACKUP_WILL_BE_REMOVED": "पासवर्ड खोने के दशा में बैकअप PDF आवश्यक है। यह बहुत जरूरी है कि आप जारी रखने से पहले बैकअप PDF सहेज लें।",
     "BACKUP_EMAIL_PDF": "बैकअप PDF ईमेल करें",
+    "BACKUP_OPEN_PDF": "वॉलेट बैकअप (PDF) खोलें",
+    "BACKUP_OPTION_KEEP_ON_PHONE": "क्या आप अपने फ़ोन पर किसी डायरेक्टरी में अपनी बैकअप PDF रखना चाहते हैं?",
+    "BACKUP_EXPORT_PDF_IOS_INFO": "आप केवल अपनी बैकअप PDF खोल रहे हैं! अपनी बैकअप PDF को iCloud, iBooks, ईमेल में सहेजें और अगले चरण में और भी बहुत कुछ है।",
+    "BACKUP_EXPORT_PDF_ANDROID_INFO": "आप केवल अपनी बैकअप PDF खोल रहे हैं! अगले चरण में अपनी बैकअप PDF को सहेजें।",
     "BACKUP_CREATE_PDF": "वॉलेट बैकअप डाउनलोड करें (PDF)",
+    "BACKUP_CANT_OPEN": "आपके डिवाइस में PDF को खोलने के लिए कोई एप्लिकेशन नहीं है। कृपया एक PDF रीडर इंस्टॉल करें और फिर से प्रयास करें।",
     "BACKUP_DOWNLOAD_ADDITIONAL_PAGE_PDF": "अतिरिक्त बैकअप पृष्ठ डाउनलोड करें (PDF)",
     "BACKUP_CHECKBOX": "मैंने अपना बैकअप सुरक्षित रूप से सहेज लिया",
     "SETUP_PHONE": "फ़ोन का सेटअप करें",
     "SETUP_SYNC_CONTACTS": "संपर्क सिंक करें",
     "SETUP_PROFILE_PIC": "प्रोफ़ाइल चित्र सेट करें",
     "SETUP_COMPLETE": "मेरा वॉलेट पर जाएं",
+    "TERMS_OF_SERVICE": "सेवा की शर्तें",
     "SETUP_TERMS_OF_SERVICE_TEXT": "मैं सेवा की शर्तों <a target='_blank' href='https://btc.com/legal'>से सहमत हूं</a>",
     "SETUP_TERMS_OF_SERVICE_TEXT_MOBILE": "मैं सेवा की शर्तों से सहमत हूं",
     "SETUP_DOWNLOAD_MOBILE_TITLE": "इसके लिए BTC.com वॉलेट {{ platform }}",
@@ -117,6 +228,7 @@
     "MSG_BAD_NETWORK": "नेटवर्क कनेक्शन नहीं है",
     "MSG_BAD_LOGIN": "गलत लॉगिन विवरण",
     "MSG_BAD_LOGIN_UNKNOWN": "लॉगिन करने में अज्ञात कारणों से विफल",
+    "MSG_FAILED_UNKNOWN": "अज्ञात कारणों से विफल हुआ",
     "MSG_INCORRECT_PASSWORD": "गलत पासवर्ड",
     "MSG_INCORRECT_PASSWORD_CAPS_ON": "चेतावनी; पासवर्ड टाइप करते समय आपने कैप्स लॉक चालू कर रखा था",
     "MSG_MISSING_LOGIN": "कृपया अपना लॉगिन विवरण दर्ज करें",
@@ -198,6 +310,12 @@
     "ESITIMATED_FEE": "नेटवर्क शुल्क:",
     "SEND_BITCOIN_TITLE": "bitcoin भेजें",
     "MSG_INVALID_AMOUNT": "अमान्य राशि",
+    "BITCOIN_CASH_ADDRESS_FORMAT_HELP_1": "आप निम्न कार्य कर सकते हैं",
+    "BITCOIN_CASH_ADDRESS_FORMAT_HELP_LINK_OLD": "लीगेसी पता फ़ॉर्मेट उपयोग कर सकते हैं",
+    "BITCOIN_CASH_ADDRESS_FORMAT_HELP_LINK_NEW": "नया BCH पता फ़ॉर्मेट उपयोग कर सकते हैं",
+    "BITCOIN_CASH_NEW_ADDRESS_FORMAT_ALERT_TITLE": "नया Bitcoin Cash पता फ़ॉर्मेट",
+    "BITCOIN_CASH_NEW_ADDRESS_FORMAT_ALERT_BODY": "14 जनवरी 2018 को, Bitcoin Cash नेटवर्क का उपयोग करने वाली सेवाएँ नीचे उपयोग किए गए नए पता फ़ॉर्मेट को अपनाएंगी। यदि आप चाहे, तो आप अभी भी लीगेसी पता फ़ॉर्मेट उपयोग कर सकते हैं।",
+    "ADDRESS_LOOKUP_FORMAT_BITCOIN_CASH": "लीगेसी पता फ़ॉर्मेट",
 
     // messages
     "MSG_GET_CONTACT_ADDR": "संपर्क पता प्राप्त करना…",
@@ -230,7 +348,7 @@
         "यहाँ से डाउनलोड करें: https://btc.com/download"
     ],
     "RECEIVE_BITCOIN_TITLE": "bitcoin प्राप्त करें",
-    "BITCOIN_ADDRESS_RECEIVE_HELP": "आपके लिए नया bitcoin पता बनाया गया है. फ़ंड प्राप्त करने के लिए इस पते का उपयोग करें.",
+    "BITCOIN_ADDRESS_RECEIVE_HELP": "आपके लिए नया {{ network }} पता बनाया गया है. फ़ंड प्राप्त करने के लिए इस पते का उपयोग करें.",
     "WAITING_FOR_PAYMENT": "भुगतान के लिए प्रतीक्षा करें",
     "PAYMENT_RECEIVED": "भुगतान प्राप्त हुआ",
     // Receiving Screens
@@ -261,6 +379,8 @@
     "SETTINGS": "सेटिंग्स",
     "SETTINGS_ACCOUNT": "खाता",
     "SETTINGS_PROFILE": "प्रोफ़ाइल",
+    "SETTINGS_TOOLS": "टूल",
+    "SETTINGS_SECURITY": "सुरक्षा",
     "SETTING_EMAIL": "ईमेल",
     "SETTING_USERNAME": "उपयोगकर्ता का नाम",
     "SETTINGS_TAKE_PHOTO": "फ़ोटो लें",
@@ -315,6 +435,7 @@
     "SETTINGS_2FA_DONE": "दोहरा प्रमाणीकरण का सफलतापूर्वक सेटअप!",
     "SETTINGS_2FA_DISABLE_BODY": "दोहरा प्रमाणीकरण को अक्षम करने के लिए अपने स्मार्टफ़ोन से टोकन दर्ज करें. ",
     "SETTINGS_2FA_DISABLE_2FA": "अक्षम 2FA",
+    "SETTINGS_2FA_DISABLE_DONE": "दो-कारण प्रमाणीकरण सफलतापूर्वक अक्षम किया गया!",
     "SETTINGS_2FA_HELP": "एकाधिक-डिवाइस का उपयोग करके अपने खाते को सुरक्षित करें",
     "SETTINGS_CURRENT_PIN": "वर्तमान पिन",
     "SETTINGS_NEW_PIN": "नया पिन",
@@ -415,6 +536,9 @@
     ],
     "TX_INFO_FEE": "शुल्क",
     "ESTIMATED_FEE": "अनुमानित शुल्क",
+    "HIGH_PRIORITY_FEE": "उच्च प्राथमिकता",
+    "HIGH_PRIORITY_LONG": "उच्च प्राथमिकता शुल्क",
+    "HIGH_PRIORITY_FEE_NOTICE": "त्वरित जानकारी के लिए नेटवर्क शुल्क",
 
     "ADVANCED_SEND_OPTIONS": "उन्नत सेटिंग",
     "LOW_PRIORITY_LABEL": "निम्न वरीयता bitcoin शुल्क",
@@ -435,9 +559,18 @@
     "SETTINGS_DISPLAY": "प्रदर्शित करें",
     "SETTINGS_PRIVACY": "गोपनीयता",
     "SETTINGS_USAGE_DATA": "उपयोग डेटा भेजें",
+    "SETTINGS_PIN_ON_OPEN": "वॉलेट खोलते समय पिन के लिए पूछें",
     "MSG_BACKUP_SAVED_ALREADY": [
         "आपका बैकअप पहले ही सहेज दिया गया है. ",
         "बैकअप डेटा अब इस फ़ोन पर संग्रहीत नहीं है."
+    ],
+    "MSG_BACKUP_SAVED_PERSISTENT_IOS": [
+        "आपका बैकअप पहले से सहेजा जा चुका है।",
+        "बैकअप PDF अभी भी iTunes फ़ाइल साझाकरण के माध्यम से उपलब्ध है।"
+    ],
+    "MSG_BACKUP_SAVED_PERSISTENT_ANDROID": [
+        "आपका बैकअप पहले से सहेजा जा चुका है।",
+        "बैकअप PDF अभी भी आपके फ़ोन के फ़ाइल सिस्टम पर उपलब्ध है।"
     ],
     "ENABLE": "सक्षम करें",
     "DISABLE": "अक्षम करें",
@@ -481,6 +614,7 @@
         "आपने अपनी बैकअप शीट नहीं सहेजी है. अगर आप लॉग आउट करेंगे, तो यह डेटा खो जाएगा और इसे पुनः नहीं बनाया जा सकता.",
         "क्या आप वाकई जारी रखना चाहते हैं?"
     ],
+    "MSG_BACKUP_SAVE_NOW": "आपको अपना वॉलेट बैकअप दस्तावेज़ सहेजना चाहिए। इसे अभी सहेजें?",
     "MSG_PHONE_CODE_SENT": "आपके फ़ोन पर एक कोड भेज दिया गया है. अपने नंबर की पुष्टि करने के लिए कृपया इसे नीचे दर्ज करें.",
     "MSG_ENABLE_CONTACTS": [
         "इससे किसी वॉलेट से आपके डिवाइस के संपर्कों को खोजने के लिए संपर्क सिंक करना सक्षम हो जाएगा. ",
@@ -513,6 +647,8 @@
     "FOOTER_PRODUCT": "उत्पाद",
     "FOOTER_ANTMINER": "Antminer",
     "FOOTER_ANTPOOL": "Antpool",
+    "FOOTER_BTCCOM_POOL": "BTC.com Pool",
+    "FOOTER_BTCCOM_EXPLORER": "BTC.com Explorer",
     "FOOTER_HASHNEST": "Hashnest",
     "FOOTER_MINERLINK": "Minerlink",
     "FOOTER_COMPANY": "कंपनी",
@@ -544,15 +680,24 @@
     // Buy BTC
     "BUYBTC": "ख़रीदें",
     "BUYBTC_NETWORK": "{{ network }} ख़रीदें",
+    "BUYBTC_ERROR": "दुर्भाग्य से, {{ network }} खरीदारी के लिए उपलब्ध नहीं है, कृपया थोड़ी देर बाद फिर से प्रयास करें!",
+    "BUYBTC_HIGH_AMOUNT_ERROR": "दुर्भाग्य से, {{ limit }} (शुल्क सहित) से अधिक खरीदना संभव नहीं है।",
+    "BUYBTC_LOW_AMOUNT_ERROR": "दुर्भाग्य से, {{ limit }} से कम खरीदना संभव नहीं है।",
     "BUYBTC_NAVTITLE": "Bitcoin ख़रीदें",
     "BUYBTC_GETSTARTED_HEAD": "शुरुआती सेटअप",
     "BUYBTC_GETSTARTED_BODY": "इससे पहले कि आप Bitcoin ख़रीद सकें, चलिए आपका एक्सचेंज खाता सेटअप करते हैं",
+
+    // ------
     "BUYBTC_GETSTARTED_BUTTON": "आगे बढ़ें",
     "TX_INFO_BUYBTC_FROM": "इससे ख़रीदे गए Bitcoin",
     "TX_INFO_BUYBTC": "ख़रीदे गए Bitcoin",
     "TX_INFO_BUYBTC_DETAILS": "{{ price }} {{ currency }} प्रति BTC में खरीदे गए {{ qty }} BTC.",
 
     "BUYBTC_BUYING": "{{ network }} ख़रीदे जा रहे हैं...",
+
+    "BUYBTC_CREDIT_CARDS": "क्रेडिट कार्ड से खरीदें",
+    "BUYBTC_BANK_WIRE": "बैंक वायर से खरीदें",
+    "BUYBTC_US_ONLY": "केवल अमेरिका में",
 
     "BUYBTC_CHOOSE_REGION_TITLE": "अपने क्षेत्र का चयन करें",
     "BUYBTC_CHOOSE_REGION_BODY": "उपलब्ध ख़रीदारी विधियों के लिए अपने क्षेत्र का चयन करें",
@@ -569,10 +714,13 @@
     "BUYBTC_PROVIDERS": "भागीदार",
     "BUYBTC_NOPROVIDERS_REGION": "ऐसा कोई भागीदार नहीं हो जो आपके क्षेत्र में सर्विस करता है",
 
+    "ORDER_ID": "ऑर्डर ID",
+    "PRIVACY_POLICY": "गोपनीयता नीति",
     "CURRENT_PRICE": "वर्तमान मूल्य",
     "BUYBTC_INCL_FEE": "शुल्क सहित",
     "BUYBTC_BUY": "आगे बढ़ें",
     "BUYBTC_VIA": "इसका उपयोग करके अपनी ख़रीदारी पूर्ण हो जाएगा {{ broker }}",
+    "BUYBTC_SIMPLEX_TOS": "मैं <a href=\"https://www.simplex.com/terms-of-use/\">उपयोग की शर्तों</a> और <a href=\"https://www.simplex.com/privacy-policy/\">गोपनीयता नीति</a> से सहमत हूँ।",
 
     "MSG_BUYBTC_PIN_TO_ENCRYPT": "कृपया अपना वॉलेट PIN कोड दर्ज करें.",
     "MSG_BUYBTC_PIN_TO_DECRYPT_TITLE": "PIN दर्ज करें",
@@ -602,6 +750,12 @@
 
     "MSG_BUYBTC_GLIDERA_2FA_TITLE": "दो-घटक वाला प्रमाणन",
     "MSG_BUYBTC_GLIDERA_2FA_BODY": "Glidera दो-घटक {{ mode }} वाला प्रमाणन कोड की आवश्यकता है!",
+
+    "MSG_SIMPLEX_REDIRECT": [
+        "आपको खरीदारी पूरी करने के लिए Simplex पर रिडायरेक्ट किया जा रहा है। भविष्य के संदर्भ के लिए इस ऑर्डर id को सहेज कर रखें।",
+        "",
+        "आपका निजी ऑर्डर id: {{ orderId }}"
+    ],
 
     "MSG_BUYBTC_FIAT_USD_ONLY_TITLE": "सावधान!",
     "MSG_BUYBTC_FIAT_USD_ONLY": "आपकी डिफ़ॉल्ट मुद्रा {{ yourCurrency }} पर सेट है, लेकिन जब आप bitcoin ख़रीदते हैं, तब मूल्यों को {{ currency }} में गिना जाता है",
@@ -641,5 +795,43 @@
     ],
     "APPRATE_NO": "नहीं, धन्यवाद",
     "APPRATE_LATER": "मुझे बाद में याद दिलाएँ",
-    "APPRATE_RATE": "अभी मूल्यांकित करें"
+    "APPRATE_RATE": "अभी मूल्यांकित करें",
+
+    "LANDING_POWERFUL": "शक्तिशाली Bitcoin और Bitcoin Cash वॉलेट",
+    "LANDING_SEND_RECEIVE": "BTC.com के वॉलेट के साथ अपने धन को भेजें, प्राप्त करें और संग्रह करें।",
+    "LANDING_STAY_IN_CONTROL": "नियंत्रण बनाए रखें",
+    "LANDING_EMPOWERS": "Bitcoin आपको किसी तृतीय-पक्ष के विश्वास या अनुमति के बिना भुगतान भेजने और प्राप्त करने में सशक्त बनाता है।",
+    "LANDING_NEVER_ACCESS": "Bitcoin के बुनियादी मूल्यों पर टिके रहकर और आपकी संपत्ति के लिए सुरक्षा, गोपनीयता और अधिकार प्रदान करके भी BTC.com के पास कभी भी आपके Bitcoin और Bitcoin Cash पर एक्सेस नहीं होता है।",
+    "LANDING_YOUR_BTC": "आपका Bitcoin। आपका नियंत्रण।",
+    "LANDING_ONE_WALLET": "आपके डिजिटल जीवन के लिए एक वॉलेट",
+    "LANDING_SEND_RECEIVE_EASILY": "आसानी और सुरक्षित ढंग से बिटकॉइन भेजें और प्राप्त करें",
+    "LANDING_FULL_CONTROL": "अपनी बिटकॉइन गोपनीय कुंजियों पर पूरा नियंत्रण बनाए रखें",
+    "LANDING_PAY_QR": "मित्रों को बिना QR कोड या लंबे पतों के पैसे भेजें",
+    "LANDING_CREATE_WALLET": "अपना BTC.com वॉलेट बनाएँ",
+
+    // Register bitcoin: URI related
+    "SET_BROWSER_DEFAULT_WALLET": "Bitcoin के लिंक के लिए वॉलेट उपयोग करें",
+    "BROWSER_SECURITY_ERROR": "इस अनुरोध के लिए आपके ब्राउज़र की सुरक्षा सेटिंग ब्लॉक कर दी गई हैं।",
+    "MAKE_DEFAULT_BROWSER_WALLET": "BTC.com को अपना डिफ़ॉल्ट वॉलेट बनाएँ",
+    "MAKE_DEFAULT_BROWSER_WALLET_DETAILS": "आप अधिकांश ब्राउज़र में Bitcoin भुगतान के लिए अपने BTC.com को अपने डिफ़ॉल्ट वॉलेट बना सकते हैं। क्या आप इस सुविधा को सक्षम करना चाहते हैं?",
+    "MAKE_DEFAULT_BROWSER_WALLET_DETAILS_CHROME": "Google Chrome पर, यदि आप हाँ दबाते हैं और फिर खारिज करते हैं, तो आपको ब्राउज़र पॉपअप फिर से प्रदर्शित होने के लिए प्रतीक्षा करनी होगी।",
+    "DO_THIS_LATER_IN_SETTINGS": "आप इसे बाद में सेटिंग में सेट अप कर सकते हैं।",
+
+    // security related
+    "EMAIL_VERIFY_SUCCESS": "ईमेल सफलतापूर्वक सत्यापित किया गया",
+    "EMAIL_VERIFY_FAILURE": "ईमेल सत्यापन विफल हुआ",
+    "EMAIL_VERIFY_ALREADY": "ईमेल पहले से सत्यापित है",
+    "EMAIL_VERIFY": "अपना नया ईमेल पता सत्यापित करें",
+    "MSG_EMAIL_CHANGE": "जैसे ही आप अपने ईमेल इनबॉक्स में मौजूद सत्यापित करें लिंक पर क्लिक करेंगे, वैसे ही आपका ईमेल पता अपडेट कर दिया जाएगा।",
+    "MSG_EMAIL_VERIFY": "हमने आपके ईमेल इनबॉक्स पर एक सत्यापन ईमेल भेजा है।",
+    "MSG_ERROR_TRY_AGAIN_LATER": "कुछ गलत हुआ है, कृपया बाद में फिर से प्रयास करें।",
+    "MSG_ERROR_SENDING_MAIL": "हम आपके ईमेल इनबॉक्स पर एक सत्यापन ईमेल भेजने में विफल हुए हैं। कृपया बाद में फिर से प्रयास करें।",
+    "WALLET_SECURITY_SCORE": "वॉलेट सुरक्षा स्कोर",
+    "CHECK_YOUR_INBOX": "अपना इनबॉक्स जाँचें",
+
+    "EMAIL_VERIFIED": "आपका ईमेल सत्यापित हो गया है",
+    "EMAIL_NOT_VERIFIED": "आपका ईमेल सत्यापित नहीं हुआ है",
+    "IMPROVE_PASSWORD": "अपना पासवर्ड बेहतर बनाएँ",
+    "2FA_ENABLED": "2FA सक्षम किया गया",
+    "2FA_NOT_ENABLED": "2FA अभी तक सक्षम नहीं किया गया है"
 }

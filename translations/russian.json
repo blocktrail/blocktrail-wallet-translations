@@ -3,6 +3,7 @@
     // general
     "LOGOUT": "выйти!",
     "WARNING": "Внимание",
+    "SELECT": "Выбор",
     "SEND": "отправить",
     "RECEIVE": "получить",
     "BACK": "назад",
@@ -29,9 +30,9 @@
     "WORKING": "в работе",
     "VERIFYING": "верификация",
     "SYNCING": "синхронизация",
-    "SKIP_STEP": "пропустить шаг",
     "PLEASE_WAIT": "пожалуйста, подождите",
     "PLEASE_WAIT_2": "секундочку",
+    "PLEASE_WAIT_SECONDS": "Пожалуйста, подождите {{ seconds }} сек.",
     "NONE": "ничего",
     "TAKEN": "взято",
     "SEARCH": "поиск",
@@ -61,6 +62,11 @@
     "CHANGE": "изменить",
     "VIA": "через",
     "AT": "в",
+    "SKIP_STEP": "пропустить шаг",
+    "READ_MORE": "Подробнее",
+    "IMPORTANT": "Важно",
+    "YES": "Да",
+    "NO": "Нет",
 
     // update notices
     "UPDATE_AVAILABLE_NOTICE": "Для скачивания доступно новое обновление приложения.",
@@ -73,6 +79,8 @@
 
     // per version update messages
     "GLIDERA_UPDATE": "Теперь вы можете легко покупать биткоины изо всех штатов США (кроме Нью-Йорка) из вашего кошелька через нашего партнера Glidera!",
+    "UPDATE_NOTICE_040300": "Вы можете с легкостью переключаться между валютами Bitcoin (BTC) и Bitcoin Cash (BCH) при помощи навигации слева.",
+
     "UPDATE_NOTICE_030304": [
         "Новые транзакции с ускоренным приоритетом!",
         " ",
@@ -81,6 +89,47 @@
         " Сейчас вы можете отправлять до 3-х транзакций с ускоренным приоритетом каждый месяц, и скоро будут доступны способы увеличить это количество!"
     ],
 
+    "UPDATE_NOTICE_BCC_MOBILE": [
+        "Вы в любое время можете переключиться между валютами Bitcoin и Bitcoin Cash, зайдя в настройки и нажав на кнопку «Выход».",
+        "Мы работаем над более удобным способом переключения между двумя валютами, но этот способ по крайнем мере позволит вам получить доступ к обеим валютам в одном приложении!",
+        "",
+        "Чтобы вы всегда знали, используете ли вы кошелек Bitcoin или BitcoinCash, ",
+        "мы сделали кошелек Bitcoin СИНИМ, а кошелек Bitcoin Cash ЗЕЛЕНЫМ!",
+        "",
+        "Пожалуйста, никогда не отправляйте Bitcoin на кошелек Bitcoin Cash, а Bitcoin Cash – на кошелек Bitcoin!"
+    ],
+
+    "UPDATE_NOTICE_BTC_030500": [
+        "Добро пожаловать в биткоин-кошелек BTC.com!",
+        "",
+        "Вы всегда можете переключиться между Bitcoin и Bitcoin Cash, нажав на ссылку в нижней части меню.",
+        "",
+        "Чтобы вы всегда знали, используете ли вы кошелек Bitcoin или BitcoinCash, ",
+        "мы сделали кошелек Bitcoin СИНИМ, а кошелек Bitcoin Cash ЗЕЛЕНЫМ!",
+        "",
+        "Пожалуйста, никогда не отправляйте Bitcoin на кошелек Bitcoin Cash, а Bitcoin Cash – на кошелек Bitcoin!"
+    ],
+
+    "UPDATE_NOTICE_BCC_030500": [
+        "Добро пожаловать в биткоин-кошелек BTC.com!",
+        "",
+        "Вы всегда можете переключиться между Bitcoin и Bitcoin Cash, нажав на ссылку в нижней части меню.",
+        "",
+        "Чтобы вы всегда знали, используете ли вы кошелек Bitcoin или BitcoinCash, ",
+        "мы сделали кошелек Bitcoin СИНИМ, а кошелек Bitcoin Cash ЗЕЛЕНЫМ!",
+        "",
+        "Пожалуйста, никогда не отправляйте Bitcoin на кошелек Bitcoin Cash, а Bitcoin Cash – на кошелек Bitcoin!"
+    ],
+
+    "UPDATE_NOTICE_030407": [
+        "Важное объявление!",
+        "",
+        "Веб-кошелек BTC.com теперь позволяет выводить Bitcoin Cash. Подробности вы можете прочитать в нашем <a target='_blank' href='https://blog.btc.com/your-bitcoin-cash-is-safe-with-btc-com-39b271da5692'>посте в блоге</a>."
+    ],
+
+    "BCC_SWEEP_NOTICE_TITLE": "Импортируйте Bitcoin Cash",
+    "BCC_SWEEP_NOTICE_BODY": "Вы можете с легкостью <a href='https://blog.btc.com/how-to-recover-bitcoin-cash-from-other-wallets-fbc847026ab6' target='_blank'>импортировать Bitcoin Cash</a> из других своих биткоин-кошельков при помощи нашего инструмента восстановления.",
+
     // invalid session
     "INVALID_SESSION": "Ваша сессия более не действительна",
     "INVALID_SESSION_LOGOUT_NOW": [
@@ -88,12 +137,68 @@
         " Вы принудительно вышли из системы. Пожалуйста, войдите снова."
     ],
 
+    "LOST_LOCK": "Кошелек открыт в другом окне.",
+    "LOST_LOCK_BODY": [
+        "Вы открыли кошелек в другой вкладке/окне своего браузера.",
+        "Нажмите «Использовать здесь», чтобы продолжить работу в этом окне."
+    ],
+    "LOST_LOCK_OPEN_HERE": "Использовать здесь",
+
     // datetime
     "TODAY": "Сегодня",
     "TOMORROW": "Завтра",
     "YESTERDAY": "Вчера",
 
+    // forgot password
+    "SETUP_FORGOT_PASS_INFO": "Пожалуйста, введите свой адрес эл. почты, чтобы продолжить.",
+    "SETUP_FORGOT_PASS_STEP2": "Пожалуйста, введите зашифрованую секретную фразу из своего резервного PDF-файла.",
+    "SETUP_FORGOT_PASS_NEW_PASS": "Введите свой новый пароль, который заменит ваш старый пароль.",
+    "ERS": "Зашифрованная фраза восстановления",
+    "RECOVERY_SECRET": "Фраза восстановления",
+    "NEW_PASSWORD_PLACEHOLDER": "Новый пароль",
+    "NEW_PASSWORD_REPEAT_PLACEHOLDER": "Новый пароль (еще раз)",
+    "WALLET_VERSION": "Версия кошелька",
+
+    "INVALID_RECOVER_TOKEN": "Неверный токен восстановления",
+    "MSG_INVALID_RECOVER_TOKEN": "Ваша сессия восстановления более не доступна. Пожалуйста, запросите новое письмо для восстановления пароля",
+    "INVALID_WALLET_VERSION": "Неверная версия кошелька",
+    "MSG_INVALID_WALLET_VERSION": "У вас неверная версия кошелька. Пожалуйста, напишите по адресу support@btc.com",
+    "MSG_CORRUPTED_SECRET": "Похоже, что в вашей фразе восстановления содержится ошибка. Запросите новую ссылку или напишите по адресу support@btc.com",
+    "MSG_WRONG_ERS_WORD_LENGTH": "Пожалуйста, проверьте введенную фразу восстановления – в ней неверное количество слов.",
+    "BAD_TOKEN": "Неверная двухфакторная авторизация",
+    "RECOVERY_ERROR": "Ошибка восстановления",
+    "MSG_REQUEST_RECOVERY_SECRET_FAILED": [
+        "Не удалось получить фразу восстановления с сервера.",
+        "Вероятно, срок действия ссылки истек. Пожалуйста, запросите новую ссылку!",
+        "",
+        "Если ошибка не исчезнет, то напишите по адресу support@btc.com"
+    ],
+    "MSG_CHANGE_PASSWORD_UNKNOWN_ERROR": "По неизвестным причинам нам не удалось установить ваш пароль. Пожалуйста, напишите по адресу support@btc.com",
+    "MSG_RECOVERY_DECRYPT_FAILED": "Нам не удалось расшифровать ваш кошелек при помощи вашей фразы. Убедитесь, что вы ввели фразу верно, и если она снова не сработает, напишите по адресу support@btc.com",
+    "MSG_RECOVERY_V2_UPGRADED": "Ваш резервный PDF-файл подходит для версии 2, но ваш кошелек был обновлен до версии 3. Пожалуйста, напишите по адресу support@btc.com",
+
+    // Mnemonic import
+    "SWEEP_TITLE": "Импорт внешнего кошелька",
+    "SWEEP_INFO": "Импортируйте свои {{ network }} из внешнего кошелька на свой кошелек BTC.com",
+    "SWEEPING_CONFIRM_MSG": "Вы хотите отправить <b>{{ amount }} {{ network }}</b> (минус комиссия сети в размере <b>{{ fee }} {{ network }}</b>) со своего внешнего кошелька на свой текущий кошелек на BTC.com.",
+    "SWEEP_SUPPORTED": "Поддерживаемые кошельки",
+    "SWEEP_WIF": "Простой закрытый ключ",
+    "SWEEP_BIP44": "BIP44-совместимый кошелек",
+    "SWEEP_WIF_INPUT": "Закрытый ключ в формате WIF (может быть множественным)",
+    "SWEEP_WIF_SUBTITLE": "Закрытый ключ в формате WIF",
+    "SWEEP_WIF_PLACEHOLDER": "Список закрытых ключей через запятую в формате WIF",
+    "SWEEP_COMPLETED": "Ваши {{ ticker }} были отправлены на ваш кошелек.",
+    "BACKUP_MNEMONIC": "Резервная фраза",
+    "IMPORT_ERROR": "Ошибка импорта",
+    "INVALID_MNEMONIC": "Вы ввели неверную или неподдерживаемую резервную фразу.",
+    "NO_BALANCES_FOUND": "Положительный баланс не найден.",
+    "SOME_TRANSACTIONS_FAILED": "Некоторые транзакции не были созданы. Пожалуйста, запустите инструмент снова.",
+    "TX_CANT_BE_PUSHED": "Не удалось отправить транзакции. Произошла ошибка.",
+    "TX_CANT_BE_PUSHED_MULTIPLE": "{{ amount }} транзакции(-ий) не удалось отправить. Произошла ошибка.",
+    "DISCOVERING_COINS": "Поиск положительных балансов. Это может занять пару минут...",
+
     // launch & setup screens
+    "SETUP_NETWORK_CHOICE": "Тип кошелька",
     "LAUNCH_NEW_ACCOUNT": "создать новый аккаунт",
     "LAUNCH_EXISTING_ACCOUNT": "уже есть аккаунт?",
     "SETUP_FORGOT_PASSWORD": "Сбросить пароль",
@@ -119,14 +224,21 @@
     "SETUP_WALLET_BACKUP_TEXT": "перед началом использования нового кошелька, пожалуйста,",
     "SETUP_WALLET_BACKUP_TEXT_BOLD": "скачайте резервную копию ниже",
     "SETUP_WALLET_BACKUP_TEXT_APPEND": "Важно, чтобы эта копия была в безопасном месте офлайн. В экстренном случае этот документ позволит вам получить доступ и восстановить все деньги на кошельке.",
+    "SETUP_WALLET_BACKUP_WILL_BE_REMOVED": "Резервный PDF-файл необходим в случае потери пароля. Очень важно сохранить PDF-файл перед тем, как продолжить.",
     "BACKUP_EMAIL_PDF": "выслать PDF-документ на почту",
+    "BACKUP_OPEN_PDF": "Открыть резервный файл (PDF)",
+    "BACKUP_OPTION_KEEP_ON_PHONE": "Вы хотите оставить резервный PDF-файл в директории на своем телефоне?",
+    "BACKUP_EXPORT_PDF_IOS_INFO": "Вы только открываете свой резервный PDF-файл! На следующем этапе вы сможете сохранить свой PDF-файл в iCloud, iBooks или отправить на эл. почту.",
+    "BACKUP_EXPORT_PDF_ANDROID_INFO": "Вы только открываете свой резервный PDF-файл! На следующем этапе вы сможете сохранить свой PDF-файл.",
     "BACKUP_CREATE_PDF": "Скачать дополнительную резервную копию кошелька (PDF)",
+    "BACKUP_CANT_OPEN": "На вашем устройстве нет приложений для открытия PDF-файлов. Пожалуйста, установите PDF-ридер и повторите попытку.",
     "BACKUP_DOWNLOAD_ADDITIONAL_PAGE_PDF": "Загрузить дополнительную страницу резервного копирования (PDF)",
     "BACKUP_CHECKBOX": "Резервная копия в безопасном месте",
     "SETUP_PHONE": "настроить телефон",
     "SETUP_SYNC_CONTACTS": "синхронизировать контакты",
     "SETUP_PROFILE_PIC": "установить фото профиля",
     "SETUP_COMPLETE": "перейти к кошельку",
+    "TERMS_OF_SERVICE": "Условия использования",
     "SETUP_TERMS_OF_SERVICE_TEXT": "Я принимаю <a target='_blank' href='https://btc.com/legal'>условия использования</a>",
     "SETUP_TERMS_OF_SERVICE_TEXT_MOBILE": "Я принимаю условия использования",
     "SETUP_DOWNLOAD_MOBILE_TITLE": "Кошелек BTC.com для {{ platform }}",
@@ -147,6 +259,7 @@
     "MSG_BAD_NETWORK": "нет подключения к интернету",
     "MSG_BAD_LOGIN": "неверные данные для входа",
     "MSG_BAD_LOGIN_UNKNOWN": "Вход не удался по неизвестной причине",
+    "MSG_FAILED_UNKNOWN": "Ошибка по неизвестным причинам",
     "MSG_INCORRECT_PASSWORD": "неверный пароль",
     "MSG_INCORRECT_PASSWORD_CAPS_ON": "внимание: во время ввода пароля был включен caps-lock!",
     "MSG_MISSING_LOGIN": "пожалуйста, введите данные для входа",
@@ -231,9 +344,15 @@
     "ADDRESS_REUSE_NOTICE_1": "Любой {{ network }}-адрес, который вы создадите здесь, останется действительным.",
     "ADDRESS_REUSE_NOTICE_2": "Вы можете создать их столько, сколько пожелаете.",
     "MY_ADDRESSES": "Мои адреса",
+    "BITCOIN_CASH_ADDRESS_FORMAT_HELP_1": "Вы также можете",
+    "BITCOIN_CASH_ADDRESS_FORMAT_HELP_LINK_OLD": "использовать устаревший формат",
+    "BITCOIN_CASH_ADDRESS_FORMAT_HELP_LINK_NEW": "использовать новый формат адресов BCH",
+    "BITCOIN_CASH_NEW_ADDRESS_FORMAT_ALERT_TITLE": "Новый формат адресов Bitcoin Cash",
+    "BITCOIN_CASH_NEW_ADDRESS_FORMAT_ALERT_BODY": "14 января 2018 года сервисы, использующие сеть Bitcoin Cash, начнут использовать новый формат, указанный ниже. Вы все еще можете, если захотите, создавать адреса в устаревшем формате.",
 
     // address lookup and labels
     "ADDRESS_LOOKUP": "Просмотр адреса",
+    "ADDRESS_LOOKUP_FORMAT_BITCOIN_CASH": "Адрес в устаревшем формате",
     "EDIT_LABEL": "Изменить описание",
     "ENTER_NEW_LABEL": "Введите новое описание для выбранного адреса.",
     "DELETE_LABEL": "Удалить описание",
@@ -287,7 +406,7 @@
         " Скачай его здесь: https://wallet.btc.com/"
     ],
     "RECEIVE_BITCOIN_TITLE": "получить биткоины",
-    "BITCOIN_ADDRESS_RECEIVE_HELP": "Для вас был создан новый биткоин-адрес. Используйте его для получения средств.",
+    "BITCOIN_ADDRESS_RECEIVE_HELP": "Для вас был создан новый {{ network }}-адрес. Используйте его для получения средств.",
     "WAITING_FOR_PAYMENT": "ожидание платежа",
     "PAYMENT_RECEIVED": "платеж получен",
     // Receiving Screens
@@ -319,6 +438,8 @@
     "SETTINGS": "настройки",
     "SETTINGS_ACCOUNT": "аккаунт",
     "SETTINGS_PROFILE": "профиль",
+    "SETTINGS_TOOLS": "Инструменты",
+    "SETTINGS_SECURITY": "Безопасность",
     "SETTING_EMAIL": "эл. почта",
     "SETTING_USERNAME": "имя пользователя",
     "SETTINGS_TAKE_PHOTO": "сделать фото",
@@ -376,6 +497,7 @@
     "SETTINGS_2FA_DONE": "двухфакторная аутентификация успешно настроена!",
     "SETTINGS_2FA_DISABLE_BODY": "введите токен из своего приложения на смартфоне, чтобы отключить двухфакторную аутентификацию.",
     "SETTINGS_2FA_DISABLE_2FA": "отключить 2FA",
+    "SETTINGS_2FA_DISABLE_DONE": "Двухфакторная авторизация успешно отключена!",
     "SETTINGS_2FA_HELP": "Защитите аккаунт при помощи аутентификации с нескольких устройств",
     "SETTINGS_CURRENT_PIN": "Текущий ПИН",
     "SETTINGS_NEW_PIN": "Новый ПИН",
@@ -477,11 +599,14 @@
     "ESTIMATED_FEE": "примерный сбор",
     "OPTIMAL_FEE": "Оптимальный",
     "OPTIMAL_FEE_LONG": "Оптимальный сбор",
+    "HIGH_PRIORITY_FEE": "Высокий приоритет",
+    "HIGH_PRIORITY_LONG": "Комиссия за высокий приоритет",
     "LOW_PRIORITY_FEE": "С низким приоритетом",
     "LOW_PRIORITY_FEE_LONG": "Сбор с низким приоритетом",
 
     "LOW_PRIORITY_NOTICE": "Транзакцию могут не подтверждать в течение нескольких часов",
     "OPTIMAL_PRIORITY_NOTICE": "Рекомендуемый сбор для быстрого подтверждения",
+    "HIGH_PRIORITY_FEE_NOTICE": "Комиссия сети за самое быстрое подтверждение",
 
     "ADVANCED_SEND_OPTIONS": "Дополнительные настройки",
     "LOW_PRIORITY_LABEL": "Низкий приоритет из-за комиссии",
@@ -513,9 +638,18 @@
     "SETTINGS_DISPLAY": "показать",
     "SETTINGS_PRIVACY": "конфиденциальность",
     "SETTINGS_USAGE_DATA": "отправлять информацию об использовании",
+    "SETTINGS_PIN_ON_OPEN": "Спрашивать ПИН-код при открытии кошелька",
     "MSG_BACKUP_SAVED_ALREADY": [
         "резервная копия уже сохранена.",
         "Данные резервной копии больше не хранятся на вашем телефоне."
+    ],
+    "MSG_BACKUP_SAVED_PERSISTENT_IOS": [
+        "Ваша резервная копия уже сохранена.",
+        "Резервный PDF-файл доступен через iTunes File Sharing."
+    ],
+    "MSG_BACKUP_SAVED_PERSISTENT_ANDROID": [
+        "Ваша резервная копия уже сохранена.",
+        "Резервный PDF-файл доступен на файловой системе вашего телефона."
     ],
     "ENABLE": "включить",
     "DISABLE": "выключить",
@@ -563,6 +697,7 @@
         "Вы не сохранили резервную копию. Если вы выйдите из системы, то эти данные будут потеряны и не смогут быть восстановлены.",
         "Вы точно хотите продолжить?"
     ],
+    "MSG_BACKUP_SAVE_NOW": "Вам нужно сохранить резервную копию своего кошелька. Сохранить ее?",
     "MSG_PHONE_CODE_SENT": "На ваш телефон отправлен код. Пожалуйста, введите его ниже, чтобы подтвердить свой номер.",
     "MSG_ENABLE_CONTACTS": [
         "Это позволит синхронизировать контакты, чтобы обнаружить тех, кто использует это приложение.",
@@ -596,6 +731,8 @@
     "FOOTER_PRODUCT": "Продукты",
     "FOOTER_ANTMINER": "Antminer",
     "FOOTER_ANTPOOL": "Antpool",
+    "FOOTER_BTCCOM_POOL": "Пул BTC.com",
+    "FOOTER_BTCCOM_EXPLORER": "Инструмент просмотра BTC.com",
     "FOOTER_HASHNEST": "Hashnest",
     "FOOTER_MINERLINK": "Minerlink",
     "FOOTER_COMPANY": "Компания",
@@ -627,7 +764,12 @@
     // Buy BTC
     "BUYBTC": "Купить",
     "BUYBTC_NETWORK": "Купить {{ network }}",
+    "BUYBTC_ERROR": "К сожалению, сейчас купить {{ network }} нельзя. Попробуйте повторить попытку позже!",
+    "BUYBTC_HIGH_AMOUNT_ERROR": "К сожалению, вы не можете купить меньше {{ limit }} (включая комиссию).",
+    "BUYBTC_LOW_AMOUNT_ERROR": "К сожалению, вы не можете купить меньше {{ limit }}.",
     "BUYBTC_NAVTITLE": "Купить биткоины",
+
+    // Glidera specific
     "BUYBTC_PENDING_ORDERS": "Заказы в ожидании",
     "BUYBTC_PENDING_ORDER": "заказ в ожидании",
     "BUYBTC_PENDING_ORDER_FROM": "Заказ в ожидании от {{ order.displayName }}",
@@ -638,12 +780,18 @@
     "EST_DELIVERY": "Примерная доставка:",
     "BUYBTC_GETSTARTED_HEAD": "Начальная настройка",
     "BUYBTC_GETSTARTED_BODY": "Перед покупкой биткоинов необходимо настроить аккаунт",
+
+    // ------
     "BUYBTC_GETSTARTED_BUTTON": "Продолжить",
     "TX_INFO_BUYBTC_FROM": "Биткоины, купленные в",
     "TX_INFO_BUYBTC": "Купленные биткоины",
     "TX_INFO_BUYBTC_DETAILS": "{{ qty }} BTC куплено по {{ price }} {{ currency }} за BTC.",
 
     "BUYBTC_BUYING": "Покупка {{ network }}...",
+
+    "BUYBTC_CREDIT_CARDS": "Купить по кредитной карте",
+    "BUYBTC_BANK_WIRE": "Купить через банковский перевод",
+    "BUYBTC_US_ONLY": "только в США",
 
     "BUYBTC_CHOOSE_REGION_TITLE": "Выберите регион",
     "BUYBTC_CHOOSE_REGION_BODY": "Выберите регион, чтобы посмотреть доступные способы покупки",
@@ -661,11 +809,14 @@
     "BUYBTC_PROVIDERS": "Партнеры",
     "BUYBTC_NOPROVIDERS_REGION": "У нас нет партнеров, обслуживающих этот регион",
 
+    "ORDER_ID": "Номер заказа",
+    "PRIVACY_POLICY": "Политика конфиденциальности",
     "CURRENT_PRICE": "Текущая цена",
     "BUYBTC_INCL_FEE": "Включая комиссию",
     "BUYBTC_BUY": "Продолжить",
     "BUYBTC_VIA": "Вы совершите покупку при помощи {{ broker }}",
     "BUYBTC_BANK_TRANSFER_SLOW": "Обработка биткоинов, купленных через банковский перевод, может занять несколько рабочих дней.",
+    "BUYBTC_SIMPLEX_TOS": "Я принимаю <a href=\"https://www.simplex.com/terms-of-use/\">условия использования</a> и <a href=\"https://www.simplex.com/privacy-policy/\">политику конфиденциальности</a>.",
 
     "MSG_BUYBTC_PIN_TO_ENCRYPT": "Пожалуйста, введите пин-код от своего кошелька.",
     "MSG_BUYBTC_PIN_TO_DECRYPT_TITLE": "Введите пин-код",
@@ -695,10 +846,16 @@
     "MSG_BUYBTC_GLIDERA_2FA_TITLE": "Двухфакторная аутентификации",
     "MSG_BUYBTC_GLIDERA_2FA_BODY": "Необходим код двухфакторной {{ mode }} аутентификации Glidera!",
 
+    "MSG_SIMPLEX_REDIRECT": [
+        "Для завершения покупки вы будете перенаправлены в Simplex. Пожалуйста, сохраните номер заказа.",
+        "",
+        "Ваш личный номер заказа: {{ orderId }}"
+    ],
+
     "MSG_BUYBTC_FIAT_USD_ONLY_TITLE": "Осторожно!",
     "MSG_BUYBTC_FIAT_USD_ONLY": "Ваша валюта по умолчанию – {{ yourCurrency }}, но при покупке биткоинов вы будете платить в {{ currency }}",
 
-    "MSG_BUYBTC_CONFIRM_TITLE": "Купить биткоины",
+    "MSG_BUYBTC_CONFIRM_TITLE": "Купить {{ network }}",
     "MSG_BUYBTC_CONFIRM_BODY": "Вы точно хотите купить {{ qty }} BTC за {{ price }} {{ currencySymbol }}?",
     "MSG_BUYBTC_ZERO_AMOUNT": "Вы хотите купить 0 BTC. Пожалуйста, укажите сумму больше нуля.",
 
@@ -738,5 +895,43 @@
     "APPRATE_BODY_GOOD_BODY": "Пожалуйста, поддержите BTC.com, оставив нам отзыв в магазине приложений",
     "APPRATE_BODY_BAD": "Ой. Не хотите оставить нам отзыв?",
     "APPRATE_FEEDBACK": "Отправить",
-    "APPRATE_SKIP": "Пропустить"
+    "APPRATE_SKIP": "Пропустить",
+
+    "LANDING_POWERFUL": "Мощный кошелек для Bitcoin и Bitcoin Cash",
+    "LANDING_SEND_RECEIVE": "Отправляйте, получайте и храните свои средства в безопасности при помощи кошелька BTC.com.",
+    "LANDING_STAY_IN_CONTROL": "Контролируйте все",
+    "LANDING_EMPOWERS": "Bitcoin позволяет вам отправлять и получать платежи без доверия или разрешения третьих лиц.",
+    "LANDING_NEVER_ACCESS": "У BTC.com нет доступа к вашим Bitcoin и Bitcoin Cash. Мы остаемся верны главным ценностям биткоина и даем вам безопасность, конфиденциальность и силу, чтобы владеть собственным капиталом.",
+    "LANDING_YOUR_BTC": "Ваш биткоин. Под вашим контролем.",
+    "LANDING_ONE_WALLET": "Один кошелек для вашей цифровой жизни.",
+    "LANDING_SEND_RECEIVE_EASILY": "Отправляйте и получайте биткоины просто и безопасно.",
+    "LANDING_FULL_CONTROL": "Сохраняйте полный контроль над закрытыми ключами своих биткоин-кошельков",
+    "LANDING_PAY_QR": "Платите друзьям без QR-кодов или длинных адресов",
+    "LANDING_CREATE_WALLET": "Создайте собственный кошелек BTC.com",
+
+    // Register bitcoin: URI related
+    "SET_BROWSER_DEFAULT_WALLET": "Используйте кошелек для биткоин-ссылок",
+    "BROWSER_SECURITY_ERROR": "Ваш браузер заблокировал этот запрос согласно настройкам безопасности.",
+    "MAKE_DEFAULT_BROWSER_WALLET": "Сделать BTC.com кошельком по умолчанию",
+    "MAKE_DEFAULT_BROWSER_WALLET_DETAILS": "В большинстве браузеров вы можете сделать BTC.com своим кошельком по умолчанию. Вы хотите включить эту функцию?",
+    "MAKE_DEFAULT_BROWSER_WALLET_DETAILS_CHROME": "Если в Google Chrome вы нажмете «Да» и затем выйдете, то вам придется немного подождать, прежде чем всплывающее окно снова появится.",
+    "DO_THIS_LATER_IN_SETTINGS": "Вы также можете установить это позже в настройках.",
+
+    // security related
+    "EMAIL_VERIFY_SUCCESS": "Эл. почта успешно подтверждена",
+    "EMAIL_VERIFY_FAILURE": "Не удалось подтвердить эл. почту",
+    "EMAIL_VERIFY_ALREADY": "Эл. почта уже подтверждена",
+    "EMAIL_VERIFY": "Подтвердите свой новый адрес эл. почты",
+    "MSG_EMAIL_CHANGE": "Ваш адрес эл. почты будет обновлен после того, как вы нажмете на ссылку в письме.",
+    "MSG_EMAIL_VERIFY": "Мы отправили вам на эл. почту письмо с подтверждением.",
+    "MSG_ERROR_TRY_AGAIN_LATER": "Что-то пошло не так. Пожалуйста, повторите попытку.",
+    "MSG_ERROR_SENDING_MAIL": "Нам не удалось отправить письмо с подтверждением на ваш адрес эл. почты. Пожалуйста, повторите попытку позже.",
+    "WALLET_SECURITY_SCORE": "Оценка надежности кошелька",
+    "CHECK_YOUR_INBOX": "Проверьте свою почту",
+
+    "EMAIL_VERIFIED": "Ваша эл. почта подтверждена",
+    "EMAIL_NOT_VERIFIED": "Ваша эл. почта не подтверждена",
+    "IMPROVE_PASSWORD": "Улучшите свой пароль",
+    "2FA_ENABLED": "Двухфакторная авторизация включена",
+    "2FA_NOT_ENABLED": "Двухфакторная авторизация еще не включена"
 }
