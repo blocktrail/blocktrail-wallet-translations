@@ -426,7 +426,7 @@
     "SETTINGS_2FA_STEP2": "चरण 2. खाता सेटअप करे",
     "SETTINGS_2FA_STEP2_BODY": [
         "अपने स्मार्टफ़ोन पर <a href=\"https://support.google.com/accounts/answer/1066447?hl=en\">google authentication</a>",
-        " or <a href=\"https://www.authy.com/users\">Authy</a> डाउनलोड करें और अपने अनुप्रयोग में BTC.com जोड़ने के लिए नीचे दिए गए QR कोड को स्कैन करें."
+        " or <a href=\"https://www.authy.com\">Authy</a> डाउनलोड करें और अपने अनुप्रयोग में BTC.com जोड़ने के लिए नीचे दिए गए QR कोड को स्कैन करें."
     ],
     "SETINGS_2FA_STEP2_CODE": "या मैन्युअल रूप से इस कोड को दर्ज करें: {{ secret }}.",
     "SETTINGS_2FA_STEP3": "चरण 3. सत्यापन",

@@ -490,7 +490,7 @@
     "SETTINGS_2FA_STEP2": "الخطوة 2. تجهيز الحساب",
     "SETTINGS_2FA_STEP2_BODY": [
         "قم بتنزيل <a href=\"https://support.google.com/accounts/answer/1066447?hl=en\">مصادقة جوجل</a>",
-        "أو <a href=\"https://www.authy.com/users\">Authy </a>على الهاتف الذكي الخاص بك وامسح رمز QR أدناه لإضافة BTC.com إلى التطبيقات لديك."
+        "أو <a href=\"https://www.authy.com\">Authy </a>على الهاتف الذكي الخاص بك وامسح رمز QR أدناه لإضافة BTC.com إلى التطبيقات لديك."
     ],
     "SETINGS_2FA_STEP2_CODE": "أو يمكنك إدخال هذا الرمز يدوياً: {{ secret }}.",
     "SETTINGS_2FA_STEP3": "الخطوة 3. التحقق",

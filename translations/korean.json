@@ -455,7 +455,7 @@
     "SETTINGS_2FA_STEP1_BODY": "2단계 인증을 설정하려면 암호를 입력하세요.",
     "SETTINGS_2FA_PASSWORD": "암호",
     "SETTINGS_2FA_STEP2": "2단계. 계정 설정",
-    "SETTINGS_2FA_STEP2_BODY": "스마트폰에서 <a href=\"\"https://support.google.com/accounts/answer/1066447?hl=en\"\">Google Authentication</a> 또는 <a href=\"\"https://www.authy.com/users\"\">Authy</a>를 다운로드한 다음, 아래 QR 코드를 스캔하여 앱에 BTC.com을 추가합니다.",
+    "SETTINGS_2FA_STEP2_BODY": "스마트폰에서 <a href=\"\"https://support.google.com/accounts/answer/1066447?hl=en\"\">Google Authentication</a> 또는 <a href=\"\"https://www.authy.com\"\">Authy</a>를 다운로드한 다음, 아래 QR 코드를 스캔하여 앱에 BTC.com을 추가합니다.",
     "SETINGS_2FA_STEP2_CODE": "또는 직접 이 코드를 입력합니다: {{ secret }}.",
     "SETTINGS_2FA_STEP3": "3단계. 인증",
     "SETTINGS_2FA_STEP3_BODY": "스마트폰 앱의 토큰을 입력해 정상적인 사용자임을 인증합니다.",

@@ -454,7 +454,7 @@
     "SETTINGS_2FA_STEP2": "ステップ2. アカウントの設定",
     "SETTINGS_2FA_STEP2_BODY": [
         "<a href=\"https://support.google.com/accounts/answer/1066447?hl=en\">google認証</a>",
-        "または<a href=\"https://www.authy.com/users\">Authy</a>をスマートフォンにダウンロードして、以下のQRコードをスキャンし、BTC.comをあなたのアプリに追加してください。"
+        "または<a href=\"https://www.authy.com\">Authy</a>をスマートフォンにダウンロードして、以下のQRコードをスキャンし、BTC.comをあなたのアプリに追加してください。"
     ],
     "SETINGS_2FA_STEP2_CODE": "または以下のコードを手作業で入力してください: {{ secret }}。.",
     "SETTINGS_2FA_STEP3": "ステップ3. 検証",

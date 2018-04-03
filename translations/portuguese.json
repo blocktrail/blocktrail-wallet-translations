@@ -454,7 +454,7 @@
     "SETTINGS_2FA_STEP1_BODY": "Digite sua senha para configurar a autenticação de dois fatores",
     "SETTINGS_2FA_PASSWORD": "Senha",
     "SETTINGS_2FA_STEP2": "Etapa 2. Configuração da conta",
-    "SETTINGS_2FA_STEP2_BODY": "Baixe <a href=”https://support.google.com/accounts/answer/1066447?hl=en”>a autenticação do Google</a> ou <a href=”https://www.authy.com/users”>o Authy</a> no seu smartphone e digitalize o QRCode abaixo para adicionar o BTC.com ao seu aplicativo.",
+    "SETTINGS_2FA_STEP2_BODY": "Baixe <a href=”https://support.google.com/accounts/answer/1066447?hl=en”>a autenticação do Google</a> ou <a href=”https://www.authy.com”>o Authy</a> no seu smartphone e digitalize o QRCode abaixo para adicionar o BTC.com ao seu aplicativo.",
     "SETINGS_2FA_STEP2_CODE": "Ou digite manualmente este código: {{ secret }}.",
     "SETTINGS_2FA_STEP3": "Etapa 3. Verificação",
     "SETTINGS_2FA_STEP3_BODY": "Digite um token do seu aplicativo de smartphone para verificar se tudo está funcionando.",

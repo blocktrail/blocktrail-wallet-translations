@@ -468,7 +468,7 @@
     "SETTINGS_2FA_STEP2": "第 2 步：账户设置",
     "SETTINGS_2FA_STEP2_BODY": [
         "在您的智能手机上下载<a href=\"https://support.google.com/accounts/answer/1066447?hl=en\">Google 验证</a>",
-        "或者 <a href=\"https://www.authy.com/users\">Authy</a>，然后扫描下面的二维码将 BTC.com 添加到您的应用中。"
+        "或者 <a href=\"https://www.authy.com\">Authy</a>，然后扫描下面的二维码将 BTC.com 添加到您的应用中。"
     ],
     "SETINGS_2FA_STEP2_CODE": "或者手动输入此代码：{{ secret }}。",
     "SETTINGS_2FA_STEP3": "第 3 步：验证",

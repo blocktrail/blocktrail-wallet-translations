@@ -488,7 +488,7 @@
     "SETTINGS_2FA_STEP2": "шаг 2. настройка аккаунта",
     "SETTINGS_2FA_STEP2_BODY": [
         "скачайте <a href=\"https://support.google.com/accounts/answer/1066447?hl=en\">аутентификатор от Google</a>",
-        " или <a href=\"https://www.authy.com/users\">Authy</a> на смартфон и отсканируйте QR-код ниже, чтобы добавить BTC.com в приложение."
+        " или <a href=\"https://www.authy.com\">Authy</a> на смартфон и отсканируйте QR-код ниже, чтобы добавить BTC.com в приложение."
     ],
     "SETINGS_2FA_STEP2_CODE": "или введите этот код вручную: {{ secret }}.",
     "SETTINGS_2FA_STEP3": "шаг 3. подтверждение",

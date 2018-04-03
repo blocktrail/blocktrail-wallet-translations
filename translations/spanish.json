@@ -476,7 +476,7 @@
     "SETTINGS_2FA_STEP2": "Paso 2. configuración de la cuenta",
     "SETTINGS_2FA_STEP2_BODY": [
         "Descarga <a href=\"https://support.google.com/accounts/answer/1066447?hl=en\">autenticación de google</a>",
-        " o <a href=\"https://www.authy.com/users\">Autentica</a> en tu smartphone y escanea el código QR siguiente para añadir BTC.com a tu aplicación."
+        " o <a href=\"https://www.authy.com\">Autentica</a> en tu smartphone y escanea el código QR siguiente para añadir BTC.com a tu aplicación."
     ],
     "SETINGS_2FA_STEP2_CODE": "O introduce este código de forma manual: {{ secret }}.",
     "SETTINGS_2FA_STEP3": "Paso 3. verificación",

@@ -491,7 +491,7 @@
     "SETTINGS_2FA_STEP2": "Stap 2. account instellen",
     "SETTINGS_2FA_STEP2_BODY": [
         "Download <a href=\"https://support.google.com/accounts/answer/1066447?hl=en\">google authentication</a>",
-        " of <a href=\"https://www.authy.com/users\">Authy</a> op je smartphone en scan de QRCode om BTC Wallet toe te voegen."
+        " of <a href=\"https://www.authy.com\">Authy</a> op je smartphone en scan de QRCode om BTC Wallet toe te voegen."
     ],
     "SETINGS_2FA_STEP2_CODE": "Of voer deze code handmatig in: {{ secret }}.",
     "SETTINGS_2FA_STEP3": "Stap 3. verificatie",

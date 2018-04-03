@@ -298,7 +298,7 @@
     "SETTINGS_2FA_STEP2": "Hatua 2. Usanidi wa akaunti",
     "SETTINGS_2FA_STEP2_BODY": [
         "Pakua <a href=\"https://support.google.com/accounts/answer/1066447?hl=en\">google authentication</a>",
-        " au <a href=\"https://www.authy.com/users\">Authy</a> kwenye simu yako mahiri na uchanganue Msimbo wa QR hapa chini ili uongeze BTC.com kwenye programu yako."
+        " au <a href=\"https://www.authy.com\">Authy</a> kwenye simu yako mahiri na uchanganue Msimbo wa QR hapa chini ili uongeze BTC.com kwenye programu yako."
     ],
     "SETINGS_2FA_STEP2_CODE": "Au ingiza msimbo huu mwenye: {{ secret }}.",
     "SETTINGS_2FA_STEP3": "Hatua 3. Uthibitishaji",
