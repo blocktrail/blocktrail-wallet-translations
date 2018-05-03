@@ -942,5 +942,9 @@
     "EMAIL_NOT_VERIFIED": "Your email is not verified",
     "IMPROVE_PASSWORD": "Improve your password",
     "2FA_ENABLED": "2FA is enabled",
-    "2FA_NOT_ENABLED": "2FA is not enabled yet"
+    "2FA_NOT_ENABLED": "2FA is not enabled yet",
+
+    // bip70
+    "BIP70_PASTE_TEXT": "You can paste a {{ network }} link here to extract payment details",
+    "BIP70_PASTE_TITLE": "Enter {{ network }} payment link"
 }
