@@ -241,12 +241,12 @@
     ],
     "MSG_REQUEST_SMS_1": [
         "Hujambo,",
-        "Tafadhali tuma pesa kwenye pochi langu la Sarafu Mnemba.",
+        "Tafadhali tuma pesa kwenye pochi langu la {{ networkLong }}.",
         "Anwani: {{address}}"
     ],
     "MSG_REQUEST_SMS_2": [
         "Hujambo,",
-        "Tafadhali tuma BTC {{btcValue}} (takriban {{fiatValue}} {{localCurrency}})kwenye pochi langu la Srafu Mnemba.",
+        "Tafadhali tuma {{ network }} {{btcValue}} (takriban {{fiatValue}} {{localCurrency}})kwenye pochi langu la {{ networkLong }}.",
         "Anwani: {{address}}"
     ],
     // Settings page

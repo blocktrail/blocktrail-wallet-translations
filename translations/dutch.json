@@ -429,12 +429,12 @@
     ],
     "MSG_REQUEST_SMS_1": [
         "Hi,",
-        "Zou je aub bitcoin kunnen sturen naar mijn wallet.",
+        "Zou je aub {{ networkLong }} kunnen sturen naar mijn wallet.",
         "Adres: {{address}}"
     ],
     "MSG_REQUEST_SMS_2": [
         "Hi,",
-        "Zou je mij aub {{btcValue}} BTC kunnen sturen (ongeveer {{fiatValue}} {{localCurrency}}).",
+        "Zou je mij aub {{btcValue}} {{ network }} kunnen sturen (ongeveer {{fiatValue}} {{localCurrency}}).",
         "Adres: {{address}}"
     ],
     // Settings page

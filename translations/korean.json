@@ -395,12 +395,12 @@
     ],
     "MSG_REQUEST_SMS_1": [
         "안녕하세요.",
-        "제 비트코인 지갑으로 송금 부탁드립니다.",
+        "제 {{ networkLong }} 지갑으로 송금 부탁드립니다.",
         "주소: {{address}}"
     ],
     "MSG_REQUEST_SMS_2": [
         "안녕하세요.",
-        "제 비트코인 지갑으로 {{btcValue}} BTC(약 {{fiatValue}}{{localCurrency}})를 송금해 주세요.",
+        "제 {{ networkLong }} 지갑으로 {{btcValue}} {{ network }}(약 {{fiatValue}}{{localCurrency}})를 송금해 주세요.",
         "주소: {{address}}"
     ],
     // Settings page

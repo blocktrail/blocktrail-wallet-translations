@@ -389,12 +389,12 @@
     ],
     "MSG_REQUEST_SMS_1": [
         "Hallo,",
-        "bitte nehmen Sie eine Zahlung an mein Bitcoin-Wallet vor.",
+        "bitte nehmen Sie eine Zahlung an mein {{ networkLong }}-Wallet vor.",
         "Adresse: {{address}}"
     ],
     "MSG_REQUEST_SMS_2": [
         "Hallo,",
-        "bitte senden Sie {{btcValue}} BTC (ca. {{fiatValue}} {{localCurrency}}) an mein Bitcoin-Wallet.",
+        "bitte senden Sie {{btcValue}} {{ network }} (ca. {{fiatValue}} {{localCurrency}}) an mein {{ networkLong }}-Wallet.",
         "Adresse: {{address}}"
     ],
     // Settings page

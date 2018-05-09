@@ -400,8 +400,8 @@
     "MSG_REQUEST_EMAIL_BODY_1": "Olá,<br><br>Por favor, envie fundos para a minha carteira Bitcoin (código QR anexado). <p>Endereço: <a href='{{addressURI}}'>{{address}}</a> </p> <p><br>Enviado com a <a href=”https://btc.com”>Carteira do BTC.com</a></p>",
     "MSG_REQUEST_EMAIL_SUBJECT_2": "Por favor, envie {{btcValue}} Bitcoins (aprox. {{fiatValue}} {{localCurrency}})",
     "MSG_REQUEST_EMAIL_BODY_2": "Olá,<br><br>Por favor, envie fundos para a minha carteira Bitcoin (código QR anexado). <p>Endereço: <a href='{{addressURI}}'>{{address}}</a> </p> <br>Quantia: {{btcValue}} BTC (aprox. {{fiatValue}} {{localCurrency}})</p> <p><br>Enviado com a minha <a href=’https://btc.com’>Carteira BTC.com</a></p>",
-    "MSG_REQUEST_SMS_1": "Olá, Por favor, envie fundos para a minha carteira Bitcoin. Endereço: {{address}}",
-    "MSG_REQUEST_SMS_2": "Olá, Por favor, envie {{btcValue}} BTC (aprox. {{fiatValue}} {{localCurrency}}) para a minha carteira Bitcoin. Endereço: {{address}}",
+    "MSG_REQUEST_SMS_1": "Olá, Por favor, envie fundos para a minha carteira {{ networkLong }}. Endereço: {{address}}",
+    "MSG_REQUEST_SMS_2": "Olá, Por favor, envie {{btcValue}} {{ network }} (aprox. {{fiatValue}} {{localCurrency}}) para a minha carteira {{ networkLong }}. Endereço: {{address}}",
     // Settings page
     "SETTINGS": "Configurações",
     "SETTINGS_ACCOUNT": "Conta",

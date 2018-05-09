@@ -367,12 +367,12 @@
         "<p><br>मेरे<a href='https://btc.com'>BTC.com वॉलेट के साथ भेजा गया</a></p>"
     ],
     "MSG_REQUEST_SMS_1": [
-        "नमस्कार, कृपया मेरे Bitcoin वॉलेट में फ़ंड भेजें.",
+        "नमस्कार, कृपया मेरे {{ networkLong }} वॉलेट में फ़ंड भेजें.",
         "पता: {{address}}"
     ],
     "MSG_REQUEST_SMS_2": [
         "नमस्कार,",
-        "कृपया मेरे Bitcoin वॉलेट में {{btcValue}} BTC (approx {{fiatValue}} {{localCurrency}}) भेजें.",
+        "कृपया मेरे {{ networkLong }} वॉलेट में {{btcValue}} {{ network }} (approx {{fiatValue}} {{localCurrency}}) भेजें.",
         "पता: {{address}}"
     ],
     // Settings page

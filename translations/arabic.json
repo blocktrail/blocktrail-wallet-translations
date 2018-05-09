@@ -428,12 +428,12 @@
     ],
     "MSG_REQUEST_SMS_1": [
         "مرحباً،",
-        "أرسل المبلغ إلى محفظة Bitcoin الخاصة بي من فضلك.",
+        "أرسل المبلغ إلى محفظة {{ networkLong }} الخاصة بي من فضلك.",
         "العنوان: {{address}}"
     ],
     "MSG_REQUEST_SMS_2": [
         "مرحباً،",
-        "من فضلك أرسل {{btcValue}} BTC (تقريباً {{fiatValue}} {{localCurrency}}) إلى محفظة Bitcoin الخاصة بي.",
+        "من فضلك أرسل {{ btcValue }} {{ network }} (تقريباً {{fiatValue}} {{localCurrency}}) إلى محفظة {{ networkLong }} الخاصة بي.",
         "العنوان: {{address}}"
     ],
     // Settings page

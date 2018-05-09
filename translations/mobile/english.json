@@ -37,12 +37,12 @@
     ],
     "MSG_REQUEST_SMS_1": [
         "Hi, ",
-        "Please send funds to my Bitcoin wallet. ",
+        "Please send funds to my {{ networkLong }} wallet. ",
         "Address: {{address}}"
     ],
     "MSG_REQUEST_SMS_2": [
         "Hi, ",
-        "Please send {{btcValue}} BTC (approx {{fiatValue}} {{localCurrency}}) to my Bitcoin wallet. ",
+        "Please send {{btcValue}} {{ network }} (approx {{fiatValue}} {{localCurrency}}) to my {{ networkLong }} wallet. ",
         "Address: {{address}}"
     ],
     "SETTINGS_RESET_ACCOUNT": "Logout",
