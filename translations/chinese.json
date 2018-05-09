@@ -299,12 +299,12 @@
     ],
     "MSG_REQUEST_SMS_1": [
         "您好，",
-        "请将资金发送到我的比特币钱包。",
+        "请将资金发送到我的{{ networkLong }}钱包。",
         "地址：{{address}}"
     ],
     "MSG_REQUEST_SMS_2": [
         "您好，",
-        "请将 {{btcValue}} BTC（约 {{fiatValue}} {{localCurrency}}）发送到我的比特币钱包。",
+        "请将 {{btcValue}} {{ network }}（约 {{fiatValue}} {{localCurrency}}）发送到我的{{ networkLong }}钱包。",
         "地址：{{address}}"
     ],
     // Settings page

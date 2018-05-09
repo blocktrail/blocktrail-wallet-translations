@@ -311,12 +311,12 @@
     ],
     "MSG_REQUEST_SMS_1": [
         "Bonjour, ",
-        "Envoyez-moi des fonds dans mon portefeuille Bitcoin. ",
+        "Envoyez-moi des fonds dans mon portefeuille {{ networkLong }}. ",
         "Adresse : {{address}}"
     ],
     "MSG_REQUEST_SMS_2": [
         "Bonjour, ",
-        "Envoyez-moi {{btcValue}} BTC (environ {{fiatValue}} {{localCurrency}}) a mon portefeuille Bitcoin. ",
+        "Envoyez-moi {{btcValue}} {{ network }} (environ {{fiatValue}} {{localCurrency}}) a mon portefeuille {{ networkLong }}. ",
         "Adresse : {{address}}"
     ],
     // Settings page

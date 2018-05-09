@@ -307,12 +307,12 @@
     ],
     "MSG_REQUEST_SMS_1": [
         "Здравствуйте!",
-        "Пожалуйста, отправьте платеж на мой биткоин-кошелек.",
+        "Пожалуйста, отправьте платеж на мой {{ networkLong }}-кошелек.",
         "Адрес: {{address}}"
     ],
     "MSG_REQUEST_SMS_2": [
         "Здравствуйте!",
-        "Пожалуйста, отправьте {{btcValue}} BTC (примерно {{fiatValue}} {{localCurrency}}) на мой биткоин-кошелек.",
+        "Пожалуйста, отправьте {{btcValue}} {{ networkLong }} (примерно {{fiatValue}} {{localCurrency}}) на мой {{ networkLong }}-кошелек.",
         "Адрес: {{address}}"
     ],
     // Settings page

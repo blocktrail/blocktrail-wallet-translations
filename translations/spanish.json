@@ -295,12 +295,12 @@
     "MSG_REQUEST_EMAIL_BODY_2": "Hola,<br><br>Por favor, envíe fondos a mi cartera Bitcoin (se adjunta código QR). <p>Dirección: <a href='{{addressURI}}'>{{address}}</a> </p> <br>Cantidad: {{btcValue}} BTC (aprox. {{fiatValue}} {{localCurrency}})</p> <p><br>Enviado con mi <a href='https://btc.com'>cartera BTC.com</a></p>",
     "MSG_REQUEST_SMS_1": [
         "Hola,",
-        "Por favor, envíen los fondos a mi cartera Bitcoin.",
+        "Por favor, envíen los fondos a mi cartera {{ networkLong }}.",
         "Dirección: {{address}}"
     ],
     "MSG_REQUEST_SMS_2": [
         "Hola,",
-        "Por favor, envíe {{btcValue}} BTC (aprox. {{fiatValue}} {{localCurrency}}) a mi cartera Bitcoin.",
+        "Por favor, envíe {{btcValue}} {{ network }} (aprox. {{fiatValue}} {{localCurrency}}) a mi cartera {{ networkLong }}.",
         "Dirección: {{address}}"
     ],
     // Settings page

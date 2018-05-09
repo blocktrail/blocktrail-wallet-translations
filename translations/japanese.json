@@ -275,11 +275,11 @@
         "<p><br>私の<a href='https://btc.com'>BTC.com Walletで送信しました</a></p>"
     ],
     "MSG_REQUEST_SMS_1": [
-        "私のBitcoinウォレットに資金を送信してください。",
+        "私の{{ networkLong }}ウォレットに資金を送信してください。",
         "アドレス: {{address}}"
     ],
     "MSG_REQUEST_SMS_2": [
-        "私のBitcoinウォレットに{{btcValue}} BTC (およそ{{fiatValue}} {{localCurrency}}) を送信してください。",
+        "私の{{ networkLong }}ウォレットに{{btcValue}} {{ network }} (およそ{{fiatValue}} {{localCurrency}}) を送信してください。",
         "アドレス: {{address}}"
     ],
     // Settings page
