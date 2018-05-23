@@ -925,6 +925,7 @@
     "MAKE_DEFAULT_BROWSER_WALLET_DETAILS": "You can set your BTC.com wallet as the default for Bitcoin payments in most browsers. Do you want to enable this feature?",
     "MAKE_DEFAULT_BROWSER_WALLET_DETAILS_CHROME": "On Google Chrome, if you press Yes and then abort, you have to wait a bit to see the browser popup again.",
     "DO_THIS_LATER_IN_SETTINGS": "You can also set this up later in the Settings.",
+    "NOT_A_BITCOIN_LINK": "This does not seem to be a {{ network }} URI or payment link.",
 
     // security related
     "EMAIL_VERIFY_SUCCESS": "Email successfully verified",
@@ -942,5 +943,9 @@
     "EMAIL_NOT_VERIFIED": "Your email is not verified",
     "IMPROVE_PASSWORD": "Improve your password",
     "2FA_ENABLED": "2FA is enabled",
-    "2FA_NOT_ENABLED": "2FA is not enabled yet"
+    "2FA_NOT_ENABLED": "2FA is not enabled yet",
+
+    // bip70
+    "BIP70_PASTE_TEXT": "You can paste a {{ network }} link here to extract payment details",
+    "BIP70_PASTE_TITLE": "Enter {{ network }} payment link"
 }
