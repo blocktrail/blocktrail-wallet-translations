@@ -67,6 +67,7 @@
     "IMPORTANT": "Важно",
     "YES": "Да",
     "NO": "Нет",
+    "HELP": "помощь",
 
     // update notices
     "UPDATE_AVAILABLE_NOTICE": "Для скачивания доступно новое обновление приложения.",
