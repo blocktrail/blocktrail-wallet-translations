@@ -67,6 +67,7 @@
     "IMPORTANT": "Important",
     "YES": "Yes",
     "NO": "No",
+    "HELP": "Help",
 
     // update notices
     "UPDATE_AVAILABLE_NOTICE": "There's a new update of the app available to download.",

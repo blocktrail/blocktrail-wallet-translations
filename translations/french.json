@@ -67,6 +67,7 @@
     "IMPORTANT": "Important",
     "YES": "Oui",
     "NO": "Non",
+    "HELP": "Aide",
 
     // update notices
     "UPDATE_AVAILABLE_NOTICE": "Une nouvelle mise à jour de l'application est disponible et peut être téléchargée.",
