@@ -267,6 +267,7 @@
     "MSG_MISSING_LOGIN": "Please enter your login details",
     "MSG_MISSING_PASSWORD": "Please enter your password",
     "MSG_MISSING_TWO_FACTOR_TOKEN": "Please enter your two-factor authentication token",
+    "MSG_MISSING_EMAIL_TWO_FACTOR_TOKEN": "Please enter email two-factor authentication token",
     "MSG_INCORRECT_TWO_FACTOR_TOKEN": "Incorrect two-factor authentication token",
     "MSG_INVALID_USERNAME": "Invalid username",
     "MSG_BAD_USERNAME": "Please choose a username with at least 4 alphanumeric characters",
