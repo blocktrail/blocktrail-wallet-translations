@@ -228,7 +228,7 @@
     "FEE_STRATEGY": "Стратегия сборов",
 
     //receive screen
-    "ADDRESS_REUSE_NOTICE_1": "Любой биткоин-адрес, который вы создадите здесь, останется действительным.",
+    "ADDRESS_REUSE_NOTICE_1": "Любой {{ network }}-адрес, который вы создадите здесь, останется действительным.",
     "ADDRESS_REUSE_NOTICE_2": "Вы можете создать их столько, сколько пожелаете.",
     "MY_ADDRESSES": "Мои адреса",
 
@@ -547,7 +547,7 @@
     "AVAILABLE_BALANCE": "Доступный баланс",
     "AMOUNT_PLACEHOLDER": "количество",
     "RECIPIENT_PLACEHOLDER": "отправить",
-    "ENTER_ADDRESS_TITLE": "введите биткоин-адрес",
+    "ENTER_ADDRESS_TITLE": "введите {{ network }}-адрес",
     "CONTACTS_DISABLED": "контакты отключены",
     "MSG_REQUIRE_CONTACTS_ACCESS": "Для использования этой функции нужно включить «Контакты» в меню настроек",
     "COPY_TO_CLIPBOARD": "скопировано в буфер",

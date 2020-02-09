@@ -223,7 +223,7 @@
     "FEE_STRATEGY": "收费策略",
 
     //receive screen
-    "ADDRESS_REUSE_NOTICE_1": "您在此处生成的任何比特币地址都将持续有效。",
+    "ADDRESS_REUSE_NOTICE_1": "您在此处生成的任何比{{ network }}地址都将持续有效。",
     "ADDRESS_REUSE_NOTICE_2": "您可按需生成任意数量的地址。",
     "MY_ADDRESSES": "我的地址",
 
@@ -540,7 +540,7 @@
     "AVAILABLE_BALANCE": "可用余额",
     "AMOUNT_PLACEHOLDER": "金额",
     "RECIPIENT_PLACEHOLDER": "发送到",
-    "ENTER_ADDRESS_TITLE": "输入比特币地址",
+    "ENTER_ADDRESS_TITLE": "输入比 {{ network }} 地址",
     "CONTACTS_DISABLED": "已禁用联系人",
     "MSG_REQUIRE_CONTACTS_ACCESS": "请在“设置”菜单上启用“联系人”以使用此功能",
     "COPY_TO_CLIPBOARD": "复制到剪贴板",

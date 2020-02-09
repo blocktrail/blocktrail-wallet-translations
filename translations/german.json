@@ -217,7 +217,7 @@
     "FEE_STRATEGY": "Gebührenstrategie",
 
     //receive screen
-    "ADDRESS_REUSE_NOTICE_1": "Alle Bitcoin-Adressen, die Sie hier erzeugen, behalten ihre Gültigkeit.",
+    "ADDRESS_REUSE_NOTICE_1": "Alle {{ network }}-Adressen, die Sie hier erzeugen, behalten ihre Gültigkeit.",
     "ADDRESS_REUSE_NOTICE_2": "Sie können beliebig viele erzeugen.",
 
     // messages
@@ -501,7 +501,7 @@
     "AVAILABLE_BALANCE": "Verfügbares Guthaben",
     "AMOUNT_PLACEHOLDER": "Betrag",
     "RECIPIENT_PLACEHOLDER": "Senden an",
-    "ENTER_ADDRESS_TITLE": "Bitcoin-Adresse eingeben",
+    "ENTER_ADDRESS_TITLE": "{{ network }}-Adresse eingeben",
     "CONTACTS_DISABLED": "Kontakte deaktiviert",
     "MSG_REQUIRE_CONTACTS_ACCESS": "Bitte aktivieren Sie „Kontakte“ im Einstellungsmenü, um diese Funktion zu verwenden",
     "SETTINGS_UPDATE_PHOTO": "Foto aktualisieren",

@@ -216,7 +216,7 @@
     "FEE_STRATEGY": "수수료 전략",
 
     //receive screen
-    "ADDRESS_REUSE_NOTICE_1": "여기에서 생성하는 모든 비트코인 주소를 계속 사용할 수 있습니다.",
+    "ADDRESS_REUSE_NOTICE_1": "여기에서 생성하는 모든 {{ network }} 주소를 계속 사용할 수 있습니다.",
     "ADDRESS_REUSE_NOTICE_2": "원하는 만큼 제한 없이 주소를 생성할 수 있습니다.",
 
     // messages
@@ -493,7 +493,7 @@
     "AVAILABLE_BALANCE": "가용 잔액",
     "AMOUNT_PLACEHOLDER": "금액",
     "RECIPIENT_PLACEHOLDER": "받는 사람",
-    "ENTER_ADDRESS_TITLE": "비트코인 주소 입력",
+    "ENTER_ADDRESS_TITLE": "{{ network }} 주소 입력",
     "CONTACTS_DISABLED": "연락처 비활성화됨",
     "MSG_REQUIRE_CONTACTS_ACCESS": "이 기능을 사용하려면 설정 메뉴에서 '연락처' 사용을 선택해 주세요.",
     "SETTINGS_UPDATE_PHOTO": "사진 업데이트",

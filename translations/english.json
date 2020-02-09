@@ -685,7 +685,7 @@
     "AVAILABLE_BALANCE": "Available Balance",
     "AMOUNT_PLACEHOLDER": "Amount",
     "RECIPIENT_PLACEHOLDER": "Send to",
-    "ENTER_ADDRESS_TITLE": "Enter a bitcoin address",
+    "ENTER_ADDRESS_TITLE": "Enter a {{ network }} address",
     "CONTACTS_DISABLED": "Contacts disabled",
     "MSG_REQUIRE_CONTACTS_ACCESS": "Please enable 'Contacts' on the settings menu to use this feature",
     "COPY_TO_CLIPBOARD": "Copy to clipboard",
