@@ -3,6 +3,7 @@
     // general
     "LOGOUT": "Uitloggen",
     "WARNING": "Waarschuwing",
+    "SELECT": "Selecteren",
     "SEND": "Verzenden",
     "RECEIVE": "Ontvangen",
     "BACK": "Terug",
@@ -29,9 +30,9 @@
     "WORKING": "Bezig",
     "VERIFYING": "Verifieren",
     "SYNCING": "Syncen",
-    "SKIP_STEP": "Overslaan",
     "PLEASE_WAIT": "Even wachten",
     "PLEASE_WAIT_2": "Een moment aub",
+    "PLEASE_WAIT_SECONDS": "Wacht {{ seconds }} seconden",
     "NONE": "Geen",
     "TAKEN": "Bezet",
     "SEARCH": "Zoeken",
@@ -61,6 +62,12 @@
     "CHANGE": "verander",
     "VIA": "via",
     "AT": "bij",
+    "SKIP_STEP": "Overslaan",
+    "READ_MORE": "Meer lezen",
+    "IMPORTANT": "Belangrijk",
+    "YES": "Ja",
+    "NO": "Nee",
+    "HELP": "Hulp",
 
     // update notices
     "UPDATE_AVAILABLE_NOTICE": "Er is een nieuwe update voor de app beschikbaar om gedownload te worden.",
@@ -73,6 +80,8 @@
 
     // per version update messages
     "GLIDERA_UPDATE": "Je kunt nu gemakkelijk bitcoin kopen rond de hele VS (behalve New York) vanuit je portemonnee via onze geïntegreerde partnerschap met Glidera!",
+    "UPDATE_NOTICE_040300": "Je kunt nu eenvoudig wisselen tussen Bitcoin (BTC) en Bitcoin Cash (BCH) met de navigatiefunctie aan de linkerkant.",
+
     "UPDATE_NOTICE_030304": [
         "Nieuwe \"Versnelde prioriteit\" transacties!",
         " ",
@@ -81,16 +90,113 @@
         " Voor nu kun je elke maand tot en met 3 versnelde prioriteit-transacties sturen, met binnenkort meer manieren om dit aantal te verhogen!"
     ],
 
+    "UPDATE_NOTICE_BCC_MOBILE": [
+        "Je kunt nu op elk moment wisselen tussen Bitcoin en Bitcoin Cash door naar Instellingen te gaan en op de knop Afmelden te tikken.",
+        "We werken aan een eenvoudigere manier om te wisselen tussen de twee munten, maar op deze manier kun je in elk geval beide munten gebruiken in de app.",
+        "",
+        "Om er zeker van te zijn dat je altijd weet of je de Bitcoin- of Bitcoin Cash-wallet gebruikt, ",
+        "hebben we de Bitcoin-wallet BLAUW en de Bitcoin Cash-wallet GROEN gemaakt.",
+        "",
+        "Let erop dat je nooit Bitcoin naar een Bitcoin Cash-wallet stuurt of vice versa."
+    ],
+
+    "UPDATE_NOTICE_BTC_030500": [
+        "Welkom bij de BTC.com Bitcoin-wallet!",
+        "",
+        "Je kunt op elk moment wisselen tussen Bitcoin en Bitcoin Cash door te klikken op de link onderaan het menu. ",
+        "",
+        "Om er zeker van te zijn dat je altijd weet of je de Bitcoin- of Bitcoin Cash-wallet gebruikt, ",
+        "hebben we de Bitcoin-wallet BLAUW en de Bitcoin Cash-wallet GROEN gemaakt.",
+        "",
+        "Let erop dat je nooit Bitcoin naar een Bitcoin Cash-wallet stuurt of vice versa."
+    ],
+
+    "UPDATE_NOTICE_BCC_030500": [
+        "Welkom bij de BTC.com Bitcoin Cash-wallet!",
+        "",
+        "Je kunt op elk moment wisselen tussen Bitcoin en Bitcoin Cash door te klikken op de link onderaan het menu. ",
+        "",
+        "Om er zeker van te zijn dat je altijd weet of je de Bitcoin- of Bitcoin Cash-wallet gebruikt, ",
+        "hebben we de Bitcoin-wallet BLAUW en de Bitcoin Cash-wallet GROEN gemaakt.",
+        "",
+        "Let erop dat je nooit Bitcoin naar een Bitcoin Cash-wallet stuurt of vice versa."
+    ],
+
+    "UPDATE_NOTICE_030407": [
+        "Belangrijke mededeling!",
+        "",
+        "BTC.com's webwallet is nu uitgerust met een hulpmiddel om je BitCoin Cash op te nemen. Lees hier meer over in ons <a target='_blank' href='https://blog.btc.com/your-bitcoin-cash-is-safe-with-btc-com-39b271da5692'>blogbericht</a>."
+    ],
+
+    "BCC_SWEEP_NOTICE_TITLE": "Je Bitcoin Cash importeren",
+    "BCC_SWEEP_NOTICE_BODY": "Het is eenvoudig om <a href='https://blog.btc.com/how-to-recover-bitcoin-cash-from-other-wallets-fbc847026ab6' target='_blank'>je Bitcoin Cash te importeren</a> vanuit andere Bitcoin-wallets met onze speciale hersteltool.",
+
     // invalid session
     "INVALID_SESSION": "Je sessie is niet langer geldig.",
     "INVALID_SESSION_LOGOUT_NOW": "Onze excuses voor het ongemak, maar om beveiligingsredenen is je sessie niet langer geldig. Je wordt nu uitgelogd, log alsjeblieft hierna opnieuw in.",
+
+    "LOST_LOCK": "De wallet is geopend in een ander venster.",
+    "LOST_LOCK_BODY": [
+        "Je hebt de wallet geopend in een ander tabblad/venster van je browser.",
+        "Klik op 'Hier gebruiken' om in dit venster te blijven werken."
+    ],
+    "LOST_LOCK_OPEN_HERE": "Hier gebruiken",
 
     // datetime
     "TODAY": "Vandaag",
     "TOMORROW": "Morgen",
     "YESTERDAY": "Gisteren",
 
+    // forgot password
+    "SETUP_FORGOT_PASS_INFO": "Voer je e-mailadres in om verder te gaan. ",
+    "SETUP_FORGOT_PASS_STEP2": "Voer de versleutelde herstelcode in, die je vindt in je back-up-pdf.",
+    "SETUP_FORGOT_PASS_NEW_PASS": "Voer je nieuwe wachtwoord in. Dit vervangt je oude wachtwoord.",
+    "ERS": "Versleutelde herstelcode",
+    "RECOVERY_SECRET": "Herstelcode",
+    "NEW_PASSWORD_PLACEHOLDER": "Nieuw wachtwoord",
+    "NEW_PASSWORD_REPEAT_PLACEHOLDER": "Herhaal nieuw wachtwoord",
+    "WALLET_VERSION": "Walletversie",
+
+    "INVALID_RECOVER_TOKEN": "Ongeldige hersteltoken",
+    "MSG_INVALID_RECOVER_TOKEN": "Je herstelsessie is niet langer geldig. Vraag een nieuwe wachtwoordherstelmail aan.",
+    "INVALID_WALLET_VERSION": "Ongeldige walletversie",
+    "MSG_INVALID_WALLET_VERSION": "Je walletversie is beschadigd. Neem contact op via support@btc.com.",
+    "MSG_CORRUPTED_SECRET": "Je herstelcode lijkt corrupt te zijn. Vraag een nieuwe herstellink aan of neem contact op via support@btc.com.",
+    "MSG_WRONG_ERS_WORD_LENGTH": "Controleer de versleutelde herstelcode die je hebt ingevoerd nogmaals. Het aantal woorden is onjuist.",
+    "BAD_TOKEN": "Onjuiste 2FA",
+    "RECOVERY_ERROR": "Herstelfout",
+    "MSG_REQUEST_RECOVERY_SECRET_FAILED": [
+        "Het ophalen van de herstelcode vanaf de server is mislukt.",
+        "Waarschijnlijk is je herstellink verlopen. Vraag een nieuwe herstellink aan.",
+        "",
+        "Als deze fout blijft optreden, neem dan contact op via support@btc.com."
+    ],
+    "MSG_CHANGE_PASSWORD_UNKNOWN_ERROR": "We kunnen je wachtwoord door een onbekende oorzaak niet instellen. Neem contact op via support@btc.com.",
+    "MSG_RECOVERY_DECRYPT_FAILED": "We kunnen je wallet niet ontgrendelen met de herstelcode. Zorg ervoor dat je de versleutelde herstelcode juist hebt ingevoerd. Als deze nog niet werkt, neem dan contact op via support@btc.com.",
+    "MSG_RECOVERY_V2_UPGRADED": "Je back-up-pdf is voor een versie 2 wallet, maar je wallet is geüpgraded naar versie 3. Neem contact op via support@btc.com.",
+
+    // Mnemonic import
+    "SWEEP_TITLE": "Externe wallet importeren",
+    "SWEEP_INFO": "Importeer je {{ network }} vanuit een externe wallet naar je wallet op BTC.com.",
+    "SWEEPING_CONFIRM_MSG": "Je staat op het punt <b>{{ amount }} {{ network }}</b> (min de netwerkkosten van <b>{{ fee }} {{ network }}</b>) te verzenden vanuit je externe wallet naar je huidige wallet op BTC.com.",
+    "SWEEP_SUPPORTED": "Ondersteunde wallets",
+    "SWEEP_WIF": "Simpele privésleutel",
+    "SWEEP_BIP44": "Met BIP44 compatibele wallet",
+    "SWEEP_WIF_INPUT": "WIF-formaat van privésleutel (kunnen er meerdere zijn)",
+    "SWEEP_WIF_SUBTITLE": "WIF-formaat van privésleutel",
+    "SWEEP_WIF_PLACEHOLDER": "Lijst met door komma's gescheiden privésleutels in WIF-formaat",
+    "SWEEP_COMPLETED": "Je {{ ticker }} is verzonden naar je wallet.",
+    "BACKUP_MNEMONIC": "Back-upzin",
+    "IMPORT_ERROR": "Importfout",
+    "INVALID_MNEMONIC": "Invoer is niet geldig of geen ondersteunde back-upzin/geheugensteun.",
+    "NO_BALANCES_FOUND": "Er zijn geen positieve balansen gevonden.",
+    "SOME_TRANSACTIONS_FAILED": "Sommige transacties zijn mogelijk niet goed aangemaakt. Overweeg om de tool nogmaals te gebruiken.",
+    "TX_CANT_BE_PUSHED": "Transactie kan niet worden doorgezet. Er is een fout opgetreden.",
+    "TX_CANT_BE_PUSHED_MULTIPLE": "{{ amount }} van de transacties kunnen niet worden doorgezet. Er is een fout opgetreden.",
+    "DISCOVERING_COINS": "Zoeken naar positieve balansen. Dit kan enkele minuten duren ...",
+
     // launch & setup screens
+    "SETUP_NETWORK_CHOICE": "Type wallet",
     "LAUNCH_NEW_ACCOUNT": "Nieuw account maken",
     "LAUNCH_EXISTING_ACCOUNT": "Heeft u al een account?",
     "SETUP_FORGOT_PASSWORD": "Wachtwoord opnieuw instellen",
@@ -119,14 +225,21 @@
         "Het is belangrijk om je backup veilig, offline te bewaren.",
         "In geval van nood kan je met dit backup document altijd bij je bitcoin die in je wallet zitten."
     ],
+    "SETUP_WALLET_BACKUP_WILL_BE_REMOVED": "De back-up-pdf is nodig in het geval je je wachtwoord kwijt bent. Het is erg belangrijk dat je je back-up-pdf opslaat voordat je verder gaat.",
     "BACKUP_EMAIL_PDF": "Email backup PDF",
+    "BACKUP_OPEN_PDF": "Back-up van wallet openen (pdf)",
+    "BACKUP_OPTION_KEEP_ON_PHONE": "Wil je ook een back-up-pdf opslaan in een map op je telefoon?",
+    "BACKUP_EXPORT_PDF_IOS_INFO": "Je opent alleen je back-up-pdf. Sla je back-up-pdf op in iCloud, iBooks, je mailbox of meer tijdens de volgende stap.",
+    "BACKUP_EXPORT_PDF_ANDROID_INFO": "Je opent alleen je back-up-pdf. Sla je back-up op tijdens de volgende stap.",
     "BACKUP_CREATE_PDF": "Wallet backup opslaan (PDF)",
+    "BACKUP_CANT_OPEN": "Je apparaat bevat geen app om pdf-bestanden te openen. Installeer een pdf-lezer en probeer het opnieuw.",
     "BACKUP_DOWNLOAD_ADDITIONAL_PAGE_PDF": "Download bovenstaande backup pagina (PDF)",
     "BACKUP_CHECKBOX": "Ik heb de backup veilig opgeslagen",
     "SETUP_PHONE": "Telefoon instellen",
     "SETUP_SYNC_CONTACTS": "Contacten synchroniseren",
     "SETUP_PROFILE_PIC": "Profiel foto instellen",
     "SETUP_COMPLETE": "Naar de wallet",
+    "TERMS_OF_SERVICE": "Servicevoorwaarden",
     "SETUP_TERMS_OF_SERVICE_TEXT": "Ik ga akkoord met de <a target='_blank' href='https://btc.com/legal'>gebruikersvoorwaarden</a>",
     "SETUP_TERMS_OF_SERVICE_TEXT_MOBILE": "Ik ga akkoord met de gebruikersvoorwaarden",
     "SETUP_DOWNLOAD_MOBILE_TITLE": "BTC.com Wallet voor {{ platform }}",
@@ -147,6 +260,7 @@
     "MSG_BAD_NETWORK": "Geen netwerk",
     "MSG_BAD_LOGIN": "Incorrecte login info",
     "MSG_BAD_LOGIN_UNKNOWN": "Het inloggen is mislukt",
+    "MSG_FAILED_UNKNOWN": "Fout door onbekende oorzaak",
     "MSG_INCORRECT_PASSWORD": "Incorrect wachwoord",
     "MSG_INCORRECT_PASSWORD_CAPS_ON": "Let op; je had caps-lock aan tijdens het typen!",
     "MSG_MISSING_LOGIN": "Voer aub je login info in",
@@ -234,9 +348,15 @@
     "ADDRESS_REUSE_NOTICE_1": "Alle {{ network }}-adressen die je hier genereert zullen geldig blijven.",
     "ADDRESS_REUSE_NOTICE_2": "Je kunt zoveel genereren als je maar wilt.",
     "MY_ADDRESSES": "Mijn adressen",
+    "BITCOIN_CASH_ADDRESS_FORMAT_HELP_1": "Je kunt ook",
+    "BITCOIN_CASH_ADDRESS_FORMAT_HELP_LINK_OLD": "de verouderde adresindeling gebruiken",
+    "BITCOIN_CASH_ADDRESS_FORMAT_HELP_LINK_NEW": "de nieuwe BCH-adresindeling gebruiken",
+    "BITCOIN_CASH_NEW_ADDRESS_FORMAT_ALERT_TITLE": "de nieuwe Bitcoin Cash-adresindeling gebruiken",
+    "BITCOIN_CASH_NEW_ADDRESS_FORMAT_ALERT_BODY": "Vanaf 14 januari 2018 zullen diensten die gebruikmaken van het Bitcoin Cash-netwerk de nieuwe adresindeling zoals hieronder gaan gebruiken. Je kunt, als je dat wilt, nog steeds adressen volgens de oude indeling genereren.",
 
     // address lookup and labels
     "ADDRESS_LOOKUP": "Adressen opzoeken",
+    "ADDRESS_LOOKUP_FORMAT_BITCOIN_CASH": "Verouderde adresindeling",
     "EDIT_LABEL": "Bewerk Label",
     "ENTER_NEW_LABEL": "Voer een nieuw label in voor het geselecteerde adres.",
     "DELETE_LABEL": "Verwijder Label",
@@ -290,7 +410,7 @@
         "Je kan hem hier downloaden:"
     ],
     "RECEIVE_BITCOIN_TITLE": "Bitcoin ontvangen",
-    "BITCOIN_ADDRESS_RECEIVE_HELP": "Er is een nieuw bitcoin adres voor je gemaakt, gebruik dit adres om bitcoin te ontvangen.",
+    "BITCOIN_ADDRESS_RECEIVE_HELP": "Er is een nieuw {{ network }} adres voor je gemaakt, gebruik dit adres om bitcoin te ontvangen.",
     "WAITING_FOR_PAYMENT": "Wachten op transactie",
     "PAYMENT_RECEIVED": "Transactie ontvangen",
     // Receiving Screens
@@ -310,18 +430,20 @@
     ],
     "MSG_REQUEST_SMS_1": [
         "Hi,",
-        "Zou je aub bitcoin kunnen sturen naar mijn wallet.",
+        "Zou je aub {{ networkLong }} kunnen sturen naar mijn wallet.",
         "Adres: {{address}}"
     ],
     "MSG_REQUEST_SMS_2": [
         "Hi,",
-        "Zou je mij aub {{btcValue}} BTC kunnen sturen (ongeveer {{fiatValue}} {{localCurrency}}).",
+        "Zou je mij aub {{btcValue}} {{ network }} kunnen sturen (ongeveer {{fiatValue}} {{localCurrency}}).",
         "Adres: {{address}}"
     ],
     // Settings page
     "SETTINGS": "Instellingen",
     "SETTINGS_ACCOUNT": "Account",
     "SETTINGS_PROFILE": "Profiel",
+    "SETTINGS_TOOLS": "Hulpmiddelen",
+    "SETTINGS_SECURITY": "Beveiliging",
     "SETTING_EMAIL": "Email",
     "SETTING_USERNAME": "Gebruikersnaam",
     "SETTINGS_TAKE_PHOTO": "Neem een foto",
@@ -370,7 +492,7 @@
     "SETTINGS_2FA_STEP2": "Stap 2. account instellen",
     "SETTINGS_2FA_STEP2_BODY": [
         "Download <a href=\"https://support.google.com/accounts/answer/1066447?hl=en\">google authentication</a>",
-        " of <a href=\"https://www.authy.com/users\">Authy</a> op je smartphone en scan de QRCode om BTC Wallet toe te voegen."
+        " of <a href=\"https://www.authy.com\">Authy</a> op je smartphone en scan de QRCode om BTC Wallet toe te voegen."
     ],
     "SETINGS_2FA_STEP2_CODE": "Of voer deze code handmatig in: {{ secret }}.",
     "SETTINGS_2FA_STEP3": "Stap 3. verificatie",
@@ -379,6 +501,7 @@
     "SETTINGS_2FA_DONE": "Two-factor authentication is ingesteld!",
     "SETTINGS_2FA_DISABLE_BODY": "Voer een code vanuit je smartphone app in om het uit te zetten.",
     "SETTINGS_2FA_DISABLE_2FA": "2FA uitzetten",
+    "SETTINGS_2FA_DISABLE_DONE": "Tweestapsauthenticatie is succesvol uitgeschakeld.",
     "SETTINGS_2FA_HELP": "Je account beveiligen met multi-device authenticatie",
     "SETTINGS_CURRENT_PIN": "Huidige PIN",
     "SETTINGS_NEW_PIN": "Nieuwe PIN",
@@ -473,11 +596,14 @@
     "ESTIMATED_FEE": "Geschatte transactie kosten",
     "OPTIMAL_FEE": "Optimaal",
     "OPTIMAL_FEE_LONG": "Optimale kosten",
+    "HIGH_PRIORITY_FEE": "Hoge prioriteit",
+    "HIGH_PRIORITY_LONG": "Tarief voor hoge prioriteit",
     "LOW_PRIORITY_FEE": "Lage prioriteit",
     "LOW_PRIORITY_FEE_LONG": "Lage prioriteitskosten",
 
     "LOW_PRIORITY_NOTICE": "Transactie kan mogelijk niet worden bevestigd voor enkele uren",
     "OPTIMAL_PRIORITY_NOTICE": "Aangerade netwerkkosten voor snelle bevestiging",
+    "HIGH_PRIORITY_FEE_NOTICE": "Netwerkkosten voor de snelste bevestiging",
 
     "ADVANCED_SEND_OPTIONS": "Geavanceerde instellingen",
     "LOW_PRIORITY_LABEL": "Lage prioriteit bitcoin fee",
@@ -509,9 +635,18 @@
     "SETTINGS_DISPLAY": "Weergeven",
     "SETTINGS_PRIVACY": "Privacy",
     "SETTINGS_USAGE_DATA": "Gebruiks informatie delen",
+    "SETTINGS_PIN_ON_OPEN": "Vragen om PIN bij openen van wallet",
     "MSG_BACKUP_SAVED_ALREADY": [
         "Je backup is al opgeslagen.",
         "De backup data is niet langer beschikbaar op je telefoon."
+    ],
+    "MSG_BACKUP_SAVED_PERSISTENT_IOS": [
+        "Je back-up is al opgeslagen.",
+        "De back-up-pdf is nog steeds beschikbaar via iTunes File Sharing."
+    ],
+    "MSG_BACKUP_SAVED_PERSISTENT_ANDROID": [
+        "Je back-up is al opgeslagen.",
+        "De back-up-pdf is nog steeds beschikbaar in het bestandssysteem van je telefoon."
     ],
     "ENABLE": "Aanzetten",
     "DISABLE": "Uitzetten",
@@ -556,6 +691,7 @@
         "Je hebt je wallet backup nog niet opgeslagen. Wanneer je uitlogt word die gewist en is er geen manier meer om hem terug tehalen.",
         "Weet je dit zeker?"
     ],
+    "MSG_BACKUP_SAVE_NOW": "Sla het back-up-document van je wallet op. Nu opslaan?",
     "MSG_PHONE_CODE_SENT": "Er is een verificatie code naar je telefoon gestuurd. Aub deze hieronder invoeren.",
     "MSG_ENABLE_CONTACTS": "Hiermee kan de app je contacten lijst doorzoeken voor andere wallet gebruikers zodat je makkelijk direct naar hun bitcoin kan sturen.",
     "MSG_DISABLE_CONTACTS": "Het uitschakelen van het synchroniseren van contacten verwijderd ook alle data die is opgeslagen en je kan daarna niet meer naar je contacten bitcoin versturen.",
@@ -586,8 +722,9 @@
     "FOOTER_PRODUCT": "Producten",
     "FOOTER_ANTMINER": "Antminer",
     "FOOTER_ANTPOOL": "Antpool",
-    "FOOTER_HASHNEST": "Hashnest",
-    "FOOTER_MINERLINK": "Minerlink",
+    "FOOTER_BTCCOM_POOL": "BTC.com-pool",
+    "FOOTER_BTCCOM_EXPLORER": "BTC.com-verkenner",
+    "FOOTER_WHC_EXPLORER": "WHC-verkenner",
     "FOOTER_COMPANY": "Bedrijf",
     "FOOTER_ABOUT": "Over ons",
     "FOOTER_JOIN_US": "Word lid",
@@ -615,8 +752,14 @@
     "NAVBAR_LOGIN": "Inloggen",
 
     // Buy BTC
-    "BUYBTC": "Bitcoin kopen",
+    "BUYBTC": "Kopen",
+    "BUYBTC_NETWORK": "Kopen {{ network }}",
+    "BUYBTC_ERROR": "Helaas is het kopen van {{ network }} momenteel niet mogelijk. Probeer het snel nog eens!",
+    "BUYBTC_HIGH_AMOUNT_ERROR": "Helaas is het kopen van meer dan {{ limit }} (inclusief kosten) niet mogelijk.",
+    "BUYBTC_LOW_AMOUNT_ERROR": "Helaas is het kopen van minder dan {{ limit }} niet mogelijk.",
     "BUYBTC_NAVTITLE": "Bitcoin kopen",
+
+    // Glidera specific
     "BUYBTC_PENDING_ORDERS": "Opdrachten in Afwachting",
     "BUYBTC_PENDING_ORDER": "opdrachten in afwachting",
     "BUYBTC_PENDING_ORDER_FROM": "Opdracht in Afwachting van {{ order.displayName }}",
@@ -627,12 +770,18 @@
     "EST_DELIVERY": "Geschatte levering:",
     "BUYBTC_GETSTARTED_HEAD": "Initiele Setup",
     "BUYBTC_GETSTARTED_BODY": "Voordat je Bitcoin kan kopen moeten we je exchange account op zetten.",
+
+    // ------
     "BUYBTC_GETSTARTED_BUTTON": "Verder",
     "TX_INFO_BUYBTC_FROM": "Bitcoin gekocht van",
     "TX_INFO_BUYBTC": "Bitcoin gekocht",
     "TX_INFO_BUYBTC_DETAILS": "{{ qty }} BTC gekocht voor {{ price }} {{ currency }} per BTC.",
 
-    "BUYBTC_BUYING": "Bitcoin kopen…",
+    "BUYBTC_BUYING": "{{ network }} kopen…",
+
+    "BUYBTC_CREDIT_CARDS": "Kopen met creditcard",
+    "BUYBTC_BANK_WIRE": "Kopen met overschrijving",
+    "BUYBTC_US_ONLY": "alleen in de VS",
 
     "BUYBTC_CHOOSE_REGION_TITLE": "Kies je regio",
     "BUYBTC_CHOOSE_REGION_BODY": "Kies je regio voor beschikbare aankoop methodes",
@@ -650,11 +799,14 @@
     "BUYBTC_PROVIDERS": "Partners in {{ region }}",
     "BUYBTC_NOPROVIDERS_REGION": "Er zijn geen partners die beschikbaar zijn in jou regio",
 
+    "ORDER_ID": "Order-ID",
+    "PRIVACY_POLICY": "Privacybeleid",
     "CURRENT_PRICE": "Huidige prijs",
     "BUYBTC_INCL_FEE": "inclusief fee",
     "BUYBTC_BUY": "Verder",
     "BUYBTC_VIA": "Je aankoop zal verlopen via {{ broker }}",
     "BUYBTC_BANK_TRANSFER_SLOW": "Bitcoin gekocht via bankoverschrijfing kunnen enkele werkdagen benodigen om te vestigen.",
+    "BUYBTC_SIMPLEX_TOS": "Ik accepteer het <a href=\"https://www.simplex.com/terms-of-use/\">terms of use</a> and <a href=\"https://www.simplex.com/privacy-policy/\">privacybeleid</a>.",
 
     "MSG_BUYBTC_PIN_TO_ENCRYPT": "Voor aub je wallet PIN code in.",
     "MSG_BUYBTC_PIN_TO_DECRYPT_TITLE": "PIN code invoeren",
@@ -683,10 +835,16 @@
     "MSG_BUYBTC_GLIDERA_2FA_TITLE": "Twee-staps Authenticatie",
     "MSG_BUYBTC_GLIDERA_2FA_BODY": "Een Glidera Twee-staps {{ mode }} authenticatie code is nodig!",
 
+    "MSG_SIMPLEX_REDIRECT": [
+        "Je wordt doorgestuurd naar Simplex om de aankoop te voltooien. Sla deze order-ID op voor referentie.",
+        "",
+        "Je persoonlijke order-ID: {{ orderId }}"
+    ],
+
     "MSG_BUYBTC_FIAT_USD_ONLY_TITLE": "Voorzichtig!",
     "MSG_BUYBTC_FIAT_USD_ONLY": "Je default valuta staat op {{ yourCurrency }}, maar bij het kopen van bitcoin is de prijs uitgedrukt in {{ currency }}",
 
-    "MSG_BUYBTC_CONFIRM_TITLE": "Bitcoin kopen",
+    "MSG_BUYBTC_CONFIRM_TITLE": "{{ network }} kopen",
     "MSG_BUYBTC_CONFIRM_BODY": "Weet je zeker dat je {{ qty }} BTC wilt kopen voor {{ currencySymbol }}{{ price }}?",
     "MSG_BUYBTC_ZERO_AMOUNT": "Je wilt 0 BTC kopen, selecteer alsjeblieft een hoeveelheid meer dan nul.",
 
@@ -727,5 +885,43 @@
     "APPRATE_BODY_GOOD_BODY": "Overweeg om je steun voor BTC.com te weergeven door ons een beoordeling op de App Store te geven.",
     "APPRATE_BODY_BAD": "Oh-oh. Zou je ons wat feedback willen geven?",
     "APPRATE_FEEDBACK": "Versturen",
-    "APPRATE_SKIP": "Overslaan"
+    "APPRATE_SKIP": "Overslaan",
+
+    "LANDING_POWERFUL": "Krachtige Bitcoin en Bitcoin Cash-wallet",
+    "LANDING_SEND_RECEIVE": "Verzend, ontvang en bewaar je geld veilig in de wallet van BTC.com.",
+    "LANDING_STAY_IN_CONTROL": "Behoud de controle",
+    "LANDING_EMPOWERS": "Met Bitcoin kun je betaling verzenden en ontvangen zonder te moeten vertrouwen op of toestemming te krijgen van een derde partij.",
+    "LANDING_NEVER_ACCESS": "BTC.com heeft nooit toegang tot je Bitcoin en Bitcoin Cash, in navolging van de kernwaarden van Bitcoin, en biedt je de veiligheid, de privacy en het vermogen om te genieten van je eigen rijkdom.",
+    "LANDING_YOUR_BTC": "Jouw Bitcoin. Jouw beheer.",
+    "LANDING_ONE_WALLET": "Eén wallet voor je digitale leven",
+    "LANDING_SEND_RECEIVE_EASILY": "Verzend en ontvang bitcoins, eenvoudig en veilig",
+    "LANDING_FULL_CONTROL": "Behoud de volledige controle over je bitcoinprivésleutels",
+    "LANDING_PAY_QR": "Betaal vrienden zonder QR-codes of lange adressen",
+    "LANDING_CREATE_WALLET": "Maak je eigen wallet aan op BTC.com",
+
+    // Register bitcoin: URI related
+    "SET_BROWSER_DEFAULT_WALLET": "Gebruik je wallet voor Bitcoin-links",
+    "BROWSER_SECURITY_ERROR": "De beveiligingsinstellingen van je browser hebben dit verzoek geblokkeerd.",
+    "MAKE_DEFAULT_BROWSER_WALLET": "Maak van BTC.com je standaardwallet",
+    "MAKE_DEFAULT_BROWSER_WALLET_DETAILS": "Je kunt je wallet op BTC.com instellen als de standaardwallet voor Bitcoin-betalingen in de meest browsers. Wil je deze functie inschakelen?",
+    "MAKE_DEFAULT_BROWSER_WALLET_DETAILS_CHROME": "In Google Chrome moet je, als je op Ja en vervolgens op Afbreken drukt, even wachten totdat de browserpop-up weer wordt weergegeven.",
+    "DO_THIS_LATER_IN_SETTINGS": "Je kunt dit op een later moment ook instellen in je Instellingen.",
+
+    // security related
+    "EMAIL_VERIFY_SUCCESS": "E-mail succesvol geverifieerd",
+    "EMAIL_VERIFY_FAILURE": "E-mailverificatie mislukt",
+    "EMAIL_VERIFY_ALREADY": "E-mail is al geverifieerd",
+    "EMAIL_VERIFY": "Verifieer je nieuwe e-mailadres",
+    "MSG_EMAIL_CHANGE": "Je e-mailadres wordt geüpdatet zodra je op de verificatielink in je postvak IN klikt.",
+    "MSG_EMAIL_VERIFY": "We hebben een verificatiemail naar je postvak IN gestuurd.",
+    "MSG_ERROR_TRY_AGAIN_LATER": "Er is iets misgegaan. Probeer het later opnieuw.",
+    "MSG_ERROR_SENDING_MAIL": "Het is niet gelukt een verificatiemail naar je postvak IN te sturen. Probeer het later opnieuw.",
+    "WALLET_SECURITY_SCORE": "Beveiligingsscore wallet",
+    "CHECK_YOUR_INBOX": "Controleer je postvak IN",
+
+    "EMAIL_VERIFIED": "Je e-mail is geverifieerd",
+    "EMAIL_NOT_VERIFIED": "Je e-mail is niet geverifieerd",
+    "IMPROVE_PASSWORD": "Verbeter je wachtwoord",
+    "2FA_ENABLED": "2FA is ingeschakeld",
+    "2FA_NOT_ENABLED": "2FA is nog niet ingeschakeld"
 }

@@ -26,7 +26,6 @@
     "WORKING": "Inafanya kazi",
     "VERIFYING": "Inathibitisha",
     "SYNCING": "Inalandanisha",
-    "SKIP_STEP": "Ruka hatua hiyo",
     "PLEASE_WAIT": "Tafadhali subiri",
     "PLEASE_WAIT_2": "Subiri kwa muda mfupi",
     "NONE": "Hamna",
@@ -57,13 +56,13 @@
     "CHANGE": "badilisha",
     "VIA": "kupitia",
     "AT": "katika",
+    "SKIP_STEP": "Ruka hatua hiyo",
+    "HELP": "Msaada",
 
     // datetime
     "TODAY": "Leo",
     "TOMORROW": "Kesho",
     "YESTERDAY": "Jana",
-
-    // launch & setup screens
     "LAUNCH_NEW_ACCOUNT": "Unda pochi lipya",
     "LAUNCH_EXISTING_ACCOUNT": "Tayari una pochi?",
     "SETUP_FORGOT_PASSWORD": "Weka nenosiri upya",
@@ -243,12 +242,12 @@
     ],
     "MSG_REQUEST_SMS_1": [
         "Hujambo,",
-        "Tafadhali tuma pesa kwenye pochi langu la Sarafu Mnemba.",
+        "Tafadhali tuma pesa kwenye pochi langu la {{ networkLong }}.",
         "Anwani: {{address}}"
     ],
     "MSG_REQUEST_SMS_2": [
         "Hujambo,",
-        "Tafadhali tuma BTC {{btcValue}} (takriban {{fiatValue}} {{localCurrency}})kwenye pochi langu la Srafu Mnemba.",
+        "Tafadhali tuma {{ network }} {{btcValue}} (takriban {{fiatValue}} {{localCurrency}})kwenye pochi langu la {{ networkLong }}.",
         "Anwani: {{address}}"
     ],
     // Settings page
@@ -300,7 +299,7 @@
     "SETTINGS_2FA_STEP2": "Hatua 2. Usanidi wa akaunti",
     "SETTINGS_2FA_STEP2_BODY": [
         "Pakua <a href=\"https://support.google.com/accounts/answer/1066447?hl=en\">google authentication</a>",
-        " au <a href=\"https://www.authy.com/users\">Authy</a> kwenye simu yako mahiri na uchanganue Msimbo wa QR hapa chini ili uongeze BTC.com kwenye programu yako."
+        " au <a href=\"https://www.authy.com\">Authy</a> kwenye simu yako mahiri na uchanganue Msimbo wa QR hapa chini ili uongeze BTC.com kwenye programu yako."
     ],
     "SETINGS_2FA_STEP2_CODE": "Au ingiza msimbo huu mwenye: {{ secret }}.",
     "SETTINGS_2FA_STEP3": "Hatua 3. Uthibitishaji",
@@ -496,8 +495,7 @@
     "FOOTER_PRODUCT": "Bidhaa",
     "FOOTER_ANTMINER": "Antminer",
     "FOOTER_ANTPOOL": "Antpool",
-    "FOOTER_HASHNEST": "Hashnest",
-    "FOOTER_MINERLINK": "Minerlink",
+    "FOOTER_WHC_EXPLORER": "WHC Explorer",
     "FOOTER_COMPANY": "Kampuni",
     "FOOTER_ABOUT": "Kuhusu",
     "FOOTER_JOIN_US": "Jiunge nasi",
@@ -529,6 +527,8 @@
     "BUYBTC_NAVTITLE": "Nunua Sarafu Mnemba",
     "BUYBTC_GETSTARTED_HEAD": "Usanidi wa Mwanzo",
     "BUYBTC_GETSTARTED_BODY": "Kabla ya uweze kununua Sarafu Mnemba, wacha tusanidi akaunti yako ya ubadilishanaji",
+
+    // ------
     "BUYBTC_GETSTARTED_BUTTON": "Endelea",
     "TX_INFO_BUYBTC_FROM": "Sarafu Mnemba Zimenunuliwa Kutoka",
     "TX_INFO_BUYBTC": "Sarafu Mnemba Zimenunuliwa",
@@ -550,7 +550,6 @@
 
     "BUYBTC_PROVIDERS": "Wabia katika {{ region }}",
     "BUYBTC_NOPROVIDERS_REGION": "Hakua wabia wanaohudumia eneo lako",
-
     "CURRENT_PRICE": "Bei ya sasa",
     "BUYBTC_INCL_FEE": "Inajumuisha ada",
     "BUYBTC_BUY": "Endelea",

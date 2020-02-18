@@ -3,6 +3,7 @@
     // general
     "LOGOUT": "Cerrar sesión",
     "WARNING": "Advertencia",
+    "SELECT": "Seleccionar",
     "SEND": "Enviar",
     "RECEIVE": "Recibir",
     "BACK": "Atrás",
@@ -29,9 +30,9 @@
     "WORKING": "Trabajando",
     "VERIFYING": "Verificando",
     "SYNCING": "Sincronizando",
-    "SKIP_STEP": "Omitir este paso",
     "PLEASE_WAIT": "Por favor espera",
     "PLEASE_WAIT_2": "Un segundo por favor",
+    "PLEASE_WAIT_SECONDS": "Espera {{ seconds}} segundos",
     "NONE": "Ninguno",
     "TAKEN": "Tomado",
     "SEARCH": "Buscar",
@@ -61,6 +62,12 @@
     "CHANGE": "cambio",
     "VIA": "mediante",
     "AT": "a",
+    "SKIP_STEP": "Omitir este paso",
+    "READ_MORE": "Leer mas",
+    "IMPORTANT": "Importante",
+    "YES": "Sí",
+    "NO": "No",
+    "HELP": "Ayuda",
 
     // update notices
     "UPDATE_AVAILABLE_NOTICE": "Hay una nueva actualización de la aplicación disponible para descargar.",
@@ -73,6 +80,8 @@
 
     // per version update messages
     "GLIDERA_UPDATE": "¡Ahora puedes comprar Bitcoin desde todos los estados de los Estados Unidos (excepto Nueva York) desde dentro de tu cartera a través de nuestra integración de asociaciones de Glidera!",
+    "UPDATE_NOTICE_040300": "Ahora puedes cambiar fácilmente entre Bitcoin (BTC) y Bitcoin Cash (BCH) utilizando la navegación de la izquierda.",
+
     "UPDATE_NOTICE_030304": [
         "¡Nuevas transacciones con \"prioridad acelerada\"!",
         " ",
@@ -81,6 +90,47 @@
         " Por ahora, puedes enviar hasta tres transacciones con prioridad acelerada al mes, ¡y pronto habrá más formas de aumentar esta cantidad!"
     ],
 
+    "UPDATE_NOTICE_BCC_MOBILE": [
+        "Ahora puedes cambiar entre Bitcoin y BitcoinCash en cualquier momento, yendo a Ajustes y usando el botón Cerrar sesión.",
+        "Estamos trabajando en una forma más sencilla de cambiar entre las dos monedas, ¡pero esto al menos te permitirá acceder a ambas monedas con la aplicación!",
+        "",
+        "Para asegurarte de poder saber siempre si estás usando la cartera de Bitcoin o BitcoinCash,",
+        "¡hemos hecho la cartera de Bitcoin AZUL y la cartera de BitcoinCash VERDE!",
+        "",
+        "¡Asegúrate de no enviar nunca Bitcoin a una cartera de BitcoinCash o BitcoinCash a una cartera de Bitcoin! "
+    ],
+
+    "UPDATE_NOTICE_BTC_030500": [
+        "¡Bienvenido a la cartera de Bitcoin de BTC.com!",
+        "",
+        "Puedes cambiar entre Bitcoin y BitcoinCash en cualquier momento, haciendo clic en el enlace de la parte inferior del menú.",
+        "",
+        "Para asegurarte de poder saber siempre si estás usando la cartera de Bitcoin o BitcoinCash,",
+        "¡hemos hecho la cartera de Bitcoin AZUL y la cartera de BitcoinCash VERDE!",
+        "",
+        "¡Asegúrate de no enviar nunca Bitcoin a una cartera de BitcoinCash o BitcoinCash a una cartera de Bitcoin! "
+    ],
+
+    "UPDATE_NOTICE_BCC_030500": [
+        "¡Bienvenido a la cartera de BitcoinCash de BTC.com!",
+        "",
+        "Puedes cambiar entre Bitcoin y BitcoinCash en cualquier momento, haciendo clic en el enlace en la parte inferior del menú.",
+        "",
+        "Para asegurarte de poder saber siempre si estás usando la cartera de Bitcoin o BitcoinCash,",
+        "¡hemos hecho la cartera de Bitcoin AZUL y la cartera de BitcoinCash VERDE!",
+        "",
+        "¡Asegúrate de no enviar nunca Bitcoin a una cartera de BitcoinCash o BitcoinCash a una cartera de Bitcoin!  "
+    ],
+
+    "UPDATE_NOTICE_030407": [
+        "¡Anuncio importante!",
+        "",
+        "La cartera web de BTC.com ahora tiene una herramienta que te permite retirar tu efectivo de Bitcoin. Lee más sobre esto en nuestra <a target='_blank' href='https://blog.btc.com/your-bitcoin-cash-is-safe-with-btc-com-39b271da5692'>publicación de blog</a>."
+    ],
+
+    "BCC_SWEEP_NOTICE_TITLE": "Importa tu Bitcoin Cash",
+    "BCC_SWEEP_NOTICE_BODY": "Es fácil <a href='https://blog.btc.com/how-to-recover-bitcoin-cash-from-other-wallets-fbc847026ab6' target='_blank'>importar tu Bitcoin Cash</a> de tus otras carteras de Bitcoin usando nuestra herramienta de recuperación específica.",
+
     // invalid session
     "INVALID_SESSION": "Tu sesión ya no es válida",
     "INVALID_SESSION_LOGOUT_NOW": [
@@ -88,12 +138,68 @@
         " Ahora serás desconectado, por favor, inicia sesión de nuevo después."
     ],
 
+    "LOST_LOCK": "La cartera está abierta en otra ventana.",
+    "LOST_LOCK_BODY": [
+        "Has abierto la cartera en otra pestaña/ventana de tu navegador,",
+        "Haz clic en \"Usar aquí\" para continuar trabajando en esta ventana."
+    ],
+    "LOST_LOCK_OPEN_HERE": "Usar aquí",
+
     // datetime
     "TODAY": "Hoy",
     "TOMORROW": "mañana",
     "YESTERDAY": "Ayer",
 
+    // forgot password
+    "SETUP_FORGOT_PASS_INFO": "Introduce tu dirección de correo electrónico para continuar.",
+    "SETUP_FORGOT_PASS_STEP2": "Introduce el secreto/recurso mnemotécnico de recuperación encriptado de tu PDF de respaldo.",
+    "SETUP_FORGOT_PASS_NEW_PASS": "Introduce tu nueva contraseña, que reemplazará a tu contraseña anterior.",
+    "ERS": "Secreto de recuperación cifrado",
+    "RECOVERY_SECRET": "Secreto de recuperación",
+    "NEW_PASSWORD_PLACEHOLDER": "Nueva contraseña",
+    "NEW_PASSWORD_REPEAT_PLACEHOLDER": "Repite la nueva contraseña",
+    "WALLET_VERSION": "Versión de cartera",
+
+    "INVALID_RECOVER_TOKEN": "Token de recuperación no válido",
+    "MSG_INVALID_RECOVER_TOKEN": "Tu sesión de recuperación ya no es válida, solicita un nuevo correo electrónico de restablecimiento de la contraseña",
+    "INVALID_WALLET_VERSION": "Versión de cartera no válida",
+    "MSG_INVALID_WALLET_VERSION": "La versión de tu cartera es incorrecta, ponte en contacto con support@btc.com",
+    "MSG_CORRUPTED_SECRET": "Tu secreto de recuperación parece estar dañado, solicita un nuevo enlace de reinicio o ponte en contacto con support@btc.com",
+    "MSG_WRONG_ERS_WORD_LENGTH": "Vuelve a verificar el secreto de recuperación cifrado que has introducido, tiene una cantidad de palabras incorrecta.",
+    "BAD_TOKEN": "2FA incorrecto",
+    "RECOVERY_ERROR": "Error de recuperación",
+    "MSG_REQUEST_RECOVERY_SECRET_FAILED": [
+        "Error al recuperar el secreto de recuperación del servidor,",
+        "Lo más probable es que tu enlace de recuperación haya caducado. Solicita un nuevo enlace de recuperación.",
+        "",
+        "Si este error persiste, ponte en contacto con support@btc.com "
+    ],
+    "MSG_CHANGE_PASSWORD_UNKNOWN_ERROR": "No hemos podido establecer tu contraseña por razones desconocidas, ponte en contacto con support@btc.com",
+    "MSG_RECOVERY_DECRYPT_FAILED": "No hemos podido descifrar tu cartera utilizando el secreto de recuperación. Asegúrate de haber introducido tu secreto de recuperación cifrado correctamente y, si aun así no funciona, ponte en contacto con support@btc.com",
+    "MSG_RECOVERY_V2_UPGRADED": "Tu PDF de respaldo es para una cartera de la versión 2, pero tu cartera se ha actualizado a la versión 3, ponte en contacto con support@btc.com",
+
+    // Mnemonic import
+    "SWEEP_TITLE": "Importar monedero externo",
+    "SWEEP_INFO": "Importa tu {{ network }} de una cartera externa en tu cartera de BTC.com",
+    "SWEEPING_CONFIRM_MSG": "Estás a punto de enviar <b>{{ amount }} {{ network }}</b> (menos la tasa de red de <b>{{ fee }} {{ network }}</b>) de tu cartera externa a tu cartera de BTC.com actual.",
+    "SWEEP_SUPPORTED": "Carteras compatibles",
+    "SWEEP_WIF": "Clave privada simple",
+    "SWEEP_BIP44": "Cartera compatible con BIP44",
+    "SWEEP_WIF_INPUT": "Formato WIF de clave privada (puede ser múltiple)",
+    "SWEEP_WIF_SUBTITLE": "Formato WIF de una clave privada",
+    "SWEEP_WIF_PLACEHOLDER": "lista separada por comas de claves privadas de formato WIF",
+    "SWEEP_COMPLETED": "Tu {{ ticker }} se ha enviado a tu cartera.",
+    "BACKUP_MNEMONIC": "Frase de respaldo",
+    "IMPORT_ERROR": "Error de importación",
+    "INVALID_MNEMONIC": "La entrada no es una frase de respaldo/recurso mnemotécnico válido o compatible.",
+    "NO_BALANCES_FOUND": "No se han encontrado saldos positivos.",
+    "SOME_TRANSACTIONS_FAILED": "Algunas transacciones pueden no haberse creado correctamente. Considera la posibilidad de volver a ejecutar la herramienta.",
+    "TX_CANT_BE_PUSHED": "La transacción no se ha podido llevar a cabo. Ha ocurrido un error.",
+    "TX_CANT_BE_PUSHED_MULTIPLE": "{{ amount }} de las transacciones no se pueden llevar a cabo. Ha ocurrido un error.",
+    "DISCOVERING_COINS": "Buscando saldos positivos, esto podría llevar unos minutos...",
+
     // launch & setup screens
+    "SETUP_NETWORK_CHOICE": "Tipo de cartera",
     "LAUNCH_NEW_ACCOUNT": "Crear una cuenta nueva",
     "LAUNCH_EXISTING_ACCOUNT": "¿Ya tienes una cuenta?",
     "SETUP_FORGOT_PASSWORD": "Restablecer contraseña",
@@ -119,14 +225,21 @@
     "SETUP_WALLET_BACKUP_TEXT": "Antes de empezar a usar tu nueva cartera, por favor",
     "SETUP_WALLET_BACKUP_TEXT_BOLD": "Descarga el siguiente documento de copia de seguridad",
     "SETUP_WALLET_BACKUP_TEXT_APPEND": "Es importante guardar esta copia de seguridad de forma confidencial y almacenarla de forma segura fuera de línea. En caso de emergencia, este documento de copia de seguridad te permitirá acceder y recuperar los fondos que tengas almacenados en la cartera.",
+    "SETUP_WALLET_BACKUP_WILL_BE_REMOVED": "El PDF de respaldo es necesario en caso de pérdida de la contraseña. Es muy importante que guardes tu PDF de respaldo antes de continuar.",
     "BACKUP_EMAIL_PDF": "PDF de copia de seguridad del correo electrónico",
+    "BACKUP_OPEN_PDF": "Abrir la copia de seguridad de la cartera (PDF)",
+    "BACKUP_OPTION_KEEP_ON_PHONE": "¿Quieres mantener también tu PDF de respaldo en un directorio de tu teléfono?",
+    "BACKUP_EXPORT_PDF_IOS_INFO": "¡Estás abriendo tu PDF de respaldo! Guarda tu PDF de respaldo en iCloud, iBooks, correo electrónico y más en el siguiente paso.",
+    "BACKUP_EXPORT_PDF_ANDROID_INFO": "¡Estás abriendo tu PDF de respaldo! Guarda tu PDF de respaldo en el siguiente paso.",
     "BACKUP_CREATE_PDF": "Descargar copia de seguridad de la cartera (PDF)",
+    "BACKUP_CANT_OPEN": "Tu dispositivo no tiene ninguna aplicación para abrir archivos PDF. Instala un lector de PDF e inténtalo de nuevo.",
     "BACKUP_DOWNLOAD_ADDITIONAL_PAGE_PDF": "Descargar la página de copia de seguridad adicional (PDF)",
     "BACKUP_CHECKBOX": "He guardado mi copia de seguridad de forma segura",
     "SETUP_PHONE": "Configurar teléfono",
     "SETUP_SYNC_CONTACTS": "Sincronizar contactos",
     "SETUP_PROFILE_PIC": "Establecer imagen de perfil",
     "SETUP_COMPLETE": "Ir a mi cartera",
+    "TERMS_OF_SERVICE": "Los términos del servicio",
     "SETUP_TERMS_OF_SERVICE_TEXT": "Estoy de acuerdo con los <a target='_blank' href='https://btc.com/legal'>términos de servicio</a>",
     "SETUP_TERMS_OF_SERVICE_TEXT_MOBILE": "Estoy de acuerdo con los términos de servicio",
     "SETUP_DOWNLOAD_MOBILE_TITLE": "BTC.com Wallet para {{ platform }}",
@@ -147,6 +260,7 @@
     "MSG_BAD_NETWORK": "No hay conexion de red",
     "MSG_BAD_LOGIN": "Datos de acceso incorrectos",
     "MSG_BAD_LOGIN_UNKNOWN": "Error al iniciar sesión por razones desconocidas.",
+    "MSG_FAILED_UNKNOWN": "Ha fallado por razones desconocidas",
     "MSG_INCORRECT_PASSWORD": "Contraseña incorrecta",
     "MSG_INCORRECT_PASSWORD_CAPS_ON": "Advertencia: las mayúsculas estaban activadas mientras escribías la contraseña",
     "MSG_MISSING_LOGIN": "Por favor, introduce tus datos de acceso",
@@ -231,9 +345,15 @@
     "ADDRESS_REUSE_NOTICE_1": "Cualquier dirección de {{ network }} que generes aquí permanecerá válida.",
     "ADDRESS_REUSE_NOTICE_2": "Puedes generar tantas como quieras.",
     "MY_ADDRESSES": "Mis direcciones",
+    "BITCOIN_CASH_ADDRESS_FORMAT_HELP_1": "Tú también puedes",
+    "BITCOIN_CASH_ADDRESS_FORMAT_HELP_LINK_OLD": "usar el formato de dirección heredado",
+    "BITCOIN_CASH_ADDRESS_FORMAT_HELP_LINK_NEW": "usar el nuevo formato de dirección de BCH",
+    "BITCOIN_CASH_NEW_ADDRESS_FORMAT_ALERT_TITLE": "Nuevo formato de dirección de Bitcoin Cash",
+    "BITCOIN_CASH_NEW_ADDRESS_FORMAT_ALERT_BODY": "El 14 de enero de 2018, los servicios que utilizan la red Bitcoin Cash comenzarán a adoptar el nuevo formato de dirección que se utiliza a continuación. Si quieres, puedes generar direcciones de formato heredadas.",
 
     // address lookup and labels
     "ADDRESS_LOOKUP": "Consulta de direcciones",
+    "ADDRESS_LOOKUP_FORMAT_BITCOIN_CASH": "Formato de dirección heredado",
     "EDIT_LABEL": "Editar etiqueta",
     "ENTER_NEW_LABEL": "Introduce una nueva etiqueta para la dirección seleccionada.",
     "DELETE_LABEL": "Eliminar etiqueta",
@@ -284,7 +404,7 @@
     "CONTACTS_RESYNC": "Volver a sincronizar contactos",
     "MSG_INVITE_CONTACT": "Hola, ¡consigue la aplicación BTC Wallet para Bitcoin! Descárgala aquí: https://btc.com/download",
     "RECEIVE_BITCOIN_TITLE": "Recibir bitcoin",
-    "BITCOIN_ADDRESS_RECEIVE_HELP": "Se ha creado una nueva dirección Bitcoin para ti. Utiliza esta dirección para recibir fondos.",
+    "BITCOIN_ADDRESS_RECEIVE_HELP": "Se ha creado una nueva dirección {{ network }} para ti. Utiliza esta dirección para recibir fondos.",
     "WAITING_FOR_PAYMENT": "Esperando el pago",
     "PAYMENT_RECEIVED": "Pago recibido",
     // Receiving Screens
@@ -295,18 +415,20 @@
     "MSG_REQUEST_EMAIL_BODY_2": "Hola,<br><br>Por favor, envíe fondos a mi cartera Bitcoin (se adjunta código QR). <p>Dirección: <a href='{{addressURI}}'>{{address}}</a> </p> <br>Cantidad: {{btcValue}} BTC (aprox. {{fiatValue}} {{localCurrency}})</p> <p><br>Enviado con mi <a href='https://btc.com'>cartera BTC.com</a></p>",
     "MSG_REQUEST_SMS_1": [
         "Hola,",
-        "Por favor, envíen los fondos a mi cartera Bitcoin.",
+        "Por favor, envíen los fondos a mi cartera {{ networkLong }}.",
         "Dirección: {{address}}"
     ],
     "MSG_REQUEST_SMS_2": [
         "Hola,",
-        "Por favor, envíe {{btcValue}} BTC (aprox. {{fiatValue}} {{localCurrency}}) a mi cartera Bitcoin.",
+        "Por favor, envíe {{btcValue}} {{ network }} (aprox. {{fiatValue}} {{localCurrency}}) a mi cartera {{ networkLong }}.",
         "Dirección: {{address}}"
     ],
     // Settings page
     "SETTINGS": "Ajustes",
     "SETTINGS_ACCOUNT": "Cuenta",
     "SETTINGS_PROFILE": "Perfil",
+    "SETTINGS_TOOLS": "Herramientas",
+    "SETTINGS_SECURITY": "Seguridad",
     "SETTING_EMAIL": "Correo electrónico",
     "SETTING_USERNAME": "Nombre de usuario",
     "SETTINGS_TAKE_PHOTO": "Tomar una foto",
@@ -355,7 +477,7 @@
     "SETTINGS_2FA_STEP2": "Paso 2. configuración de la cuenta",
     "SETTINGS_2FA_STEP2_BODY": [
         "Descarga <a href=\"https://support.google.com/accounts/answer/1066447?hl=en\">autenticación de google</a>",
-        " o <a href=\"https://www.authy.com/users\">Autentica</a> en tu smartphone y escanea el código QR siguiente para añadir BTC.com a tu aplicación."
+        " o <a href=\"https://www.authy.com\">Autentica</a> en tu smartphone y escanea el código QR siguiente para añadir BTC.com a tu aplicación."
     ],
     "SETINGS_2FA_STEP2_CODE": "O introduce este código de forma manual: {{ secret }}.",
     "SETTINGS_2FA_STEP3": "Paso 3. verificación",
@@ -364,6 +486,7 @@
     "SETTINGS_2FA_DONE": "¡se ha establecido con éxito la autenticación de dos factores!",
     "SETTINGS_2FA_DISABLE_BODY": "Introduce un token de la aplicación de tu smartphone para deshabilitar la autenticación de dos factores.",
     "SETTINGS_2FA_DISABLE_2FA": "Deshabilitar 2FA",
+    "SETTINGS_2FA_DISABLE_DONE": "¡Has desactivado con éxito la autenticación de dos factores!",
     "SETTINGS_2FA_HELP": "Asegura tu cuenta por medio de una autenticación de múltiples dispositivos",
     "SETTINGS_CURRENT_PIN": "PIN actual",
     "SETTINGS_NEW_PIN": "Nuevo PIN",
@@ -451,11 +574,14 @@
     "ESTIMATED_FEE": "Cuota estimada",
     "OPTIMAL_FEE": "Óptimo",
     "OPTIMAL_FEE_LONG": "Comisión óptima",
+    "HIGH_PRIORITY_FEE": "Alta prioridad",
+    "HIGH_PRIORITY_LONG": "Tarifa de alta prioridad",
     "LOW_PRIORITY_FEE": "Baja prioridad",
     "LOW_PRIORITY_FEE_LONG": "Comisión de baja prioridad",
 
     "LOW_PRIORITY_NOTICE": "La transacción puede tardar varias horas en confirmarse",
     "OPTIMAL_PRIORITY_NOTICE": "Tarifa de red recomendada para confirmación rápida",
+    "HIGH_PRIORITY_FEE_NOTICE": "Tarifa de red para la confirmación más rápida",
 
     "ADVANCED_SEND_OPTIONS": "Ajustes avanzados",
     "LOW_PRIORITY_LABEL": "Cuota de bitcoin de baja prioridad",
@@ -487,7 +613,16 @@
     "SETTINGS_DISPLAY": "Mostrar",
     "SETTINGS_PRIVACY": "Privacidad",
     "SETTINGS_USAGE_DATA": "Enviar datos de uso",
+    "SETTINGS_PIN_ON_OPEN": "Pide el PIN cuando abras la cartera",
     "MSG_BACKUP_SAVED_ALREADY": "La copia de seguridad ya se ha guardado. Los datos de la copia de seguridad ya no están almacenados en este teléfono.",
+    "MSG_BACKUP_SAVED_PERSISTENT_IOS": [
+        "Tu copia de seguridad ya se ha guardado.",
+        "El PDF de respaldo todavía está disponible a través del uso compartido de archivos de iTunes."
+    ],
+    "MSG_BACKUP_SAVED_PERSISTENT_ANDROID": [
+        "Tu copia de seguridad ya se ha guardado.",
+        "El PDF de respaldo todavía está disponible en el sistema de archivos de tu teléfono."
+    ],
     "ENABLE": "Habilitar",
     "DISABLE": "Inhabilitar",
     "ENABLED": "Habilitado",
@@ -527,6 +662,7 @@
     "SETTINGS_PHONE_DESCRIPTION": "La vinculación de tu cartera a tu número de teléfono te permitirá enviar a los contactos de tu teléfono que también tengan una cartera BTC.com.",
     "SETTINGS_ENCRYPTION": "Cifrado",
     "MSG_BACKUP_UNSAVED": "¡ADVERTENCIA! No has guardado tu hoja de copia de seguridad. Si te desconectas, se perderán estos datos y no se podrán crear de nuevo. ¿Seguro que quieres continuar?",
+    "MSG_BACKUP_SAVE_NOW": "Deberías guardar el documento de respaldo de tu cartera. ¿Quieres guardarlo ahora?",
     "MSG_PHONE_CODE_SENT": "Se ha enviado un código a tu teléfono. Por favor, introdúcelo abajo para confirmar tu número.",
     "MSG_ENABLE_CONTACTS": "Esto permitirá la sincronización de contactos para descubrir los contactos de tu dispositivo que tienen una cartera. A partir de ahí podrás enviarles directamente.",
     "MSG_DISABLE_CONTACTS": "La desactivación de los contactos borrará todos los datos sincronizados y no podrás enviar más a tus contactos.",
@@ -557,8 +693,9 @@
     "FOOTER_PRODUCT": "Productos",
     "FOOTER_ANTMINER": "Antminer",
     "FOOTER_ANTPOOL": "Antpool",
-    "FOOTER_HASHNEST": "Hashnest",
-    "FOOTER_MINERLINK": "Minerlink",
+    "FOOTER_BTCCOM_POOL": "BTC.com Pool",
+    "FOOTER_BTCCOM_EXPLORER": "BTC.com Explorer",
+    "FOOTER_WHC_EXPLORER": "WHC Explorer",
     "FOOTER_COMPANY": "Compañía",
     "FOOTER_ABOUT": "Quiénes somos",
     "FOOTER_JOIN_US": "Únete a nosotros",
@@ -586,8 +723,14 @@
     "NAVBAR_LOGIN": "Registrarse",
 
     // Buy BTC
-    "BUYBTC": "Comprar Bitcoin",
+    "BUYBTC": "Comprar",
+    "BUYBTC_NETWORK": "Comprar {{ network }}",
+    "BUYBTC_ERROR": "Lamentablemente, la compra de {{ network }} no está disponible en este momento. Vuelve a intentarlo en breve.",
+    "BUYBTC_HIGH_AMOUNT_ERROR": "Lamentablemente, comprar más de {{ limit }} (incluidas las tarifas) no es posible.",
+    "BUYBTC_LOW_AMOUNT_ERROR": "Desafortunadamente, comprar menos de {{ limit }} no es posible.",
     "BUYBTC_NAVTITLE": "Comprar Bitcoin",
+
+    // Glidera specific
     "BUYBTC_PENDING_ORDERS": "Pedidos pendientes",
     "BUYBTC_PENDING_ORDER": "pedido pendiente",
     "BUYBTC_PENDING_ORDER_FROM": "Pedido pendiente de {{ order.displayName }}",
@@ -598,12 +741,18 @@
     "EST_DELIVERY": "Entrega estimada:",
     "BUYBTC_GETSTARTED_HEAD": "Configuración inicial",
     "BUYBTC_GETSTARTED_BODY": "Antes de comprar Bitcoin, configuremos tu cuenta de cambio",
+
+    // ------
     "BUYBTC_GETSTARTED_BUTTON": "Continuar",
     "TX_INFO_BUYBTC_FROM": "Bitcoin comprados de",
     "TX_INFO_BUYBTC": "Bitcoin comprados",
     "TX_INFO_BUYBTC_DETAILS": "{{ qty }} BTC comprados a {{ price }} {{ currency }} por BTC.",
 
-    "BUYBTC_BUYING": "Comprando Bitcoin...",
+    "BUYBTC_BUYING": "Comprando {{ network }}...",
+
+    "BUYBTC_CREDIT_CARDS": "Comprar con tarjeta de crédito",
+    "BUYBTC_BANK_WIRE": "Comprar mediante transferencia bancaria",
+    "BUYBTC_US_ONLY": "solo en Estados Unidos",
 
     "BUYBTC_CHOOSE_REGION_TITLE": "Selecciona tu región",
     "BUYBTC_CHOOSE_REGION_BODY": "Selecciona tu región para los métodos de compra disponibles",
@@ -621,11 +770,14 @@
     "BUYBTC_PROVIDERS": "Socios en {{ region }}",
     "BUYBTC_NOPROVIDERS_REGION": "No hay socios que presten servicio en tu región",
 
+    "ORDER_ID": "Nº. de pedido",
+    "PRIVACY_POLICY": "Política de privacidad",
     "CURRENT_PRICE": "Precio actual",
     "BUYBTC_INCL_FEE": "Incluyendo la cuota",
     "BUYBTC_BUY": "Continuar",
     "BUYBTC_VIA": "Tu compra se completará usando {{ broker }}",
     "BUYBTC_BANK_TRANSFER_SLOW": "Los bitcoins comprados por transferencia bancaria pueden tardar varios días hábiles en ser liquidados.",
+    "BUYBTC_SIMPLEX_TOS": "Acepto los <a href=\"https://www.simplex.com/terms-of-use/\">términos de uso</a> y la <a href=\"https://www.simplex.com/privacy-policy/\">política de privacidad</a>.",
 
     "MSG_BUYBTC_PIN_TO_ENCRYPT": "Introduce el código PIN de tu cartera.",
     "MSG_BUYBTC_PIN_TO_DECRYPT_TITLE": "Introduce tu PIN",
@@ -656,10 +808,16 @@
     "MSG_BUYBTC_GLIDERA_2FA_TITLE": "Autenticación de dos factores",
     "MSG_BUYBTC_GLIDERA_2FA_BODY": "¡Se requiere un código de autenticación de dos factores {{ mode }} de Glidera!",
 
+    "MSG_SIMPLEX_REDIRECT": [
+        "Se te está redirigiendo a Simplex para completar la compra. Guarda este nº. de pedido para futuras consultas.",
+        "",
+        "Tu nº. de pedido personal: {{orderId}}"
+    ],
+
     "MSG_BUYBTC_FIAT_USD_ONLY_TITLE": "¡Ten cuidado!",
     "MSG_BUYBTC_FIAT_USD_ONLY": "Tu moneda predeterminada es {{ yourCurrency }}, pero cuando compras bitcoin, los valores están denominados en {{ currency }}",
 
-    "MSG_BUYBTC_CONFIRM_TITLE": "Comprar bitcoin",
+    "MSG_BUYBTC_CONFIRM_TITLE": "Comprar {{ network }}",
     "MSG_BUYBTC_CONFIRM_BODY": "¿Seguro que quieres comprar {{ qty }} BTC para {{ currencySymbol }} {{ price }}?",
     "MSG_BUYBTC_ZERO_AMOUNT": "Si quieres comprar 0 BTC, selecciona una cantidad mayor que cero.",
 
@@ -700,5 +858,43 @@
     "APPRATE_BODY_GOOD_BODY": "Considera la posibilidad de mostrar tu apoyo a BTC.com dejándonos un comentario en la AppStore",
     "APPRATE_BODY_BAD": "Vaya. ¿Considerarías las posibilidad de dejar un comentario?",
     "APPRATE_FEEDBACK": "Enviar",
-    "APPRATE_SKIP": "Omitir"
+    "APPRATE_SKIP": "Omitir",
+
+    "LANDING_POWERFUL": "Potente cartera de Bitcoin y Bitcoin Cash",
+    "LANDING_SEND_RECEIVE": "Envía, recibe y almacena tus fondos de forma segura con la cartera de BTC.com.",
+    "LANDING_STAY_IN_CONTROL": "Mantén el control",
+    "LANDING_EMPOWERS": "Bitcoin te permite enviar y recibir pagos sin la confianza o el permiso de un tercero.",
+    "LANDING_NEVER_ACCESS": "BTC.com nunca tiene acceso a tus Bitcoin y Bitcoin Cash, se mantiene fiel a los valores fundamentales de Bitcoin y te brinda seguridad, privacidad y poder para ser dueño de tu riqueza.",
+    "LANDING_YOUR_BTC": "Tu Bitcoin. Tu control",
+    "LANDING_ONE_WALLET": "Una cartera para tu vida digital",
+    "LANDING_SEND_RECEIVE_EASILY": "Envía y recibe bitcoin de manera fácil y segura",
+    "LANDING_FULL_CONTROL": "Mantén un control total sobre tus claves de bitcoin privadas",
+    "LANDING_PAY_QR": "Paga a tus amigos sin códigos QR o direcciones largas",
+    "LANDING_CREATE_WALLET": "Crea tu cartera de BTC.com",
+
+    // Register bitcoin: URI related
+    "SET_BROWSER_DEFAULT_WALLET": "Usa la cartera para enlaces de Bitcoin",
+    "BROWSER_SECURITY_ERROR": "Los ajustes de seguridad de tu navegador han bloqueado esta solicitud.",
+    "MAKE_DEFAULT_BROWSER_WALLET": "Haz de BTC.com tu cartera predeterminada",
+    "MAKE_DEFAULT_BROWSER_WALLET_DETAILS": "Puedes configurar tu cartera de BTC.com como el valor predeterminado para los pagos de Bitcoin en la mayoría de los navegadores. ¿Quieres habilitar esta característica?",
+    "MAKE_DEFAULT_BROWSER_WALLET_DETAILS_CHROME": "En Google Chrome, si pulsas Sí y luego cancelas, debes esperar un poco para ver la ventana emergente del navegador de nuevo.",
+    "DO_THIS_LATER_IN_SETTINGS": "También puedes configurar esto más tarde en los Ajustes.",
+
+    // security related
+    "EMAIL_VERIFY_SUCCESS": "Correo electrónico verificado con éxito",
+    "EMAIL_VERIFY_FAILURE": "La verificación del correo electrónico ha fallado",
+    "EMAIL_VERIFY_ALREADY": "Correo electrónico ya verificado",
+    "EMAIL_VERIFY": "Verifica tu nueva dirección de correo electrónico",
+    "MSG_EMAIL_CHANGE": "Tu dirección de correo electrónico se actualizará una vez que hagas clic en el enlace Verificar en tu bandeja de entrada.",
+    "MSG_EMAIL_VERIFY": "Te hemos enviado un correo electrónico de verificación a tu bandeja de entrada de correo electrónico.",
+    "MSG_ERROR_TRY_AGAIN_LATER": "Algo ha salido mal. Inténtalo de nuevo más tarde.",
+    "MSG_ERROR_SENDING_MAIL": "Ha habido un error al enviarle un correo electrónico de verificación a tu bandeja de entrada de correo electrónico. Por favor, inténtalo de nuevo más tarde.",
+    "WALLET_SECURITY_SCORE": "Puntuación de seguridad de Wallet",
+    "CHECK_YOUR_INBOX": "Revisa tu correo",
+
+    "EMAIL_VERIFIED": "Tu correo electrónico está verificado",
+    "EMAIL_NOT_VERIFIED": "Tu correo electrónico no está verificado",
+    "IMPROVE_PASSWORD": "Mejora tu contraseña",
+    "2FA_ENABLED": "2FA está activado",
+    "2FA_NOT_ENABLED": "2FA aún no está activado"
 }

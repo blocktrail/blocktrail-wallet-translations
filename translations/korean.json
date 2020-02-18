@@ -3,6 +3,7 @@
     // general
     "LOGOUT": "로그아웃",
     "WARNING": "경고",
+    "SELECT": "선택",
     "SEND": "보내기",
     "RECEIVE": "받기",
     "BACK": "뒤로",
@@ -29,9 +30,9 @@
     "WORKING": "작업 중",
     "VERIFYING": "인증 중",
     "SYNCING": "동기화 중",
-    "SKIP_STEP": "이 단계 건너뛰기",
     "PLEASE_WAIT": "기다려 주세요",
     "PLEASE_WAIT_2": "잠시면 됩니다",
+    "PLEASE_WAIT_SECONDS": "{{초}}초 기다려 주세요",
     "NONE": "없음",
     "TAKEN": "사용 중",
     "SEARCH": "검색",
@@ -60,6 +61,12 @@
     "CHANGE": "변경",
     "VIA": "XXX 사용",
     "AT": "XXX 사용",
+    "SKIP_STEP": "이 단계 건너뛰기",
+    "READ_MORE": "더 읽어보기",
+    "IMPORTANT": "중요",
+    "YES": "Yes",
+    "NO": "아니오",
+    "HELP": "도움",
 
     // update notices
     "UPDATE_AVAILABLE_NOTICE": "새롭게 업데이트된 앱을 다운로드할 수 있습니다.",
@@ -72,13 +79,110 @@
 
     // per version update messages
     "GLIDERA_UPDATE": "당사와 Glidera의 파트너십 통합으로, 이제 모든 미국 주(뉴욕 제외)에서 쉽게 비트코인을 구매할 수 있습니다.",
+    "UPDATE_NOTICE_040300": "이제 왼쪽의 탐색을 사용하여 비트코인(BTC)과 비트코인 캐시(BCH) 사이를 쉽게 전환할 수 있습니다.",
+
+    "UPDATE_NOTICE_BCC_MOBILE": [
+        "설정으로 이동해 로그아웃 버튼을 사용하면 비트코인과 비트코인 캐시간 전환이 언제든지 가능합니다.",
+        "저희는 두 코인 사이를 더욱 매끄럽게 전환할 수 있는 방법을 연구하고 있습니다.하지만 적어도 이를 이용하면 앱을 통해 두 코인에 모두 액세스할 수 있습니다.",
+        "",
+        "이용 중인 지갑이 비트코인 지갑인지, 비트코인 캐시 지갑인지를 항상 알 수 있도록",
+        "비트코인 지갑을 파란색으로, 비트코인 캐시 지갑을 녹색으로 만들었습니다.",
+        "",
+        "Bitcoin을 BitcoinCash 지갑에 보내거나 BitcoinCash를 Bitcoin 지갑에 보내지 않도록 주의하세요!"
+    ],
+
+    "UPDATE_NOTICE_BTC_030500": [
+        "BTC.com Bitcoin 지갑에 오신 것을 환영합니다!",
+        "",
+        "메뉴 하단의 링크를 클릭하면 언제든지 Bitcoin과 BitcoinCash간 전환이 가능합니다.",
+        "",
+        "이용 중인 지갑이 비트코인 지갑인지, 비트코인 캐시 지갑인지를 항상 알 수 있도록",
+        "비트코인 지갑을 파란색으로, 비트코인 캐시 지갑을 녹색으로 만들었습니다.",
+        "",
+        "Bitcoin을 BitcoinCash 지갑에 보내거나 BitcoinCash를 Bitcoin 지갑에 보내지 않도록 주의하세요!"
+    ],
+
+    "UPDATE_NOTICE_BCC_030500": [
+        "BTC.com BitcoinCash 지갑에 오신 것을 환영합니다!",
+        "",
+        "메뉴 하단의 링크를 클릭하면 언제든지 Bitcoin과 BitcoinCash간 전환이 가능합니다.",
+        "",
+        "이용 중인 지갑이 비트코인 지갑인지, 비트코인 캐시 지갑인지를 항상 알 수 있도록",
+        "비트코인 지갑을 파란색으로, 비트코인 캐시 지갑을 녹색으로 만들었습니다.",
+        "",
+        "Bitcoin을 BitcoinCash 지갑에 보내거나 BitcoinCash를 Bitcoin 지갑에 보내지 않도록 주의하세요!"
+    ],
+
+    "UPDATE_NOTICE_030407": [
+        "중요 공지!",
+        "",
+        "이제 BTC.com 웹 지갑에서 Bitcoin Cash를 인출할 수 있습니다. 이에 관한 자세한 내용은 <a target='_blank' href='https://blog.btc.com/your-bitcoin-cash-is-safe-with-btc-com-39b271da5692'> 블로그 포스트</a>를 참고하세요."
+    ],
+
+    "BCC_SWEEP_NOTICE_TITLE": "Bitcoin Cash 가져오기",
+    "BCC_SWEEP_NOTICE_BODY": "당사의 전용 복구 도구를 이용해 다른 비트코인 지갑으로부터 손쉽게 <a href='https://blog.btc.com/how-to-recover-bitcoin-cash-from-other-wallets-fbc847026ab6' target='_blank'>Bitcoin Cash를 가져올 수</a> 있습니다.",
+
+    "LOST_LOCK": "지갑이 다른 창에서 열려 있습니다.",
+    "LOST_LOCK_BODY": [
+        "브라우저의 다른 탭/창에서 지갑이 열려 있습니다.",
+        "\"여기에서 사용\"을 클릭해 이 창에서 작업을 계속하세요."
+    ],
+    "LOST_LOCK_OPEN_HERE": "여기에서 사용",
 
     // datetime
     "TODAY": "오늘",
     "TOMORROW": "내일",
     "YESTERDAY": "어제",
 
+    // forgot password
+    "SETUP_FORGOT_PASS_INFO": "이메일 주소를 입력해 계속하세요. ",
+    "SETUP_FORGOT_PASS_STEP2": "백업 PDF의 암호화된 복구 암호/연상 기호를 입력하세요.",
+    "SETUP_FORGOT_PASS_NEW_PASS": "이전 암호를 대체할 새 암호를 입력하세요.",
+    "ERS": "암호화된 복구 암호",
+    "RECOVERY_SECRET": "복구 암호",
+    "NEW_PASSWORD_PLACEHOLDER": "새 비밀번호",
+    "NEW_PASSWORD_REPEAT_PLACEHOLDER": "새 비밀번호 재확인",
+    "WALLET_VERSION": "지갑 버전",
+
+    "INVALID_RECOVER_TOKEN": "잘못된 복구 토큰",
+    "MSG_INVALID_RECOVER_TOKEN": "복구 세션의 유효기한이 지났습니다. 비밀번호 재설정 이메일을 새로 요청하세요.",
+    "INVALID_WALLET_VERSION": "잘못된 지갑 버전",
+    "MSG_INVALID_WALLET_VERSION": "지갑 버전의 형식이 잘못되었습니다. support@btc.com에 문의하세요.",
+    "MSG_CORRUPTED_SECRET": "복구 암호가 손상된 것으로 보입니다. 재설정 링크를 새로 요청하거나 support@btc.com에 문의하세요.",
+    "MSG_WRONG_ERS_WORD_LENGTH": "입력한 암호화된 복구 암호를 다시 확인하세요. 단어의 수가 올바르지 않습니다.",
+    "BAD_TOKEN": "잘못된 2FA",
+    "RECOVERY_ERROR": "복구 오류",
+    "MSG_REQUEST_RECOVERY_SECRET_FAILED": [
+        "서버에서 복구 암호를 가져오지 못했습니다. 복구 링크가 만료되었을 가능성이 큽니다. 복구 링크를 새로 요청하시기 바랍니다.",
+        "",
+        "본 오류가 계속되면 support@btc.com에 문의하십시오."
+    ],
+    "MSG_CHANGE_PASSWORD_UNKNOWN_ERROR": "알 수 없는 원인으로 비밀번호를 설정하지 못했습니다. support@btc.com으로 문의하세요.",
+    "MSG_RECOVERY_DECRYPT_FAILED": "복구 암호를 사용해 지갑을 해독하지 못했습니다. 암호화된 복구 암호를 올바르게 입력했는지 확인하세요. 그래도 계속 해독되지 않으면 support@btc.com으로 문의하시기 바랍니다.",
+    "MSG_RECOVERY_V2_UPGRADED": "백업 PDF는 버전 2 지갑 용인데 지갑이 버전 3으로 업그레이드 되었습니다. support@btc.com으로 문의하세세요",
+
+    // Mnemonic import
+    "SWEEP_TITLE": "외부 지갑 가져오기",
+    "SWEEP_INFO": "{{ network }}(을)를 외부 지갑에서 BTC.com 지갑으로 가져옵니다",
+    "SWEEPING_CONFIRM_MSG": "<b>{{ amount }} {{ network }}</b>(<b>{{ fee }} {{ network }}</b> 네트워크 수수료 제외)(을)를 외부 지갑에서 현 BTC.com 지갑으로 보냅니다.",
+    "SWEEP_SUPPORTED": "지원되는 지갑",
+    "SWEEP_WIF": "간단한 개인 키",
+    "SWEEP_BIP44": "BIP44 호환 지갑",
+    "SWEEP_WIF_INPUT": "WIF 형식의 개인 키(여러개일 수 있음)",
+    "SWEEP_WIF_SUBTITLE": "WIF 형식의 개인 키",
+    "SWEEP_WIF_PLACEHOLDER": "쉼표로 구분된 WIF 형식 개인 키 목록",
+    "SWEEP_COMPLETED": "{{ticker}}이(가) 지갑으로 발송되었습니다.",
+    "BACKUP_MNEMONIC": "백업 문구",
+    "IMPORT_ERROR": "가져오기 오류",
+    "INVALID_MNEMONIC": "입력 내용이 올바르지 않거나 지원되는 백업 문구/연상 기호가 아닙니다.",
+    "NO_BALANCES_FOUND": "플러스 잔액을 찾지 못했습니다.",
+    "SOME_TRANSACTIONS_FAILED": "일부 거래가 제대로 생성되지 않았을 수 있습니다. 도구를 다시 실행하세요.",
+    "TX_CANT_BE_PUSHED": "거래를 진행할 수 없습니다. 오류가 발생했습니다.",
+    "TX_CANT_BE_PUSHED_MULTIPLE": "{{amount}}건의 거래를 진행할 수 없습니다. 오류가 발생했습니다.",
+    "DISCOVERING_COINS": "플러스 잔고를 찾는 중입니다. 몇 분이 걸릴 수 있습니다 ...",
+
     // launch & setup screens
+    "SETUP_NETWORK_CHOICE": "지갑 유형",
     "LAUNCH_NEW_ACCOUNT": "새 지갑 만들기",
     "LAUNCH_EXISTING_ACCOUNT": "이미 지갑을 갖고 계십니까?",
     "SETUP_FORGOT_PASSWORD": "암호 재설정",
@@ -104,14 +208,21 @@
     "SETUP_WALLET_BACKUP_TEXT": "새 지갑을 사용하기 전에",
     "SETUP_WALLET_BACKUP_TEXT_BOLD": "아래 백업 문서를 다운로드해 주세요",
     "SETUP_WALLET_BACKUP_TEXT_APPEND": "이 백업 문서의 기밀성을 유지하고 안전하게 오프라인 상태로 보관하는 것이 중요합니다. 비상시 이 백업 문서를 사용해 지갑에 보관된 자금에 액세스하거나 해당 자금을 복원할 수 있습니다.",
+    "SETUP_WALLET_BACKUP_WILL_BE_REMOVED": "비밀번호 분실을 대비해 백업 PDF가 필요합니다. 계속하기 전에 백업 PDF를 저장하는 것이 매우 중요합니다.",
     "BACKUP_EMAIL_PDF": "백업 PDF 이메일 발송",
+    "BACKUP_OPEN_PDF": "지갑 백업(PDF) 열기",
+    "BACKUP_OPTION_KEEP_ON_PHONE": "백업 PDF를 휴대전화의 디렉토리에 보관하시겠습니까?",
+    "BACKUP_EXPORT_PDF_IOS_INFO": "백업 PDF를 엽니다! 다음 단계에서 백업 PDF를 iCloud, iBooks, 전자 메일 등에 저장하세요.",
+    "BACKUP_EXPORT_PDF_ANDROID_INFO": "백업 PDF를 엽니다! 다음 단계에서 백업 PDF를 저장하세요.",
     "BACKUP_CREATE_PDF": "지갑 백업 문서 다운로드",
+    "BACKUP_CANT_OPEN": "PDF 파일을 열 수 있는 애플리케이션이 없습니다. PDF 리더를 설치하고 다시 시도하세요.",
     "BACKUP_DOWNLOAD_ADDITIONAL_PAGE_PDF": "추가 백업 페이지를 다운로드 (PDF)",
     "BACKUP_CHECKBOX": "내 백업 문서를 안전하게 저장했습니다",
     "SETUP_PHONE": "전화 설정",
     "SETUP_SYNC_CONTACTS": "연락처 동기화",
     "SETUP_PROFILE_PIC": "프로필 사진 설정",
     "SETUP_COMPLETE": "내 지갑으로 이동",
+    "TERMS_OF_SERVICE": "서비스 약관",
     "SETUP_TERMS_OF_SERVICE_TEXT": "나는 이 <a target='_blank' href='https://btc.com/legal'>서비스의 약관에</a> 동의합니다",
     "SETUP_TERMS_OF_SERVICE_TEXT_MOBILE": "나는 이 서비스의 약관에 동의합니다",
     "SETUP_DOWNLOAD_MOBILE_TITLE": "{{ platform }}용 BTC.com 지갑",
@@ -132,6 +243,7 @@
     "MSG_BAD_NETWORK": "네트워크 연결 없음",
     "MSG_BAD_LOGIN": "잘못된 로그인 세부 정보",
     "MSG_BAD_LOGIN_UNKNOWN": "알 수 없는 이유로 로그인하지 못했습니다",
+    "MSG_FAILED_UNKNOWN": "알 수 없는 이유로 실패",
     "MSG_INCORRECT_PASSWORD": "잘못된 암호",
     "MSG_INCORRECT_PASSWORD_CAPS_ON": "경고: 암호를 입력할 때 Caps Lock 키가 켜져 있었습니다!",
     "MSG_MISSING_LOGIN": "로그인 세부 정보를 입력해 주세요",
@@ -218,6 +330,15 @@
     //receive screen
     "ADDRESS_REUSE_NOTICE_1": "여기에서 생성하는 모든 {{ network }} 주소를 계속 사용할 수 있습니다.",
     "ADDRESS_REUSE_NOTICE_2": "원하는 만큼 제한 없이 주소를 생성할 수 있습니다.",
+    "BITCOIN_CASH_ADDRESS_FORMAT_HELP_1": "아래 일들도 가능합니다",
+    "BITCOIN_CASH_ADDRESS_FORMAT_HELP_LINK_OLD": "레거시 주소 형식 사용",
+    "BITCOIN_CASH_ADDRESS_FORMAT_HELP_LINK_NEW": "새로운 BCH 주소 형식 사용",
+    "BITCOIN_CASH_NEW_ADDRESS_FORMAT_ALERT_TITLE": "새로운 Bitcoin Cash 주소 형식",
+    "BITCOIN_CASH_NEW_ADDRESS_FORMAT_ALERT_BODY": [
+        "2018년 1월 14일, Bitcoin Cash 네트워크를 사용하는 서비스는 아래에 이용된 새로운 주소 형식을 채택하기 시작할 것입니다.",
+        " 본인의 의사에 따라 레거시 형식 주소를 계속 사용할 수 있습니다."
+    ],
+    "ADDRESS_LOOKUP_FORMAT_BITCOIN_CASH": "레거시 주소 형식",
 
     // messages
     "MSG_GET_CONTACT_ADDR": "연락처 주소 수신 중...",
@@ -255,7 +376,7 @@
         "여기에서 다운로드할 수 있어요: https://wallet.btc.com/"
     ],
     "RECEIVE_BITCOIN_TITLE": "비트코인 수신",
-    "BITCOIN_ADDRESS_RECEIVE_HELP": "고객님을 위해 새로운 비트코인 주소가 생성되었습니다. 이 주소를 사용해 비트코인을 받으세요.",
+    "BITCOIN_ADDRESS_RECEIVE_HELP": "고객님을 위해 새로운 {{ network }} 주소가 생성되었습니다. 이 주소를 사용해 {{ network }}을 받으세요.",
     "WAITING_FOR_PAYMENT": "결제를 기다리는 중",
     "PAYMENT_RECEIVED": "결제가 확인되었습니다",
     // Receiving Screens
@@ -275,18 +396,20 @@
     ],
     "MSG_REQUEST_SMS_1": [
         "안녕하세요.",
-        "제 비트코인 지갑으로 송금 부탁드립니다.",
+        "제 {{ networkLong }} 지갑으로 송금 부탁드립니다.",
         "주소: {{address}}"
     ],
     "MSG_REQUEST_SMS_2": [
         "안녕하세요.",
-        "제 비트코인 지갑으로 {{btcValue}} BTC(약 {{fiatValue}}{{localCurrency}})를 송금해 주세요.",
+        "제 {{ networkLong }} 지갑으로 {{btcValue}} {{ network }}(약 {{fiatValue}}{{localCurrency}})를 송금해 주세요.",
         "주소: {{address}}"
     ],
     // Settings page
     "SETTINGS": "설정",
     "SETTINGS_ACCOUNT": "계정",
     "SETTINGS_PROFILE": "프로필",
+    "SETTINGS_TOOLS": "도구",
+    "SETTINGS_SECURITY": "보안",
     "SETTING_EMAIL": "이메일",
     "SETTING_USERNAME": "사용자 이름",
     "SETTINGS_TAKE_PHOTO": "사진 촬영",
@@ -333,7 +456,7 @@
     "SETTINGS_2FA_STEP1_BODY": "2단계 인증을 설정하려면 암호를 입력하세요.",
     "SETTINGS_2FA_PASSWORD": "암호",
     "SETTINGS_2FA_STEP2": "2단계. 계정 설정",
-    "SETTINGS_2FA_STEP2_BODY": "스마트폰에서 <a href=\"\"https://support.google.com/accounts/answer/1066447?hl=en\"\">Google Authentication</a> 또는 <a href=\"\"https://www.authy.com/users\"\">Authy</a>를 다운로드한 다음, 아래 QR 코드를 스캔하여 앱에 BTC.com을 추가합니다.",
+    "SETTINGS_2FA_STEP2_BODY": "스마트폰에서 <a href=\"\"https://support.google.com/accounts/answer/1066447?hl=en\"\">Google Authentication</a> 또는 <a href=\"\"https://www.authy.com\"\">Authy</a>를 다운로드한 다음, 아래 QR 코드를 스캔하여 앱에 BTC.com을 추가합니다.",
     "SETINGS_2FA_STEP2_CODE": "또는 직접 이 코드를 입력합니다: {{ secret }}.",
     "SETTINGS_2FA_STEP3": "3단계. 인증",
     "SETTINGS_2FA_STEP3_BODY": "스마트폰 앱의 토큰을 입력해 정상적인 사용자임을 인증합니다.",
@@ -341,6 +464,7 @@
     "SETTINGS_2FA_DONE": "2단계 인증이 정상적으로 설정됐습니다!",
     "SETTINGS_2FA_DISABLE_BODY": "2단계 인증을 비활성화하려면 스마트폰 앱의 토큰을 입력하세요.",
     "SETTINGS_2FA_DISABLE_2FA": "2단계 인증 사용 안 함",
+    "SETTINGS_2FA_DISABLE_DONE": "2단계 인증을 성공적으로 비활성화했습니다.",
     "SETTINGS_2FA_HELP": "멀티 디바이스 인증을 사용해 계정을 안전하게 보호하세요",
     "SETTINGS_CURRENT_PIN": "현재 PIN",
     "SETTINGS_NEW_PIN": "새로운 PIN",
@@ -438,10 +562,13 @@
     "TX_INFO_FEE": "수수료",
     "ESTIMATED_FEE": "예상 수수료",
     "OPTIMAL_FEE": "최적 수수료",
+    "HIGH_PRIORITY_FEE": "높은 우선순위",
+    "HIGH_PRIORITY_LONG": "높은 우선순위 수수료",
     "LOW_PRIORITY_FEE": "저 순위 수수료",
 
     "LOW_PRIORITY_NOTICE": "몇 시간 동안 거래가 컨펌되지 않을 수 있습니다",
     "OPTIMAL_PRIORITY_NOTICE": "빠른 컨펌을 위해 권장되는 네트워크 수수료",
+    "HIGH_PRIORITY_FEE_NOTICE": "빠른 확인에 대한 네트워크 수수료",
 
     "ADVANCED_SEND_OPTIONS": "고급 설정",
     "LOW_PRIORITY_LABEL": "저 순위 비트코인 수수료",
@@ -462,9 +589,18 @@
     "SETTINGS_DISPLAY": "표시",
     "SETTINGS_PRIVACY": "개인 정보",
     "SETTINGS_USAGE_DATA": "사용 현황 데이터 보내기",
+    "SETTINGS_PIN_ON_OPEN": "지갑을 열 때 PIN 확인",
     "MSG_BACKUP_SAVED_ALREADY": [
         "백업 문서가 이미 저장되었습니다. ",
         "이제 전화기에 보관된 백업 데이터가 없습니다."
+    ],
+    "MSG_BACKUP_SAVED_PERSISTENT_IOS": [
+        "백업이 이미 저장되었습니다.",
+        "iTunes 파일 공유를 통해 백업 PDF를 계속 사용할 수 있습니다."
+    ],
+    "MSG_BACKUP_SAVED_PERSISTENT_ANDROID": [
+        "백업이 이미 저장 되었습니다.",
+        "휴대 전화의 파일 시스템에서 백업 PDF를 계속 사용할 수 있습니다."
     ],
     "ENABLE": "사용",
     "DISABLE": "사용 안 함",
@@ -508,6 +644,7 @@
         "백업 시트를 저장하지 않았습니다. 로그아웃하면 이 데이터는 손실되며 다시 생성할 수 없습니다.",
         "계속하시겠습니까?"
     ],
+    "MSG_BACKUP_SAVE_NOW": "지갑 백업 문서를 저장해야 합니다. 지금 저장하시겠습니까?",
     "MSG_PHONE_CODE_SENT": "전화번호로 코드가 발송되었습니다. 아래 코드를 입력해 번호를 인증해 주세요.",
     "MSG_ENABLE_CONTACTS": [
         "연락처 동기화를 허용하면, 기기 연락처에서 지갑을 보유한 사람을 검색합니다. ",
@@ -540,8 +677,9 @@
     "FOOTER_PRODUCT": "제품",
     "FOOTER_ANTMINER": "Antminer",
     "FOOTER_ANTPOOL": "Antpool",
-    "FOOTER_HASHNEST": "Hashnest",
-    "FOOTER_MINERLINK": "Minerlink",
+    "FOOTER_BTCCOM_POOL": "BTC.com 풀",
+    "FOOTER_BTCCOM_EXPLORER": "BTC.com 탐색기",
+    "FOOTER_WHC_EXPLORER": "WHC 탐색기",
     "FOOTER_COMPANY": "회사",
     "FOOTER_ABOUT": "회사 소개",
     "FOOTER_JOIN_US": "인재 채용",
@@ -569,19 +707,31 @@
     "NAVBAR_LOGIN": "로그인",
 
     // Buy BTC
-    "BUYBTC": "비트코인 구매",
+    "BUYBTC": "구매",
+    "BUYBTC_NETWORK": "{{ network }} 구매",
+    "BUYBTC_ERROR": "죄송합니다. 현재 {{ network }} 구입이 되지 않습니다. 잠시 후 다시 시도해 주세요.",
+    "BUYBTC_HIGH_AMOUNT_ERROR": "죄송합니다. {{ limit }} 이상 구매하실 수 없습니다.",
+    "BUYBTC_LOW_AMOUNT_ERROR": "죄송합니다. {{ limit }} 미만으로 구매하실 수 없습니다.",
     "BUYBTC_NAVTITLE": "비트코인 구매",
+
+    // Glidera specific
     "BUYBTC_PENDING_ORDERS": "대기 중인 주문",
     "BUYBTC_PENDING_ORDER": "{{ order.displayName }}의 대기 중인 주문",
     "BUYBTC_PENDING_ORDER_SUBTITLE": "BTC당 {{ order.price }}{{ order.currency }}에 구매",
     "BUYBTC_GETSTARTED_HEAD": "초기 설정",
     "BUYBTC_GETSTARTED_BODY": "비트코인을 구매하려면, 우선 교환 계정을 설정해야 합니다",
+
+    // ------
     "BUYBTC_GETSTARTED_BUTTON": "계속",
     "TX_INFO_BUYBTC_FROM": "비트코인 판매자",
     "TX_INFO_BUYBTC": "구매한 비트코인",
     "TX_INFO_BUYBTC_DETAILS": "BTC당 {{ order.price }}{{ order.currency }}에 {{ qty }} BTC 구매",
 
-    "BUYBTC_BUYING": "비트코인 구매 중...",
+    "BUYBTC_BUYING": "{{ network }} 구매 중...",
+
+    "BUYBTC_CREDIT_CARDS": "신용카드로 구입",
+    "BUYBTC_BANK_WIRE": "은행 송금으로 구입",
+    "BUYBTC_US_ONLY": "미국에서만 가능",
 
     "BUYBTC_CHOOSE_REGION_TITLE": "지역 선택",
     "BUYBTC_CHOOSE_REGION_BODY": "지역을 선택하면, 이용 가능한 구매 방식이 표시됩니다",
@@ -599,11 +749,14 @@
     "BUYBTC_PROVIDERS": "{{ region }} 내 파트너",
     "BUYBTC_NOPROVIDERS_REGION": "고객님의 지역에서 서비스를 제공하는 파트너가 없습니다",
 
+    "ORDER_ID": "주문 ID",
+    "PRIVACY_POLICY": "개인 정보 보호 정책",
     "CURRENT_PRICE": "현재 가격",
     "BUYBTC_INCL_FEE": "수수료 포함",
     "BUYBTC_BUY": "계속",
     "BUYBTC_VIA": "{{ broker }}을(를) 사용해 구매합니다",
     "BUYBTC_BANK_TRANSFER_SLOW": "은행 이체를 통해 비트코인을 구매하는 경우 정산에 며칠(영업일 기준)이 걸릴 수 있습니다.",
+    "BUYBTC_SIMPLEX_TOS": "<a href=\"https://www.simplex.com/terms-of-use/\">이용 약관</a>과 <a href=\"https://www.simplex.com/privacy-policy/\">개인 정보 보호 정책</a>에 동의합니다.",
 
     "MSG_BUYBTC_PIN_TO_ENCRYPT": "지갑 PIN 코드를 입력해 주세요.",
     "MSG_BUYBTC_PIN_TO_DECRYPT_TITLE": "PIN 입력",
@@ -634,10 +787,16 @@
     "MSG_BUYBTC_GLIDERA_2FA_TITLE": "2단계 인증",
     "MSG_BUYBTC_GLIDERA_2FA_BODY": "Glidera 2단계 {{ mode }} 인증 코드가 요구됩니다!",
 
+    "MSG_SIMPLEX_REDIRECT": [
+        "구입을 완료하기 위해 Simplex로 리디렉션됩니다. 추후 참조를 위해 주문 ID를 저장하시기 바랍니다.",
+        "",
+        "개인 주문 ID: {{ orderId }}"
+    ],
+
     "MSG_BUYBTC_FIAT_USD_ONLY_TITLE": "주의하세요!",
     "MSG_BUYBTC_FIAT_USD_ONLY": "기본 통화는 {{ yourCurrency }}(으)로 설정되어 있지만, 비트코인 구매 시 금액은 {{ currency }}(으)로 표시됩니다.",
 
-    "MSG_BUYBTC_CONFIRM_TITLE": "비트코인 구매",
+    "MSG_BUYBTC_CONFIRM_TITLE": "{{ network }} 구매",
     "MSG_BUYBTC_CONFIRM_BODY": "{{ currencySymbol }}{{ price }}에 {{ qty }} BTC를 구매하시겠습니까?",
 
     "MSG_BUYBTC_BOUGHT_TITLE": "구매한 비트코인",
@@ -677,5 +836,43 @@
     "APPRATE_BODY_GOOD_BODY": "AppStore에 의견을 남겨 주시면 BTC.com에 큰 힘이 될 것입니다.",
     "APPRATE_BODY_BAD": "의견을 남겨 주시겠습니까?",
     "APPRATE_FEEDBACK": "보내기",
-    "APPRATE_SKIP": "건너뛰기"
+    "APPRATE_SKIP": "건너뛰기",
+
+    "LANDING_POWERFUL": "강력한 Bitcoin 및 Bitcoin Cash 지갑",
+    "LANDING_SEND_RECEIVE": "BTC.com의 지갑으로 자금을 안전하게 보내고, 받고, 저장하세요.",
+    "LANDING_STAY_IN_CONTROL": "항상 통제하세요",
+    "LANDING_EMPOWERS": "비트코인을 이용하면 어떤 제 3 자의 신뢰나 허가 없이도 지불을 보내거나 받을 수 있습니다.",
+    "LANDING_NEVER_ACCESS": "BTC.com은 사용자의 비트코인 및 비트코인 캐시에 대한 접근 권한이 없으며, 비트코인의 핵심 가치를 중요시 여깁니다. 사용자 여러분께 자산에 대해 안전과 프라이버시, 힘을 제공해 드립니다.",
+    "LANDING_YOUR_BTC": "당신의 비트코인. 당신이 통제하세요.",
+    "LANDING_ONE_WALLET": "디지털 라이프를 위한 단 하나의 지갑",
+    "LANDING_SEND_RECEIVE_EASILY": "비트코인을 쉽고 안전하게 보내고 받으세요",
+    "LANDING_FULL_CONTROL": "비트코인 개인 키에 대한 완전한 통제를 놓치지 마세요",
+    "LANDING_PAY_QR": "QR 코드나 긴 주소 없이 친구에게 돈을 전송하세요",
+    "LANDING_CREATE_WALLET": "BTC.com 지갑 만들기",
+
+    // Register bitcoin: URI related
+    "SET_BROWSER_DEFAULT_WALLET": "Bitcoin 링크에 지갑 사용",
+    "BROWSER_SECURITY_ERROR": "브라우저 보안 설정이 이 요청을 차단했습니다.",
+    "MAKE_DEFAULT_BROWSER_WALLET": "BTC.com을 기본 지갑으로 사용하세요",
+    "MAKE_DEFAULT_BROWSER_WALLET_DETAILS": "대부분의 브라우저에서 Bitcoin 결제의 기본값으로 BTC.com 지갑을 설정할 수 있습니다. 이 기능을 사용하시겠습니까?",
+    "MAKE_DEFAULT_BROWSER_WALLET_DETAILS_CHROME": "Google Chrome에서 예를 누른 다음 취소하면 브라우저 팝업이 다시 나타날 때까지 조금 기다려야 합니다.",
+    "DO_THIS_LATER_IN_SETTINGS": "설정에서 나중에 설정할 수도 있습니다.",
+
+    // security related
+    "EMAIL_VERIFY_SUCCESS": "이메일이 성공적으로 확인되었습니다",
+    "EMAIL_VERIFY_FAILURE": "이메일을 확인하지 못했습니다",
+    "EMAIL_VERIFY_ALREADY": "이메일이 이미 확인되었습니다",
+    "EMAIL_VERIFY": "새 이메일 주소 확인",
+    "MSG_EMAIL_CHANGE": "받은 편지함에서 확인 링크를 클릭하면 이메일 주소가 업데이트됩니다.",
+    "MSG_EMAIL_VERIFY": "받은 편지함으로 확인 이메일을 보냈습니다.",
+    "MSG_ERROR_TRY_AGAIN_LATER": "문제가 발생했습니다. 나중에 다시 시도해 주세요.",
+    "MSG_ERROR_SENDING_MAIL": "받은 편지함으로 확인 이메일을 보내지 못했습니다. 나중에 다시 시도하세요.",
+    "WALLET_SECURITY_SCORE": "지갑 보안 점수",
+    "CHECK_YOUR_INBOX": "받은 편지함을 확인하하세요",
+
+    "EMAIL_VERIFIED": "이메일이 확인되었습니다",
+    "EMAIL_NOT_VERIFIED": "이메일이 확인되지 않았습니다",
+    "IMPROVE_PASSWORD": "비밀번호를 개선하세요",
+    "2FA_ENABLED": "2FA가 활성화되었습니다",
+    "2FA_NOT_ENABLED": "2FA가 아직 활성화되지 않았습니다"
 }

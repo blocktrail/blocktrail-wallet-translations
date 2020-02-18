@@ -37,12 +37,12 @@
     ],
     "MSG_REQUEST_SMS_1": [
         "Hi, ",
-        "Please send funds to my Bitcoin wallet. ",
+        "Please send funds to my {{ networkLong }} wallet. ",
         "Address: {{address}}"
     ],
     "MSG_REQUEST_SMS_2": [
         "Hi, ",
-        "Please send {{btcValue}} BTC (approx {{fiatValue}} {{localCurrency}}) to my Bitcoin wallet. ",
+        "Please send {{btcValue}} {{ network }} (approx {{fiatValue}} {{localCurrency}}) to my {{ networkLong }} wallet. ",
         "Address: {{address}}"
     ],
     "SETTINGS_RESET_ACCOUNT": "Logout",
@@ -66,5 +66,7 @@
         "You don't have a default mail account configured on this phone.",
         "",
         "Please configure your mail app, or you can skip this step and save your backup later when we support alternative apps"
-    ]
+    ],
+
+    "BUYBTC_SIMPLEX_TOS": "I accept the terms of use and privacy policy."
 }
