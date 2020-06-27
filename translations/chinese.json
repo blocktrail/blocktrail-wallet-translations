@@ -219,7 +219,7 @@
     "SETUP_PROFILE_PIC": "设置资料图片",
     "SETUP_COMPLETE": "转到我的钱包",
     "TERMS_OF_SERVICE": "服务条款",
-    "SETUP_TERMS_OF_SERVICE_TEXT": "我同意<a target='_blank' href='https://btc.com/legal'>服务条款</a>",
+    "SETUP_TERMS_OF_SERVICE_TEXT": "我同意<a target='_blank' href='https://activity.btc.com/agreement/#/wallet?lang=en-us'>服务条款</a>",
     "SETUP_TERMS_OF_SERVICE_TEXT_MOBILE": "我同意服务条款",
     "SETUP_DOWNLOAD_MOBILE_TITLE": "面向 的 BTC.com 钱包 {{ platform }}",
     "SETUP_DOWNLOAD_MOBILE_TEXT": "在您的手机上装上 BTC.com 手机钱包 app 即可从任何地方安全地访问您的比特币！",

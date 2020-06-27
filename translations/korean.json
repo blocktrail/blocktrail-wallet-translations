@@ -223,7 +223,7 @@
     "SETUP_PROFILE_PIC": "프로필 사진 설정",
     "SETUP_COMPLETE": "내 지갑으로 이동",
     "TERMS_OF_SERVICE": "서비스 약관",
-    "SETUP_TERMS_OF_SERVICE_TEXT": "나는 이 <a target='_blank' href='https://btc.com/legal'>서비스의 약관에</a> 동의합니다",
+    "SETUP_TERMS_OF_SERVICE_TEXT": "나는 이 <a target='_blank' href='https://activity.btc.com/agreement/#/wallet?lang=en-us'>서비스의 약관에</a> 동의합니다",
     "SETUP_TERMS_OF_SERVICE_TEXT_MOBILE": "나는 이 서비스의 약관에 동의합니다",
     "SETUP_DOWNLOAD_MOBILE_TITLE": "{{ platform }}용 BTC.com 지갑",
     "SETUP_DOWNLOAD_MOBILE_TEXT": "모바일 기기에 BTC.com 지갑 앱을 다운로드하면, 어느 곳에서든 안전하게 비트코인에 액세스할 수 있습니다!",

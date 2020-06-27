@@ -219,7 +219,7 @@
     "SETUP_PROFILE_PIC": "Profilbild festlegen",
     "SETUP_COMPLETE": "Zu meinem Wallet",
     "TERMS_OF_SERVICE": "Die Nutzungsbedingungen",
-    "SETUP_TERMS_OF_SERVICE_TEXT": "Ich stimme den <a target='_blank' href='https://btc.com/legal'>Nutzungsbedingungen</a> zu",
+    "SETUP_TERMS_OF_SERVICE_TEXT": "Ich stimme den <a target='_blank' href='https://activity.btc.com/agreement/#/wallet?lang=en-us'>Nutzungsbedingungen</a> zu",
     "SETUP_TERMS_OF_SERVICE_TEXT_MOBILE": "Ich stimme den Nutzungsbedingungen zu",
     "SETUP_DOWNLOAD_MOBILE_TITLE": "BTC.com Wallet für {{ platform }}",
     "SETUP_DOWNLOAD_MOBILE_TEXT": "Holen Sie sich die Wallet-App von BTC.com auf Ihr Handy und greifen Sie von überall sicher auf Ihre Bitcoins zu!",

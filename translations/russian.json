@@ -240,7 +240,7 @@
     "SETUP_PROFILE_PIC": "установить фото профиля",
     "SETUP_COMPLETE": "перейти к кошельку",
     "TERMS_OF_SERVICE": "Условия использования",
-    "SETUP_TERMS_OF_SERVICE_TEXT": "Я принимаю <a target='_blank' href='https://btc.com/legal'>условия использования</a>",
+    "SETUP_TERMS_OF_SERVICE_TEXT": "Я принимаю <a target='_blank' href='https://activity.btc.com/agreement/#/wallet?lang=en-us'>условия использования</a>",
     "SETUP_TERMS_OF_SERVICE_TEXT_MOBILE": "Я принимаю условия использования",
     "SETUP_DOWNLOAD_MOBILE_TITLE": "Кошелек BTC.com для {{ platform }}",
     "SETUP_DOWNLOAD_MOBILE_TEXT": "Скачайте приложение BTC.com на свой мобильный, и ваши биткоины будут доступны из любого места мира!",

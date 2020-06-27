@@ -240,7 +240,7 @@
     "SETUP_PROFILE_PIC": "Profiel foto instellen",
     "SETUP_COMPLETE": "Naar de wallet",
     "TERMS_OF_SERVICE": "Servicevoorwaarden",
-    "SETUP_TERMS_OF_SERVICE_TEXT": "Ik ga akkoord met de <a target='_blank' href='https://btc.com/legal'>gebruikersvoorwaarden</a>",
+    "SETUP_TERMS_OF_SERVICE_TEXT": "Ik ga akkoord met de <a target='_blank' href='https://activity.btc.com/agreement/#/wallet?lang=en-us'>gebruikersvoorwaarden</a>",
     "SETUP_TERMS_OF_SERVICE_TEXT_MOBILE": "Ik ga akkoord met de gebruikersvoorwaarden",
     "SETUP_DOWNLOAD_MOBILE_TITLE": "BTC.com Wallet voor {{ platform }}",
     "SETUP_DOWNLOAD_MOBILE_TEXT": "Download de BTC.com portemonnee app en gebruik je bitcoin veilig waar je ook bent!",

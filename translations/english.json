@@ -241,7 +241,7 @@
     "SETUP_COMPLETE": "Go to My Wallet",
     "TERMS_OF_SERVICE": "The terms of service",
     "TERMS_OF_USE": "Terms of use",
-    "SETUP_TERMS_OF_SERVICE_TEXT": "I agree to the <a target='_blank' href='https://btc.com/legal'>terms of service</a>",
+    "SETUP_TERMS_OF_SERVICE_TEXT": "I agree to the <a target='_blank' href='https://activity.btc.com/agreement/#/wallet?lang=en-us'>terms of service</a>",
     "SETUP_TERMS_OF_SERVICE_TEXT_MOBILE": "I agree to the terms of service",
     "SETUP_DOWNLOAD_MOBILE_TITLE": "BTC.com Wallet for {{ platform }}",
     "SETUP_DOWNLOAD_MOBILE_TEXT": "Get BTC.com wallet app on your mobile and access your bitcoin securely from anywhere!",

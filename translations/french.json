@@ -234,7 +234,7 @@
     "SETUP_PROFILE_PIC": "Définir une photo de profil",
     "SETUP_COMPLETE": "Aller dans mon portefeuille",
     "TERMS_OF_SERVICE": "Conditions d'utilisation",
-    "SETUP_TERMS_OF_SERVICE_TEXT": "Je suis d'accord avec <a target='_blank' href='https://btc.com/legal'>les conditions d'utilisation</a>",
+    "SETUP_TERMS_OF_SERVICE_TEXT": "Je suis d'accord avec <a target='_blank' href='https://activity.btc.com/agreement/#/wallet?lang=en-us'>les conditions d'utilisation</a>",
     "SETUP_TERMS_OF_SERVICE_TEXT_MOBILE": "Je suis d'accord avec les conditions d'utilisation",
     "SETUP_DOWNLOAD_MOBILE_TITLE": "Portefeuille BTC.com pour {{ platform }}",
     "SETUP_DOWNLOAD_MOBILE_TEXT": "Installez l'application de portefeuille BTC.com sur votre mobile et accédez à vos bitcoin en toute sécurité depuis n'importe où !",

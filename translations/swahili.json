@@ -96,7 +96,7 @@
     "SETUP_SYNC_CONTACTS": "Landanisha anwani",
     "SETUP_PROFILE_PIC": "Weka Picha ya Wasifu",
     "SETUP_COMPLETE": "Nenda kwenye Pochi Langu",
-    "SETUP_TERMS_OF_SERVICE_TEXT": "Ninakubali <a target='_blank' href='https://btc.com/legal'>sheria za huduma</a>",
+    "SETUP_TERMS_OF_SERVICE_TEXT": "Ninakubali <a target='_blank' href='https://activity.btc.com/agreement/#/wallet?lang=en-us'>sheria za huduma</a>",
     "SETUP_TERMS_OF_SERVICE_TEXT_MOBILE": "Ninakubali sheria za huduma</a>",
     "SETUP_DOWNLOAD_MOBILE_TITLE": "Pochi la BTC.com la {{ platform }}",
     "SETUP_DOWNLOAD_MOBILE_TEXT": "Pakua programu ya pochi ya BTC.com na ufikie sarafu mnemba kwa usalama kutoka mahali popote!",

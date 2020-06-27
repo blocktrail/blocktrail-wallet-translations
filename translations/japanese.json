@@ -224,7 +224,7 @@
     "SETUP_PROFILE_PIC": "プロファイル写真を設定する",
     "SETUP_COMPLETE": "マイウォレットへ行く",
     "TERMS_OF_SERVICE": "サービス利用規約",
-    "SETUP_TERMS_OF_SERVICE_TEXT": "私は以下に同意します<a target='_blank' href='https://btc.com/legal'>サービス利用規約</a>",
+    "SETUP_TERMS_OF_SERVICE_TEXT": "私は以下に同意します<a target='_blank' href='https://activity.btc.com/agreement/#/wallet?lang=en-us'>サービス利用規約</a>",
     "SETUP_TERMS_OF_SERVICE_TEXT_MOBILE": "私は以下に同意しますサービス利用規約",
     "SETUP_DOWNLOAD_MOBILE_TITLE": "BTC.com Wallet for {{ platform }}",
     "SETUP_DOWNLOAD_MOBILE_TEXT": "BTC.comウォレット アプリをモバイルにダウンロードして、どこからでも自分のビットコインにアクセスできるようにしましょう。",
