@@ -246,7 +246,7 @@
     "MSG_MISSING_PASSWORD": "请输入您的密码",
     "MSG_MISSING_TWO_FACTOR_TOKEN": "请输入您的双因素验证令牌",
     "MSG_INCORRECT_TWO_FACTOR_TOKEN": "双因素验证令牌不正确",
-    "MSG_INVALID_USERNAME": "用户名无效",
+    "MSG_INVALID_USERNAME": "仅支持英文和数字",
     "MSG_BAD_USERNAME": "请选择至少包含 4 个字母数字字符的用户名",
     "MSG_BAD_PASSWORD": "请输入有效的密码",
     "MSG_BAD_PASSWORD_REPEAT": "密码不匹配",
@@ -321,7 +321,7 @@
     "SENDING_CONFIRM_MSG": "您正在发送 <b>{{ amount }}</b> {{ network }} 至 <b>{{ recipientAddress }}</b>",
     "ESITIMATED_FEE": "矿工费",
     "SEND_BITCOIN_TITLE": "发送比特币",
-    "MSG_INVALID_AMOUNT": "无效数额",
+    "MSG_INVALID_AMOUNT": "数额过低无法发送",
     "FEE_STRATEGY": "收费策略",
 
     //receive screen
