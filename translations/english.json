@@ -268,7 +268,7 @@
     "MSG_MISSING_PASSWORD": "Please enter your password",
     "MSG_MISSING_TWO_FACTOR_TOKEN": "Please enter your two-factor authentication token",
     "MSG_INCORRECT_TWO_FACTOR_TOKEN": "Incorrect two-factor authentication token",
-    "MSG_INVALID_USERNAME": "Invalid username",
+    "MSG_INVALID_USERNAME": "Only letters and numbers are supported",
     "MSG_BAD_USERNAME": "Please choose a username with at least 4 alphanumeric characters",
     "MSG_BAD_PASSWORD": "Please enter a valid password",
     "MSG_BAD_PASSWORD_REPEAT": "The passwords don't match",
@@ -343,7 +343,7 @@
     "SENDING_CONFIRM_MSG": "You are sending <b>{{ amount }}</b> {{ network }} to <b>{{ recipientAddress }}</b>",
     "ESITIMATED_FEE": "Network fee:",
     "SEND_BITCOIN_TITLE": "Send bitcoin",
-    "MSG_INVALID_AMOUNT": "Invalid amount",
+    "MSG_INVALID_AMOUNT": "The amount is too low to send",
     "FEE_STRATEGY": "Fee strategy",
 
     //receive screen
