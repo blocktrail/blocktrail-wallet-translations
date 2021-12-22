@@ -158,19 +158,19 @@
     "INVALID_RECOVER_TOKEN": "Jeton de récupération invalide",
     "MSG_INVALID_RECOVER_TOKEN": "Votre séance de récupération est désormais invalide, veuillez demander un nouveau mot de passe de réinitialisation par e-mail",
     "INVALID_WALLET_VERSION": "Version de porte-monnaie invalide",
-    "MSG_INVALID_WALLET_VERSION": "Votre version de porte-monnaie est déformée, veuillez contacter support@btc.com",
-    "MSG_CORRUPTED_SECRET": "Votre mot secret de récupération semble corrompu, demandez un nouveau lien de réinitialisation ou contactez support@btc.com",
+    "MSG_INVALID_WALLET_VERSION": "Votre version de porte-monnaie est déformée, veuillez contacter support@btcm.group",
+    "MSG_CORRUPTED_SECRET": "Votre mot secret de récupération semble corrompu, demandez un nouveau lien de réinitialisation ou contactez support@btcm.group",
     "MSG_WRONG_ERS_WORD_LENGTH": "Veuillez revérifier le mot secret crypté de récupération que vous avez saisi, il contient un nombre de mots inexact.",
     "BAD_TOKEN": "2FA inexact",
     "RECOVERY_ERROR": "Erreur de récupération",
     "MSG_REQUEST_RECOVERY_SECRET_FAILED": [
         "Echec d'extraction du mot secret de récupération sur le serveur, votre lien de récupération a dû expiré, veuillez demander un nouveau lien de récupération !",
         "",
-        "Si cette erreur persiste, veuillez contacter support@btc.com"
+        "Si cette erreur persiste, veuillez contacter support@btcm.group"
     ],
-    "MSG_CHANGE_PASSWORD_UNKNOWN_ERROR": "Nous n'avons pu établir votre mot de passe, pour des raisons inconnues, veuillez conctacter support@btc.com",
-    "MSG_RECOVERY_DECRYPT_FAILED": "Nous n'avons pu décrypter votre porte-monnaie en utilisant le mot secret de récupération. Assurez-vous d'avoir saisi correctement votre mot secret crypté de récupération, et s'il ne fonctionne toujours pas merci de contacter support@btc.com",
-    "MSG_RECOVERY_V2_UPGRADED": "Votre PDF de sauvegarde est pour un porte-monnaie de version 2, mais votre porte-monnaie est passé à la version 3, veuillez contacter support@btc.com",
+    "MSG_CHANGE_PASSWORD_UNKNOWN_ERROR": "Nous n'avons pu établir votre mot de passe, pour des raisons inconnues, veuillez conctacter support@btcm.group",
+    "MSG_RECOVERY_DECRYPT_FAILED": "Nous n'avons pu décrypter votre porte-monnaie en utilisant le mot secret de récupération. Assurez-vous d'avoir saisi correctement votre mot secret crypté de récupération, et s'il ne fonctionne toujours pas merci de contacter support@btcm.group",
+    "MSG_RECOVERY_V2_UPGRADED": "Votre PDF de sauvegarde est pour un porte-monnaie de version 2, mais votre porte-monnaie est passé à la version 3, veuillez contacter support@btcm.group",
 
     // Mnemonic import
     "SWEEP_TITLE": "Importer le porte-monnaie externe",
@@ -873,7 +873,7 @@
         "",
         "Veuillez contacter l'équipe d'assistance afin qu'elle puisse vous aider à débloquer votre adresse IP. Pour une résolution rapide du problème, nous vous prions de bien vouloir inclure votre adresse IP :  <b>{{ bannedIp }}</b>",
         "",
-        "Vous pouvez nous contacter en envoyant un e-mail à <a href=\"mailto:support@btc.com\">support@btc.com</a>",
+        "Vous pouvez nous contacter en envoyant un e-mail à <a href=\"mailto:support@btcm.group\">support@btcm.group</a>",
         "",
         "L'équipe BTC.com"
     ],

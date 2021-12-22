@@ -147,8 +147,8 @@
     "INVALID_RECOVER_TOKEN": "無効な回復トークン",
     "MSG_INVALID_RECOVER_TOKEN": "回復セッションが無効になりました。新しいパスワードリセットメールを要求してください。",
     "INVALID_WALLET_VERSION": "無効なウォレットのバージョン",
-    "MSG_INVALID_WALLET_VERSION": "ウォレットのバージョンが誤っています。support@btc.comまでお問い合わせください。",
-    "MSG_CORRUPTED_SECRET": "回復シークレットが破損しているようです。新しいリセットリンクを要求するか、support@btc.comまでお問い合わせください。",
+    "MSG_INVALID_WALLET_VERSION": "ウォレットのバージョンが誤っています。support@btcm.groupまでお問い合わせください。",
+    "MSG_CORRUPTED_SECRET": "回復シークレットが破損しているようです。新しいリセットリンクを要求するか、support@btcm.groupまでお問い合わせください。",
     "MSG_WRONG_ERS_WORD_LENGTH": "入力した暗号化回復シークレットを再度確認してください。文字数が誤っています。",
     "BAD_TOKEN": "誤った2要素認証",
     "RECOVERY_ERROR": "回復エラー",
@@ -156,11 +156,11 @@
         "サーバーからの回復シークレットの取得に失敗しました。",
         "回復リンクが失効している可能性があります。新しい回復リンクを要求してください。",
         "",
-        "エラーを解消できない場合、support@btc.comまでお問い合わせください。"
+        "エラーを解消できない場合、support@btcm.groupまでお問い合わせください。"
     ],
-    "MSG_CHANGE_PASSWORD_UNKNOWN_ERROR": "何らかの理由により、パスワードを設定できませんでした。support@btc.comまでお問い合わせください。",
-    "MSG_RECOVERY_DECRYPT_FAILED": "回復シークレットを使用したウォレットの復号に失敗しました。暗号化回復シークレットを正しく入力していることを確認し、それでも失敗する場合は、support@btc.comまでお問い合わせください。",
-    "MSG_RECOVERY_V2_UPGRADED": "バックアップPDFはバージョン2のウォレット用ですが、お客様のウォレットはバージョン3にアップグレードされています。support@btc.comまでお問い合わせください。",
+    "MSG_CHANGE_PASSWORD_UNKNOWN_ERROR": "何らかの理由により、パスワードを設定できませんでした。support@btcm.groupまでお問い合わせください。",
+    "MSG_RECOVERY_DECRYPT_FAILED": "回復シークレットを使用したウォレットの復号に失敗しました。暗号化回復シークレットを正しく入力していることを確認し、それでも失敗する場合は、support@btcm.groupまでお問い合わせください。",
+    "MSG_RECOVERY_V2_UPGRADED": "バックアップPDFはバージョン2のウォレット用ですが、お客様のウォレットはバージョン3にアップグレードされています。support@btcm.groupまでお問い合わせください。",
 
     // Mnemonic import
     "SWEEP_TITLE": "外部ウォレットのインポート",
@@ -823,7 +823,7 @@
         "たいへん申し訳ありませんが、その場合は、なるべく早く、あなたのIPのブロックを解除するよう努力します。",
         "",
         "あなたのIPのブロックの解除をお手伝いできるようにサポートにご連絡ください。早期の解決のために、連絡するときにあなたのIPをメッセージに含めてください。<b>{{ bannedIp }}</b>.",
-        "<a href=\"mailto:support@btc.com\">support@btc.com</a>を介して当社にご連絡いただけます。",
+        "<a href=\"mailto:support@btcm.group\">support@btcm.group</a>を介して当社にご連絡いただけます。",
         "",
         "BTC.comチーム"
     ],

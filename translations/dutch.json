@@ -160,8 +160,8 @@
     "INVALID_RECOVER_TOKEN": "Ongeldige hersteltoken",
     "MSG_INVALID_RECOVER_TOKEN": "Je herstelsessie is niet langer geldig. Vraag een nieuwe wachtwoordherstelmail aan.",
     "INVALID_WALLET_VERSION": "Ongeldige walletversie",
-    "MSG_INVALID_WALLET_VERSION": "Je walletversie is beschadigd. Neem contact op via support@btc.com.",
-    "MSG_CORRUPTED_SECRET": "Je herstelcode lijkt corrupt te zijn. Vraag een nieuwe herstellink aan of neem contact op via support@btc.com.",
+    "MSG_INVALID_WALLET_VERSION": "Je walletversie is beschadigd. Neem contact op via support@btcm.group.",
+    "MSG_CORRUPTED_SECRET": "Je herstelcode lijkt corrupt te zijn. Vraag een nieuwe herstellink aan of neem contact op via support@btcm.group.",
     "MSG_WRONG_ERS_WORD_LENGTH": "Controleer de versleutelde herstelcode die je hebt ingevoerd nogmaals. Het aantal woorden is onjuist.",
     "BAD_TOKEN": "Onjuiste 2FA",
     "RECOVERY_ERROR": "Herstelfout",
@@ -169,11 +169,11 @@
         "Het ophalen van de herstelcode vanaf de server is mislukt.",
         "Waarschijnlijk is je herstellink verlopen. Vraag een nieuwe herstellink aan.",
         "",
-        "Als deze fout blijft optreden, neem dan contact op via support@btc.com."
+        "Als deze fout blijft optreden, neem dan contact op via support@btcm.group."
     ],
-    "MSG_CHANGE_PASSWORD_UNKNOWN_ERROR": "We kunnen je wachtwoord door een onbekende oorzaak niet instellen. Neem contact op via support@btc.com.",
-    "MSG_RECOVERY_DECRYPT_FAILED": "We kunnen je wallet niet ontgrendelen met de herstelcode. Zorg ervoor dat je de versleutelde herstelcode juist hebt ingevoerd. Als deze nog niet werkt, neem dan contact op via support@btc.com.",
-    "MSG_RECOVERY_V2_UPGRADED": "Je back-up-pdf is voor een versie 2 wallet, maar je wallet is geüpgraded naar versie 3. Neem contact op via support@btc.com.",
+    "MSG_CHANGE_PASSWORD_UNKNOWN_ERROR": "We kunnen je wachtwoord door een onbekende oorzaak niet instellen. Neem contact op via support@btcm.group.",
+    "MSG_RECOVERY_DECRYPT_FAILED": "We kunnen je wallet niet ontgrendelen met de herstelcode. Zorg ervoor dat je de versleutelde herstelcode juist hebt ingevoerd. Als deze nog niet werkt, neem dan contact op via support@btcm.group.",
+    "MSG_RECOVERY_V2_UPGRADED": "Je back-up-pdf is voor een versie 2 wallet, maar je wallet is geüpgraded naar versie 3. Neem contact op via support@btcm.group.",
 
     // Mnemonic import
     "SWEEP_TITLE": "Externe wallet importeren",
@@ -868,7 +868,7 @@
         "Als dit het geval is spijt het ons enorm en zullen we zo snel mogelijk je helpen je IP gedeblokkeerd te krijgen",
         "",
         "Neem contact op met ondersteuning zodat ze je kunnen helpen je IP gedeblokkeerd te krijgen. Om zeker te zijn van een snelle oplossing, voeg je IP toe: <b>{{ bannedIp }}</b>",
-        "Je kan contact met ons opnemen via <a href=\"mailto:support@btc.com\">support@btc.com</a>",
+        "Je kan contact met ons opnemen via <a href=\"mailto:support@btcm.group\">support@btcm.group</a>",
         "",
         "Het BTC.com Team"
     ],
