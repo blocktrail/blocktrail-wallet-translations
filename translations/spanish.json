@@ -150,8 +150,8 @@
   "INVALID_RECOVER_TOKEN": "Token de recuperación no válido",
   "MSG_INVALID_RECOVER_TOKEN": "Tu sesión de recuperación ya no es válida, solicita un nuevo correo electrónico de restablecimiento de la contraseña",
   "INVALID_WALLET_VERSION": "Versión de cartera no válida",
-  "MSG_INVALID_WALLET_VERSION": "La versión de tu cartera es incorrecta, ponte en contacto con support@btc.com",
-  "MSG_CORRUPTED_SECRET": "Tu secreto de recuperación parece estar dañado, solicita un nuevo enlace de reinicio o ponte en contacto con support@btc.com",
+  "MSG_INVALID_WALLET_VERSION": "La versión de tu cartera es incorrecta, ponte en contacto con support@btcm.group",
+  "MSG_CORRUPTED_SECRET": "Tu secreto de recuperación parece estar dañado, solicita un nuevo enlace de reinicio o ponte en contacto con support@btcm.group",
   "MSG_WRONG_ERS_WORD_LENGTH": "Vuelve a verificar el secreto de recuperación cifrado que has introducido, tiene una cantidad de palabras incorrecta.",
   "BAD_TOKEN": "2FA incorrecto",
   "RECOVERY_ERROR": "Error de recuperación",
@@ -159,11 +159,11 @@
     "Error al recuperar el secreto de recuperación del servidor,",
     "Lo más probable es que tu enlace de recuperación haya caducado. Solicita un nuevo enlace de recuperación.",
     "",
-    "Si este error persiste, ponte en contacto con support@btc.com "
+    "Si este error persiste, ponte en contacto con support@btcm.group "
   ],
-  "MSG_CHANGE_PASSWORD_UNKNOWN_ERROR": "No hemos podido establecer tu contraseña por razones desconocidas, ponte en contacto con support@btc.com",
-  "MSG_RECOVERY_DECRYPT_FAILED": "No hemos podido descifrar tu cartera utilizando el secreto de recuperación. Asegúrate de haber introducido tu secreto de recuperación cifrado correctamente y, si aun así no funciona, ponte en contacto con support@btc.com",
-  "MSG_RECOVERY_V2_UPGRADED": "Tu PDF de respaldo es para una cartera de la versión 2, pero tu cartera se ha actualizado a la versión 3, ponte en contacto con support@btc.com",
+  "MSG_CHANGE_PASSWORD_UNKNOWN_ERROR": "No hemos podido establecer tu contraseña por razones desconocidas, ponte en contacto con support@btcm.group",
+  "MSG_RECOVERY_DECRYPT_FAILED": "No hemos podido descifrar tu cartera utilizando el secreto de recuperación. Asegúrate de haber introducido tu secreto de recuperación cifrado correctamente y, si aun así no funciona, ponte en contacto con support@btcm.group",
+  "MSG_RECOVERY_V2_UPGRADED": "Tu PDF de respaldo es para una cartera de la versión 2, pero tu cartera se ha actualizado a la versión 3, ponte en contacto con support@btcm.group",
   // Mnemonic import
   "SWEEP_TITLE": "Importar monedero externo",
   "SWEEP_INFO": "Importa tu {{ network }} de una cartera externa en tu cartera de BTC.com",
@@ -785,7 +785,7 @@
     "Si este es el caso, lo lamentamos profundamente y te ayudaremos a desbloquear tu IP lo antes posible.",
     "",
     "Por favor, ponte en contacto con asistencia técnica para que puedan ayudarte a desbloquear tu IP. Para resolverlo lo antes posible, no olvides incluir tu IP: <b>{{ bannedIp }}</b>",
-    "Puedes contactar con nosotros en <a href=\"mailto:support@btc.com\">support@btc.com</a>",
+    "Puedes contactar con nosotros en <a href=\"mailto:support@btcm.group\">support@btcm.group</a>",
     "",
     "El equipo de BTC.com "
   ],
