@@ -132,19 +132,19 @@
   "INVALID_RECOVER_TOKEN": "Ungültiger Recovery-Token",
   "MSG_INVALID_RECOVER_TOKEN": "Ihre Recovery-Session ist nicht mehr gültig. Bitte fordern Sie eine E-Mail an, um Ihr Passwort zurückzusetzen",
   "INVALID_WALLET_VERSION": "Ungültige Wallet-Version",
-  "MSG_INVALID_WALLET_VERSION": "Ihre Wallet-Version hat ein ungültiges Format. Bitte kontaktieren Sie support@btc.com",
-  "MSG_CORRUPTED_SECRET": "Ihr Recovery Secret scheint beschädigt zu sein. Bitte fordern Sie einen neuen Reset-Link an oder kontaktieren Sie support@btc.com",
+  "MSG_INVALID_WALLET_VERSION": "Ihre Wallet-Version hat ein ungültiges Format. Bitte kontaktieren Sie support@btcm.group",
+  "MSG_CORRUPTED_SECRET": "Ihr Recovery Secret scheint beschädigt zu sein. Bitte fordern Sie einen neuen Reset-Link an oder kontaktieren Sie support@btcm.group",
   "MSG_WRONG_ERS_WORD_LENGTH": "Bitte prüfen Sie das verschlüsselte Recovery Secret erneut. Die Anzahl der Wörter ist nicht korrekt.",
   "BAD_TOKEN": "Falsches 2FA",
   "RECOVERY_ERROR": "Recovery-Fehler",
   "MSG_REQUEST_RECOVERY_SECRET_FAILED": [
     "Das Recovery Secret konnte nicht vom Server abgerufen werden. Wahrscheinlich ist Ihr Recovery-Link abgelaufen. Bitte fordern Sie einen neuen Recovery-Link an!",
     "",
-    "Falls der Fehler weiter besteht, kontaktieren Sie bitte support@btc.com"
+    "Falls der Fehler weiter besteht, kontaktieren Sie bitte support@btcm.group"
   ],
-  "MSG_CHANGE_PASSWORD_UNKNOWN_ERROR": "Wir konnten Ihr Passwort aus unbekannten Gründen nicht festlegen. Bitte kontaktieren Sie support@btc.com",
-  "MSG_RECOVERY_DECRYPT_FAILED": "Wir konnten Ihre Wallet mit dem Recovery Secret nicht entschlüsseln. Stellen Sie sicher, dass Sie Ihr verschlüsseltes Recovery Secret korrekt eingegeben haben. Falls es weiterhin nicht funktioniert, kontaktieren Sie bitte support@btc.com",
-  "MSG_RECOVERY_V2_UPGRADED": "Ihre Backup-PDF ist für eine Wallet mit der Version 2, aber Ihre Wallet wurde auf die Version 3 aktualisiert. Bitte kontaktieren Sie support@btc.com",
+  "MSG_CHANGE_PASSWORD_UNKNOWN_ERROR": "Wir konnten Ihr Passwort aus unbekannten Gründen nicht festlegen. Bitte kontaktieren Sie support@btcm.group",
+  "MSG_RECOVERY_DECRYPT_FAILED": "Wir konnten Ihre Wallet mit dem Recovery Secret nicht entschlüsseln. Stellen Sie sicher, dass Sie Ihr verschlüsseltes Recovery Secret korrekt eingegeben haben. Falls es weiterhin nicht funktioniert, kontaktieren Sie bitte support@btcm.group",
+  "MSG_RECOVERY_V2_UPGRADED": "Ihre Backup-PDF ist für eine Wallet mit der Version 2, aber Ihre Wallet wurde auf die Version 3 aktualisiert. Bitte kontaktieren Sie support@btcm.group",
   // Mnemonic import
   "SWEEP_TITLE": "Externe Wallet importieren",
   "SWEEP_INFO": "Importieren Sie Ihr {{ network }} aus einer externen Wallet in Ihre Wallet bei BTC.com",
@@ -766,7 +766,7 @@
     "Sollte dies hier der Fall sein, so entschuldigen wir uns vielmals und werden Ihnen bei der schnellstmöglichen Entsperrung Ihrer IP helfen.",
     "",
     "Bitte wenden Sie sich an den Support, damit Ihre IP entsperrt werden kann. Achten Sie für eine schnelle Lösung des Problems bitte darauf, Ihre IP mitzuschicken: <b>{{ bannedIp }}</b>.",
-    "Sie können unter <a href=\"mailto:support@btc.com\">support@btc.com</a> Kontakt mit uns aufnehmen.",
+    "Sie können unter <a href=\"mailto:support@btcm.group\">support@btcm.group</a> Kontakt mit uns aufnehmen.",
     "",
     "Das Team von BTC.com"
   ],
